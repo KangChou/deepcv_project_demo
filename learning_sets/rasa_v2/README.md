@@ -103,7 +103,7 @@ export PYTHONIOENCODING=utf-8;rasa init --no-prompt
 ## 测试rasa助手
 
 ```shell
-sudo rasa shell 或者使用下面是utf-8编码：
+使用下面是utf-8编码：
 export PYTHONIOENCODING=utf-8;rasa init --no-prompt
 ```
 ![./images/rasa.png](./images/rasa.png)
@@ -122,6 +122,9 @@ If you want to speak to the assistant, run 'rasa shell' at any time inside the p
 
 
 ```
+测试上述模型：sudo rasa shell
+![./images/shell.png](./images/rasa.png)
+
 
 ## 安装其他依赖
 安装Mitie和Jieba
