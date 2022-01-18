@@ -1,0 +1,166 @@
+{
+   "connect_button": {
+      "description": "",
+      "message": "Bağlan"
+   },
+   "connect_fast_promo": {
+      "description": "",
+      "message": "Daha hızlı bağlanın"
+   },
+   "connecting_cancel": {
+      "description": "",
+      "message": "Bağlanıyor... İptal etmek için tıklayın"
+   },
+   "connecting_info": {
+      "description": "",
+      "message": "öncelikli bağlantı al"
+   },
+   "description": {
+      "description": "",
+      "message": "Herhangi bir web sitesinin engelini kaldırmak ve özel kalmak için hızlı VPN'yi edinin. Sınırsız erişim için internet gizliliğinizi en iyi VPN ile koruyun"
+   },
+   "disconnect_button": {
+      "description": "",
+      "message": "Bağlantıyı kes"
+   },
+   "generic_cancel": {
+      "description": "",
+      "message": "İptal"
+   },
+   "generic_ok": {
+      "description": "",
+      "message": "Tamam"
+   },
+   "generic_please_wait": {
+      "description": "",
+      "message": "Lütfen bekleyin..."
+   },
+   "generic_thank_you": {
+      "description": "",
+      "message": "Teşekkürler!"
+   },
+   "go_premium": {
+      "description": "",
+      "message": "Premiuma git"
+   },
+   "location_select_title": {
+      "description": "",
+      "message": "Sanal Konum Seçin"
+   },
+   "login_check_email_verification": {
+      "description": "",
+      "message": "Doğrulama için e-postanızı kontrol edin"
+   },
+   "menu_link_contact_us": {
+      "description": "",
+      "message": "Bize Ulaşın"
+   },
+   "menu_link_faq": {
+      "description": "",
+      "message": "SSS"
+   },
+   "menu_link_privacy_policy": {
+      "description": "",
+      "message": "Gizlilik policy"
+   },
+   "menu_link_why_is_free": {
+      "description": "",
+      "message": "Betternet neden ücretsiz"
+   },
+   "name": {
+      "description": "",
+      "message": "VPN Free-Betternet sınırsız VPN Proxy"
+   },
+   "rate_us": {
+      "description": "",
+      "message": "{browser} Web Mağazasında bize 5 yıldız verin"
+   },
+   "reach_device_limit_description": {
+      "description": "",
+      "message": "Hesabınıza yeni cihaz ekleme limitine ulaştınız"
+   },
+   "shortName": {
+      "description": "",
+      "message": "Betternet"
+   },
+   "sign_in_as_premium": {
+      "description": "",
+      "message": "Ben zaten premiumum"
+   },
+   "sign_in_button": {
+      "description": "",
+      "message": "Giriş yap"
+   },
+   "sign_in_description": {
+      "description": "",
+      "message": "Hesabınızda oturum açmak için lütfen e-postanızı ve şifrenizi girin."
+   },
+   "sign_in_email_check_inbox_for_verification": {
+      "description": "",
+      "message": "Gelen kutunuzu veya Toplu/Spam klasörünüzü kontrol edin ve e-posta adresinizi doğrulamak için 'Onayla' yı tıklayın."
+   },
+   "sign_in_email_not_verified_yet_title": {
+      "description": "",
+      "message": "E-posta henüz doğrulanmadı"
+   },
+   "sign_in_email_verification_resend": {
+      "description": "",
+      "message": "Tekrar gönder"
+   },
+   "sign_in_form_email_is_not_valid": {
+      "description": "",
+      "message": "Geçerli e-posta girin."
+   },
+   "sign_in_form_fields_not_filled": {
+      "description": "",
+      "message": "Vurgulanan alanları doldurun."
+   },
+   "sign_in_title": {
+      "description": "",
+      "message": "Premium hesabınızda oturum açın"
+   },
+   "sign_out_button": {
+      "description": "",
+      "message": "Çıkış yap"
+   },
+   "sign_out_title": {
+      "description": "",
+      "message": "Çıkış?"
+   },
+   "sign_out_with_username": {
+      "description": "",
+      "message": "Çıkış yap {username}"
+   },
+   "socio_facebook_visit": {
+      "description": "",
+      "message": "Facebook sayfamıza abone olun"
+   },
+   "socio_visit": {
+      "description": "",
+      "message": "Abone ol"
+   },
+   "term_agree": {
+      "description": "",
+      "message": "Bu uzantıyı kullanarak, bizim …. kabul ediyorsunuz \u003C0>Hizmet Şartları\u003C/0> ve \u003C1>Gizlilik policy\u003C/1>"
+   },
+   "this_will_disconnect_device": {
+      "description": "",
+      "message": "Bu, bu cihazın hesabınızdan bağlantısını kesecektir"
+   },
+   "unavailable_button": {
+      "description": "",
+      "message": "Diğer uzantıyı devre dışı bırakmak için buraya tıklayın."
+   },
+   "unavailable_description": {
+      "description": "",
+      "message": "Betternet, proxy ayarlarınızı kontrol eden başka bir {browser} uzantı tarafından kesintiye uğramaktadır."
+   },
+   "unavailable_title": {
+      "description": "",
+      "message": "Hizmet kesintisi"
+   },
+   "user_is_premium": {
+      "description": "",
+      "message": "Sen Premiumsun!"
+   }
+}

@@ -1,0 +1,55 @@
+@import '/styles/global.css';
+
+
+/* Main Styles */
+html{
+  min-height: 100%;
+}
+body{
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size:16px;
+  color:#1c304e;
+  font-weight:400;
+  overflow-x:hidden;
+  height: 100%;
+  min-width: 360px;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight:400;
+  margin:0 0 20px;
+}
+
+
+.Main{
+  min-height: 100vh;
+}
+.Main > .In{
+  padding: 0 0 83px;
+  min-height: 500px;
+}
+
+a,
+a:hover,
+a:focus {
+  outline:none !important;
+  text-decoration:none;
+}
+
+a {
+  color:#1c304e;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color:#1c304e;
+  text-decoration: underline;
+}

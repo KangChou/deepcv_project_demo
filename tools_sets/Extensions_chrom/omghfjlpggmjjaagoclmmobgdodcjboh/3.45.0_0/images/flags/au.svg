@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960" height="640" version="1.1" viewBox="0 0 22680 15120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<polygon id="a" points="3.905 8.109 0 4 -3.905 8.109 -3.127 2.494 -8.774 2.003 -3.9 -0.89 -7.036 -5.611 -1.736 -3.604 0 -9 0 -9 1.736 -3.604 7.036 -5.611 3.9 -0.89 8.774 2.003 3.127 2.494"/>
+<polygon id="g" points="-5.29 7.281 -3.804 1.236 -8.56 -2.781 -2.351 -3.236 0 -9 0 -9 2.351 -3.236 8.56 -2.781 3.804 1.236 5.29 7.281 0 4"/>
+</defs>
+<path d="m0 0h22680v15120h-22680v-15120z" fill="#002776"/>
+<use transform="matrix(252 0 0 252 5670 11340)" width="30240" height="15120" fill="#fff" xlink:href="#a"/>
+<use transform="matrix(120 0 0 120 17010 12600)" width="30240" height="15120" fill="#fff" xlink:href="#a"/>
+<use transform="matrix(120 0 0 120 13230 6615)" width="30240" height="15120" fill="#fff" xlink:href="#a"/>
+<use transform="matrix(120 0 0 120 17010 2520)" width="30240" height="15120" fill="#fff" xlink:href="#a"/>
+<use transform="matrix(120 0 0 120 20370 5607)" width="30240" height="15120" fill="#fff" xlink:href="#a"/>
+<use transform="matrix(70 0 0 70 18522 8190)" width="30240" height="15120" fill="#fff" xlink:href="#g"/>
+<path d="m4725 0h1890v2520h4725v2520h-4725v2520h-1890v-2520h-4725v-2520h4725v-2520z" fill="#fff"/>
+<path id="f" d="m0 0h1267.9l10072 6714.8v845.23h-1267.8l-10072-6714.8v-845.23z" fill="#fff"/>
+<use transform="matrix(-1 0 0 1 11340 0)" width="30240" height="15120" fill="#fff" xlink:href="#f"/>
+<path d="m5103 0h1134v3024h5103v1512h-5103v3024h-1134v-3024h-5103v-1512h5103v-3024z" fill="#e00034"/>
+<path id="e" d="m0 0 3780 2520h-845.23l-2934.8-1956.5v-563.49zm11340 0h-845.23l-3780 2520h845.23l3780-2520z" fill="#e00034"/>
+<use transform="rotate(180 5670 3780)" width="30240" height="15120" fill="#e00034" xlink:href="#e"/>
+</svg>

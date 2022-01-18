@@ -1,0 +1,3 @@
+libtensorflow_framework.so         libtensorflow.so
+libtensorflow_framework.so.1       libtensorflow.so.1
+libtensorflow_framework.so.1.15.0  libtensorflow.so.1.15.0

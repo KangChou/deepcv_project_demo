@@ -1,0 +1,3 @@
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_build/build/CMakeFiles/rebuild_cache.dir
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_build/build/CMakeFiles/edit_cache.dir
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_build/build/CMakeFiles/main.dir

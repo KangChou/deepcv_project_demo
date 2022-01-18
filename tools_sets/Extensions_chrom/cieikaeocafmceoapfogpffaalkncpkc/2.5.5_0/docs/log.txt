@@ -1,0 +1,32 @@
+
+多语言文档. 可看预定义.
+https://wizardforcel.gitbooks.io/chrome-doc/content/24.html#overview-predefined
+
+
+通知有关的:
+https://developer.mozilla.org/zh-CN/docs/Web/API/notification
+
+
+WebRequest.
+https://crxdoc-zh.appspot.com/extensions/webRequest
+
+谷歌统计:
+https://marketingplatform.google.com/about/analytics/
+
+https://analytics.google.com/analytics/web/?utm_source=marketingplatform.google.com&utm_medium=et&utm_campaign=marketingplatform.google.com%2Fabout%2Fanalytics%2F#/report-home/a131359404w190904798p186990058
+UA-131359404-1
+
+
+
+
+
+修改header
+权限:webRequest
+chrome.webRequest.onBeforeSendHeaders.addListener(function callback, )
+
+chrome.webRequest.onBeforeRequest.addListener(
+    callback, filter, opt_extraInfoSpec);
+
+
+角标:
+chrome.browserAction.setBadgeText({

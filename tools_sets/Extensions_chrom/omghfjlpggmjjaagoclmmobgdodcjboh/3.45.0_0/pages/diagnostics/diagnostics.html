@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Browsec Health Check</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<link rel="stylesheet" href="/styles/diagnostics.css">
+
+	<script src="/polyfills.js"></script>
+	<script src="/lodash.js"></script>
+	<script src="/webcomponentsjs/webcomponents-loader.js"></script>
+</head>
+<body>
+<div class="main">
+	<div class="Head">
+		<div class="Logo"><div class="In">
+			<div class="L"><div class="Logo_Ball"></div></div>
+      <div class="R"><div class="Logo_Text"></div></div>
+		</div></div>
+	</div>
+	<div class="Body">
+		<div class="Title">Browsec Health Check</div>
+		<div class="PageDescription">
+			Browsec Health Check can take few minutes. It will disable and enable Browsec several times.
+			Please don't open any new tabs while diagnostics is in progress.
+		</div>
+		<main-block></main-block>
+	</div>
+</div>
+
+<script src="/common.js"></script>
+<script src="./diagnostics.js"></script>
+</body>
+</html>

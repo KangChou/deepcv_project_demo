@@ -1,0 +1,166 @@
+{
+   "connect_button": {
+      "description": "",
+      "message": "Conectar"
+   },
+   "connect_fast_promo": {
+      "description": "",
+      "message": "Conéctese más rápido >"
+   },
+   "connecting_cancel": {
+      "description": "",
+      "message": "Conectando... Haga clic para cancelar"
+   },
+   "connecting_info": {
+      "description": "",
+      "message": "obtener conexión prioritaria"
+   },
+   "description": {
+      "description": "",
+      "message": "Contrate la VPN más rápida para desbloquear cualquier sitio web y continuar navegando de manera privada. Mantenga la privacidad en Internet con la mejor VPN y disponga de acceso ilimitado"
+   },
+   "disconnect_button": {
+      "description": "",
+      "message": "Desconectar"
+   },
+   "generic_cancel": {
+      "description": "",
+      "message": "Cancelar"
+   },
+   "generic_ok": {
+      "description": "",
+      "message": "De acuerdo"
+   },
+   "generic_please_wait": {
+      "description": "",
+      "message": "Espere..."
+   },
+   "generic_thank_you": {
+      "description": "",
+      "message": "¡Gracias!"
+   },
+   "go_premium": {
+      "description": "",
+      "message": "Pase a una suscripción Premium"
+   },
+   "location_select_title": {
+      "description": "",
+      "message": "Seleccione una ubicación virtual"
+   },
+   "login_check_email_verification": {
+      "description": "",
+      "message": "Revise el correo electrónico para verificarlo"
+   },
+   "menu_link_contact_us": {
+      "description": "",
+      "message": "Contactar con nosotros"
+   },
+   "menu_link_faq": {
+      "description": "",
+      "message": "PF"
+   },
+   "menu_link_privacy_policy": {
+      "description": "",
+      "message": "Política de privacidad"
+   },
+   "menu_link_why_is_free": {
+      "description": "",
+      "message": "Por qué Betternet es gratuito"
+   },
+   "name": {
+      "description": "",
+      "message": "VPN gratuita: Betternet, un servidor proxy para VPN con acceso ilimitado"
+   },
+   "rate_us": {
+      "description": "",
+      "message": "Puntúenos con 5 estrellas en la tienda web de {browser}"
+   },
+   "reach_device_limit_description": {
+      "description": "",
+      "message": "Ha alcanzado el límite al añadir un dispositivo nuevo a la cuenta"
+   },
+   "shortName": {
+      "description": "",
+      "message": "Betternet"
+   },
+   "sign_in_as_premium": {
+      "description": "",
+      "message": "Ya tengo una suscripción Premium"
+   },
+   "sign_in_button": {
+      "description": "",
+      "message": "Iniciar sesión"
+   },
+   "sign_in_description": {
+      "description": "",
+      "message": "Para iniciar sesión en la cuenta, introduzca su correo electrónico y contraseña."
+   },
+   "sign_in_email_check_inbox_for_verification": {
+      "description": "",
+      "message": "Revise la bandeja de entrada o la carpeta de correo no deseado o masivo, y haga clic en \"Confirmar\" para verificar su dirección de correo electrónico."
+   },
+   "sign_in_email_not_verified_yet_title": {
+      "description": "",
+      "message": "Todavía no se ha verificado el correo electrónico."
+   },
+   "sign_in_email_verification_resend": {
+      "description": "",
+      "message": "Reenviar"
+   },
+   "sign_in_form_email_is_not_valid": {
+      "description": "",
+      "message": "Introduzca un correo electrónico válido."
+   },
+   "sign_in_form_fields_not_filled": {
+      "description": "",
+      "message": "Rellene los campos resaltados."
+   },
+   "sign_in_title": {
+      "description": "",
+      "message": "Inicie sesión en la cuenta Premium"
+   },
+   "sign_out_button": {
+      "description": "",
+      "message": "Cerrar sesión"
+   },
+   "sign_out_title": {
+      "description": "",
+      "message": "¿Quiere cerrar sesión?"
+   },
+   "sign_out_with_username": {
+      "description": "",
+      "message": "Cerrar sesión {username}"
+   },
+   "socio_facebook_visit": {
+      "description": "",
+      "message": "Suscríbase a nuestra página de Facebook"
+   },
+   "socio_visit": {
+      "description": "",
+      "message": "Suscríbase"
+   },
+   "term_agree": {
+      "description": "",
+      "message": "Al utilizar esta extensión, acepta nuestros \u003C0>Condiciones de servicio\u003C/0> y \u003C0>Política de privacidad\u003C/0>"
+   },
+   "this_will_disconnect_device": {
+      "description": "",
+      "message": "Con esta acción, este dispositivo se desconectará de la cuenta"
+   },
+   "unavailable_button": {
+      "description": "",
+      "message": "Haga clic aquí para inhabilitar otra extensión."
+   },
+   "unavailable_description": {
+      "description": "",
+      "message": "Otra extensión de {browser} que está controlando la configuración del servidor proxy está interrumpiendo el servicio de Betternet."
+   },
+   "unavailable_title": {
+      "description": "",
+      "message": "Interrupción del servicio"
+   },
+   "user_is_premium": {
+      "description": "",
+      "message": "¡Tiene una suscripción Premium!"
+   }
+}

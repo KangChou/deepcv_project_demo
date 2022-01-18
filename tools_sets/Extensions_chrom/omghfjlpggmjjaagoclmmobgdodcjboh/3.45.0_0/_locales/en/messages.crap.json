@@ -1,0 +1,909 @@
+{
+  "access_premium_locations": {
+    "message": "Access Premium Locations",
+    "description": ""
+  },
+  "browsec": {
+    "message": "Browsec",
+    "description": ""
+  },
+  "browsec_cant_change_proxy_settings": {
+    "message": "Browsec can't change proxy settings because it's blocked by other extension.\\nPlease remove extension which blocks proxy settings and try again.",
+    "description": ""
+  },
+  "browsec_version": {
+    "message": "Browsec version",
+    "description": ""
+  },
+  "bundled_configuration": {
+    "message": "Bundled configuration",
+    "description": ""
+  },
+  "enter_email_and_password": {
+    "message": "Enter email and password",
+    "description": ""
+  },
+  "error_check_credentials": {
+    "message": "Can't check credentials. Check network connection and try again.",
+    "description": ""
+  },
+  "get_premium": {
+    "message": "Get Premium",
+    "description": ""
+  },
+  "internet_access_via": {
+    "message": "Internet access via:",
+    "description": ""
+  },
+  "options": {
+    "message": "Options",
+    "description": ""
+  },
+  "options_disconnect_button": {
+    "message": "Disconnect",
+    "description": ""
+  },
+  "options_connected": {
+    "message": "Connected",
+    "description": ""
+  },
+  "options_connect_button": {
+    "message": "Connect",
+    "description": ""
+  },
+  "options_login": {
+    "message": "Login",
+    "description": ""
+  },
+  "options_signup_for_free": {
+    "message": "Sign up for free!",
+    "description": ""
+  },
+  "options_title": {
+    "message": "Browsec Options",
+    "description": ""
+  },
+  "popup_appstore": {
+    "message": "Get Browsec for iPhone\"",
+    "description": ""
+  },
+  "popup_disable": {
+    "message": "Turn off",
+    "description": ""
+  },
+  "popup_protection_disabled_description": {
+    "message": "Your communications are transmitted without Browsec™ encryption. Your location and IP-address available for everyone.",
+    "description": ""
+  },
+  "popup_your_location": {
+    "message": "Your location:",
+    "description": ""
+  },
+  "premium_continue_using": {
+    "message": "Continue using Browsec Premium",
+    "description": ""
+  },
+  "premium_expire_soon": {
+    "message": "Your Browsec Premium is about to expire",
+    "description": ""
+  },
+  "premium_has_expired": {
+    "message": "Your Premium has expired!",
+    "description": ""
+  },
+  "premium_renew_invitation": {
+    "message": "Go ahead and renew it.",
+    "description": ""
+  },
+  "premium_turbo_speed_in_free": {
+    "message": "Turbo Speed in FREE Premium",
+    "description": ""
+  },
+  "premium_upgrade_to_premium": {
+    "message": "Upgrade to Premium Servers",
+    "description": ""
+  },
+  "version_current_config": {
+    "message": "Current configuration",
+    "description": ""
+  },
+  "signup_error": {
+    "message": "Can't connect to Browsec server, please check your Internet connection. Contact our support if you keep getting this error.",
+    "description": ""
+  },
+  "status": {
+    "message": "Status",
+    "description": ""
+  },
+  "support": {
+    "message": "Support",
+    "description": ""
+  },
+  "unknown_country": {
+    "message": "Unknown Country",
+    "description": ""
+  },
+  "country_name_AC": {
+    "message": "Ascension Island"
+  },
+  "country_name_AD": {
+    "message": "Andorra"
+  },
+  "country_name_AE": {
+    "message": "United Arab Emirates"
+  },
+  "country_name_AF": {
+    "message": "Afghanistan"
+  },
+  "country_name_AG": {
+    "message": "Antigua & Barbuda"
+  },
+  "country_name_AI": {
+    "message": "Anguilla"
+  },
+  "country_name_AL": {
+    "message": "Albania"
+  },
+  "country_name_AM": {
+    "message": "Armenia"
+  },
+  "country_name_AN": {
+    "message": "Netherlands Antilles"
+  },
+  "country_name_AO": {
+    "message": "Angola"
+  },
+  "country_name_AQ": {
+    "message": "Antarctica"
+  },
+  "country_name_AR": {
+    "message": "Argentina"
+  },
+  "country_name_AS": {
+    "message": "American Samoa"
+  },
+  "country_name_AT": {
+    "message": "Austria"
+  },
+  "country_name_AU": {
+    "message": "Australia"
+  },
+  "country_name_AW": {
+    "message": "Aruba"
+  },
+  "country_name_AX": {
+    "message": "Åland Islands"
+  },
+  "country_name_AZ": {
+    "message": "Azerbaijan"
+  },
+  "country_name_BA": {
+    "message": "Bosnia"
+  },
+  "country_name_BB": {
+    "message": "Barbados"
+  },
+  "country_name_BD": {
+    "message": "Bangladesh"
+  },
+  "country_name_BE": {
+    "message": "Belgium"
+  },
+  "country_name_BF": {
+    "message": "Burkina Faso"
+  },
+  "country_name_BG": {
+    "message": "Bulgaria"
+  },
+  "country_name_BH": {
+    "message": "Bahrain"
+  },
+  "country_name_BI": {
+    "message": "Burundi"
+  },
+  "country_name_BJ": {
+    "message": "Benin"
+  },
+  "country_name_BL": {
+    "message": "St. Barthélemy"
+  },
+  "country_name_BM": {
+    "message": "Bermuda"
+  },
+  "country_name_BN": {
+    "message": "Brunei"
+  },
+  "country_name_BO": {
+    "message": "Bolivia"
+  },
+  "country_name_BQ": {
+    "message": "Caribbean Netherlands"
+  },
+  "country_name_BR": {
+    "message": "Brazil"
+  },
+  "country_name_BS": {
+    "message": "Bahamas"
+  },
+  "country_name_BT": {
+    "message": "Bhutan"
+  },
+  "country_name_BV": {
+    "message": "Bouvet Island"
+  },
+  "country_name_BW": {
+    "message": "Botswana"
+  },
+  "country_name_BY": {
+    "message": "Belarus"
+  },
+  "country_name_BZ": {
+    "message": "Belize"
+  },
+  "country_name_CA": {
+    "message": "Canada"
+  },
+  "country_name_CC": {
+    "message": "Cocos (Keeling) Islands"
+  },
+  "country_name_CD": {
+    "message": "Congo (DRC)"
+  },
+  "country_name_CF": {
+    "message": "Central African Republic"
+  },
+  "country_name_CG": {
+    "message": "Congo (Republic)"
+  },
+  "country_name_CH": {
+    "message": "Switzerland"
+  },
+  "country_name_CI": {
+    "message": "Côte d’Ivoire"
+  },
+  "country_name_CK": {
+    "message": "Cook Islands"
+  },
+  "country_name_CL": {
+    "message": "Chile"
+  },
+  "country_name_CM": {
+    "message": "Cameroon"
+  },
+  "country_name_CN": {
+    "message": "China"
+  },
+  "country_name_CO": {
+    "message": "Colombia"
+  },
+  "country_name_CP": {
+    "message": "Clipperton Island"
+  },
+  "country_name_CR": {
+    "message": "Costa Rica"
+  },
+  "country_name_CU": {
+    "message": "Cuba"
+  },
+  "country_name_CV": {
+    "message": "Cape Verde"
+  },
+  "country_name_CW": {
+    "message": "Curaçao"
+  },
+  "country_name_CX": {
+    "message": "Christmas Island"
+  },
+  "country_name_CY": {
+    "message": "Cyprus"
+  },
+  "country_name_CZ": {
+    "message": "Czech Republic"
+  },
+  "country_name_DE": {
+    "message": "Germany"
+  },
+  "country_name_DG": {
+    "message": "Diego Garcia"
+  },
+  "country_name_DJ": {
+    "message": "Djibouti"
+  },
+  "country_name_DK": {
+    "message": "Denmark"
+  },
+  "country_name_DM": {
+    "message": "Dominica"
+  },
+  "country_name_DO": {
+    "message": "Dominican Republic"
+  },
+  "country_name_DZ": {
+    "message": "Algeria"
+  },
+  "country_name_EA": {
+    "message": "Ceuta & Melilla"
+  },
+  "country_name_EC": {
+    "message": "Ecuador"
+  },
+  "country_name_EE": {
+    "message": "Estonia"
+  },
+  "country_name_EG": {
+    "message": "Egypt"
+  },
+  "country_name_EH": {
+    "message": "Western Sahara"
+  },
+  "country_name_ER": {
+    "message": "Eritrea"
+  },
+  "country_name_ES": {
+    "message": "Spain"
+  },
+  "country_name_ET": {
+    "message": "Ethiopia"
+  },
+  "country_name_EU": {
+    "message": "European Union"
+  },
+  "country_name_FI": {
+    "message": "Finland"
+  },
+  "country_name_FJ": {
+    "message": "Fiji"
+  },
+  "country_name_FK": {
+    "message": "Falkland Islands"
+  },
+  "country_name_FM": {
+    "message": "Micronesia"
+  },
+  "country_name_FO": {
+    "message": "Faroe Islands"
+  },
+  "country_name_FR": {
+    "message": "France"
+  },
+  "country_name_GA": {
+    "message": "Gabon"
+  },
+  "country_name_GB": {
+    "message": "United Kingdom"
+  },
+  "country_name_GD": {
+    "message": "Grenada"
+  },
+  "country_name_GE": {
+    "message": "Georgia"
+  },
+  "country_name_GF": {
+    "message": "French Guiana"
+  },
+  "country_name_GG": {
+    "message": "Guernsey"
+  },
+  "country_name_GH": {
+    "message": "Ghana"
+  },
+  "country_name_GI": {
+    "message": "Gibraltar"
+  },
+  "country_name_GL": {
+    "message": "Greenland"
+  },
+  "country_name_GM": {
+    "message": "Gambia"
+  },
+  "country_name_GN": {
+    "message": "Guinea"
+  },
+  "country_name_GP": {
+    "message": "Guadeloupe"
+  },
+  "country_name_GQ": {
+    "message": "Equatorial Guinea"
+  },
+  "country_name_GR": {
+    "message": "Greece"
+  },
+  "country_name_GS": {
+    "message": "South Georgia & South Sandwich Islands"
+  },
+  "country_name_GT": {
+    "message": "Guatemala"
+  },
+  "country_name_GU": {
+    "message": "Guam"
+  },
+  "country_name_GW": {
+    "message": "Guinea-Bissau"
+  },
+  "country_name_GY": {
+    "message": "Guyana"
+  },
+  "country_name_HK": {
+    "message": "Hong Kong"
+  },
+  "country_name_HM": {
+    "message": "Heard & McDonald Islands"
+  },
+  "country_name_HN": {
+    "message": "Honduras"
+  },
+  "country_name_HR": {
+    "message": "Croatia"
+  },
+  "country_name_HT": {
+    "message": "Haiti"
+  },
+  "country_name_HU": {
+    "message": "Hungary"
+  },
+  "country_name_IC": {
+    "message": "Canary Islands"
+  },
+  "country_name_ID": {
+    "message": "Indonesia"
+  },
+  "country_name_IE": {
+    "message": "Ireland"
+  },
+  "country_name_IL": {
+    "message": "Israel"
+  },
+  "country_name_IM": {
+    "message": "Isle of Man"
+  },
+  "country_name_IN": {
+    "message": "India"
+  },
+  "country_name_IO": {
+    "message": "British Indian Ocean Territory"
+  },
+  "country_name_IQ": {
+    "message": "Iraq"
+  },
+  "country_name_IR": {
+    "message": "Iran"
+  },
+  "country_name_IS": {
+    "message": "Iceland"
+  },
+  "country_name_IT": {
+    "message": "Italy"
+  },
+  "country_name_JE": {
+    "message": "Jersey"
+  },
+  "country_name_JM": {
+    "message": "Jamaica"
+  },
+  "country_name_JO": {
+    "message": "Jordan"
+  },
+  "country_name_JP": {
+    "message": "Japan"
+  },
+  "country_name_KE": {
+    "message": "Kenya"
+  },
+  "country_name_KG": {
+    "message": "Kyrgyzstan"
+  },
+  "country_name_KH": {
+    "message": "Cambodia"
+  },
+  "country_name_KI": {
+    "message": "Kiribati"
+  },
+  "country_name_KM": {
+    "message": "Comoros"
+  },
+  "country_name_KN": {
+    "message": "St. Kitts & Nevis"
+  },
+  "country_name_KP": {
+    "message": "North Korea"
+  },
+  "country_name_KR": {
+    "message": "South Korea"
+  },
+  "country_name_KW": {
+    "message": "Kuwait"
+  },
+  "country_name_KY": {
+    "message": "Cayman Islands"
+  },
+  "country_name_KZ": {
+    "message": "Kazakhstan"
+  },
+  "country_name_LA": {
+    "message": "Laos"
+  },
+  "country_name_LB": {
+    "message": "Lebanon"
+  },
+  "country_name_LC": {
+    "message": "St. Lucia"
+  },
+  "country_name_LI": {
+    "message": "Liechtenstein"
+  },
+  "country_name_LK": {
+    "message": "Sri Lanka"
+  },
+  "country_name_LR": {
+    "message": "Liberia"
+  },
+  "country_name_LS": {
+    "message": "Lesotho"
+  },
+  "country_name_LT": {
+    "message": "Lithuania"
+  },
+  "country_name_LU": {
+    "message": "Luxembourg"
+  },
+  "country_name_LV": {
+    "message": "Latvia"
+  },
+  "country_name_LY": {
+    "message": "Libya"
+  },
+  "country_name_MA": {
+    "message": "Morocco"
+  },
+  "country_name_MC": {
+    "message": "Monaco"
+  },
+  "country_name_MD": {
+    "message": "Moldova"
+  },
+  "country_name_ME": {
+    "message": "Montenegro"
+  },
+  "country_name_MF": {
+    "message": "St. Martin"
+  },
+  "country_name_MG": {
+    "message": "Madagascar"
+  },
+  "country_name_MH": {
+    "message": "Marshall Islands"
+  },
+  "country_name_MK": {
+    "message": "Macedonia"
+  },
+  "country_name_ML": {
+    "message": "Mali"
+  },
+  "country_name_MM": {
+    "message": "Myanmar"
+  },
+  "country_name_MN": {
+    "message": "Mongolia"
+  },
+  "country_name_MO": {
+    "message": "Macau"
+  },
+  "country_name_MP": {
+    "message": "Northern Mariana Islands"
+  },
+  "country_name_MQ": {
+    "message": "Martinique"
+  },
+  "country_name_MR": {
+    "message": "Mauritania"
+  },
+  "country_name_MS": {
+    "message": "Montserrat"
+  },
+  "country_name_MT": {
+    "message": "Malta"
+  },
+  "country_name_MU": {
+    "message": "Mauritius"
+  },
+  "country_name_MV": {
+    "message": "Maldives"
+  },
+  "country_name_MW": {
+    "message": "Malawi"
+  },
+  "country_name_MX": {
+    "message": "Mexico"
+  },
+  "country_name_MY": {
+    "message": "Malaysia"
+  },
+  "country_name_MZ": {
+    "message": "Mozambique"
+  },
+  "country_name_NA": {
+    "message": "Namibia"
+  },
+  "country_name_NC": {
+    "message": "New Caledonia"
+  },
+  "country_name_NE": {
+    "message": "Niger"
+  },
+  "country_name_NF": {
+    "message": "Norfolk Island"
+  },
+  "country_name_NG": {
+    "message": "Nigeria"
+  },
+  "country_name_NI": {
+    "message": "Nicaragua"
+  },
+  "country_name_NL": {
+    "message": "Netherlands"
+  },
+  "country_name_NO": {
+    "message": "Norway"
+  },
+  "country_name_NP": {
+    "message": "Nepal"
+  },
+  "country_name_NR": {
+    "message": "Nauru"
+  },
+  "country_name_NU": {
+    "message": "Niue"
+  },
+  "country_name_NZ": {
+    "message": "New Zealand"
+  },
+  "country_name_OM": {
+    "message": "Oman"
+  },
+  "country_name_PA": {
+    "message": "Panama"
+  },
+  "country_name_PE": {
+    "message": "Peru"
+  },
+  "country_name_PF": {
+    "message": "French Polynesia"
+  },
+  "country_name_PG": {
+    "message": "Papua New Guinea"
+  },
+  "country_name_PH": {
+    "message": "Philippines"
+  },
+  "country_name_PK": {
+    "message": "Pakistan"
+  },
+  "country_name_PL": {
+    "message": "Poland"
+  },
+  "country_name_PM": {
+    "message": "St. Pierre & Miquelon"
+  },
+  "country_name_PN": {
+    "message": "Pitcairn Islands"
+  },
+  "country_name_PR": {
+    "message": "Puerto Rico"
+  },
+  "country_name_PS": {
+    "message": "Palestine"
+  },
+  "country_name_PT": {
+    "message": "Portugal"
+  },
+  "country_name_PW": {
+    "message": "Palau"
+  },
+  "country_name_PY": {
+    "message": "Paraguay"
+  },
+  "country_name_QA": {
+    "message": "Qatar"
+  },
+  "country_name_QO": {
+    "message": "Outlying Oceania"
+  },
+  "country_name_RE": {
+    "message": "Réunion"
+  },
+  "country_name_RO": {
+    "message": "Romania"
+  },
+  "country_name_RS": {
+    "message": "Serbia"
+  },
+  "country_name_RU": {
+    "message": "Russia"
+  },
+  "country_name_RW": {
+    "message": "Rwanda"
+  },
+  "country_name_SA": {
+    "message": "Saudi Arabia"
+  },
+  "country_name_SB": {
+    "message": "Solomon Islands"
+  },
+  "country_name_SC": {
+    "message": "Seychelles"
+  },
+  "country_name_SD": {
+    "message": "Sudan"
+  },
+  "country_name_SE": {
+    "message": "Sweden"
+  },
+  "country_name_SG": {
+    "message": "Singapore"
+  },
+  "country_name_SH": {
+    "message": "St. Helena"
+  },
+  "country_name_SI": {
+    "message": "Slovenia"
+  },
+  "country_name_SJ": {
+    "message": "Svalbard & Jan Mayen"
+  },
+  "country_name_SK": {
+    "message": "Slovakia"
+  },
+  "country_name_SL": {
+    "message": "Sierra Leone"
+  },
+  "country_name_SM": {
+    "message": "San Marino"
+  },
+  "country_name_SN": {
+    "message": "Senegal"
+  },
+  "country_name_SO": {
+    "message": "Somalia"
+  },
+  "country_name_SR": {
+    "message": "Suriname"
+  },
+  "country_name_SS": {
+    "message": "South Sudan"
+  },
+  "country_name_ST": {
+    "message": "São Tomé & Príncipe"
+  },
+  "country_name_SV": {
+    "message": "El Salvador"
+  },
+  "country_name_SX": {
+    "message": "Sint Maarten"
+  },
+  "country_name_SY": {
+    "message": "Syria"
+  },
+  "country_name_SZ": {
+    "message": "Swaziland"
+  },
+  "country_name_TA": {
+    "message": "Tristan da Cunha"
+  },
+  "country_name_TC": {
+    "message": "Turks & Caicos Islands"
+  },
+  "country_name_TD": {
+    "message": "Chad"
+  },
+  "country_name_TF": {
+    "message": "French Southern Territories"
+  },
+  "country_name_TG": {
+    "message": "Togo"
+  },
+  "country_name_TH": {
+    "message": "Thailand"
+  },
+  "country_name_TJ": {
+    "message": "Tajikistan"
+  },
+  "country_name_TK": {
+    "message": "Tokelau"
+  },
+  "country_name_TL": {
+    "message": "East Timor"
+  },
+  "country_name_TM": {
+    "message": "Turkmenistan"
+  },
+  "country_name_TN": {
+    "message": "Tunisia"
+  },
+  "country_name_TO": {
+    "message": "Tonga"
+  },
+  "country_name_TR": {
+    "message": "Turkey"
+  },
+  "country_name_TT": {
+    "message": "Trinidad & Tobago"
+  },
+  "country_name_TV": {
+    "message": "Tuvalu"
+  },
+  "country_name_TW": {
+    "message": "Taiwan"
+  },
+  "country_name_TZ": {
+    "message": "Tanzania"
+  },
+  "country_name_UA": {
+    "message": "Ukraine"
+  },
+  "country_name_UG": {
+    "message": "Uganda"
+  },
+  "country_name_UM": {
+    "message": "U.S. Outlying Islands"
+  },
+  "country_name_UK": {
+    "message": "United Kingdom"
+  },
+  "country_name_US": {
+    "message": "United States"
+  },
+  "country_name_USW": {
+    "message": "United States West"
+  },
+  "country_name_UY": {
+    "message": "Uruguay"
+  },
+  "country_name_UZ": {
+    "message": "Uzbekistan"
+  },
+  "country_name_VA": {
+    "message": "Vatican City"
+  },
+  "country_name_VC": {
+    "message": "St. Vincent & Grenadines"
+  },
+  "country_name_VE": {
+    "message": "Venezuela"
+  },
+  "country_name_VG": {
+    "message": "British Virgin Islands"
+  },
+  "country_name_VI": {
+    "message": "U.S. Virgin Islands"
+  },
+  "country_name_VN": {
+    "message": "Vietnam"
+  },
+  "country_name_VU": {
+    "message": "Vanuatu"
+  },
+  "country_name_WF": {
+    "message": "Wallis & Futuna"
+  },
+  "country_name_WS": {
+    "message": "Samoa"
+  },
+  "country_name_XK": {
+    "message": "Kosovo"
+  },
+  "country_name_YE": {
+    "message": "Yemen"
+  },
+  "country_name_YT": {
+    "message": "Mayotte"
+  },
+  "country_name_ZA": {
+    "message": "South Africa"
+  },
+  "country_name_ZM": {
+    "message": "Zambia"
+  },
+  "country_name_ZW": {
+    "message": "Zimbabwe"
+  }
+}

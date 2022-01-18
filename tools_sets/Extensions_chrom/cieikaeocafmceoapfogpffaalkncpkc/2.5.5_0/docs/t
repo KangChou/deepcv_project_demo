@@ -1,0 +1,4 @@
+{"challenger":{"host":"yomp.cn","port":2443},"frameId":0,"isProxy":true,"method":"GET","parentFrameId":-1,"realm":"Ghelper","requestId":"506","scheme":"basic","statusCode":407,"statusLine":"HTTP/1.1 407 Proxy Authentication Required","tabId":82,"timeStamp":1577437844129.315,"type":"main_frame","url":"https://www.google.com/gmail/"}
+
+
+{"challenger":{"host":"yomp.cn","port":2443},"frameId":0,"isProxy":true,"method":"GET","parentFrameId":-1,"realm":"Ghelper","requestId":"225","scheme":"basic","statusCode":407,"statusLine":"HTTP/1.1 407 Proxy Authentication Required","tabId":2,"timeStamp":1577893498018.1738,"type":"main_frame","url":"https://www.youtube.com/"}

@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "/background.bundle.js" ]
+   },
+   "browser_action": {
+      "default_icon": "/icon-32.png",
+      "default_popup": "/popup.html",
+      "default_title": "__MSG_title__"
+   },
+   "default_locale": "en",
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "/icon-128.png",
+      "32": "/icon-32.png",
+      "64": "/icon-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArMOdWfISd37OM5Oz56qV4B1adx+45kDXXVPREGmVwxeyvKPcTQk2KHzLdQpaUyAXJSNz5VYXVWvZWJP2jV7xRYiAD3rmQaHUCzGRipZ4rSg2AF0ceguKdWMS3hZW7ClscBb3RA9kthBqCfOFVDAweXNxvrb8WJQxU9EwRsNbFe+qn7v52MPy7o9Kt8VKoq7W+4nX260zCXNPt3AIyYJNY4KrQFdgnMYpLxl2xmSKkmKwK29uPXQBnlkSv/IC2G4kvI8e0++c1WZXQ3CwF/iN4/hbp65G+K4iZm/xyA8Xs/CdI97GWwXTJv6lPgNFDKwOfSPDS074nPquJvwHoYYIrQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "https://1clickvpn.net/api/", "*://*/*", "webRequest", "webRequestBlocking", "proxy", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.1"
+}

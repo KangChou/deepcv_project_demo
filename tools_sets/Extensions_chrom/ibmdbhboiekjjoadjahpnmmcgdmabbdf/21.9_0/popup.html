@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+  <!-- <header>
+    <div class="logo">VPN Plus</div>
+  </header> -->
+  <main>
+    <section class="switch">
+      <h2>VPN Plus</h2>
+      <div class="flag">
+        <img src="images/us.png" alt="" id="flagImage">
+      </div>
+      <div class="switch">
+        <label class="switch">
+          <input id="vpnSwitch" type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </section>
+    <section>
+      <h2>Share</h2>
+      <div class="shareButtons">
+        <a href="#" id=fb><img src="images/facebook.png" alt=""></a>
+        <a href="#" id=tw><img src="images/twitter.png" alt=""></a>
+        <a href="#" id=reddit><img src="images/reddit.png" alt=""></a>
+        <a href="#" id=whatsapp><img src="images/whatsapp.png" alt=""></a>
+        <a href="#" id=tg><img src="images/telegram.png" alt=""></a>
+        <a href="#" id=linkedin><img src="images/linkedin.png" alt=""></a>
+      </div>
+    </section>
+    <section>
+      <h2>Rate</h2>
+      <div class="rating" id=rating>
+        <span>&#9734;</span>
+        <span>&#9734;</span>
+        <span>&#9734;</span>
+        <span>&#9734;</span>
+        <span>&#9734;</span>
+      </div>
+    </section>
+    <section>
+      <h2>Get Native VPN Apps</h2>
+      <ul class="apps">
+        <li id=msstore>
+          <img src="images/windows.png" alt="">
+          <span>VPN Plus for Windows</span>
+        </li>
+        <li id=macstore>
+          <img src="images/apple.png" alt="">
+          <span>VPN Plus for macOS</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- The Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <div class="modalButtons">
+        <span class="close" id=close>&times;</span>
+      </div>
+      <ul class="countryList" id="countryList">
+        <li id=us><img src="images/us.png" alt=""><span>United States</span></li>
+        <li id=uk><img src="images/uk.png" alt=""><span>United Kingdom</span></li>
+        <li id=au><img src="images/au.png" alt=""><span>Australia</span></li>
+        <li id=ca><img src="images/ca.png" alt=""><span>Canada</span></li>
+        <li id=fr><img src="images/fr.png" alt=""><span>France</span></li>
+        <li id=de><img src="images/de.png" alt=""><span>Germany</span></li>
+        <li id=nl><img src="images/nl.png" alt=""><span>Netherlands</span></li>
+        <li id=sg><img src="images/sg.png" alt=""><span>Singapore</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>@2021 VPN Plus</footer>
+  <script src="popup.js"></script>
+</body>
+
+</html>

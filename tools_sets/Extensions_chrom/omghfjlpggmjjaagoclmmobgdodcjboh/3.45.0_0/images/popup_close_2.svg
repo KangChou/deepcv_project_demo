@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<style>
+		use#use_grey{ fill: #7e8595 }
+		use#use_pink{ fill: #994136 }
+		use#use_white{ fill: #fff }
+		</style>
+	</defs>
+	
+	<symbol viewBox="0 0 10.469 10.469" id="symbol_close">
+		<path style="fill: inherit; fill-rule: evenodd;" d="M396.414 33l3.536 3.535a1 1 0 0 1-1.414 1.414l-3.536-3.535-3.536 3.535a1 1 0 0 1-1.414-1.414l3.536-3.535-3.536-3.536a1 1 0 0 1 1.414-1.414l3.536 3.536 3.536-3.536a1 1 0 0 1 1.414 1.414z" transform="translate(-389.781 -27.781)"/>
+	</symbol>
+
+	<view id="grey" width="10.469" height="10.469" viewBox="0 0 10.469 10.469" />
+  <view id="pink" width="10.469" height="10.469" viewBox="100 0 10.469 10.469" />
+  <view id="white" width="10.469" height="10.469" viewBox="200 0 10.469 10.469" />
+	
+	<use id="use_grey" xlink:href="#symbol_close" width="10.469" height="10.469" x="0" y="0"></use>
+  <use id="use_pink" xlink:href="#symbol_close" width="10.469" height="10.469" x="100" y="0"></use>
+  <use id="use_white" xlink:href="#symbol_close" width="10.469" height="10.469" x="200" y="0"></use>
+</svg>
+

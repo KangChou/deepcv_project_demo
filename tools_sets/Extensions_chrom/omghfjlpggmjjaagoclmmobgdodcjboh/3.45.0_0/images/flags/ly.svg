@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480">
+<path d="M0 0h720v480H0z" fill="#239e46"/>
+<path d="M0 0h720v360H0z"/>
+<path d="M0 0h720v120H0z" fill="#e70013"/>
+<circle transform="translate(-120)" cx="480" cy="240" r="60" fill="#fff"/>
+<circle transform="translate(-120)" cx="492.13" cy="240" r="52.132"/>
+<path d="M389.18 240l80.7-26.22L420 282.43v-84.86l49.88 68.65z" fill="#fff"/>
+</svg>

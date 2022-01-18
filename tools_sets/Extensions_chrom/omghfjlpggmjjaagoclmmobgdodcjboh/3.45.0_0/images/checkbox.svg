@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<symbol id="symbol_checked" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+		<rect style="fill: #3b9946;" width="15" height="15" rx="1.5" ry="1.5"/>
+		<path style="fill: #fff; fill-rule: evenodd;" d="M1807.84,841.941l-5.09,5.9a0.589,0.589,0,0,1-.81,0l-2.78-2.695a0.543,0.543,0,0,1,0-.78,0.6,0.6,0,0,1,.82,0l2.37,2.3,4.67-5.511a0.6,0.6,0,0,1,.82,0A0.543,0.543,0,0,1,1807.84,841.941Z" transform="translate(-1796 -837)"/>
+	</symbol>
+	<symbol id="symbol_unchecked" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+		<rect style="fill: #fff; stroke: #a9b0b5; stroke-width: 1px;" x="0.5" y="0.5" width="15" height="15" rx="1.5" ry="1.5"/>
+	</symbol>
+	
+	<view id="checked" width="15" height="15" viewBox="0 0 15 15" />
+  <view id="unchecked" width="16" height="16" viewBox="100 0 16 16" />
+	
+	<use xlink:href="#symbol_checked" width="15" height="15" x="0" y="0"></use>
+  <use xlink:href="#symbol_unchecked" width="16" height="16" x="100" y="0"></use>
+</svg>

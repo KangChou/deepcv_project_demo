@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720" height="480" version="1.1" viewBox="0 0 240 160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<polygon id="a" points="0, -29.1410161513775421, -25.2368602791855814, 14.5705080756887710, 25.2368602791855814, 14.5705080756887710" fill-opacity="0" stroke="#0038b8" stroke-width="5.5"/>
+</defs>
+<rect width="240" height="160" fill="#fff"/>
+<rect y="15" width="240" height="25" fill="#0038b8"/>
+<rect y="120" width="240" height="25" fill="#0038b8"/>
+<use transform="translate(120,80)" xlink:href="#a"/>
+<use transform="translate(120,80) rotate(180)" xlink:href="#a"/>
+</svg>

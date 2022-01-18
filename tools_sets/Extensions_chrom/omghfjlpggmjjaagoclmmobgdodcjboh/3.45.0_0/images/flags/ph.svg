@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="675" height="450" version="1.1">
+<rect width="675" height="450" fill="#0038a8"/>
+<rect y="225" width="675" height="225" fill="#ce1126"/>
+<path d="m292.28 225-292.28 225v-450" fill="#fff"/>
+<g fill="#fcd116">
+<g transform="matrix(3.75 0 0 3.75 -.00022364 56.25)">
+<circle transform="translate(28,45)" r="9"/>
+<g id="i" transform="translate(28,45)" fill="#fcd116">
+<g id="j">
+<g id="k">
+<path transform="scale(19)" d="m-1 0 .061512.061512.93849-.061512-.93849-.061512z"/>
+<path id="l" transform="scale(19.238)" d="m-.88366.11634.049574.049574.83409-.16591z"/>
+<use transform="scale(1,-1)" width="180" height="90" xlink:href="#l"/>
+</g>
+<use transform="matrix(.70711 .70711 -.70711 .70711 0 0)" width="180" height="90" xlink:href="#k"/>
+</g>
+<use transform="rotate(90)" width="180" height="90" xlink:href="#j"/>
+</g>
+<use transform="matrix(-1,0,0,-1,56,90)" width="180" height="90" xlink:href="#i"/>
+</g>
+<g id="g" transform="matrix(3.75 0 0 3.75 239.78 225)" fill="#fcd116">
+<path id="h" d="m5 0-3.382 1.1756-.072949 3.5797-2.1631-2.8532-3.4271 1.0368 2.0451-2.9389z"/>
+<use transform="scale(1,-1)" width="180" height="90" xlink:href="#h"/>
+</g>
+<use transform="matrix(-.5 .86603 -.86603 -.5 341 295.31)" width="180" height="90" xlink:href="#g"/>
+<use transform="matrix(-.5 -.86603 .86603 -.5 -48.714 379.69)" width="180" height="90" xlink:href="#g"/>
+</g>
+</svg>

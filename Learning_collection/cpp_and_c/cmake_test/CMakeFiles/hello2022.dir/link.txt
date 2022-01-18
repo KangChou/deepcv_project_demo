@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/hello2022.dir/main.cc.o  -o hello2022 

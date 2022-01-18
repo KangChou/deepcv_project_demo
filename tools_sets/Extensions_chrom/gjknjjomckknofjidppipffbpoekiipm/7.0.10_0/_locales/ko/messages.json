@@ -1,0 +1,166 @@
+{
+   "connect_button": {
+      "description": "",
+      "message": "연결"
+   },
+   "connect_fast_promo": {
+      "description": "",
+      "message": "더 빨리 연결 >"
+   },
+   "connecting_cancel": {
+      "description": "",
+      "message": "연결 중... 눌러서 취소"
+   },
+   "connecting_info": {
+      "description": "",
+      "message": "우선 순위 연결"
+   },
+   "description": {
+      "description": "",
+      "message": "가장 빠른 VPN을 통해 웹사이트 차단을 해제하고 익명성을 유지하세요. 무제한 액세스를 제공하는 최고의 VPN을 통해 인터넷 익명성을 유지하세요"
+   },
+   "disconnect_button": {
+      "description": "",
+      "message": "연결 해제"
+   },
+   "generic_cancel": {
+      "description": "",
+      "message": "취소"
+   },
+   "generic_ok": {
+      "description": "",
+      "message": "확인"
+   },
+   "generic_please_wait": {
+      "description": "",
+      "message": "기다려 주세요..."
+   },
+   "generic_thank_you": {
+      "description": "",
+      "message": "감사합니다!"
+   },
+   "go_premium": {
+      "description": "",
+      "message": "프리미엄 구매"
+   },
+   "location_select_title": {
+      "description": "",
+      "message": "가상 위치 선택"
+   },
+   "login_check_email_verification": {
+      "description": "",
+      "message": "인증을 위해 이메일을 확인하세요"
+   },
+   "menu_link_contact_us": {
+      "description": "",
+      "message": "지원 문의"
+   },
+   "menu_link_faq": {
+      "description": "",
+      "message": "자주하는 질문"
+   },
+   "menu_link_privacy_policy": {
+      "description": "",
+      "message": "개인정보취급방침"
+   },
+   "menu_link_why_is_free": {
+      "description": "",
+      "message": "Betternet이 무료인 이유"
+   },
+   "name": {
+      "description": "",
+      "message": "VPN 무료 - Betternet 무제한 VPN 프록시"
+   },
+   "rate_us": {
+      "description": "",
+      "message": "{browser} 웹 스토어에서 별점 5개 주기"
+   },
+   "reach_device_limit_description": {
+      "description": "",
+      "message": "계정에 더 이상 새로운 기기를 추가할 수 없습니다"
+   },
+   "shortName": {
+      "description": "",
+      "message": "Betternet"
+   },
+   "sign_in_as_premium": {
+      "description": "",
+      "message": "이미 프리미엄 계정입니다"
+   },
+   "sign_in_button": {
+      "description": "",
+      "message": "로그인"
+   },
+   "sign_in_description": {
+      "description": "",
+      "message": "계정에 로그인하려면 이메일 및 비밀번호를 입력하세요."
+   },
+   "sign_in_email_check_inbox_for_verification": {
+      "description": "",
+      "message": "받은 편지함 또는 대량/스팸 폴더를 확인하고 '확인'을 눌러 이메일 주소를 인증하세요."
+   },
+   "sign_in_email_not_verified_yet_title": {
+      "description": "",
+      "message": "아직 이메일을 인증하지 않았습니다"
+   },
+   "sign_in_email_verification_resend": {
+      "description": "",
+      "message": "재전송"
+   },
+   "sign_in_form_email_is_not_valid": {
+      "description": "",
+      "message": "유효한 이메일 주소를 입력하세요."
+   },
+   "sign_in_form_fields_not_filled": {
+      "description": "",
+      "message": "하이라이트된 항목을 입력하세요."
+   },
+   "sign_in_title": {
+      "description": "",
+      "message": "프리미엄 계정 로그인"
+   },
+   "sign_out_button": {
+      "description": "",
+      "message": "로그아웃"
+   },
+   "sign_out_title": {
+      "description": "",
+      "message": "로그아웃하시겠습니까?"
+   },
+   "sign_out_with_username": {
+      "description": "",
+      "message": "로그아웃 {username}"
+   },
+   "socio_facebook_visit": {
+      "description": "",
+      "message": "Facebook 페이지 구독하기"
+   },
+   "socio_visit": {
+      "description": "",
+      "message": "구독"
+   },
+   "term_agree": {
+      "description": "",
+      "message": "본 확장 프로그램을 사용하면, 다음에 동의하는 것입니다 \u003C0>서비스 이용약관\u003C/0> 및 \u003C1>개인정보취급방침\u003C/1>"
+   },
+   "this_will_disconnect_device": {
+      "description": "",
+      "message": "이 기기가 계정에서 연결 해제됩니다"
+   },
+   "unavailable_button": {
+      "description": "",
+      "message": "여기를 클릭해 다른 확장 프로그램을 비활성화하세요"
+   },
+   "unavailable_description": {
+      "description": "",
+      "message": "Betternet이 프록시 설정을 제어하는 다른 {browser} 확장 프로그램에 의해 중단되었습니다."
+   },
+   "unavailable_title": {
+      "description": "",
+      "message": "서비스 중단"
+   },
+   "user_is_premium": {
+      "description": "",
+      "message": "프리미엄 계정입니다!"
+   }
+}

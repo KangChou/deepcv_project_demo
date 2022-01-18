@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<style>
+		use#use_login_white{ fill: #fff }
+		use#use_login_blue{ fill: #2c4365 }
+		use#use_premium_white{ fill: #fff; stroke: #fff }
+		use#use_premium_blue{ fill: #2c4365; stroke: #2c4365 }
+		use#use_repeat_white{ fill: #fff }
+		use#use_repeat_blue{ fill: #2c4365 }
+		</style>
+	</defs>
+	
+	<symbol viewBox="0 0 36 46" id="symbol_login">
+		<path d="M36 14.0043H28V10.4249C28 5.20569 24.18 0.546415 18.98 0.0464927C17.5907 -0.087828 16.1886 0.0696756 14.8637 0.508901C13.5388 0.948126 12.3204 1.65938 11.2866 2.59703C10.2527 3.53468 9.42633 4.67803 8.86035 5.95374C8.29437 7.22945 8.00132 8.60936 8 10.005H12C12 7.7453 13.2 5.52564 15.28 4.60579C19.7 2.62609 24 5.8056 24 10.005V14.0043H0V46H36V14.0043ZM32 42.0006H4V18.0037H32V42.0006ZM18 34.0015C20.2 34.0015 22 32.2018 22 30.0022C22 27.8025 20.2 26.0028 18 26.0028C15.8 26.0028 14 27.8025 14 30.0022C14 32.2018 15.8 34.0015 18 34.0015Z" fill="inherit"/>
+	</symbol>
+	
+	<symbol viewBox="0 0 48 48" id="symbol_premium">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M39 44H9V40H39V44Z" fill="inherit" stroke-width="0"/>
+		<path d="M10.5616 34L5.04654 11.9398L15.7087 17.7556L17.3802 18.6674L18.373 17.0428L23.9998 7.83543L29.6266 17.043L30.6195 18.6676L32.2909 17.7559L42.9535 11.94L37.4384 34H10.5616Z" stroke="inherit" fill="none" stroke-width="4"/>
+	</symbol>
+	
+	<symbol viewBox="0 0 48 48" id="symbol_repeat">
+		<path d="M48 24C48 30.4105 45.5035 36.4376 40.9706 40.9706C36.4376 45.5035 30.4105 48 24 48C17.5895 48 11.5624 45.5035 7.02942 40.9706C2.49646 36.4376 0 30.4105 0 24H3.75C3.75 35.1658 12.8342 44.25 24 44.25C35.1658 44.25 44.25 35.1658 44.25 24C44.25 12.8342 35.1658 3.75 24 3.75C16.6967 3.75 10.1034 7.6073 6.50903 13.7812H12.1875V17.5312H0V5.34375H3.75V11.1086C5.48181 8.38879 7.75085 6.03735 10.4513 4.18726C14.4503 1.448 19.1353 0 24 0C30.4105 0 36.4376 2.49646 40.9706 7.02942C45.5035 11.5624 48 17.5895 48 24ZM33.9349 24.0531L18 33.2611V14.8447L33.9349 24.0531ZM21.75 26.7634L26.4401 24.0531L21.75 21.3428V26.7634Z" fill="inherit"/>
+	</symbol>
+
+	<use id="use_login_white" xlink:href="#symbol_login" width="36" height="46" x="0" y="0"></use>
+	<use id="use_login_blue" xlink:href="#symbol_login" width="36" height="46" x="100" y="0"></use>
+	<use id="use_premium_white" xlink:href="#symbol_premium" width="48" height="48" x="0" y="100"></use>
+	<use id="use_premium_blue" xlink:href="#symbol_premium" width="48" height="48" x="100" y="100"></use>
+	<use id="use_repeat_white" xlink:href="#symbol_repeat" width="48" height="48" x="0" y="200"></use>
+	<use id="use_repeat_blue" xlink:href="#symbol_repeat" width="48" height="48" x="100" y="200"></use>
+
+	<view id="login_white" width="36" height="46" viewBox="0 0 36 46" />
+  <view id="login_blue" width="36" height="46" viewBox="100 0 36 46" />
+	<view id="premium_white" width="48" height="48" viewBox="0 100 48 48" />
+  <view id="premium_blue" width="48" height="48" viewBox="100 100 48 48" />
+	<view id="repeat_white" width="48" height="48" viewBox="0 200 48 48" />
+  <view id="repeat_blue" width="48" height="48" viewBox="100 200 48 48" />
+</svg>

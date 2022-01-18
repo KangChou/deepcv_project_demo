@@ -1,0 +1,4 @@
+CREATE USER 'ghelper'@'*' IDENTIFIED BY 'Coffee8025'
+
+
+GRANT ALL ON ghelper.* TO 'ghelper'@'*';

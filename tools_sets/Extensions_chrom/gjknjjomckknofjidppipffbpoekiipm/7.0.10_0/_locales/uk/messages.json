@@ -1,0 +1,166 @@
+{
+   "connect_button": {
+      "description": "",
+      "message": "Під'єднатися"
+   },
+   "connect_fast_promo": {
+      "description": "",
+      "message": ""
+   },
+   "connecting_cancel": {
+      "description": "",
+      "message": "Підключення ... Натисніть, щоб скасувати"
+   },
+   "connecting_info": {
+      "description": "",
+      "message": "отримати пріоритетне з'єднання"
+   },
+   "description": {
+      "description": "",
+      "message": "Доступ до безлічі вебсайтів по усьому світі за допомогою лише одного кліку! Найшвидчий VPN на ринку додатків, отримайте повну конфіденційність в інтернеті встановивши наш додаток для браузера."
+   },
+   "disconnect_button": {
+      "description": "",
+      "message": "Відключити"
+   },
+   "generic_cancel": {
+      "description": "",
+      "message": "Скасувати"
+   },
+   "generic_ok": {
+      "description": "",
+      "message": "Добре"
+   },
+   "generic_please_wait": {
+      "description": "",
+      "message": "Будь ласка, зачекайте ..."
+   },
+   "generic_thank_you": {
+      "description": "",
+      "message": "Дякуємо!"
+   },
+   "go_premium": {
+      "description": "",
+      "message": "Купити преміум"
+   },
+   "location_select_title": {
+      "description": "",
+      "message": "Виберіть віртуальну локацію"
+   },
+   "login_check_email_verification": {
+      "description": "",
+      "message": "Перевірте свою електронну пошту на підтвердження"
+   },
+   "menu_link_contact_us": {
+      "description": "",
+      "message": "Зв'яжіться з нами"
+   },
+   "menu_link_faq": {
+      "description": "",
+      "message": "Часті питання"
+   },
+   "menu_link_privacy_policy": {
+      "description": "",
+      "message": "Політика конфіденційності"
+   },
+   "menu_link_why_is_free": {
+      "description": "",
+      "message": "Чому Betternet безкоштовний"
+   },
+   "name": {
+      "description": "",
+      "message": "VPN безкоштовно - Betternet Безлімітний VPN проксі"
+   },
+   "rate_us": {
+      "description": "",
+      "message": "Будь ласка, оцініть роботу Betternet"
+   },
+   "reach_device_limit_description": {
+      "description": "",
+      "message": "Досягнуто ліміт на додавання нових пристроїв до вашого обілкового запису"
+   },
+   "shortName": {
+      "description": "",
+      "message": "Betternet"
+   },
+   "sign_in_as_premium": {
+      "description": "",
+      "message": "Я вже преміум користувач"
+   },
+   "sign_in_button": {
+      "description": "",
+      "message": "Увійти"
+   },
+   "sign_in_description": {
+      "description": "",
+      "message": "Для входу в свій аккаунт, введіть Ваш email і пароль."
+   },
+   "sign_in_email_check_inbox_for_verification": {
+      "description": "",
+      "message": "Перевірте свою папку \"Вхідні\" або \"Спам\" та натисніть \"Confirm\", щоб підтвердити свою електронну адресу."
+   },
+   "sign_in_email_not_verified_yet_title": {
+      "description": "",
+      "message": "Email ще не підтверджено"
+   },
+   "sign_in_email_verification_resend": {
+      "description": "",
+      "message": "Надіслати повторно"
+   },
+   "sign_in_form_email_is_not_valid": {
+      "description": "",
+      "message": "Введіть дійсну електронну пошту."
+   },
+   "sign_in_form_fields_not_filled": {
+      "description": "",
+      "message": "Заповніть виділені поля."
+   },
+   "sign_in_title": {
+      "description": "",
+      "message": "Увійдіть у свій преміум-акаунт"
+   },
+   "sign_out_button": {
+      "description": "",
+      "message": "Вийти"
+   },
+   "sign_out_title": {
+      "description": "",
+      "message": "Вийти з облікового запису?"
+   },
+   "sign_out_with_username": {
+      "description": "",
+      "message": "Вийти {username}"
+   },
+   "socio_facebook_visit": {
+      "description": "",
+      "message": "Підпишіться на нашу сторінку у Facebook"
+   },
+   "socio_visit": {
+      "description": "",
+      "message": "Підписатися"
+   },
+   "term_agree": {
+      "description": "",
+      "message": "Використовуючи це розширення, ви погоджуєтесь з нашими \u003C0>Умови надання послуг\u003C/0> та \u003C1>Політика конфіденційності\u003C/1>"
+   },
+   "this_will_disconnect_device": {
+      "description": "",
+      "message": "Це призведе до відключення цього пристрою від облікового запису"
+   },
+   "unavailable_button": {
+      "description": "",
+      "message": "Натисніть тут, щоб відключити інші розширення."
+   },
+   "unavailable_description": {
+      "description": "",
+      "message": "Інше розширення контролює налаштування проксі та блокує роботу Betternet."
+   },
+   "unavailable_title": {
+      "description": "",
+      "message": "З'єднання перервано"
+   },
+   "user_is_premium": {
+      "description": "",
+      "message": "Ви преміум користувач!"
+   }
+}

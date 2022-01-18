@@ -1,0 +1,189 @@
+{
+  "login": {
+    "title": "Inloggen",
+    "welcome": "Welkom",
+    "email": "Gebruikersnaam/e-mailadres",
+    "password": "Wachtwoord",
+    "forgot_password": "Wachtwoord vergeten?",
+    "account_question": "Hebt u geen account?",
+    "signup_here": "Meld u hier aan!",
+    "error": "Ongeldige gebruikersnaam en/of wachtwoord",
+    "errors": {
+      "invalid-credentials": "Ongeldige gebruikersnaam en/of wachtwoord",
+      "rate-limit": "Te veel pogingen, probeer het later opnieuw"
+    },
+    "cta": "Inloggen"
+  },
+  "recover": {
+    "title": "Wachtwoord vergeten",
+    "message": "Voer het e-mailadres in waarmee u zich heeft aangemeld. We sturen u een e-mail met instructies om uw wachtwoord opnieuw in te stellen.",
+    "error": "Voer een geldig e-mailadres in",
+    "email": "E-mailadres",
+    "back_to_login": "Terug naar inloggen",
+    "cta": "Opnieuw instellen"
+  },
+  "recover_success": {
+    "title": "Kijk in uw e-mail",
+    "description": "Als het e-mailadres is geregistreerd bij ZenMate VPN, ontvangt u daar de link voor het opnieuw instellen van uw wachtwoord."
+  },
+  "home": {
+    "protection_disabled": "Bescherming uitgeschakeld",
+    "state": "ZenMate is op dit moment uitgeschakeld",
+    "last_location": "Laatst gebruikte locatie",
+    "best_location": "Beste locatie",
+    "connected_to": "Verbonden met",
+    "smart_location": "<b>Slimme locatie</b> heeft verbinding met <b>{{country}}</b>"
+  },
+  "menu": {
+    "title": "Menu",
+    "account_details": "Accountgegevens",
+    "username": "Gebruikersnaam ",
+    "end_date": "Einddatum",
+    "trial_end_date": "Evaluatie eindigt op",
+    "manage_account": "Account beheren",
+    "logout": "Uitloggen",
+    "login": "Inloggen",
+    "features": "Functies",
+    "language": "Taal",
+    "support": "Ondersteuning",
+    "upgrade": "Upgrade naar Ultimate",
+    "upgrade_pro": "Upgraden naar Pro",
+    "trial_start": "Proefversie nu starten",
+    "tour": "Korte Rondleiding"
+  },
+  "servers": {
+    "title": "Locatie wijzigen",
+    "all_countries": "Alle landen",
+    "streaming": "Streamingservices",
+    "favorites": "Favorieten",
+    "unblock_more": "Deblokkeer meer servers met Pro"
+  },
+  "features": {
+    "title": "Functies",
+    "smart_location": {
+      "title": "Slimme locatie",
+      "state_title_on": "Slimme locatie is AAN",
+      "state_title_off": "Slimme locatie is UIT",
+      "state_description": "Pas aan hoe ZenMate verbinding maakt met uw favoriete websites door automatisch van locatie te wisselen wanneer u ze bezoekt!",
+      "website_url": "Website-URL",
+      "change_country": "Wijzig land",
+      "websites_added": "Websites al toegevoegd",
+      "error_existing": "U hebt deze website al toegevoegd aan uw witte lijst. Een website kan niet tegelijkertijd op uw lijst met slimme locaties en op de witte lijst staan. Verwijder de website van een van de lijsten om door te gaan."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "tracking_title": "Tracking-blocker",
+      "tracking_description": "Bescherm uw privacy door te voorkomen dat services van derden online activiteiten volgen.",
+      "malware_title": "Malware-blocker",
+      "malware_description": "Blokkeer schadelijke sites en codefragmenten voordat ze uw browser kunnen bereiken.",
+      "webrtc_title": "WebRTC Protect",
+      "webrtc_description": "WebRTC Protect zorgt ervoor dat uw IP-adres online nooit zichtbaar is."
+    },
+    "whitelist": {
+      "title": "Witte lijst",
+      "state_title_on": "Witte lijst is AAN",
+      "state_title_off": "Witte lijst is UIT",
+      "state_description": "Wilt u nooit verbinding maken met ZenMate tijdens het browsen op een specifieke website? Voeg de site toe aan de witte lijst en de VPN wordt automatisch uitgeschakeld wanneer u uw favoriete website bezoekt.",
+      "website_url": "Website-URL",
+      "websites_added": "Websites al toegevoegd",
+      "error_existing": "U hebt deze website al toegevoegd aan uw lijst met slimme locaties. Een website kan niet tegelijkertijd op uw lijst met slimme locaties en op de witte lijst staan. Verwijder de website van een van de lijsten om door te gaan."
+    },
+    "stealth-connection": {
+      "title": "Verborgen verbinding",
+      "state_title_on": "Verborgen verbinding is AAN",
+      "state_title_off": "Verborgen verbinding is UIT",
+      "ask_every_time": "Vraag dit elke keer",
+      "state_description": "Met <b>Verborgen verbinding</b> worden uw cookies, surfgeschiedenis en cache gewist. Wanneer u de verbinding met de VPN verbreekt, wist <b>Verborgen verbinding</b> elk spoor van uw online browseractiviteit vanaf het moment dat u verbinding maakte met ZenMate.",
+      "website_url": "Website-URL",
+      "websites_added": "Websites al toegevoegd",
+      "error_existing": "U hebt deze website al toegevoegd aan uw lijst met slimme locaties. Een website kan niet tegelijkertijd op uw lijst met slimme locaties en op de witte lijst staan. Verwijder de website van een van de lijsten om door te gaan."
+    }
+  },
+  "marketing_banner": {
+    "home1": "Bescherm al uw apparaten – Download onze ",
+    "home2": "en onze",
+    "home3": "of ",
+    "windows_app": "Windows-app ",
+    "ios_app": "iOS-app ",
+    "android_app": "Android-app ",
+    "macos_app": "macOS-app ",
+    "download_cta": "Download nu",
+    "upgrade_cta": "Upgrade nu"
+  },
+  "inactive_banner": {
+    "smart_location": {
+      "text": "Pas aan hoe ZenMate verbinding maakt met uw favoriete websites door automatisch van locatie te wisselen wanneer u ze bezoekt.",
+      "cta": "Deblokkeer nu"
+    },
+    "whitelist": {
+      "text": "Wilt u nooit verbinding maken met ZenMate tijdens het browsen op een specifieke website? Voeg de site toe aan de witte lijst en de VPN wordt automatisch uitgeschakeld wanneer u uw favoriete website bezoekt.",
+      "cta": "Deblokkeer nu"
+    },
+    "streaming": {
+      "text": "Bekijk alle films en tv-programma's die u wilt, zelfs als ze niet beschikbaar zijn in uw land.",
+      "cta": "Deblokkeer streaming"
+    },
+    "stealth-connection": {
+      "text": "Wis automatisch elk spoor van uw browsersessie met de functie Verborgen verbinding van ZenMate. De functie is beschikbaar voor gebruikers van ZenMate Pro en Ultimate.",
+      "cta": "Deblokkeer nu"
+    }
+  },
+  "intro": {
+    "intro-heading": "<b>Welkom bij ZenMate</b>",
+    "intro-default-heading": "<b>Maak en verifieer uw account</b><br /> om van het volgende te genieten:",
+    "already-account": "Hebt u al een account?",
+    "login-here": "Log hier in!",
+    "signup-now": "Meld u nu aan!",
+    "seven-days": "7 dagen gratis proefperiode"
+  },
+  "campaign": {
+    "heading": "Ontdekken met <br><b>ZenMate Ultimate</b>",
+    "features": {
+      "0": "Meer dan 3600 servers in meer dan 74 landen",
+      "1": "Deblokkeer websites en beperkte apps.",
+      "2": "Omzeil geografische restricties voor streaming",
+      "3": "Bescherming op een onbeperkt aantal apparaten"
+    },
+    "cta": "Koop ZenMate Ultimate",
+    "subCta": "Tijdelijk voor slechts $ 2,22/maand",
+    "later": "Misschien later"
+  },
+  "queue": {
+    "heading": "Helaas zijn al onze <br> servers nu bezet ",
+    "heading2": "Om congestie te voorkomen, <br> u kunt binnenkort verbinding maken",
+    "no_waiting": "Wilt u niet wachten?",
+    "upgrade": "Upgrade naar <b>ZenMate Pro</b> en u zult altijd<br> premiumservers voor u beschikbaar hebben",
+    "upgrade_now": "Nu upgraden"
+  },
+  "campaign_trial": {
+    "heading": "<b>Upgrade naar Ultimate</b><br> en ervaar meer",
+    "cta": "Upgrade nu naar Ultimate"
+  },
+  "popup_validation": {
+    "heading": "Wis al mijn stappen",
+    "paragraph": "De functie <b>Verborgen verbinding</b> is ingeschakeld. Wilt u alle sporen van deze sessie volledig wissen? <small><br />(Verwijdert uw cookies, wist uw surfgeschiedenis en cache)</small>",
+    "no_ask": "Vraag dit niet opnieuw en onthoud mijn instellingen",
+    "yes": "JA",
+    "no": "NEE"
+  },
+  "rateus": {
+    "heading": "Wat vindt u van onze extensie?",
+    "description": "Klik op de sterren om uw feedback te delen"
+  },
+  "proxy-warning": {
+    "heading": "Proxywaarschuwing!",
+    "description": "Een andere browserextensie heeft controle over uw proxy-instellingen, waardoor <b>ZenMate</b> niet werkt. Schakel alle conflicterende extensies uit.",
+    "cta": "Extensies beheren"
+  },
+  "onboarding": {
+    "footer-title": "Klik op een willekeurige plaats om door te gaan",
+    "close": "Sluit"
+  },
+  "error_screen": {
+    "title": "De service is helaas niet beschikbaar in uw regio",
+    "content": "Laat ons weten dat u ZenMate graag wilt gebruiken in uw regio door een <span>aanvraag voor klantondersteuning</span> in te vullen"
+  },
+  "notifications": {
+    "logout": "U bent automatisch afgemeld!"
+  }
+}

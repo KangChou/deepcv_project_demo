@@ -1,0 +1,43 @@
+{
+   "background": {
+      "scripts": [ "lodash.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "images/icons/16x16/disabled.png",
+         "19": "images/icons/19x19/disabled.png",
+         "24": "images/icons/24x24/disabled.png",
+         "32": "images/icons/32x32/disabled.png",
+         "38": "images/icons/38x38/disabled.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "__MSG_browser_action_inactive_title__"
+   },
+   "content_scripts": [ {
+      "js": [ "browsecSiteContentScript.js" ],
+      "matches": [ "https://browsec.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "timezoneChange.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "default-src 'none'; script-src 'self' https://*.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.google.com chrome:; font-src 'self'; object-src 'none'; connect-src 'self' https: http://*.aimcdn.me http://connectivitycheck.android.com http://*.lunrac.com http://*.postls.com http://*.tcdn.me http://example.com http://www.root-servers.org",
+   "default_locale": "en",
+   "description": "__MSG_extension_description_chrome__",
+   "homepage_url": "https://browsec.com/",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCSY9yeEz4fQpDZ6OhH7rZFPt/9BDKuyvXsMnhHfZ069L2TqGeooqFtHBNcDzpccAFkfehNCfcg3QBQpYAWEKmv05Nt0Eqek/XUmXlY8e6yd+Ig3UbZvpesUs1ZxUsWl9Ilta80yLsbgtKveAPVmShl7PB0jRGNb0WfLKxtYyB+2QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "56.0",
+   "name": "__MSG_extension_name_chrome__",
+   "optional_permissions": [ "chrome://favicon/", "management", "privacy", "tabs" ],
+   "permissions": [ "proxy", "storage", "webRequest", "webRequestBlocking", "background", "\u003Call_urls>" ],
+   "short_name": "Browsec VPN",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.45.0"
+}

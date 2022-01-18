@@ -1,0 +1,190 @@
+{
+   "APP_DESC": {
+      "description": "Extenstion description for web store and extensions page",
+      "message": "Great speed and free access to many locations."
+   },
+   "APP_NAME": {
+      "description": "Extension name for web store and extensions page",
+      "message": "SaferVPN Proxy - Free & Fast Privacy App"
+   },
+   "APP_SHORT_NAME": {
+      "description": "Extension short name for web store and extensions page",
+      "message": "SaferVPN Proxy"
+   },
+   "AUTH_BTN": {
+      "description": "Login page button text",
+      "message": "Login"
+   },
+   "AUTH_ERROR_TEXT": {
+      "description": "Login page error text",
+      "message": "Email or password is incorrect"
+   },
+   "AUTH_LOADING_TEXT": {
+      "description": "Login page loading text",
+      "message": "Please wait..."
+   },
+   "AUTH_SIGN_UP_BTN_TEXT": {
+      "description": "Login page sign up button text",
+      "message": "Sign up now!"
+   },
+   "AUTH_SIGN_UP_TEXT": {
+      "description": "Login page sign up text",
+      "message": "Don't have an account yet?"
+   },
+   "AUTH_TEXT": {
+      "description": "Login page text",
+      "message": "Please login below using your SaferVPN account email and password"
+   },
+   "AUTH_TITLE": {
+      "description": "Login page title",
+      "message": "Login"
+   },
+   "BLOCKED_BTN": {
+      "description": "Blocked page button text",
+      "message": "Continue"
+   },
+   "BLOCKED_HINT": {
+      "description": "Blocked page hint text",
+      "message": "You can always enable extensions"
+   },
+   "BLOCKED_LINK": {
+      "description": "Blocked page link text",
+      "message": "here"
+   },
+   "BLOCKED_TEXT": {
+      "description": "Blocked page main text",
+      "message": "Proxy settings are controlled by one of these extensions. To disable them and continue with SaferVPN Proxy click the button below."
+   },
+   "BLOCKED_TITLE": {
+      "description": "Blocked page title",
+      "message": "Extensions conflict"
+   },
+   "CITY_": {
+      "message": ""
+   },
+   "CITY_AMS": {
+      "message": "Amsterdam"
+   },
+   "CITY_ATL": {
+      "message": "Atlanta"
+   },
+   "CITY_CHI": {
+      "message": "Chicago"
+   },
+   "CITY_LA": {
+      "message": "Los-Angeles"
+   },
+   "CITY_LDN": {
+      "message": "London"
+   },
+   "CITY_MAD": {
+      "message": "Madrid"
+   },
+   "CITY_MIA": {
+      "message": "Miami"
+   },
+   "CITY_NY": {
+      "message": "New-York"
+   },
+   "CITY_PAR": {
+      "message": "Paris"
+   },
+   "CITY_SF": {
+      "message": "San-Francisco"
+   },
+   "CITY_SG": {
+      "message": "Singapore"
+   },
+   "CITY_STH": {
+      "message": "Stockholm"
+   },
+   "CITY_TYO": {
+      "message": "Tokyo"
+   },
+   "CITY_WA": {
+      "message": "Washington DC"
+   },
+   "COUNTRY_": {
+      "message": ""
+   },
+   "COUNTRY_ES": {
+      "message": "ES"
+   },
+   "COUNTRY_FR": {
+      "message": "FR"
+   },
+   "COUNTRY_GB": {
+      "message": "GB"
+   },
+   "COUNTRY_JP": {
+      "message": "JP"
+   },
+   "COUNTRY_NL": {
+      "message": "NL"
+   },
+   "COUNTRY_SE": {
+      "message": "SE"
+   },
+   "COUNTRY_SG": {
+      "message": "SG"
+   },
+   "COUNTRY_US": {
+      "message": "US"
+   },
+   "LOCATIONS_TRAFFIC_EXCEEDED": {
+      "description": "Message is displayed over the disabled locations buttons, when traffic exceeded",
+      "message": "You’ve used your FREE $traffic$ transfer this month. Your transfer allowance will reset on $date$. You can also upgrade to SaferVPN for unlimited proxy transfer and encrypted browsing!",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "traffic": {
+            "content": "$1"
+         }
+      }
+   },
+   "MAP_CHANGE_BTN": {
+      "description": "Map page change location btn",
+      "message": "Change Location"
+   },
+   "MAP_YOU": {
+      "description": "Map page 'you' label",
+      "message": "You"
+   },
+   "POPUP_CONNECTED": {
+      "description": "Popup connected message",
+      "message": "You Are Now Connected to"
+   },
+   "POPUP_CONNECT_HINT": {
+      "description": "Popup connect hint text",
+      "message": "Select Proxy Location"
+   },
+   "POPUP_LOGOUT_LINK": {
+      "description": "Popup logout link text",
+      "message": "Logout"
+   },
+   "POPUP_NOT_CONNECTED": {
+      "description": "Popup not connected message",
+      "message": "Not connected"
+   },
+   "POPUP_OFF": {
+      "description": "Popup switch OFF text",
+      "message": "OFF"
+   },
+   "POPUP_ON": {
+      "description": "Popup switch ON text",
+      "message": "ON"
+   },
+   "POPUP_REMAINING": {
+      "description": "Popup traffic remaining text",
+      "message": "Remaining this month"
+   },
+   "POPUP_SUPPORT_LINK": {
+      "description": "Popup support link text",
+      "message": "Support"
+   },
+   "POPUP_UPGRADE_BTN": {
+      "description": "Popup upgrade btn text",
+      "message": "Upgrade your security"
+   }
+}

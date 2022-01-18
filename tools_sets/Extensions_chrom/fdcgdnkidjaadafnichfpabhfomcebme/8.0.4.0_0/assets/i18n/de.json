@@ -1,0 +1,189 @@
+{
+  "login": {
+    "title": "Anmelden",
+    "welcome": "Willkommen",
+    "email": "Benutzername / E-Mail",
+    "password": "Passwort",
+    "forgot_password": "Passwort vergessen?",
+    "account_question": "Du hast noch kein Konto?",
+    "signup_here": "Registriere dich hier!",
+    "error": "Benutzername und / oder Passwort ungültig",
+    "errors": {
+      "invalid-credentials": "Benutzername und / oder Passwort ungültig",
+      "rate-limit": "Zu viele Versuche. Bitte versuche es später noch einmal"
+    },
+    "cta": "Anmelden"
+  },
+  "recover": {
+    "title": "Passwort vergessen",
+    "message": "Bitte trage deine E-Mail-Adresse ein, mit der du dich bei uns registriert hast. Wir werden dir eine E-Mail mit Anweisungen schicken, wie du dein Passwort zurücksetzen kannst.",
+    "error": "Bitte gib eine gültige Email-Adresse ein",
+    "email": "E-Mail",
+    "back_to_login": "Zurück zur Anmeldung",
+    "cta": "Zurücksetzen"
+  },
+  "recover_success": {
+    "title": "Schau in deinem Posteingang nach",
+    "description": "Falls deine E-Mail-Adresse bei ZenMate VPN registriert ist, solltest du darüber deinen Link zum Zurücksetzen des Passwortes erhalten."
+  },
+  "home": {
+    "protection_disabled": "Schutz deaktiviert",
+    "state": "ZenMate ist derzeit deaktiviert",
+    "last_location": "Letzter genutzter Standort",
+    "best_location": "Bester Standort",
+    "connected_to": "Verbunden mit",
+    "smart_location": "<b>Intelligenter Standort</b> ist verbunden mit <b>{{country}}</b>"
+  },
+  "menu": {
+    "title": "Menü",
+    "account_details": "Kontoinformationen",
+    "username": "Benutzername ",
+    "end_date": "Enddatum",
+    "trial_end_date": "Testzeitraum endet in",
+    "manage_account": "Konto verwalten",
+    "logout": "Abmelden",
+    "login": "Anmelden",
+    "features": "Funktionen",
+    "language": "Sprache",
+    "support": "Support",
+    "upgrade": "Auf Ultimate upgraden",
+    "upgrade_pro": "Auf Pro upgraden",
+    "trial_start": "Jetzt Testzeitraum starten",
+    "tour": "Erste Schritte"
+  },
+  "servers": {
+    "title": "Standort ändern",
+    "all_countries": "Alle Länder",
+    "streaming": "Streaming-Dienste",
+    "favorites": "Favoriten",
+    "unblock_more": "Entsperre mehr Server mit Pro"
+  },
+  "features": {
+    "title": "Funktionen",
+    "smart_location": {
+      "title": "Intelligenter Standort",
+      "state_title_on": "Intelligenter Standort ist AN",
+      "state_title_off": "Intelligenter Standort ist AUS",
+      "state_description": "Passe individuell an, wie ZenMate sich mit deinen Lieblings-Websites verbindet, sodass die Software automatisch den Standort wechselt, wenn du sie besuchst!",
+      "website_url": "Website-URL",
+      "change_country": "Land wechseln",
+      "websites_added": "Websites bereits hinzugefügt",
+      "error_existing": "Du hast diese Website bereits deiner Whitelist hinzugefügt. Die gleiche Website kann nicht gleichzeitig auf deiner Smart Location Liste und deiner Whitelist stehen. Entferne sie von einer der Listen, um fortzufahren."
+    },
+    "privacy": {
+      "title": "Privatsphäre",
+      "tracking_title": "Tracking-Blocker",
+      "tracking_description": "Schütze deine Privatsphäre und hindere Dritte daran, deine Online-Aktivitäten zu tracken.",
+      "malware_title": "Schadsoftware-Blocker",
+      "malware_description": "Aktiviere das Blocken von bösartigen Websites und Code-Snippets, bevor sie deinen Browser erreichen.",
+      "webrtc_title": "WebRTC Protect",
+      "webrtc_description": "WebRTC Protect stellt sicher, dass deine IP-Adresse niemals offenbart wird, während du online bist."
+    },
+    "whitelist": {
+      "title": "Whitelist",
+      "state_title_on": "Whitelist ist AN",
+      "state_title_off": "Whitelist ist AUS",
+      "state_description": "Willst du dich beim Surfen auf einer bestimmten Website niemals mit ZenMate verbinden? Füge sie einfach deiner Whitelist hinzu und das VPN schaltet sich automatisch aus, wenn du deine Lieblings-Website besuchst.",
+      "website_url": "Website-URL",
+      "websites_added": "Websites bereits hinzugefügt",
+      "error_existing": "Du hast diese Website bereits deiner Smart Location Liste hinzugefügt. Die gleiche Website kann nicht gleichzeitig auf deiner Smart Location Liste und deiner Whitelist stehen. Entferne sie von einer der Listen, um fortzufahren."
+    },
+    "stealth-connection": {
+      "title": "Stealth-Verbindung",
+      "state_title_on": "Stealth-Verbindung ist AN",
+      "state_title_off": "Stealth-Verbindung ist AUS",
+      "ask_every_time": "Jedes Mal fragen",
+      "state_description": "Die <b>Stealth -Verbindung</b> entfernt deine Cookies, löscht deinen Browserverlauf & den Cache. Sobald du die VPN-Verbindung trennst, löscht die <b>Stealth-Verbindung</b> jede einzelne Spur deiner Surfaktivitäten ab deiner Verbindungsherstellung mit ZenMate.",
+      "website_url": "Website-URL",
+      "websites_added": "Websites bereits hinzugefügt",
+      "error_existing": "Du hast diese Website bereits deiner Liste der Intelligenten Standorte hinzugefügt. Dieselbe Website kann nicht gleichzeitig auf deiner Liste der Intelligenten Standorte und deiner Whitelist stehen. Entferne sie von einer der Listen, um fortzufahren."
+    }
+  },
+  "marketing_banner": {
+    "home1": "Schütze alle deine Geräte – Downloade unsere ",
+    "home2": "und unsere ",
+    "home3": "oder ",
+    "windows_app": "Windows-App ",
+    "ios_app": "iOS-App ",
+    "android_app": "Android-App ",
+    "macos_app": "macOS-App ",
+    "download_cta": "Jetzt herunterladen",
+    "upgrade_cta": "Jetzt upgraden"
+  },
+  "inactive_banner": {
+    "smart_location": {
+      "text": "Passe individuell an, wie ZenMate sich mit deinen Lieblings-Websites verbindet, sodass die Software automatisch den Standort wechselt, wenn du sie besuchst.",
+      "cta": "Jetzt entsperren"
+    },
+    "whitelist": {
+      "text": "Willst du dich beim Surfen auf einer bestimmten Website niemals mit ZenMate verbinden? Füge sie einfach deiner Whitelist hinzu und das VPN schaltet sich automatisch aus, wenn du deine Lieblings-Website besuchst.",
+      "cta": "Jetzt freischalten"
+    },
+    "streaming": {
+      "text": "Dem Binge-Watching aller Filme und TV-Serien steht nichts mehr im Weg – nicht einmal, wenn sie in deinem Land nicht verfügbar sind.",
+      "cta": "Streaming entsperren"
+    },
+    "stealth-connection": {
+      "text": "Lösche automatisch jegliche Spuren deiner Surf-Session mit der Funktion Stealth-Verbindung von ZenMate, die für Nutzer von ZenMate Pro und Ultimate verfügbar ist.",
+      "cta": "Jetzt entsperren"
+    }
+  },
+  "intro": {
+    "intro-heading": "<b>Willkommen bei ZenMate</b>",
+    "intro-default-heading": "<b>Lege dein Konto an, bestätige es</b><br /> und freu dich auf:",
+    "already-account": "Hast du schon ein Konto?",
+    "login-here": "Hier einloggen!",
+    "signup-now": "Jetzt anmelden!",
+    "seven-days": "7 Tage Gratis-Testversion"
+  },
+  "campaign": {
+    "heading": "Gehe auf Entdeckungsreise mit <br><b>ZenMate Ultimate</b>",
+    "features": {
+      "0": "Mehr als 3.600 Server in über 74 Ländern",
+      "1": "Entsperre Websites und Apps mit Beschränkungen.",
+      "2": "Umgehe Geoblocking beim Streaming",
+      "3": "Schutz für unbegrenzt viele Geräte"
+    },
+    "cta": "Hol dir ZenMate Ultimate",
+    "subCta": "Für nur 2,22 € / Monat für einen begrenzten Zeitraum",
+    "later": "Vielleicht später"
+  },
+  "queue": {
+    "heading": "Leider sind gerade alle <br> unsere Server ausgelastet ",
+    "heading2": "Um Überlastung zu vermeiden <br> kannst du dich in Kürze verbinden",
+    "no_waiting": "Du willst nicht warten?",
+    "upgrade": "Upgrade auf <b>ZenMate Pro</b> und dir stehen immer<br> Premium-Server zur Verfügung",
+    "upgrade_now": "Jetzt upgraden"
+  },
+  "campaign_trial": {
+    "heading": "<b>Upgrade auf Ultimate</b><br> und erlebe noch mehr",
+    "cta": "Jetzt auf Ultimate upgraden"
+  },
+  "popup_validation": {
+    "heading": "Alle meine Schritte löschen",
+    "paragraph": "Die Funktion <b>Stealth-Verbindung</b> ist aktiviert. Willst du alle deine Spuren aus dieser Session komplett löschen? <small> <br />(entfernt deine Cookies, löscht deinen Browserverlauf & Cache)</small>",
+    "no_ask": "Nicht mehr fragen & meine Einstellungen speichern",
+    "yes": "JA",
+    "no": "NEIN"
+  },
+  "rateus": {
+    "heading": "Gefällt dir diese Erweiterung?",
+    "description": "Klicke auf die Sterne, um dein Feedback zu teilen"
+  },
+  "proxy-warning": {
+    "heading": "Proxy-Warnung!",
+    "description": "Eine andere Browsererweiterung beeinflusst deine Proxy-Einstellungen und verhindert dadurch, dass <b>ZenMate</b> funktioniert. Bitte deaktiviere alle Erweiterungen, die Konflikte hervorrufen.",
+    "cta": "Erweiterungen verwalten"
+  },
+  "onboarding": {
+    "footer-title": "Klicke irgendwo, um fortzufahren",
+    "close": "Schließen"
+  },
+  "error_screen": {
+    "title": "Leider ist dieser Service in deiner Region nicht verfügbar",
+    "content": "Teile uns mit, wenn du möchtest, dass ZenMate in deiner Region verfügbar sein soll, indem du eine <span>Anfrage an unseren Kundensupport stellst</span>"
+  },
+  "notifications": {
+    "logout": "Du wurdest abgemeldet!"
+  }
+}

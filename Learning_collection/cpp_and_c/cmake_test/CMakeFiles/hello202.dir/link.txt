@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/hello202.dir/main.cc.o  -o hello202 

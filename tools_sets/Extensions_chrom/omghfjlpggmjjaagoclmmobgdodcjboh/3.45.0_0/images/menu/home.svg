@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<symbol id="symbol_home" viewBox="0 0 14 12" xmlns="http://www.w3.org/2000/svg">
+		<path d="M5.59 12.008v-4.239h2.8v4.239h3.5v-5.652h2.1l-7-6.356-7 6.358h2.1v5.651h3.5z"/>
+	</symbol>
+	
+	<use xlink:href="#symbol_home" width="14" height="12" x="0" y="0" style="fill: #3b9946; fill-rule: evenodd;"></use>
+  <use xlink:href="#symbol_home" width="14" height="12" x="100" y="0" style="fill: gray; fill-rule: evenodd;"></use>
+	
+	<view id="green" width="14" height="12" viewBox="0 0 14 12" />
+  <view id="grey" width="14" height="12" viewBox="100 0 14 12" />
+</svg>

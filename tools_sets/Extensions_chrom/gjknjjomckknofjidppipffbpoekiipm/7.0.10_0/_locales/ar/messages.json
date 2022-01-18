@@ -1,0 +1,166 @@
+{
+   "connect_button": {
+      "description": "",
+      "message": "اتصال"
+   },
+   "connect_fast_promo": {
+      "description": "",
+      "message": "اتصل أسرع >"
+   },
+   "connecting_cancel": {
+      "description": "",
+      "message": "يجري الاتصال... اضغط للإلغاء"
+   },
+   "connecting_info": {
+      "description": "",
+      "message": "الحصول على اتصال الأولوية"
+   },
+   "description": {
+      "description": "",
+      "message": "احصل على أسرع VPN لفتح أي موقع والبقاء في خصوصية. حافظ على خصوصية الإنترنت الخاصة بك مع أفضل VPN لدخول غير محدود"
+   },
+   "disconnect_button": {
+      "description": "",
+      "message": "قطع اتصال"
+   },
+   "generic_cancel": {
+      "description": "",
+      "message": "إلغاء"
+   },
+   "generic_ok": {
+      "description": "",
+      "message": "حسنًا"
+   },
+   "generic_please_wait": {
+      "description": "",
+      "message": "يرجى الانتظار..."
+   },
+   "generic_thank_you": {
+      "description": "",
+      "message": "شكرًا لك!"
+   },
+   "go_premium": {
+      "description": "",
+      "message": "احصل على حساب مميز"
+   },
+   "location_select_title": {
+      "description": "",
+      "message": "اختر موقعًا افتراضيًا"
+   },
+   "login_check_email_verification": {
+      "description": "",
+      "message": "تحقق من بريدك الألكتروني للتأكيد"
+   },
+   "menu_link_contact_us": {
+      "description": "",
+      "message": "اتصل بنا"
+   },
+   "menu_link_faq": {
+      "description": "",
+      "message": "أسئلة شائعة"
+   },
+   "menu_link_privacy_policy": {
+      "description": "",
+      "message": "سياسة الخصوصية"
+   },
+   "menu_link_why_is_free": {
+      "description": "",
+      "message": "لماذا Betternet مجاني"
+   },
+   "name": {
+      "description": "",
+      "message": "VPN مجاني - Betternet Unlimited VPN Proxy"
+   },
+   "rate_us": {
+      "description": "",
+      "message": "قم بتقييمنا 5 نجوم على متجر {browser} الإنترنت"
+   },
+   "reach_device_limit_description": {
+      "description": "",
+      "message": "لقد وصلت للحد الخاص بك لإضافة جهاز جديد لحسابك"
+   },
+   "shortName": {
+      "description": "",
+      "message": "Betternet"
+   },
+   "sign_in_as_premium": {
+      "description": "",
+      "message": "أنا صاحب حساب مميز بالفعل"
+   },
+   "sign_in_button": {
+      "description": "",
+      "message": "سجل دخول"
+   },
+   "sign_in_description": {
+      "description": "",
+      "message": "لتسجيل الدخول لحسابك، من فضلك أدخل عنوان بريدك الألكتروني وكلمة السر."
+   },
+   "sign_in_email_check_inbox_for_verification": {
+      "description": "",
+      "message": "تحقق من صندوق الوارد أو البريد الغير مرغوب الخاص بك، واضغط \"تأكيد\" لتأكيد عنوان بريدك الألكتروني."
+   },
+   "sign_in_email_not_verified_yet_title": {
+      "description": "",
+      "message": "لم يتم تأكيد عنوان بريدك الألكتروني بعد"
+   },
+   "sign_in_email_verification_resend": {
+      "description": "",
+      "message": "أعد الإرسال"
+   },
+   "sign_in_form_email_is_not_valid": {
+      "description": "",
+      "message": "أدخل بريد ألكتروني صحيح."
+   },
+   "sign_in_form_fields_not_filled": {
+      "description": "",
+      "message": "إملأ البيانات الموضحة."
+   },
+   "sign_in_title": {
+      "description": "",
+      "message": "سجل الدخول على الحساب المميز الخاص بك"
+   },
+   "sign_out_button": {
+      "description": "",
+      "message": "سجل الدخول"
+   },
+   "sign_out_title": {
+      "description": "",
+      "message": "تسجيل الخروج؟"
+   },
+   "sign_out_with_username": {
+      "description": "",
+      "message": "سجل الدخول {username}"
+   },
+   "socio_facebook_visit": {
+      "description": "",
+      "message": "اشترك بصفحة فيسبوك الخاصة بنا"
+   },
+   "socio_visit": {
+      "description": "",
+      "message": "اشترك"
+   },
+   "term_agree": {
+      "description": "",
+      "message": "باستخدام هذا الامتداد ، فإنك توافق على \u003C0> شروط الخدمة \u003C/0> و \u003C1> سياسة الخصوصية \u003C/1>"
+   },
+   "this_will_disconnect_device": {
+      "description": "",
+      "message": "سيقوم ذلك بفصل هذا الجهاز عن حسابك"
+   },
+   "unavailable_button": {
+      "description": "",
+      "message": "اضغط هنا لإيقاف الامتدادات الأخرى."
+   },
+   "unavailable_description": {
+      "description": "",
+      "message": "ينقطع عمل Betternet بواسطة امتداد {browser} آخر والذي يتحكم في إعدادات الوسيط الخاصة بك."
+   },
+   "unavailable_title": {
+      "description": "",
+      "message": "انقطاع الخدمة"
+   },
+   "user_is_premium": {
+      "description": "",
+      "message": "أنت صاحب حساب مميز!"
+   }
+}

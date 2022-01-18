@@ -1,0 +1,367 @@
+{
+  "interstitial": [
+    {
+      "name": "camp-int-2019-free",
+      "settings": {
+        "env": [
+          "dev"
+        ],
+        "subscription": [
+          "guest", "ultimate"
+        ],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2020-12-31",
+        "hasBackArrow": true,
+        "hasHeader": false,
+        "hasLaterBtn": false,
+        "redDot": true,
+        "triggerType": "visit",
+        "triggerCampaignCount": 1,
+        "showOnFirst": true,
+        "userCap": 15,
+        "version": {
+          "min": "7.1.0",
+          "max": "7.4.0"
+        },
+        "styles": {
+          "contentPadding": "5px 13px 20px 13px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "new-extension",
+      "conversionPoint": "extension",
+      "layout": "transparent",
+      "content": {
+        "en": {
+          "html": "<h1 class='campaign-heading-l'>Discover with <br><b>ZenMate Ultimate 1</b></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Over 3600 servers from 74+ countries</li>  <li><span class=' mr-2'>✓</span>Unblock websites & restricted apps.</li>  <li><span class=' mr-2'>✓</span>Bypass streaming geo-restrictions</li>  <li><span class=' mr-2'>✓</span>Protection for unlimited devices</li></ul>",
+          "url": "https://zenmate.com/en/order?utm_source=free-interstitial&utm_medium=extension",
+          "cta": "Get ZenMate Ultimate",
+          "subCta": null
+        }
+      }
+    }
+
+  ],
+  "homeBanner": [
+    {
+      "name": "proPlanBanner",
+      "settings": {
+        "env": [
+          "production"
+        ],
+        "subscription": [
+          "free",
+          "trial",
+          "guest",
+          "trialExpired"
+        ],
+        "active": false,
+        "startDate": "2020-06-24",
+        "endDate": "2020-12-31"
+      },
+      "campaign": "new-pro-plan",
+      "conversionPoint": "extension",
+      "type": "image",
+      "content": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/pro_banner_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/pro_banner_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/pro_banner_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/pro_banner_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/pro_banner_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/pro_banner_nl.png",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/pro_banner_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/pro_banner_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=ext&utm_medium=banner"
+        }
+      }
+    },
+    {
+      "name": "proPlanBanner",
+      "settings": {
+        "env": [
+          "production","dev"
+        ],
+        "subscription": [
+          "guest"
+        ],
+        "active": true,
+        "startDate": "2020-06-24",
+        "endDate": "2020-12-31"
+      },
+      "campaign": "new-pro-plan",
+      "conversionPoint": "extension",
+      "type": "text",
+      "content": {
+        "en": {
+          "description": "Get access to servers from 74 countries, streaming servers and unlimited devices",
+          "cta": "Start FREE Trial",
+          "url": "https://account.zenmate.com/en_US/signup"
+        },
+        "fr": {
+          "description": "Accédez à des des serveurs de +74 pays, serveurs de Streaming et un nombre illimité d'appareils",
+          "cta": "Testez-le GRATUITEMENT",
+          "url": "https://account.zenmate.com/fr_FR/signup"
+        },
+        "de": {
+          "description": "Erhalte Zugriff auf Standorte in 74 Ländern, Streaming-Server und  unbegrenzt viele Geräte",
+          "cta": "GRATIS Test starten",
+          "url": "https://account.zenmate.com/de_DE/signup"
+        },
+        "nl": {
+          "description": "Krijg toegang tot locaties uit 74 landen, streamingservers en  een onbeperkt aantal apparaten",
+          "cta": "Start de GRATIS proefperiode",
+          "url": "https://account.zenmate.com/en_US/signup"
+        },
+        "ko": {
+          "description": "74개 이상의 국가에 분산된 서버, 스트리밍 서버, 무제한 장치 및 무제한 속도로 원하는 위치에 액세스할 수 있습니다",
+          "cta": "무료 평가판 시작 ",
+          "url": "https://account.zenmate.com/ko_KR/signup"
+        },
+        "es": {
+          "description": "Obtenga acceso a ubicaciones de 74 países, servidores de streaming y dispositivos ilimitados",
+          "cta": "Comenzar prueba GRATIS",
+          "url": "https://account.zenmate.com/es_ES/signup"
+        },
+        "tr": {
+          "description": "74+ ülkeden konumlara, çevrimiçi yürütme sunucularına, sınırsız cihaza ve sınırsız hıza erişin",
+          "cta": "ÜCRETSİZ Denemeyi Başlat",
+          "url": "https://account.zenmate.com/tr_TR/signup"
+        },
+        "ru": {
+          "description": "Получите доступ к локациям в 74+ странах и серверам для стриминга на любом количестве устройств",
+          "cta": "Начните БЕСПЛАТНЫЙ пробный период",
+          "url": "https://account.zenmate.com/ru_RU/signup"
+        }
+      }
+    },
+    {
+      "name": "proPlanBanner",
+      "settings": {
+        "env": [
+          "production","dev"
+        ],
+        "subscription": [
+          "free",
+          "trialExpired"
+        ],
+        "active": true,
+        "startDate": "2020-06-24",
+        "endDate": "2020-12-31"
+      },
+      "campaign": "new-pro-plan",
+      "conversionPoint": "extension",
+      "type": "image",
+      "content": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/probanners/probanner_en.jpg",
+          "url": "https://zenmate.com/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/probanners/probanner_de.jpg",
+          "url": "https://zenmate.com/de/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/probanners/probanner_es.jpg",
+          "url": "https://zenmate.com/es/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/probanners/probanner_fr.jpg",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/probanners/probanner_ko.jpg",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/probanners/probanner_nl.jpg",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/probanners/probanner_ru.jpg",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/probanners/probanner_tr.jpg",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=ext&utm_medium=banner"
+        }
+      }
+    },
+    {
+      "name": "proPlanBanner",
+      "settings": {
+        "env": [
+          "production","dev"
+        ],
+        "subscription": [
+          "pro"
+        ],
+        "active": true,
+        "startDate": "2020-06-24",
+        "endDate": "2020-12-31"
+      },
+      "campaign": "new-pro-plan",
+      "conversionPoint": "extension",
+      "type": "image",
+      "content": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summersale/summersale_en.jpg",
+          "url": "https://zenmate.com/order?utm_source=ext&utm_medium=banner"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summersale/summersale_de.jpg",
+          "url": "https://zenmate.com/de/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summersale/summersale_es.jpg",
+          "url": "https://zenmate.com/es/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summersale/summersale_fr.jpg",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summersale/summersale_ko.jpg",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summersale/summersale_nl.jpg",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summersale/summersale_ru.jpg",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=ext&utm_medium=banner"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summersale/summersale_tr.jpg",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=ext&utm_medium=banner"
+        }
+      }
+    }
+  ],
+  "alert": [
+    {
+      "name": "test-all-domains",
+      "settings": {
+        "env": [
+          "dev"
+        ],
+        "subscription": [
+          "ultimate",
+          "free",
+          "trialExpired",
+          "guest"
+        ],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "protocol": "http",
+        "triggerCampaignCount": 4,
+        "showOnFirst": true
+      },
+      "campaign": "test",
+      "conversionPoint": "new-extension",
+      "content": {
+        "en": {
+          "title": "ZenMate VPN",
+          "message": "This is a random test message to check if array of domains work",
+          "btnText": null,
+          "link": null
+        }
+      }
+    },
+    {
+      "name": "allFree-disney-alert-pro",
+      "settings": {
+        "env": [
+          "production",
+          "dev"
+        ],
+        "subscription": [
+          "guest",
+          "free",
+          "trialExpired"
+        ],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "triggerVisitCount": 5,
+        "dailyCap": 3
+      },
+      "campaign": "streaming",
+      "conversionPoint": "new-extension",
+      "content": {
+        "en": {
+          "title": "ZenMate VPN",
+          "message": "Upgrade your plan and unblock new streaming content from all over the world",
+          "btnText": "Upgrade Now",
+          "link": "https://zenmate.com/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "fr": {
+          "title": "ZenMate VPN",
+          "message": "Mettez votre abonnement à niveau et débloquez de nouveaux contenus en Streaming partout dans le monde",
+          "btnText": "Mettre à niveau",
+          "link": "https://zenmate.com/fr/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "de": {
+          "title": "ZenMate VPN",
+          "message": "Upgrade dein Abo und entsperre neue Streaming-Inhalte aus der ganzen Welt",
+          "btnText": "Jetzt Upgraden",
+          "link": "https://zenmate.com/de/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "nl": {
+          "title": "ZenMate VPN",
+          "message": "Upgrade uw plan en deblokkeer nieuwe streaminginhoud uit de hele wereld",
+          "btnText": "Upgrade Nu",
+          "link": "https://zenmate.com/nl/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "ko": {
+          "title": "ZenMate VPN",
+          "message": "요금제를 업그레이드하고 전 세계 모든 곳에서 새로운 스트리밍 콘텐츠를 차단 해제하세요.",
+          "btnText": "지금 업그레이드",
+          "link": "https://zenmate.com/ko/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "es": {
+          "title": "ZenMate VPN",
+          "message": "Mejore su plan y desbloquee nuevos contenidos de streaming de todo el mundo",
+          "btnText": "Mejorar plan ahora",
+          "link": "https://zenmate.com/es/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "tr": {
+          "title": "ZenMate VPN",
+          "message": "Planınızı yükseltin ve tüm dünya çevresinden yeni çevrimiçi yayınların engelini kaldırın",
+          "btnText": "Şimdi yükselt",
+          "link": "https://zenmate.com/tr/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "ru": {
+          "title": "ZenMate VPN",
+          "message": "Обновите подписку и разблокируйте новый стриминговый контент со всего мира",
+          "btnText": "Перейти сейчас",
+          "link": "https://zenmate.com/ru/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        }
+      }
+    }
+  ]
+}

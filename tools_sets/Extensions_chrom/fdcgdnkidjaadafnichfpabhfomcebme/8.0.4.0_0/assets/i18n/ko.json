@@ -1,0 +1,189 @@
+{
+  "login": {
+    "title": "로그인",
+    "welcome": "시작",
+    "email": "사용자 이름/이메일",
+    "password": "암호",
+    "forgot_password": "암호를 잊었나요?",
+    "account_question": "계정이 없으세요?",
+    "signup_here": "지금 등록하세요.",
+    "error": "사용자 이름 및/또는 암호가 잘못되었습니다",
+    "errors": {
+      "invalid-credentials": "사용자 이름 및/또는 암호가 잘못되었습니다",
+      "rate-limit": "시도한 횟수가 너무 많습니다. 나중에 다시 시도하세요"
+    },
+    "cta": "로그인"
+  },
+  "recover": {
+    "title": "암호를 잊었나요",
+    "message": "로그인 시 사용했던 이메일 주소를 입력해 주세요. 저희가 비밀번호를 새로 설정할 수 있도록 메일을 보내드리겠습니다.",
+    "error": "유효한 이메일 주소를 입력하십시오",
+    "email": "이메일",
+    "back_to_login": "로그인으로 돌아가기",
+    "cta": "재설정"
+  },
+  "recover_success": {
+    "title": "수신함 확인",
+    "description": "이메일 주소가 ZenMate VPN에 등록되었으면 암호 재설정 링크가 수신됩니다."
+  },
+  "home": {
+    "protection_disabled": "보호 비활성화됨",
+    "state": "ZenMate가 현재 꺼져 있습니다.",
+    "last_location": "마지막 사용 위치",
+    "best_location": "최적 위치",
+    "connected_to": "연결 대상",
+    "smart_location": "<b>스마트 위치</b>가 <b>{{country}}</b>에 연결되어 있습니다."
+  },
+  "menu": {
+    "title": "메뉴",
+    "account_details": "계정 세부정보",
+    "username": "사용자 이름 ",
+    "end_date": "종료 날짜",
+    "trial_end_date": "평가판 종료:",
+    "manage_account": "계정 관리",
+    "logout": "로그아웃",
+    "login": "로그인",
+    "features": "특징",
+    "language": "언어",
+    "support": "지원",
+    "upgrade": "Ultimate로 업그레이드",
+    "upgrade_pro": "Pro 로 업그레이드",
+    "trial_start": "지금 평가판 시작",
+    "tour": "빠른 둘러보기"
+  },
+  "servers": {
+    "title": "위치 변경",
+    "all_countries": "모든 국가",
+    "streaming": "스트리밍 서비스",
+    "favorites": "즐겨찾기",
+    "unblock_more": "Pro 로 더 많은 서버 차단 해제"
+  },
+  "features": {
+    "title": "특징",
+    "smart_location": {
+      "title": "스마트 위치",
+      "state_title_on": "스마트 위치가 켜져 있음",
+      "state_title_off": "스마트 위치가 꺼져 있음",
+      "state_description": "방문 시 위치를 자동으로 전환하여 ZenMate가 웹 사이트에 연결하는 방식을 사용자정의할 수 있습니다.",
+      "website_url": "웹 사이트 URL",
+      "change_country": "국가 변경",
+      "websites_added": "웹 사이트가 이미 추가됨",
+      "error_existing": "이 웹 사이트는 이미 허용 목록에 추가되어 있습니다. 스마트 위치 목록과 허용 목록에 같은 웹 사이트를 동시에 추가할 수 없습니다. 계속하려면 둘 중 하나에서 제거하십시오."
+    },
+    "privacy": {
+      "title": "개인정보 보호",
+      "tracking_title": "추적 차단기",
+      "tracking_description": "제3자 서비스가 온라인 활동을 추적하지 못하도록 차단하여 귀하의 개인정보를 보호하세요.",
+      "malware_title": "맬웨어 차단기",
+      "malware_description": "브라우저에 연결되기도 전에 맬웨어 사이트 및 코드 스니펫을 차단할 수 있습니다.",
+      "webrtc_title": "WebRTC Protect",
+      "webrtc_description": "WebRTC Protect는 사용자의 IP 주소가 온라인으로 노출되지 않도록 보장합니다."
+    },
+    "whitelist": {
+      "title": "허용 목록",
+      "state_title_on": "허용 목록 설정됨",
+      "state_title_off": "허용 목록 해제됨",
+      "state_description": "특정 웹 사이트를 이용할 때는 ZenMate를 비활성화하고 싶으세요? 사이트를 허용 목록에 추가만 하면 즐겨찾는 웹 사이트에 방문할 때 VPN이 자동으로 비활성화됩니다.",
+      "website_url": "웹 사이트 URL",
+      "websites_added": "웹 사이트가 이미 추가됨",
+      "error_existing": "이 웹 사이트는 이미 스마트 위치 목록에 추가되어 있습니다. 스마트 위치 목록과 허용 목록에 같은 웹 사이트를 동시에 추가할 수 없습니다. 계속하려면 둘 중 하나에서 제거하십시오."
+    },
+    "stealth-connection": {
+      "title": "스텔스 연결",
+      "state_title_on": "스텔스 연결 켜짐",
+      "state_title_off": "스텔스 연결 꺼짐",
+      "ask_every_time": "항상 묻기",
+      "state_description": "<b>스텔스 연결</b>은 쿠키를 제거하고, 브라우징 기록 및 캐시를 지웁니다. VPN을 연결 해제하면 <b>스텔스 연결</b>이 사용자가 ZenMate에 처음 연결한 시간부터 사용자의 온라인 브라우징 활동 흔적을 모두 지웁니다.",
+      "website_url": "웹 사이트 URL",
+      "websites_added": "웹 사이트가 이미 추가됨",
+      "error_existing": "이 웹 사이트는 이미 스마트 위치 목록에 추가되어 있습니다. 스마트 위치 목록과 허용 목록에 같은 웹 사이트를 동시에 추가할 수 없습니다. 계속하려면 둘 중 하나에서 제거하십시오."
+    }
+  },
+  "marketing_banner": {
+    "home1": "모든 장치 보호 - 다운로드: ",
+    "home2": "및 ",
+    "home3": "또는",
+    "windows_app": "Windows 앱 ",
+    "ios_app": "iOS 앱 ",
+    "android_app": "Android 앱 ",
+    "macos_app": "macOS 앱 ",
+    "download_cta": "지금 다운로드",
+    "upgrade_cta": "지금 업그레이드"
+  },
+  "inactive_banner": {
+    "smart_location": {
+      "text": "방문 시 위치를 자동으로 전환하여 ZenMate가 웹 사이트에 연결하는 방식을 사용자정의할 수 있습니다.",
+      "cta": "지금 차단 해제"
+    },
+    "whitelist": {
+      "text": "특정 웹 사이트를 이용할 때는 ZenMate를 비활성화하고 싶으세요? 사이트를 허용 목록에 추가만 하면 즐겨찾는 웹 사이트에 방문할 때 VPN이 자동으로 비활성화됩니다.",
+      "cta": "지금 차단 해제"
+    },
+    "streaming": {
+      "text": "자신의 국가에서 제공되지 않더라도 모든 영화와 TV 프로그램까지 정주행을 시작하세요.",
+      "cta": "스트리밍 차단 해제"
+    },
+    "stealth-connection": {
+      "text": "ZenMate Pro 및 Ultimate에서 제공되는 ZenMate 스텔스 연결 기능으로 브라우징 세션의 모든 흔적을 자동으로 지웁니다.",
+      "cta": "지금 차단 해제"
+    }
+  },
+  "intro": {
+    "intro-heading": "<b>ZenMate에 오신 것을 환영합니다</b>",
+    "intro-default-heading": "다음과 같은 경험을 위해 계정을 <br /> <b>생성하시고 확인해 주세요</b>",
+    "already-account": "이미 계정이 있으신가요?",
+    "login-here": "이곳에서 로그인하세요!",
+    "signup-now": "지금 가입하세요!",
+    "seven-days": "7 일 무료 평가판"
+  },
+  "campaign": {
+    "heading": "<b>ZenMate Ultimate</b><br>알아보기",
+    "features": {
+      "0": "74개 이상 국가, 3,600개 이상 서버",
+      "1": "웹 사이트 및 제한된 앱을 차단 해제하세요.",
+      "2": "스트리밍 지역 제한 우회",
+      "3": "무제한 기기 보호"
+    },
+    "cta": "ZenMate Ultimate 얻기",
+    "subCta": "제한 시간 동안만 $2.22/1개월",
+    "later": "나중에"
+  },
+  "queue": {
+    "heading": "안타깝게도 현재 모든 <br> 서버가 사용 중입니다. ",
+    "heading2": "혼잡을 방지하기 위해 <br> 곧 연결할 수 있습니다.",
+    "no_waiting": "기다리고 싶지 않으세요?",
+    "upgrade": "<b>ZenMate Pro</b>로 업그레이드하면 <br> 항상 프리미엄 서버를 사용할 수 있습니다.",
+    "upgrade_now": "지금 업그레이드 하기 "
+  },
+  "campaign_trial": {
+    "heading": "<b>Ultimate로 업그레이드</b><br> 및 계속 사용",
+    "cta": "지금 Ultimate로 업그레이드"
+  },
+  "popup_validation": {
+    "heading": "모든 흔적 지우기",
+    "paragraph": "<b>스텔스 연결</b> 기능이 켜져 있습니다. 이 세션에서 모든 흔적을 완전히 지울까요? <small><br />(쿠키 제거 및 브라우징 기록 및 캐시 지우기)</small>",
+    "no_ask": "다시 묻지 않음 & 설정 저장",
+    "yes": "예",
+    "no": "아니요"
+  },
+  "rateus": {
+    "heading": "확장 프로그램이 마음에 드세요?",
+    "description": "별표를 눌러서 사용 의견을 공유해주세요."
+  },
+  "proxy-warning": {
+    "heading": "프록시 경고!",
+    "description": "다른 브라우저 확장 기능이 프록시 설정을 제어하는 중이어서 <b>ZenMate</b>가 작동할 수 없습니다. 충돌 중인 확장 기능을 비활성화십시오.",
+    "cta": "확장 기능 관리"
+  },
+  "onboarding": {
+    "footer-title": "계속하시려면 아무 곳이나 클릭해주세요",
+    "close": "닫기"
+  },
+  "error_screen": {
+    "title": "사용자 지역에서는 서비스를 이용할 수 없습니다.",
+    "content": "사용자 지역에서 ZenMate를 이용하고 싶으면 <span>고객 지원 요청</span>을 작성하여 알려주시기 바랍니다."
+  },
+  "notifications": {
+    "logout": "자동으로 로그아웃되었습니다!"
+  }
+}

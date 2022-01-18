@@ -1,0 +1,134 @@
+@import '/styles/global.css';
+
+
+body,input,select,select option,textarea{
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size:14px;
+}
+
+html{
+  height:100%;
+  background:#fff;
+}
+
+body{
+  min-height:100%;
+  height: 100%;
+  line-height:1.4;
+  color:#000
+}
+
+button::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner{
+  border:none;
+}
+
+select:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus{
+  outline:none
+}
+select option{
+  padding-left:3px;
+}
+
+a:link,
+a:visited{
+  color:#00f;
+  text-decoration:underline
+}
+a:hover{
+  color:#c00;
+  text-decoration:none
+}
+
+
+.cfx:after{
+  content:' ';
+  clear:both;
+  display:block;
+  width:0;
+  height:0;
+  overflow:hidden;
+  font-size:0
+}
+
+
+.Head{
+  background:#1c304e;
+  color:#fff;
+  border-bottom: 2px solid #eeeeee;
+  padding:14px 20px;
+}
+.Head img{
+  display: block;
+}
+
+.Logo{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+.Logo > .In{
+  display: table;
+}
+.Logo > .In > .L{
+  display: table-cell;
+  vertical-align: middle;
+}
+.Logo > .In > .R{
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+.Logo_Ball{
+  background: url( '/images/logo_ball.svg' ) 0 0 no-repeat;
+  background-size: 100% 100%;
+  width: 46px;
+  padding-top: 46px;
+  height: 0;
+  overflow: hidden;
+}
+.Logo_Text{
+  height: 0;
+  overflow: hidden;
+  background: url( '/images/logo_text.svg' ) 0 0 no-repeat;
+  background-size: 100% 100%;
+  width: 85px;
+  padding-top: 14px;
+}
+
+.Body{
+  padding: 40px 40px;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.Title{
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight:400;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #494a4c;
+  text-align: center;
+	padding: 0 0 50px;
+}
+.Title:after{
+	content: '';
+	display: block;
+	overflow:hidden;font-size:0;text-indent:-9999px;height:0;padding-top:4px;
+	width: 100px;
+	margin: 15px auto 0;
+  background: var( --brand-green );
+}
+
+.PageDescription{
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #4a4b4f;
+  max-width: 440px;
+  margin: 0 auto;
+}

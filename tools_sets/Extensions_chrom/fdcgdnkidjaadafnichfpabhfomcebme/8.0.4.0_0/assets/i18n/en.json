@@ -1,0 +1,189 @@
+{
+  "login": {
+    "title": "Sign In",
+    "welcome": "Welcome",
+    "email": "Username/Email",
+    "password": "Password",
+    "forgot_password": "Forgot Password?",
+    "account_question": "Don't have an Account?",
+    "signup_here": "Sign Up here!",
+    "error": "Invalid username and/or password",
+    "errors": {
+      "invalid-credentials": "Invalid username and/or password",
+      "rate-limit": "Too many attempts, please try again later"
+    },
+    "cta": "Login"
+  },
+  "recover": {
+    "title": "Forgot Password",
+    "message": "Enter your email address that you used to sign up. We’ll send you an email with instructions on how to reset your password.",
+    "error": "Please enter a valid email address",
+    "email": "Email",
+    "back_to_login": "Back to login",
+    "cta": "Reset"
+  },
+  "recover_success": {
+    "title": "Check your inbox",
+    "description": "If the email address is registered with ZenMate VPN, you should receive your password reset link there."
+  },
+  "home": {
+    "protection_disabled": "Protection disabled",
+    "state": "ZenMate is currently turned off",
+    "last_location": "Last used location",
+    "best_location": "Best Location",
+    "connected_to": "Connected to",
+    "smart_location": "<b>Smart Location</b> is connected to <b>{{country}}</b>"
+  },
+  "menu": {
+    "title": "Menu",
+    "account_details": "Account details",
+    "username": "Username ",
+    "end_date": "End date",
+    "trial_end_date": "Trial ends at",
+    "manage_account": "Manage Account",
+    "logout": "Logout",
+    "login": "Login",
+    "features": "Features",
+    "language": "Language",
+    "support": "Support",
+    "upgrade": "Upgrade to Ultimate",
+    "upgrade_pro": "Upgrade to Pro",
+    "trial_start": "Start Trial Now",
+    "tour": "Quick Tour"
+  },
+  "servers": {
+    "title": "Change Location",
+    "all_countries": "All countries",
+    "streaming": "Streaming services",
+    "favorites": "Favorites",
+    "unblock_more": "Unblock more servers with Pro"
+  },
+  "features": {
+    "title": "Features",
+    "smart_location": {
+      "title": "Smart Location",
+      "state_title_on": "Smart Location is ON",
+      "state_title_off": "Smart Location is OFF",
+      "state_description": "Customize how ZenMate connects to your favorite websites by automatically switching locations when you visit them!",
+      "website_url": "Website URL",
+      "change_country": "Change country",
+      "websites_added": "Websites already added",
+      "error_existing": "You already added this website to your Whitelist. The same website can't be on both your Smart Location list and the Whitelist. Remove it from one of them to continue."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "tracking_title": "Tracking Blocker",
+      "tracking_description": "Protect your privacy by blocking third party services from tracking online activity.",
+      "malware_title": "Malware Blocker",
+      "malware_description": "Enable blocking of malicious sites and code snippets before they can reach your browser.",
+      "webrtc_title": "WebRTC Protect",
+      "webrtc_description": "WebRTC Protect will ensure that your IP address is never revealed online."
+    },
+    "whitelist": {
+      "title": "Whitelist",
+      "state_title_on": "Whitelist is ON",
+      "state_title_off": "Whitelist is OFF",
+      "state_description": "Want to never connect to ZenMate when browsing a specific website? Just add it to the whitelist and the VPN will automatically switch off when you visit your favorite website.",
+      "website_url": "Website URL",
+      "websites_added": "Websites already added",
+      "error_existing": "You already added this website to your Smart Location list. The same website can't be on both your Smart Location list and the Whitelist. Remove it from one of them to continue."
+    },
+    "stealth-connection": {
+      "title": "Stealth Connection",
+      "state_title_on": "Stealth Connection is ON",
+      "state_title_off": "Stealth Connection is OFF",
+      "ask_every_time": "Ask every time",
+      "state_description": "<b>Stealth Connection</b> removes your cookies, clears your browsing history & cache. Once you disconnect the VPN, <b>Stealth Connection</b> erases every trace of your online browsing activity from when you first connected to ZenMate.",
+      "website_url": "Website URL",
+      "websites_added": "Websites already added",
+      "error_existing": "You already added this website to your Smart Location list. The same website can't be on both your Smart Location list and the Whitelist. Remove it from one of them to continue."
+    }
+  },
+  "marketing_banner": {
+    "home1": "Protect all your devices – Download our ",
+    "home2": "and our ",
+    "home3": "or ",
+    "windows_app": "Windows app ",
+    "ios_app": "iOS app ",
+    "android_app": "Android app ",
+    "macos_app": "macOS app ",
+    "download_cta": "Download now",
+    "upgrade_cta": "Upgrade now"
+  },
+  "inactive_banner": {
+    "smart_location": {
+      "text": "Customize how ZenMate connects to your favorite websites by automatically switching locations when visiting them.",
+      "cta": "Unblock Now"
+    },
+    "whitelist": {
+      "text": "Want to never connect to ZenMate when browsing a specific website? Just add it to the whitelist and the VPN will automatically switch off when you visit your favorite website.",
+      "cta": "Unblock Now"
+    },
+    "streaming": {
+      "text": "Binge-watch all the movies and TV shows you want, even if they're not available in your country.",
+      "cta": "Unblock Streaming"
+    },
+    "stealth-connection": {
+      "text": "Automatically erase every trace of your browsing session with the ZenMate Stealth Connection feature, available for ZenMate Pro and Ultimate users.",
+      "cta": "Unblock Now"
+    }
+  },
+  "intro": {
+    "intro-heading": "<b>Welcome to ZenMate</b>",
+    "intro-default-heading": "<b>Create & verify your account</b><br /> to experience:",
+    "already-account": "Already have an account?",
+    "login-here": "Login here!",
+    "signup-now": "Sign Up Now!",
+    "seven-days": "7 days of free trial"
+  },
+  "campaign": {
+    "heading": "Discover with <br><b>ZenMate Ultimate</b>",
+    "features": {
+      "0": "Over 3600 servers from 74+ countries",
+      "1": "Unblock websites & restricted apps.",
+      "2": "Bypass streaming geo-restrictions",
+      "3": "Protection for unlimited devices"
+    },
+    "cta": "Get ZenMate Ultimate",
+    "subCta": "For only $2.22/month for a limited time",
+    "later": "Maybe later"
+  },
+  "queue": {
+    "heading": "Unfortunately, all our <br> servers  are busy now ",
+    "heading2": "To avoid congestion, <br> you'll be able to connect soon",
+    "no_waiting": "Don't want to wait?",
+    "upgrade": "Upgrade to <b>ZenMate Pro</b> and you'll always<br> have premium servers available for you",
+    "upgrade_now": "Upgrade Now"
+  },
+  "campaign_trial": {
+    "heading": "<b>Upgrade to Ultimate</b><br> and keep experiencing",
+    "cta": "Upgrade to Ultimate Now"
+  },
+  "popup_validation": {
+    "heading": "Erase all my steps",
+    "paragraph": "<b>Stealth Connection</b> feature is turned on. Do you want to completely erase all your tracks from this session? <small> <br />(removes your cookies, clears your browsing history & cache)</small>",
+    "no_ask": "Don’t ask again & remember my settings",
+    "yes": "YES",
+    "no": "NO"
+  },
+  "rateus": {
+    "heading": "Enjoy our extension?",
+    "description": "Click the stars to share your feedback"
+  },
+  "proxy-warning": {
+    "heading": "Proxy warning!",
+    "description": "Another browser extension is controlling your proxy settings, preventing <b>ZenMate</b> from working. Please disable any conflicting extension.",
+    "cta": "Manage Extensions"
+  },
+  "onboarding": {
+    "footer-title": "Click anywhere to continue",
+    "close": "Close"
+  },
+  "error_screen": {
+    "title": "Unfortunately the service is not available in your area",
+    "content": "Let us know that you’d like ZenMate to be available in your area by filling out a <span>customer support request</span>"
+  },
+  "notifications": {
+    "logout": "You have been automatically logged out!"
+  }
+}

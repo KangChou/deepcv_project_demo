@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="250">
+<rect width="375" height="250" fill="#1eb53a"/>
+<rect width="375" height="125" fill="#0099b5"/>
+<rect width="375" height="90" y="80" fill="#ce1126"/>
+<rect width="375" height="80" y="85" fill="#fff"/>
+<circle transform="translate(-10)" cx="70" cy="40" r="30" fill="#fff"/>
+<circle transform="translate(-10)" cx="80" cy="40" r="30" fill="#0099b5"/>
+<g transform="translate(126 64)" fill="#fff">
+<g id="g">
+<g id="f">
+<g id="i">
+<g id="h">
+<path id="j" d="M0-6L-1.85-.3 1 .64"/>
+<use transform="scale(-1 1)" width="375" height="250" xlink:href="#j"/>
+</g>
+<use transform="rotate(72)" width="375" height="250" xlink:href="#h"/>
+</g>
+<use transform="rotate(-72)" width="375" height="250" xlink:href="#h"/>
+<use transform="matrix(-.809 .588 -.588 -.809 0 0)" width="375" height="250" xlink:href="#i"/>
+</g>
+<use y="-24" width="375" height="250" xlink:href="#f"/>
+<use y="-48" width="375" height="250" xlink:href="#f"/>
+</g>
+<use x="24" width="375" height="250" xlink:href="#g"/>
+<use x="48" width="375" height="250" xlink:href="#g"/>
+<use x="-48" width="375" height="250" xlink:href="#f"/>
+<use x="-24" width="375" height="250" xlink:href="#f"/>
+<use x="-24" y="-24" width="375" height="250" xlink:href="#f"/>
+</g>
+</svg>

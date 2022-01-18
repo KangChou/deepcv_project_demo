@@ -1,0 +1,1325 @@
+{
+   "7_days_money_back_guarantee": {
+      "description": "",
+      "message": "7 days money back guarantee"
+   },
+   "N_servers_in_N_virtual_Locations": {
+      "description": "",
+      "message": "AAA servers in BBB Virtual Locations"
+   },
+   "access_internet_via_premium_locations": {
+      "description": "",
+      "message": "Access the Internet via additional Premium locations."
+   },
+   "add_smart_setting_for_X": {
+      "description": "",
+      "message": "Add Smart Setting for XXX"
+   },
+   "authentication_error_no_connection": {
+      "description": "",
+      "message": "Authentication error: can't connect to Browsec server."
+   },
+   "because_your_proxy_settings_are_blocked": {
+      "description": "",
+      "message": "because your proxy settings are blocked by another extension."
+   },
+   "browsec_activated": {
+      "description": "",
+      "message": "Activate Browsec"
+   },
+   "browsec_can_work_in_private_mode": {
+      "description": "",
+      "message": "You can't control Browsec in Private windows. But if the Browsec icon is active you're protected.\n\nYou can enable or disable Browsec in your regular Firefox window. All your Browsec settings work for both regular and Private mode"
+   },
+   "browsec_is_enabled": {
+      "description": "",
+      "message": "Browsec is enabled"
+   },
+   "browsec_off": {
+      "description": "",
+      "message": "Browsec OFF"
+   },
+   "browsec_premium": {
+      "description": "",
+      "message": "Browsec Premium"
+   },
+   "browser_action_inactive_title": {
+      "description": "",
+      "message": "Browsec"
+   },
+   "cancel_editing": {
+      "description": "",
+      "message": "Cancel editing"
+   },
+   "cancel_subscription_at_any_time": {
+      "description": "",
+      "message": "Cancel subscription at any time"
+   },
+   "cant_authenticate_please_contact_browsec_support": {
+      "description": "",
+      "message": "Can't authenticate. Please contact Browsec support."
+   },
+   "cant_setup_secure_connection": {
+      "description": "",
+      "message": "Browsec can't set up a secure connection in your browser,"
+   },
+   "cant_start_because_your_proxy_settings_blocked": {
+      "description": "",
+      "message": "Browsec can't start because your proxy settings are blocked by another extension."
+   },
+   "change": {
+      "description": "",
+      "message": "Change"
+   },
+   "change_location": {
+      "description": "",
+      "message": "Change location"
+   },
+   "change_timezone_according_to_virtual_location": {
+      "description": "",
+      "message": "Change browser timezone according to your virtual location"
+   },
+   "change_timezone_text_1": {
+      "description": "",
+      "message": "This option changes your browser's timezone to match your virtual location."
+   },
+   "change_timezone_text_2": {
+      "description": "",
+      "message": "Some websites detect the browser's timezone using Javascript functions. If your browser's and IP address's timezones differ it can be a sign of using VPN service or other anonymization techniques."
+   },
+   "change_timezone_text_3": {
+      "description": "",
+      "message": "With this option on, the websites can't detect any timezone difference."
+   },
+   "change_virtual_location": {
+      "description": "",
+      "message": "Change virtual location"
+   },
+   "check_browsec_premium_plans": {
+      "description": "",
+      "message": "Check Browsec Premium plans"
+   },
+   "choose_your_virtual_location": {
+      "description": "",
+      "message": "Choose your virtual location and access any content that wasn’t available otherwise."
+   },
+   "click_icon_on_toolbar_and_turn_on_protection": {
+      "description": "",
+      "message": "Click the Browsec icon in the toolbar, turn on traffic protection, and you’re good to go!"
+   },
+   "congratulations_securing_your_browsing": {
+      "description": "",
+      "message": "One more step, and your browser is totally secure."
+   },
+   "contact_support": {
+      "description": "",
+      "message": "Contact Browsec support"
+   },
+   "contact_us": {
+      "description": "",
+      "message": "Contact us"
+   },
+   "continue_using_browsec_to_open_websites": {
+      "description": "",
+      "message": "You can continue using Browsec to open blocked websites. Thanks!"
+   },
+   "continue_using_premium": {
+      "description": "",
+      "message": "Continue using Browsec Premium"
+   },
+   "country_name_AC": {
+      "message": "Ascension Island"
+   },
+   "country_name_AD": {
+      "message": "Andorra"
+   },
+   "country_name_AE": {
+      "message": "United Arab Emirates"
+   },
+   "country_name_AF": {
+      "message": "Afghanistan"
+   },
+   "country_name_AG": {
+      "message": "Antigua & Barbuda"
+   },
+   "country_name_AI": {
+      "message": "Anguilla"
+   },
+   "country_name_AL": {
+      "message": "Albania"
+   },
+   "country_name_AM": {
+      "message": "Armenia"
+   },
+   "country_name_AN": {
+      "message": "Netherlands Antilles"
+   },
+   "country_name_AO": {
+      "message": "Angola"
+   },
+   "country_name_AQ": {
+      "message": "Antarctica"
+   },
+   "country_name_AR": {
+      "message": "Argentina"
+   },
+   "country_name_AS": {
+      "message": "American Samoa"
+   },
+   "country_name_AT": {
+      "message": "Austria"
+   },
+   "country_name_AU": {
+      "message": "Australia"
+   },
+   "country_name_AW": {
+      "message": "Aruba"
+   },
+   "country_name_AX": {
+      "message": "Åland Islands"
+   },
+   "country_name_AZ": {
+      "message": "Azerbaijan"
+   },
+   "country_name_BA": {
+      "message": "Bosnia"
+   },
+   "country_name_BB": {
+      "message": "Barbados"
+   },
+   "country_name_BD": {
+      "message": "Bangladesh"
+   },
+   "country_name_BE": {
+      "message": "Belgium"
+   },
+   "country_name_BF": {
+      "message": "Burkina Faso"
+   },
+   "country_name_BG": {
+      "message": "Bulgaria"
+   },
+   "country_name_BH": {
+      "message": "Bahrain"
+   },
+   "country_name_BI": {
+      "message": "Burundi"
+   },
+   "country_name_BJ": {
+      "message": "Benin"
+   },
+   "country_name_BL": {
+      "message": "St. Barthélemy"
+   },
+   "country_name_BM": {
+      "message": "Bermuda"
+   },
+   "country_name_BN": {
+      "message": "Brunei"
+   },
+   "country_name_BO": {
+      "message": "Bolivia"
+   },
+   "country_name_BQ": {
+      "message": "Caribbean Netherlands"
+   },
+   "country_name_BR": {
+      "message": "Brazil"
+   },
+   "country_name_BS": {
+      "message": "Bahamas"
+   },
+   "country_name_BT": {
+      "message": "Bhutan"
+   },
+   "country_name_BV": {
+      "message": "Bouvet Island"
+   },
+   "country_name_BW": {
+      "message": "Botswana"
+   },
+   "country_name_BY": {
+      "message": "Belarus"
+   },
+   "country_name_BZ": {
+      "message": "Belize"
+   },
+   "country_name_CA": {
+      "message": "Canada"
+   },
+   "country_name_CC": {
+      "message": "Cocos (Keeling) Islands"
+   },
+   "country_name_CD": {
+      "message": "Congo (DRC)"
+   },
+   "country_name_CF": {
+      "message": "Central African Republic"
+   },
+   "country_name_CG": {
+      "message": "Congo (Republic)"
+   },
+   "country_name_CH": {
+      "message": "Switzerland"
+   },
+   "country_name_CI": {
+      "message": "Côte d’Ivoire"
+   },
+   "country_name_CK": {
+      "message": "Cook Islands"
+   },
+   "country_name_CL": {
+      "message": "Chile"
+   },
+   "country_name_CM": {
+      "message": "Cameroon"
+   },
+   "country_name_CN": {
+      "message": "China"
+   },
+   "country_name_CO": {
+      "message": "Colombia"
+   },
+   "country_name_CP": {
+      "message": "Clipperton Island"
+   },
+   "country_name_CR": {
+      "message": "Costa Rica"
+   },
+   "country_name_CU": {
+      "message": "Cuba"
+   },
+   "country_name_CV": {
+      "message": "Cape Verde"
+   },
+   "country_name_CW": {
+      "message": "Curaçao"
+   },
+   "country_name_CX": {
+      "message": "Christmas Island"
+   },
+   "country_name_CY": {
+      "message": "Cyprus"
+   },
+   "country_name_CZ": {
+      "message": "Czech Republic"
+   },
+   "country_name_DE": {
+      "message": "Germany"
+   },
+   "country_name_DG": {
+      "message": "Diego Garcia"
+   },
+   "country_name_DJ": {
+      "message": "Djibouti"
+   },
+   "country_name_DK": {
+      "message": "Denmark"
+   },
+   "country_name_DM": {
+      "message": "Dominica"
+   },
+   "country_name_DO": {
+      "message": "Dominican Republic"
+   },
+   "country_name_DZ": {
+      "message": "Algeria"
+   },
+   "country_name_EA": {
+      "message": "Ceuta & Melilla"
+   },
+   "country_name_EC": {
+      "message": "Ecuador"
+   },
+   "country_name_EE": {
+      "message": "Estonia"
+   },
+   "country_name_EG": {
+      "message": "Egypt"
+   },
+   "country_name_EH": {
+      "message": "Western Sahara"
+   },
+   "country_name_ER": {
+      "message": "Eritrea"
+   },
+   "country_name_ES": {
+      "message": "Spain"
+   },
+   "country_name_ET": {
+      "message": "Ethiopia"
+   },
+   "country_name_EU": {
+      "message": "European Union"
+   },
+   "country_name_FI": {
+      "message": "Finland"
+   },
+   "country_name_FJ": {
+      "message": "Fiji"
+   },
+   "country_name_FK": {
+      "message": "Falkland Islands"
+   },
+   "country_name_FM": {
+      "message": "Micronesia"
+   },
+   "country_name_FO": {
+      "message": "Faroe Islands"
+   },
+   "country_name_FR": {
+      "message": "France"
+   },
+   "country_name_GA": {
+      "message": "Gabon"
+   },
+   "country_name_GB": {
+      "message": "United Kingdom"
+   },
+   "country_name_GD": {
+      "message": "Grenada"
+   },
+   "country_name_GE": {
+      "message": "Georgia"
+   },
+   "country_name_GF": {
+      "message": "French Guiana"
+   },
+   "country_name_GG": {
+      "message": "Guernsey"
+   },
+   "country_name_GH": {
+      "message": "Ghana"
+   },
+   "country_name_GI": {
+      "message": "Gibraltar"
+   },
+   "country_name_GL": {
+      "message": "Greenland"
+   },
+   "country_name_GM": {
+      "message": "Gambia"
+   },
+   "country_name_GN": {
+      "message": "Guinea"
+   },
+   "country_name_GP": {
+      "message": "Guadeloupe"
+   },
+   "country_name_GQ": {
+      "message": "Equatorial Guinea"
+   },
+   "country_name_GR": {
+      "message": "Greece"
+   },
+   "country_name_GS": {
+      "message": "South Georgia & South Sandwich Islands"
+   },
+   "country_name_GT": {
+      "message": "Guatemala"
+   },
+   "country_name_GU": {
+      "message": "Guam"
+   },
+   "country_name_GW": {
+      "message": "Guinea-Bissau"
+   },
+   "country_name_GY": {
+      "message": "Guyana"
+   },
+   "country_name_HK": {
+      "message": "Hong Kong"
+   },
+   "country_name_HM": {
+      "message": "Heard & McDonald Islands"
+   },
+   "country_name_HN": {
+      "message": "Honduras"
+   },
+   "country_name_HR": {
+      "message": "Croatia"
+   },
+   "country_name_HT": {
+      "message": "Haiti"
+   },
+   "country_name_HU": {
+      "message": "Hungary"
+   },
+   "country_name_IC": {
+      "message": "Canary Islands"
+   },
+   "country_name_ID": {
+      "message": "Indonesia"
+   },
+   "country_name_IE": {
+      "message": "Ireland"
+   },
+   "country_name_IL": {
+      "message": "Israel"
+   },
+   "country_name_IM": {
+      "message": "Isle of Man"
+   },
+   "country_name_IN": {
+      "message": "India"
+   },
+   "country_name_IO": {
+      "message": "British Indian Ocean Territory"
+   },
+   "country_name_IQ": {
+      "message": "Iraq"
+   },
+   "country_name_IR": {
+      "message": "Iran"
+   },
+   "country_name_IS": {
+      "message": "Iceland"
+   },
+   "country_name_IT": {
+      "message": "Italy"
+   },
+   "country_name_JE": {
+      "message": "Jersey"
+   },
+   "country_name_JM": {
+      "message": "Jamaica"
+   },
+   "country_name_JO": {
+      "message": "Jordan"
+   },
+   "country_name_JP": {
+      "message": "Japan"
+   },
+   "country_name_KE": {
+      "message": "Kenya"
+   },
+   "country_name_KG": {
+      "message": "Kyrgyzstan"
+   },
+   "country_name_KH": {
+      "message": "Cambodia"
+   },
+   "country_name_KI": {
+      "message": "Kiribati"
+   },
+   "country_name_KM": {
+      "message": "Comoros"
+   },
+   "country_name_KN": {
+      "message": "St. Kitts & Nevis"
+   },
+   "country_name_KP": {
+      "message": "North Korea"
+   },
+   "country_name_KR": {
+      "message": "South Korea"
+   },
+   "country_name_KW": {
+      "message": "Kuwait"
+   },
+   "country_name_KY": {
+      "message": "Cayman Islands"
+   },
+   "country_name_KZ": {
+      "message": "Kazakhstan"
+   },
+   "country_name_LA": {
+      "message": "Laos"
+   },
+   "country_name_LB": {
+      "message": "Lebanon"
+   },
+   "country_name_LC": {
+      "message": "St. Lucia"
+   },
+   "country_name_LI": {
+      "message": "Liechtenstein"
+   },
+   "country_name_LK": {
+      "message": "Sri Lanka"
+   },
+   "country_name_LR": {
+      "message": "Liberia"
+   },
+   "country_name_LS": {
+      "message": "Lesotho"
+   },
+   "country_name_LT": {
+      "message": "Lithuania"
+   },
+   "country_name_LU": {
+      "message": "Luxembourg"
+   },
+   "country_name_LV": {
+      "message": "Latvia"
+   },
+   "country_name_LY": {
+      "message": "Libya"
+   },
+   "country_name_MA": {
+      "message": "Morocco"
+   },
+   "country_name_MC": {
+      "message": "Monaco"
+   },
+   "country_name_MD": {
+      "message": "Moldova"
+   },
+   "country_name_ME": {
+      "message": "Montenegro"
+   },
+   "country_name_MF": {
+      "message": "St. Martin"
+   },
+   "country_name_MG": {
+      "message": "Madagascar"
+   },
+   "country_name_MH": {
+      "message": "Marshall Islands"
+   },
+   "country_name_MK": {
+      "message": "Macedonia"
+   },
+   "country_name_ML": {
+      "message": "Mali"
+   },
+   "country_name_MM": {
+      "message": "Myanmar"
+   },
+   "country_name_MN": {
+      "message": "Mongolia"
+   },
+   "country_name_MO": {
+      "message": "Macau"
+   },
+   "country_name_MP": {
+      "message": "Northern Mariana Islands"
+   },
+   "country_name_MQ": {
+      "message": "Martinique"
+   },
+   "country_name_MR": {
+      "message": "Mauritania"
+   },
+   "country_name_MS": {
+      "message": "Montserrat"
+   },
+   "country_name_MT": {
+      "message": "Malta"
+   },
+   "country_name_MU": {
+      "message": "Mauritius"
+   },
+   "country_name_MV": {
+      "message": "Maldives"
+   },
+   "country_name_MW": {
+      "message": "Malawi"
+   },
+   "country_name_MX": {
+      "message": "Mexico"
+   },
+   "country_name_MY": {
+      "message": "Malaysia"
+   },
+   "country_name_MZ": {
+      "message": "Mozambique"
+   },
+   "country_name_NA": {
+      "message": "Namibia"
+   },
+   "country_name_NC": {
+      "message": "New Caledonia"
+   },
+   "country_name_NE": {
+      "message": "Niger"
+   },
+   "country_name_NF": {
+      "message": "Norfolk Island"
+   },
+   "country_name_NG": {
+      "message": "Nigeria"
+   },
+   "country_name_NI": {
+      "message": "Nicaragua"
+   },
+   "country_name_NL": {
+      "message": "Netherlands"
+   },
+   "country_name_NO": {
+      "message": "Norway"
+   },
+   "country_name_NP": {
+      "message": "Nepal"
+   },
+   "country_name_NR": {
+      "message": "Nauru"
+   },
+   "country_name_NU": {
+      "message": "Niue"
+   },
+   "country_name_NZ": {
+      "message": "New Zealand"
+   },
+   "country_name_OM": {
+      "message": "Oman"
+   },
+   "country_name_PA": {
+      "message": "Panama"
+   },
+   "country_name_PE": {
+      "message": "Peru"
+   },
+   "country_name_PF": {
+      "message": "French Polynesia"
+   },
+   "country_name_PG": {
+      "message": "Papua New Guinea"
+   },
+   "country_name_PH": {
+      "message": "Philippines"
+   },
+   "country_name_PK": {
+      "message": "Pakistan"
+   },
+   "country_name_PL": {
+      "message": "Poland"
+   },
+   "country_name_PM": {
+      "message": "St. Pierre & Miquelon"
+   },
+   "country_name_PN": {
+      "message": "Pitcairn Islands"
+   },
+   "country_name_PR": {
+      "message": "Puerto Rico"
+   },
+   "country_name_PS": {
+      "message": "Palestine"
+   },
+   "country_name_PT": {
+      "message": "Portugal"
+   },
+   "country_name_PW": {
+      "message": "Palau"
+   },
+   "country_name_PY": {
+      "message": "Paraguay"
+   },
+   "country_name_QA": {
+      "message": "Qatar"
+   },
+   "country_name_QO": {
+      "message": "Outlying Oceania"
+   },
+   "country_name_RE": {
+      "message": "Réunion"
+   },
+   "country_name_RO": {
+      "message": "Romania"
+   },
+   "country_name_RS": {
+      "message": "Serbia"
+   },
+   "country_name_RU": {
+      "message": "Russia"
+   },
+   "country_name_RW": {
+      "message": "Rwanda"
+   },
+   "country_name_SA": {
+      "message": "Saudi Arabia"
+   },
+   "country_name_SB": {
+      "message": "Solomon Islands"
+   },
+   "country_name_SC": {
+      "message": "Seychelles"
+   },
+   "country_name_SD": {
+      "message": "Sudan"
+   },
+   "country_name_SE": {
+      "message": "Sweden"
+   },
+   "country_name_SG": {
+      "message": "Singapore"
+   },
+   "country_name_SH": {
+      "message": "St. Helena"
+   },
+   "country_name_SI": {
+      "message": "Slovenia"
+   },
+   "country_name_SJ": {
+      "message": "Svalbard & Jan Mayen"
+   },
+   "country_name_SK": {
+      "message": "Slovakia"
+   },
+   "country_name_SL": {
+      "message": "Sierra Leone"
+   },
+   "country_name_SM": {
+      "message": "San Marino"
+   },
+   "country_name_SN": {
+      "message": "Senegal"
+   },
+   "country_name_SO": {
+      "message": "Somalia"
+   },
+   "country_name_SR": {
+      "message": "Suriname"
+   },
+   "country_name_SS": {
+      "message": "South Sudan"
+   },
+   "country_name_ST": {
+      "message": "São Tomé & Príncipe"
+   },
+   "country_name_SV": {
+      "message": "El Salvador"
+   },
+   "country_name_SX": {
+      "message": "Sint Maarten"
+   },
+   "country_name_SY": {
+      "message": "Syria"
+   },
+   "country_name_SZ": {
+      "message": "Swaziland"
+   },
+   "country_name_TA": {
+      "message": "Tristan da Cunha"
+   },
+   "country_name_TC": {
+      "message": "Turks & Caicos Islands"
+   },
+   "country_name_TD": {
+      "message": "Chad"
+   },
+   "country_name_TF": {
+      "message": "French Southern Territories"
+   },
+   "country_name_TG": {
+      "message": "Togo"
+   },
+   "country_name_TH": {
+      "message": "Thailand"
+   },
+   "country_name_TJ": {
+      "message": "Tajikistan"
+   },
+   "country_name_TK": {
+      "message": "Tokelau"
+   },
+   "country_name_TL": {
+      "message": "East Timor"
+   },
+   "country_name_TM": {
+      "message": "Turkmenistan"
+   },
+   "country_name_TN": {
+      "message": "Tunisia"
+   },
+   "country_name_TO": {
+      "message": "Tonga"
+   },
+   "country_name_TR": {
+      "message": "Turkey"
+   },
+   "country_name_TT": {
+      "message": "Trinidad & Tobago"
+   },
+   "country_name_TV": {
+      "message": "Tuvalu"
+   },
+   "country_name_TW": {
+      "message": "Taiwan"
+   },
+   "country_name_TZ": {
+      "message": "Tanzania"
+   },
+   "country_name_UA": {
+      "message": "Ukraine"
+   },
+   "country_name_UG": {
+      "message": "Uganda"
+   },
+   "country_name_UK": {
+      "message": "United Kingdom"
+   },
+   "country_name_UM": {
+      "message": "U.S. Outlying Islands"
+   },
+   "country_name_US": {
+      "message": "United States"
+   },
+   "country_name_USW": {
+      "message": "United States West"
+   },
+   "country_name_UY": {
+      "message": "Uruguay"
+   },
+   "country_name_UZ": {
+      "message": "Uzbekistan"
+   },
+   "country_name_VA": {
+      "message": "Vatican City"
+   },
+   "country_name_VC": {
+      "message": "St. Vincent & Grenadines"
+   },
+   "country_name_VE": {
+      "message": "Venezuela"
+   },
+   "country_name_VG": {
+      "message": "British Virgin Islands"
+   },
+   "country_name_VI": {
+      "message": "U.S. Virgin Islands"
+   },
+   "country_name_VN": {
+      "message": "Vietnam"
+   },
+   "country_name_VU": {
+      "message": "Vanuatu"
+   },
+   "country_name_WF": {
+      "message": "Wallis & Futuna"
+   },
+   "country_name_WS": {
+      "message": "Samoa"
+   },
+   "country_name_XK": {
+      "message": "Kosovo"
+   },
+   "country_name_YE": {
+      "message": "Yemen"
+   },
+   "country_name_YT": {
+      "message": "Mayotte"
+   },
+   "country_name_ZA": {
+      "message": "South Africa"
+   },
+   "country_name_ZM": {
+      "message": "Zambia"
+   },
+   "country_name_ZW": {
+      "message": "Zimbabwe"
+   },
+   "dedicated_traffic_lanes": {
+      "description": "",
+      "message": "Premium users enjoy dedicated traffic lanes."
+   },
+   "delete_smart_setting_for_X": {
+      "description": "",
+      "message": "Delete Smart Setting for XXX"
+   },
+   "disable_selected_extensions": {
+      "description": "",
+      "message": "Disable Selected Extensions"
+   },
+   "dont_have_an_account": {
+      "description": "",
+      "message": "Don't have an account?"
+   },
+   "dont_show_promo_offers": {
+      "description": "",
+      "message": "Don't show promo offers"
+   },
+   "edit_smart_settings": {
+      "description": "",
+      "message": "Edit Smart Settings"
+   },
+   "email": {
+      "description": "",
+      "message": "Email"
+   },
+   "enable_browsec_for_all_sites_excluding_selected_sites": {
+      "description": "",
+      "message": "Enable Browsec for all websites except selected websites"
+   },
+   "enable_browsec_for_all_sites_excluding_selected_sites_description_1": {
+      "description": "",
+      "message": "Enable Browsec"
+   },
+   "enable_browsec_for_all_sites_excluding_selected_sites_description_2": {
+      "description": "",
+      "message": "Click Smart Settings → Edit Smart Settings"
+   },
+   "enable_browsec_for_all_sites_excluding_selected_sites_description_3": {
+      "description": "",
+      "message": "Type desired domain, select OFF and click IMG"
+   },
+   "enable_browsec_only_for_selected_sites": {
+      "description": "",
+      "message": "Enable Browsec for selected websites only"
+   },
+   "enable_browsec_only_for_selected_sites_description_1": {
+      "description": "",
+      "message": "Disable Browsec"
+   },
+   "enable_browsec_only_for_selected_sites_description_2": {
+      "description": "",
+      "message": "Click Smart Settings → Edit Smart Settings"
+   },
+   "enable_browsec_only_for_selected_sites_description_3": {
+      "description": "",
+      "message": "Type desired domain, select country for this domain and click IMG"
+   },
+   "extension_description_chrome": {
+      "description": "",
+      "message": "Browsec VPN is a Chrome VPN extension that protects your IP from Internet threats and lets you browse privately for free."
+   },
+   "extension_name_chrome": {
+      "description": "",
+      "message": "Browsec VPN - Free VPN for Chrome"
+   },
+   "fix_it": {
+      "description": "",
+      "message": "Fix it"
+   },
+   "fix_proxy_settings": {
+      "description": "",
+      "message": "Fix proxy settings"
+   },
+   "for_only": {
+      "description": "",
+      "message": "for only"
+   },
+   "forgot_your_password": {
+      "description": "",
+      "message": "Forgot your password?"
+   },
+   "free_servers": {
+      "description": "",
+      "message": "Free servers"
+   },
+   "from_only_X_per_month": {
+      "description": "",
+      "message": "from only $$XXX per month!"
+   },
+   "get_N_days_free_premium_trial": {
+      "description": "",
+      "message": "Get XXX days free premium trial"
+   },
+   "get_free_premium": {
+      "description": "",
+      "message": "Get Free Premium!"
+   },
+   "get_monthly_premium": {
+      "description": "",
+      "message": "Get Monthly Premium"
+   },
+   "get_more_with_browsec_premium": {
+      "description": "",
+      "message": "Get more with Browsec Premium"
+   },
+   "get_premium_now": {
+      "description": "",
+      "message": "Get Premium now!"
+   },
+   "get_turbo_speed": {
+      "description": "",
+      "message": "Get Turbo Speed"
+   },
+   "go_ahead_and_renew_it": {
+      "description": "",
+      "message": "Go ahead and renew it."
+   },
+   "go_back": {
+      "description": "",
+      "message": "Go back"
+   },
+   "help": {
+      "description": "",
+      "message": "Help"
+   },
+   "home": {
+      "description": "",
+      "message": "Home"
+   },
+   "how_to_use_smart_settings": {
+      "description": "",
+      "message": "How to use Smart Settings"
+   },
+   "i_want_to": {
+      "description": "",
+      "message": "I want to:"
+   },
+   "incorrect_email_or_password": {
+      "description": "",
+      "message": "Incorrect email or password"
+   },
+   "locations_help_1": {
+      "description": "",
+      "message": "Browsec can establish secure connection using our servers located in any of these countries. You will get an IP address that belongs to chosen location and browse the web as if you actually were there."
+   },
+   "locations_help_2": {
+      "description": "",
+      "message": "To access the content available for a specific country only, pick the corresponding virtual location."
+   },
+   "locations_help_3": {
+      "description": "",
+      "message": "To hide your location (for privacy reasons, or to reach content banned in your country), pick any location. Note that the closer the virtual location is to your real one, the higher connection speed you have."
+   },
+   "log_in": {
+      "description": "",
+      "message": "Log in"
+   },
+   "off": {
+      "description": "",
+      "message": "OFF"
+   },
+   "ok_i_got_it": {
+      "description": "",
+      "message": "OK, I got it"
+   },
+   "on": {
+      "description": "",
+      "message": "On"
+   },
+   "one_smart_setting_description_1": {
+      "description": "",
+      "message": "Please upgrade to Premium to get unlimited Smart Settings and support Browsec development."
+   },
+   "one_smart_setting_description_2": {
+      "description": "",
+      "message": "You will also get:"
+   },
+   "one_smart_setting_description_list_1": {
+      "description": "",
+      "message": "Access to 30+ Premium virtual locations"
+   },
+   "one_smart_setting_description_list_2": {
+      "description": "",
+      "message": "Turbo speed"
+   },
+   "only_X_per_month": {
+      "description": "",
+      "message": "only XXX per month"
+   },
+   "other_websites": {
+      "description": "",
+      "message": "Other websites"
+   },
+   "password": {
+      "description": "",
+      "message": "Password"
+   },
+   "please_enter_domain": {
+      "description": "",
+      "message": "Please enter a domain"
+   },
+   "please_enter_valid_domain": {
+      "description": "",
+      "message": "Please enter a valid domain"
+   },
+   "please_try_again_or_contact_support": {
+      "description": "",
+      "message": "Please try again or contact Browsec support."
+   },
+   "premium_locations": {
+      "description": "",
+      "message": "Premium locations"
+   },
+   "premium_server_authentication_error": {
+      "description": "",
+      "message": "Premium server authentication error. Please check your Premium status."
+   },
+   "premium_servers": {
+      "description": "",
+      "message": "Premium servers"
+   },
+   "privacy_protection_disabled": {
+      "description": "",
+      "message": "Privacy Protection disabled"
+   },
+   "protect_me": {
+      "description": "",
+      "message": "Protect me"
+   },
+   "remove_smart_setting": {
+      "description": "",
+      "message": "Remove smart setting"
+   },
+   "select": {
+      "description": "",
+      "message": "Select"
+   },
+   "select_allow_in_popup_window": {
+      "description": "",
+      "message": "Select “Allow” in the popup window"
+   },
+   "setting_was_deleted": {
+      "description": "",
+      "message": "Setting was deleted"
+   },
+   "settings": {
+      "description": "",
+      "message": "Settings"
+   },
+   "sign_in": {
+      "description": "",
+      "message": "Sign in"
+   },
+   "sign_out": {
+      "description": "",
+      "message": "Sign out"
+   },
+   "sign_up": {
+      "description": "",
+      "message": "Sign Up"
+   },
+   "smart_settings": {
+      "description": "",
+      "message": "Smart Settings"
+   },
+   "smart_settings_allow_you_to_control": {
+      "description": "",
+      "message": "Smart Settings allow you to have more control on Browsec"
+   },
+   "smart_settings_features_1": {
+      "description": "",
+      "message": "Enable Browsec for selected web sites only"
+   },
+   "smart_settings_features_2": {
+      "description": "",
+      "message": "Do not use Browsec for selected web sites, even when it is enabled for all other web sites"
+   },
+   "smart_settings_features_3": {
+      "description": "",
+      "message": "Select different virtual locations for different web sites"
+   },
+   "something_went_wrong": {
+      "description": "",
+      "message": "Something went wrong..."
+   },
+   "start_vpn": {
+      "description": "",
+      "message": "Start VPN"
+   },
+   "this_account_is_locked_please_contact_us": {
+      "description": "",
+      "message": "This account is locked.\nPlease contact us to restore your account"
+   },
+   "this_domain_already_in_list": {
+      "description": "",
+      "message": "This domain is already in the list"
+   },
+   "this_option_is_available_only_for_premium": {
+      "description": "",
+      "message": "This option is available only for Premium accounts"
+   },
+   "top_performance_guaranteed": {
+      "description": "",
+      "message": "Our best-in-class servers guarantee top performance."
+   },
+   "try_again": {
+      "description": "",
+      "message": "Try Again"
+   },
+   "turbo_speed": {
+      "description": "",
+      "message": "Turbo speed"
+   },
+   "turbo_speed_in_free_premium": {
+      "description": "",
+      "message": "Turbo Speed in FREE Premium"
+   },
+   "undo": {
+      "description": "",
+      "message": "Undo"
+   },
+   "upgrade_connection_speed": {
+      "description": "",
+      "message": "Upgrade connection speed"
+   },
+   "upgrade_to_premium": {
+      "description": "",
+      "message": "Upgrade to Premium"
+   },
+   "use": {
+      "description": "",
+      "message": "use"
+   },
+   "use_browsec_for_webrtc_connections": {
+      "description": "",
+      "message": "Use Browsec for WebRTC connections"
+   },
+   "use_different_locations_for_different_sites": {
+      "description": "",
+      "message": "Use different locations for different websites"
+   },
+   "use_different_locations_for_different_sites_description_1": {
+      "description": "",
+      "message": "Enable Browsec"
+   },
+   "use_different_locations_for_different_sites_description_2": {
+      "description": "",
+      "message": "Click Smart Settings → Edit Smart Settings"
+   },
+   "use_different_locations_for_different_sites_description_3": {
+      "description": "",
+      "message": "Type desired domain, select country for this domain and click IMG"
+   },
+   "virtual_locations": {
+      "description": "",
+      "message": "Virtual Locations"
+   },
+   "webrtc_settings_controlled_by_another_extension": {
+      "description": "",
+      "message": "WebRTC settings are controlled by another extension"
+   },
+   "welcome_back": {
+      "description": "",
+      "message": "Welcome back!"
+   },
+   "what_is_webrtc_text_1": {
+      "description": "",
+      "message": "WebRTC (web real time communication) is a protocol which allows making audio and video calls from the browser."
+   },
+   "what_is_webrtc_text_2": {
+      "description": "",
+      "message": "However, WebRTC also allows websites to know your real internal and public IPs even if you use VPN (it's known as WebRTC IP leak)."
+   },
+   "what_is_webrtc_text_3": {
+      "description": "",
+      "message": "This option will prevent WebRTC IP leak when Browsec is enabled. As a side effect it can affect quality of audio/video calls from the browser, so it's up to you to choose what is more important to you."
+   },
+   "what_is_webrtc_title": {
+      "description": "",
+      "message": "What is WebRTC?"
+   },
+   "with_smart_settings_you_can": {
+      "description": "",
+      "message": "With Smart Settings you can:"
+   },
+   "you_can_have_only_1_smart_setting": {
+      "description": "",
+      "message": "You can have only 1 Smart Setting on Free plan."
+   },
+   "you_just_installed_browsec": {
+      "description": "",
+      "message": "You've just installed Browsec!"
+   },
+   "your_browsers_connections_are_not_encrypted": {
+      "description": "",
+      "message": "Your browser's connections are not encrypted. Your IP and location are available for third party."
+   },
+   "your_premium_is_about_to_expire": {
+      "description": "",
+      "message": "Your Browsec Premium is about to expire"
+   },
+   "your_privacy_is_protected": {
+      "description": "",
+      "message": "Your Privacy is protected"
+   },
+   "your_proxy_settings_are_blocked": {
+      "description": "",
+      "message": "Your Proxy Settings are Blocked by Another Extension"
+   }
+}

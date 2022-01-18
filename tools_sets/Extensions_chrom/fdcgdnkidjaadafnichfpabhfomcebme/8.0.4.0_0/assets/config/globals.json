@@ -1,0 +1,129 @@
+{
+    "connectionCheckDomains": [
+       {
+          "url": "http://www.google.com.sg/gen_204",
+          "code": 204
+       },
+       {
+          "url": "http://g.cn/generate_204",
+          "code": 204
+       },
+       {
+          "url": "http://www.thinkdifferent.us",
+          "code": 200
+       },
+       {
+          "url": "http://www.airport.us",
+          "code": 200
+       },
+       {
+          "url": "http://detectportal.firefox.com/success.txt",
+          "code": 200
+       },
+       {
+          "url": "http://captive.apple.com",
+          "code": 200
+       }
+    ],
+    "localDomains": [
+       "zcdn.de",
+       "*.zcdn.de",
+       "zeus.pm",
+       "*.zeus.pm",
+       "d1jr1idae5ms9n.cloudfront.net",
+       "local",
+       "ip",
+       "fritz.box",
+       "kabel.box",
+       "invalid",
+       "intra",
+       "intranet",
+       "test",
+       "example",
+       "localhost",
+       "onion",
+       "i2p",
+       "lvh.me",
+       "vcap.me",
+       "127.0.0.1.xip.io",
+       "localtest.me",
+       "about:addons",
+       "about:newtab",
+       "about:preferences",
+       "about:config",
+       "about:debugging"
+    ],
+    "blackList": {
+       "jid1-4P0kohSJxU1qGg@jetpack": "hola"
+    },
+    "alternativeNodes": [],
+    "nodeOverrides": [],
+    "ruleOverrides": [
+       {
+          "domains": [
+             "facebook.com"
+          ],
+          "hosts": [
+             "facebook.net",
+             "fbcdn.com",
+             "fbcdn.net",
+             "fbsbx.com",
+             "fb.me",
+             "fb.com",
+             "fbsbx.com.online-metrix.net",
+             "fbstatic-a.akamaihd.net",
+             "fbcdn-dragon-a.akamaihd.net"
+          ]
+       },
+       {
+          "domains": [
+             "netflix.com"
+          ],
+          "hosts": [
+             "nflxvideo.net"
+          ]
+       },
+       {
+          "domains": [
+             "bbc.co.uk",
+             "bbc.com"
+          ],
+          "hosts": [
+             "bbc.co.uk",
+             "bbc.com",
+             "vod-dash-uk-live.akamaized.net",
+             "vod-thumb-uk-live.akamaized.net"
+          ]
+       },
+       {
+          "domains": [
+             "speedtest.net"
+          ],
+          "hosts": [
+             "ooklaserver.net"
+          ]
+       },
+       {
+          "domains": [
+             "speedtest.xfinity.com"
+          ],
+          "hosts": [
+             "comcast.net"
+          ]
+       }
+    ],
+    "blockedSites": [
+       "appnord.xyz"
+    ],
+    "privateNetworks": [
+       "0.0.0.0/8",
+       "10.0.0.0/8",
+       "127.0.0.0/8",
+       "169.254.0.0/16",
+       "192.168.0.0/16",
+       "172.16.0.0/12",
+       "::1",
+       "localhost",
+       "*.local"
+    ]
+ }

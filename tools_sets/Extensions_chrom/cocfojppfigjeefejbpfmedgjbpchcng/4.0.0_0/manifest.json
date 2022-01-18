@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/19-noactive.png",
+         "38": "icons/38-noactive.png"
+      },
+      "default_popup": "index.html"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_APP_DESC__",
+   "homepage_url": "https://savervpn.com/",
+   "icons": {
+      "128": "icons/128-active.png",
+      "48": "icons/48-active.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjw9RPyxLm43x2XQCFONg3gv/gwaiOGzr1gXE5GVEYQ3ioWo6G8tyMRbGrRadCn15QDQFWchzBlg5addYvahz+3zymVbY0/YwaMMKxDkS0543LFnwFuJpcDuc5WfszAzZ8wJONPZprYMveD0su1x0myGvCntyENOjstYlnBNJDvkEe6vrB1mx/qtg092vvF7XRynIhxx0F7I6D0OB51ZsANha4gnf9DKzAY2qgwjfwomUiAQQKUhbhUNS+zZm49+wJAUGqa53kDLOu+j28DFTu+KeunBDKlACeyWAs/z6/W+WyiGtHZ+rdMkFnZA3GiWQhc9z87tQwBBxXulMlpv1FwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_APP_NAME__",
+   "permissions": [ "management", "storage", "proxy", "webRequest", "webRequestBlocking", "*://*/*" ],
+   "short_name": "__MSG_APP_SHORT_NAME__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.0"
+}

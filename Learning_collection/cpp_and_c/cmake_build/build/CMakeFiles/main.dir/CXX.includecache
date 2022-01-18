@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_build/src/hello/hello.cc
+iostream
+-
+hello.h
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_build/src/hello/hello.h
+
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_build/src/hello/hello.h
+
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_build/src/main.cpp
+hello/hello.h
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_build/src/hello/hello.h
+world/world.h
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_build/src/world/world.h
+
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_build/src/world/world.cc
+iostream
+-
+world.h
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_build/src/world/world.h
+
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_build/src/world/world.h
+

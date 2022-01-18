@@ -1,0 +1,190 @@
+{
+   "APP_DESC": {
+      "description": "Extenstion description for web store and extensions page",
+      "message": "SaferVPN Proxy上网代理浏览器扩展，众多地区供您高速并且免费连接。"
+   },
+   "APP_NAME": {
+      "description": "Extension name for web store and extensions page",
+      "message": "SaferVPN Proxy上网代理 - 免费快速的隐私应用程序"
+   },
+   "APP_SHORT_NAME": {
+      "description": "Extension short name for web store and extensions page",
+      "message": "SaferVPN Proxy上网代理"
+   },
+   "AUTH_BTN": {
+      "description": "Login page button text",
+      "message": "登陆"
+   },
+   "AUTH_ERROR_TEXT": {
+      "description": "Login page error text",
+      "message": "邮箱或者密码不正确"
+   },
+   "AUTH_LOADING_TEXT": {
+      "description": "Login page loading text",
+      "message": "请稍等..."
+   },
+   "AUTH_SIGN_UP_BTN_TEXT": {
+      "description": "Login page sign up button text",
+      "message": "马上注册!"
+   },
+   "AUTH_SIGN_UP_TEXT": {
+      "description": "Login page sign up text",
+      "message": "还没有帐号?"
+   },
+   "AUTH_TEXT": {
+      "description": "Login page text",
+      "message": "请使用您的SaferVPN帐户的邮箱和密码登陆"
+   },
+   "AUTH_TITLE": {
+      "description": "Login page title",
+      "message": "登陆"
+   },
+   "BLOCKED_BTN": {
+      "description": "Blocked page button text",
+      "message": "继续"
+   },
+   "BLOCKED_HINT": {
+      "description": "Blocked page hint text",
+      "message": "您可以随时激活扩展"
+   },
+   "BLOCKED_LINK": {
+      "description": "Blocked page link text",
+      "message": "这里"
+   },
+   "BLOCKED_TEXT": {
+      "description": "Blocked page main text",
+      "message": "上网代理的设置受到了下面某一扩展的限制。禁用这些扩展并继续使用SaferVPN Proxy上网代理请点击下面的按键。"
+   },
+   "BLOCKED_TITLE": {
+      "description": "Blocked page title",
+      "message": "扩展冲突"
+   },
+   "CITY_": {
+      "message": ""
+   },
+   "CITY_AMS": {
+      "message": "阿姆斯特丹"
+   },
+   "CITY_ATL": {
+      "message": "亚特兰大"
+   },
+   "CITY_CHI": {
+      "message": "芝加哥"
+   },
+   "CITY_LA": {
+      "message": "洛杉矶"
+   },
+   "CITY_LDN": {
+      "message": "伦敦"
+   },
+   "CITY_MAD": {
+      "message": "马德里"
+   },
+   "CITY_MIA": {
+      "message": "迈阿密"
+   },
+   "CITY_NY": {
+      "message": "纽约"
+   },
+   "CITY_PAR": {
+      "message": "巴黎"
+   },
+   "CITY_SF": {
+      "message": "旧金山"
+   },
+   "CITY_SG": {
+      "message": "新加坡"
+   },
+   "CITY_STH": {
+      "message": "斯德哥尔摩"
+   },
+   "CITY_TYO": {
+      "message": "东京"
+   },
+   "CITY_WA": {
+      "message": "华盛顿特区"
+   },
+   "COUNTRY_": {
+      "message": ""
+   },
+   "COUNTRY_ES": {
+      "message": "西班牙"
+   },
+   "COUNTRY_FR": {
+      "message": "法国"
+   },
+   "COUNTRY_GB": {
+      "message": "英国"
+   },
+   "COUNTRY_JP": {
+      "message": "日本"
+   },
+   "COUNTRY_NL": {
+      "message": "荷兰"
+   },
+   "COUNTRY_SE": {
+      "message": "瑞典"
+   },
+   "COUNTRY_SG": {
+      "message": "新加坡"
+   },
+   "COUNTRY_US": {
+      "message": "美国"
+   },
+   "LOCATIONS_TRAFFIC_EXCEEDED": {
+      "description": "Message is displayed over the disabled locations buttons, when traffic exceeded",
+      "message": "您本月免费的$traffic$流量已经用完，在$date$您的流量将会重置。您也可以升级到SaferVPN服务不限量地加密浏览！",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "traffic": {
+            "content": "$1"
+         }
+      }
+   },
+   "MAP_CHANGE_BTN": {
+      "description": "Map page change location btn",
+      "message": "更换地区"
+   },
+   "MAP_YOU": {
+      "description": "Map page 'you' label",
+      "message": "您"
+   },
+   "POPUP_CONNECTED": {
+      "description": "Popup connected message",
+      "message": "您已经连接到"
+   },
+   "POPUP_CONNECT_HINT": {
+      "description": "Popup connect hint text",
+      "message": "选择代理服务器地区"
+   },
+   "POPUP_LOGOUT_LINK": {
+      "description": "Popup logout link text",
+      "message": "產量"
+   },
+   "POPUP_NOT_CONNECTED": {
+      "description": "Popup not connected message",
+      "message": "尚未连接"
+   },
+   "POPUP_OFF": {
+      "description": "Popup switch OFF text",
+      "message": "关"
+   },
+   "POPUP_ON": {
+      "description": "Popup switch ON text",
+      "message": "开"
+   },
+   "POPUP_REMAINING": {
+      "description": "Popup traffic remaining text",
+      "message": "本月剩余"
+   },
+   "POPUP_SUPPORT_LINK": {
+      "description": "Popup support link text",
+      "message": "支持"
+   },
+   "POPUP_UPGRADE_BTN": {
+      "description": "Popup upgrade btn text",
+      "message": "升级您的防护"
+   }
+}

@@ -1,0 +1,166 @@
+{
+   "connect_button": {
+      "description": "",
+      "message": "Verbinden"
+   },
+   "connect_fast_promo": {
+      "description": "",
+      "message": "Schneller verbinden >"
+   },
+   "connecting_cancel": {
+      "description": "",
+      "message": "Verbinden... Kicken, um abzubrechen"
+   },
+   "connecting_info": {
+      "description": "",
+      "message": "Prioritäts Verbindung erhalten"
+   },
+   "description": {
+      "description": "",
+      "message": "Das schnellste VPN. Alle Websites entsperren. Behalten Sie im Internet Ihre Privatsphäre mit dem besten unbegrenzten VPN."
+   },
+   "disconnect_button": {
+      "description": "",
+      "message": "Trennen"
+   },
+   "generic_cancel": {
+      "description": "",
+      "message": "Abbrechen"
+   },
+   "generic_ok": {
+      "description": "",
+      "message": "Ok"
+   },
+   "generic_please_wait": {
+      "description": "",
+      "message": "Bitte warten…"
+   },
+   "generic_thank_you": {
+      "description": "",
+      "message": "Vielen Dank!"
+   },
+   "go_premium": {
+      "description": "",
+      "message": "Zu Premium"
+   },
+   "location_select_title": {
+      "description": "",
+      "message": "Virtuellen Standort auswählen"
+   },
+   "login_check_email_verification": {
+      "description": "",
+      "message": "Zu verifizierende E-Mail-Adresse überprüfen"
+   },
+   "menu_link_contact_us": {
+      "description": "",
+      "message": "Kontakt"
+   },
+   "menu_link_faq": {
+      "description": "",
+      "message": "FAQ"
+   },
+   "menu_link_privacy_policy": {
+      "description": "",
+      "message": "Datenschutzbestimmungen"
+   },
+   "menu_link_why_is_free": {
+      "description": "",
+      "message": "Warum ist Betternet kostenlos"
+   },
+   "name": {
+      "description": "",
+      "message": "VPN Free – unbegrenzte Betternet VPN-Proxy"
+   },
+   "rate_us": {
+      "description": "",
+      "message": "Im {browser} Web Store mit 5 Sternen bewerten"
+   },
+   "reach_device_limit_description": {
+      "description": "",
+      "message": "Limit überschritten. Gerät kann nicht hinzugefügt werden."
+   },
+   "shortName": {
+      "description": "",
+      "message": "Betternet"
+   },
+   "sign_in_as_premium": {
+      "description": "",
+      "message": "Sie haben bereits Premium"
+   },
+   "sign_in_button": {
+      "description": "",
+      "message": "Anmelden"
+   },
+   "sign_in_description": {
+      "description": "",
+      "message": "Melden Sie sich mit E-Mail-Adresse und Passwort bei Ihrem Konto an."
+   },
+   "sign_in_email_check_inbox_for_verification": {
+      "description": "",
+      "message": "Bitte Posteingang oder Bulk-/Spam-Ordner überprüfen und auf „Bestätigen“ klicken."
+   },
+   "sign_in_email_not_verified_yet_title": {
+      "description": "",
+      "message": "E-Mail-Adresse noch nicht verifiziert."
+   },
+   "sign_in_email_verification_resend": {
+      "description": "",
+      "message": "Erneut senden"
+   },
+   "sign_in_form_email_is_not_valid": {
+      "description": "",
+      "message": "Gültige E-Mail-Adresse eingeben."
+   },
+   "sign_in_form_fields_not_filled": {
+      "description": "",
+      "message": "Hervorgehobenen Felder ausfüllen."
+   },
+   "sign_in_title": {
+      "description": "",
+      "message": "Bei Ihrem Premium-Konto anmelden"
+   },
+   "sign_out_button": {
+      "description": "",
+      "message": "Abmelden"
+   },
+   "sign_out_title": {
+      "description": "",
+      "message": "Abmelden?"
+   },
+   "sign_out_with_username": {
+      "description": "",
+      "message": "Abmelden {username}"
+   },
+   "socio_facebook_visit": {
+      "description": "",
+      "message": "Facebook-Seite abonnieren"
+   },
+   "socio_visit": {
+      "description": "",
+      "message": "Abonnieren"
+   },
+   "term_agree": {
+      "description": "",
+      "message": "Durch die Verwendung akzeptieren Sie unsere \u003C0>Nutzungsbedingungen\u003C/0> und \u003C1>Datenschutzbestimmungen\u003C/1>"
+   },
+   "this_will_disconnect_device": {
+      "description": "",
+      "message": "Gerät wird von Ihrem Konto getrennt"
+   },
+   "unavailable_button": {
+      "description": "",
+      "message": "Andere Erweiterungen deaktivieren."
+   },
+   "unavailable_description": {
+      "description": "",
+      "message": "Betternet wurde von der {browser} Erweiterung unterbrochen, die Proxy-Einstellungen steuert."
+   },
+   "unavailable_title": {
+      "description": "",
+      "message": "Dienstunterbrechung"
+   },
+   "user_is_premium": {
+      "description": "",
+      "message": "Sie haben Premium!"
+   }
+}

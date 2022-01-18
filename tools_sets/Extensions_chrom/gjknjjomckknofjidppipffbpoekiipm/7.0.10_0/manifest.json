@@ -1,0 +1,34 @@
+{
+   "background": {
+      "scripts": [ "background/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "static/assets/icons/icon-disconnected-19.png",
+         "38": "static/assets/icons/icon-disconnected-38.png"
+      },
+      "default_popup": "panel/index.html",
+      "default_title": "__MSG_name__"
+   },
+   "content_scripts": [ {
+      "js": [ "content/content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'none'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "static/assets/icons/shieldon.png",
+      "16": "static/assets/icons/shieldon.png",
+      "48": "static/assets/icons/shieldon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwAhViwK3A1OFwUeJ0//mGWq9S1P5aBVhWYOGVdIo4cMAkr7YEH3BVr1GonBNhQ+uvzkXQEHQZFxbsvcKvItd7val8K9EYQfhgqq3t/EEG/izeLz0tyNR9Z8J0fnaCbTeUG4bCrQNfhYqpFY4G9vKyPqlmUtwvUzXhKNpSfcvG5V2SYEM9f5UENc/8CGv9HrHWHDqU1bbE5vaB9G5M4NLUOsOB5+O6PNySko4ZieW31r3H/kUFSD9mygGyK35omTOEtDbJVUPCV0QNQj+k3N1BabJvntDeA1jgMVogUd+FG/OEmvpyMEvENWpaAK80NE7CDjZwae/qHlRTWvqJxJTBwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "proxy", "webRequest", "webRequestBlocking", "\u003Call_urls>", "background", "storage", "tabs", "privacy", "management" ],
+   "short_name": "__MSG_shortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.0.10",
+   "web_accessible_resources": [ "content/*.css", "content/*.svg", "icon-32.png", "static/*.svg" ]
+}

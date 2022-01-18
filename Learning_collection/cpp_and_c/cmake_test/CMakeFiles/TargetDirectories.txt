@@ -1,0 +1,3 @@
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_test/CMakeFiles/rebuild_cache.dir
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_test/CMakeFiles/edit_cache.dir
+/home/zhoukang/so_test/c_cpp_co/cc_test/cmake_test/CMakeFiles/hello2022.dir

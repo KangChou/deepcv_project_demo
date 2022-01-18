@@ -1,0 +1,190 @@
+{
+   "APP_DESC": {
+      "description": "Extenstion description for web store and extensions page",
+      "message": "Отличная скорость и бесплатный доступ к прокси во многих странах."
+   },
+   "APP_NAME": {
+      "description": "Extension name for web store and extensions page",
+      "message": "SaferVPN Proxy - Бесплатная и быстрая личная безопасность в интернет"
+   },
+   "APP_SHORT_NAME": {
+      "description": "Extension short name for web store and extensions page",
+      "message": "SaferVPN Proxy"
+   },
+   "AUTH_BTN": {
+      "description": "Login page button text",
+      "message": "Вход"
+   },
+   "AUTH_ERROR_TEXT": {
+      "description": "Login page error text",
+      "message": "Email или пароль неверны"
+   },
+   "AUTH_LOADING_TEXT": {
+      "description": "Login page loading text",
+      "message": "Загрузка..."
+   },
+   "AUTH_SIGN_UP_BTN_TEXT": {
+      "description": "Login page sign up button text",
+      "message": "Зарегистрируйся!"
+   },
+   "AUTH_SIGN_UP_TEXT": {
+      "description": "Login page sign up text",
+      "message": "Ещё нет аккаунта?"
+   },
+   "AUTH_TEXT": {
+      "description": "Login page text",
+      "message": "Используйте свой email и пароль от основного аккаунта SaferVPN"
+   },
+   "AUTH_TITLE": {
+      "description": "Login page title",
+      "message": "Вход"
+   },
+   "BLOCKED_BTN": {
+      "description": "Blocked page button text",
+      "message": "Продолжить"
+   },
+   "BLOCKED_HINT": {
+      "description": "Blocked page hint text",
+      "message": "Вы всегда сможете включить расширения"
+   },
+   "BLOCKED_LINK": {
+      "description": "Blocked page link text",
+      "message": "тут"
+   },
+   "BLOCKED_TEXT": {
+      "description": "Blocked page main text",
+      "message": "Настройки прокси-сервера контролируются одним из этих расширений. Чтобы отключить их и активировать SaferVPN Proxy, нажмите на кнопку \"Продолжить\""
+   },
+   "BLOCKED_TITLE": {
+      "description": "Blocked page title",
+      "message": "Конфликт расширений"
+   },
+   "CITY_": {
+      "message": ""
+   },
+   "CITY_AMS": {
+      "message": "Amsterdam"
+   },
+   "CITY_ATL": {
+      "message": "Atlanta"
+   },
+   "CITY_CHI": {
+      "message": "Chicago"
+   },
+   "CITY_LA": {
+      "message": "Los-Angeles"
+   },
+   "CITY_LDN": {
+      "message": "London"
+   },
+   "CITY_MAD": {
+      "message": "Madrid"
+   },
+   "CITY_MIA": {
+      "message": "Miami"
+   },
+   "CITY_NY": {
+      "message": "New-York"
+   },
+   "CITY_PAR": {
+      "message": "Paris"
+   },
+   "CITY_SF": {
+      "message": "San-Francisco"
+   },
+   "CITY_SG": {
+      "message": "Singapore"
+   },
+   "CITY_STH": {
+      "message": "Stockholm"
+   },
+   "CITY_TYO": {
+      "message": "Tokyo"
+   },
+   "CITY_WA": {
+      "message": "Washington DC"
+   },
+   "COUNTRY_": {
+      "message": ""
+   },
+   "COUNTRY_ES": {
+      "message": "ES"
+   },
+   "COUNTRY_FR": {
+      "message": "FR"
+   },
+   "COUNTRY_GB": {
+      "message": "GB"
+   },
+   "COUNTRY_JP": {
+      "message": "JP"
+   },
+   "COUNTRY_NL": {
+      "message": "NL"
+   },
+   "COUNTRY_SE": {
+      "message": "SE"
+   },
+   "COUNTRY_SG": {
+      "message": "SG"
+   },
+   "COUNTRY_US": {
+      "message": "US"
+   },
+   "LOCATIONS_TRAFFIC_EXCEEDED": {
+      "description": "Message is displayed over the disabled locations buttons, when traffic exceeded",
+      "message": "Вы использовали все $traffic$ бесплатного трафика в этом месяце. Новый лимит траффика будет зачислен $date$. Вы также можете приобрести неограниченный защищенный траффик в тарифных планах SaferVPN!",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "traffic": {
+            "content": "$1"
+         }
+      }
+   },
+   "MAP_CHANGE_BTN": {
+      "description": "Map page change location btn",
+      "message": "Сменить прокси-сервер"
+   },
+   "MAP_YOU": {
+      "description": "Map page 'you' label",
+      "message": "Я"
+   },
+   "POPUP_CONNECTED": {
+      "description": "Popup connected message",
+      "message": "Вы подключены к"
+   },
+   "POPUP_CONNECT_HINT": {
+      "description": "Popup connect hint text",
+      "message": "Выберите расположение прокси-сервера"
+   },
+   "POPUP_LOGOUT_LINK": {
+      "description": "Popup logout link text",
+      "message": "Выход"
+   },
+   "POPUP_NOT_CONNECTED": {
+      "description": "Popup not connected message",
+      "message": "Не подключено"
+   },
+   "POPUP_OFF": {
+      "description": "Popup switch OFF text",
+      "message": "ВЫКЛ"
+   },
+   "POPUP_ON": {
+      "description": "Popup switch ON text",
+      "message": "ВКЛ"
+   },
+   "POPUP_REMAINING": {
+      "description": "Popup traffic remaining text",
+      "message": "Остаток в этом месяце"
+   },
+   "POPUP_SUPPORT_LINK": {
+      "description": "Popup support link text",
+      "message": "Техническая поддержка"
+   },
+   "POPUP_UPGRADE_BTN": {
+      "description": "Popup upgrade btn text",
+      "message": "Подключить VPN"
+   }
+}

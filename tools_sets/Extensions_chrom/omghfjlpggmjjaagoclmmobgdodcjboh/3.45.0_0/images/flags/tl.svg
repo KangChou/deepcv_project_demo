@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="675" height="450" viewBox="-3 -6 18 12">
+<path d="M15 6V-6H-3V6z" fill="#dc241f"/>
+<path d="M-3-6V6l9-6z" fill="#ffc726"/>
+<path d="M-3-6V6l6-6z"/>
+<g transform="matrix(.671 -.335 .335 .671 -.75 0)">
+<g id="e">
+<g id="d">
+<path id="f" d="M0-2.1l-.65 2L.3.2z" fill="#fff"/>
+<use transform="scale(-1 1)" width="24" height="12" xlink:href="#f"/>
+</g>
+<use transform="rotate(72)" width="24" height="12" xlink:href="#d"/>
+</g>
+<use transform="rotate(-72)" width="24" height="12" xlink:href="#d"/>
+<use transform="matrix(-.809 .588 -.588 -.809 0 0)" width="24" height="12" xlink:href="#e"/>
+</g>
+</svg>

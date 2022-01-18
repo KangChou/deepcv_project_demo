@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="600" version="1">
+<rect width="900" height="600" fill="#ffc61e"/>
+<rect y="150" width="900" height="450" fill="#fff"/>
+<rect y="300" width="900" height="300" fill="#ce1126"/>
+<rect y="450" width="900" height="150" fill="#3a75c4"/>
+<path d="m0 600 450-300-450-300v600z" fill="#3d8e33"/>
+<path d="m274.5 300c0 67.103-54.397 121.5-121.5 121.5s-121.5-54.397-121.5-121.5 54.397-121.5 121.5-121.5 121.5 54.397 121.5 121.5z" fill="#fff"/>
+<path d="m328.5 300c0 67.103-54.397 121.5-121.5 121.5s-121.5-54.397-121.5-121.5 54.397-121.5 121.5-121.5 121.5 54.397 121.5 121.5h1.6e-4v4e-5h-1.8e-4z" fill="#3d8e33"/>
+<use transform="translate(0 173.92)" width="500" height="300" xlink:href="#a"/>
+<path id="a" d="m158.6 206.08h16.348l5.0498-15.548 5.0498 15.548h16.348l-13.224 9.6075 5.0498 15.548-13.224-9.6075-13.224 9.6075 5.0498-15.548-13.224-9.6075z" fill="#fff"/>
+<use transform="translate(0 57.975)" width="500" height="300" xlink:href="#a"/>
+<use transform="translate(0 115.95)" width="500" height="300" xlink:href="#a"/>
+</svg>

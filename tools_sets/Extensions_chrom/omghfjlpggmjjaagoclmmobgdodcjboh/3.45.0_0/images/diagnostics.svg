@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+    #use_health_blue{
+      fill: #28344f;
+    }
+    #use_health_white{
+      fill: #fff;
+    }
+    </style>
+  </defs>
+
+  <symbol id="symbol_document" viewBox="0 0 14 18" xmlns="http://www.w3.org/2000/svg">
+		<path style="fill: #1c304e; fill-rule: evenodd;" d="M4421,1410h-10a2.006,2.006,0,0,1-2-2v-14a2.006,2.006,0,0,1,2-2h6.31l5.69,5.69V1408A2.006,2.006,0,0,1,4421,1410Zm-4-17v4a1,1,0,0,0,1,1h4Zm5,6h-4a2,2,0,0,1-2-2v-4h-5a1,1,0,0,0-1,1v14a1,1,0,0,0,1,1h10a1,1,0,0,0,1-1v-9Zm-10,6h8v1h-8v-1Zm0-3h8v1h-8v-1Z" transform="translate(-4409 -1392)"/>
+	</symbol>
+	<symbol id="symbol_not_started" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+		<circle style="fill: #e6e6e6;" cx="15" cy="15" r="15"/>
+	</symbol>
+	<symbol id="symbol_skipped" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+		<circle style="fill: #fff; stroke: #e6e6e6; stroke-width: 2px;" cx="16" cy="16" r="15"/>
+	</symbol>
+	<symbol id="symbol_waiting" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+		<circle style="fill: #1c304e;" cx="15" cy="15" r="15"/>
+		<path style="fill: #fff; fill-rule: evenodd;" d="M1761.22,1003.5h-0.26v-2a1.936,1.936,0,0,0-.53-1.33l-2.34-2.5a0.984,0.984,0,0,1,0-1.333l2.34-2.5a1.945,1.945,0,0,0,.53-1.332v-2h0.26a0.751,0.751,0,1,0,0-1.5h-10.44a0.751,0.751,0,1,0,0,1.5h0.26v2a1.949,1.949,0,0,0,.53,1.333l2.34,2.5a0.983,0.983,0,0,1,0,1.332l-2.34,2.5a1.936,1.936,0,0,0-.53,1.33v2h-0.26a0.751,0.751,0,1,0,0,1.5h10.44A0.751,0.751,0,1,0,1761.22,1003.5Zm-1.83,0h-6.78v-2a0.461,0.461,0,0,1,.13-0.33l2.34-2.5a2.474,2.474,0,0,0,.66-1.666,2.437,2.437,0,0,0-.67-1.667l-2.33-2.5a0.486,0.486,0,0,1-.13-0.333v-2h6.78v2a0.486,0.486,0,0,1-.13.333l-2.34,2.5a2.47,2.47,0,0,0-.66,1.666,2.437,2.437,0,0,0,.67,1.666l2.33,2.5a0.461,0.461,0,0,1,.13.33v2Z" transform="translate(-1741 -982)"/>
+	</symbol>
+	<symbol id="symbol_failed" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+		<circle style="fill: #c0392b;" cx="30" cy="30" r="30"/>
+    <path style="fill: #fff; fill-rule: evenodd;" d="M5810.73,927.422l-10.76-10.762-10.76,10.762a1.9,1.9,0,1,1-2.69-2.691l10.76-10.761-10.76-10.761a1.9,1.9,0,1,1,2.69-2.691l10.76,10.762,10.76-10.762a1.9,1.9,0,1,1,2.69,2.691l-10.76,10.761,10.76,10.761A1.9,1.9,0,1,1,5810.73,927.422Z" transform="translate(-5770 -884)"/>
+	</symbol>
+	<symbol id="symbol_warning" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+		<circle style="fill: #f1c40f;" cx="30" cy="30" r="30"/>
+    <path style="fill: #fff; fill-rule: evenodd;" d="M4500,1190a4,4,0,0,1-4-4v-16a4,4,0,0,1,8,0v16A4,4,0,0,1,4500,1190Zm0,4a4,4,0,1,1-4,4A4,4,0,0,1,4500,1194Z" transform="translate(-4470 -1154)"/>
+	</symbol>
+	<symbol id="symbol_success" xmlns="http://www.w3.org/2000/svg">
+		<circle style="fill: #3d973f;" cx="30" cy="30" r="30"/>
+    <path style="fill: #fff; fill-rule: evenodd;" d="M3215.44,905.4l-19.99,20.038a1.985,1.985,0,0,1-2.81,0l-8.08-8.1a1.988,1.988,0,0,1,2.81-2.814l6.68,6.693,18.58-18.631A1.988,1.988,0,0,1,3215.44,905.4Z" transform="translate(-3170 -884)"/>
+	</symbol>
+  <symbol id="symbol_health" viewBox="0 0 19 16" xmlns="http://www.w3.org/2000/svg">
+		<path fill="inherit" style="fill-rule: evenodd;" d="M257.7,449.354A2.224,2.224,0,0,0,257,451v8.668a2.224,2.224,0,0,0,.7,1.646,2.3,2.3,0,0,0,1.675.688h0.339V448.666h-0.339A2.3,2.3,0,0,0,257.7,449.354ZM270.571,447a0.954,0.954,0,0,0-.3-0.708,0.986,0.986,0,0,0-.72-0.292h-6.108a0.99,0.99,0,0,0-.721.292,0.957,0.957,0,0,0-.3.708v1.667h-1.7V462h11.536V448.666h-1.7V447Zm-6.785.333h5.428v1.334h-5.428v-1.334Zm6.785,9a0.318,0.318,0,0,1-.1.239,0.332,0.332,0,0,1-.244.094h-2.375V459a0.322,0.322,0,0,1-.1.239,0.332,0.332,0,0,1-.244.094h-2.036a0.332,0.332,0,0,1-.244-0.094,0.322,0.322,0,0,1-.1-0.239v-2.334h-2.375a0.332,0.332,0,0,1-.244-0.094,0.318,0.318,0,0,1-.1-0.239v-2a0.318,0.318,0,0,1,.1-0.239,0.332,0.332,0,0,1,.244-0.094h2.375v-2.334a0.322,0.322,0,0,1,.1-0.239,0.332,0.332,0,0,1,.244-0.094h2.036a0.332,0.332,0,0,1,.244.094,0.322,0.322,0,0,1,.1.239V454h2.375a0.332,0.332,0,0,1,.244.094,0.322,0.322,0,0,1,.1.239v2h0Zm4.729-6.98a2.3,2.3,0,0,0-1.675-.688h-0.339V462h0.339a2.3,2.3,0,0,0,1.675-.688,2.224,2.224,0,0,0,.7-1.646V451A2.224,2.224,0,0,0,275.3,449.354Z" transform="translate(-257 -446)"/>
+	</symbol>
+
+	<view id="document" width="14" height="18" viewBox="0 0 14 18" />
+  <view id="not_started" width="30" height="30" viewBox="100 0 30 30" />
+  <view id="skipped" width="32" height="32" viewBox="200 0 32 32" />
+  <view id="waiting" width="30" height="30" viewBox="300 0 30 30" />
+  <view id="failed" width="60" height="60" viewBox="400 0 60 60" />
+  <view id="warning" width="60" height="60" viewBox="500 0 60 60" />
+  <view id="success" width="60" height="60" viewBox="600 0 60 60" />
+  <view id="health_blue" width="19" height="16" viewBox="700 0 19 16" />
+  <view id="health_white" width="19" height="16" viewBox="800 0 19 16" />
+
+  <use xlink:href="#symbol_document" width="14" height="18" x="0" y="0"></use>
+  <use xlink:href="#symbol_not_started" width="30" height="30" x="100" y="0"></use>
+  <use xlink:href="#symbol_skipped" width="32" height="32" x="200" y="0"></use>
+  <use xlink:href="#symbol_waiting" width="30" height="30" x="300" y="0"></use>
+  <use xlink:href="#symbol_failed" width="60" height="60" x="400" y="0"></use>
+  <use xlink:href="#symbol_warning" width="60" height="60" x="500" y="0"></use>
+  <use xlink:href="#symbol_success" width="60" height="60" x="600" y="0"></use>
+  <use id="use_health_blue" xlink:href="#symbol_health" width="19" height="16" x="700" y="0"></use>
+  <use id="use_health_white" xlink:href="#symbol_health" width="19" height="16" x="800" y="0"></use>
+</svg>

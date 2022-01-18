@@ -1,0 +1,331 @@
+首先设置允许访问该代理的 IP 列表：
+
+# /etc/squid/squid.conf
+acl client src 12.34.56.78 #客户端1 IP 地址
+acl client src 21.43.56.78 #客户端2 IP 地址
+...
+http_access allow client
+1
+2
+3
+4
+5
+# /etc/squid/squid.conf
+acl client src 12.34.56.78 #客户端1 IP 地址
+acl client src 21.43.56.78 #客户端2 IP 地址
+...
+http_access allow client
+注意这几行要加在配置文件原有的
+
+http_access deny all
+1
+http_access deny all
+之前，不然不会生效。
+然后重启 squid 服务，让配置生效。
+
+service squid restart #CentOS
+service squid3 restart #Ubuntu
+1
+2
+service squid restart #CentOS
+service squid3 restart #Ubuntu
+注意！非常不建议使用 http_access allow all，你的代理一定会被别人扫到用来干坏事！
+
+高级验证：
+如果想使用用户名密码来做权限控制，则需要进行一些额外的配置：
+首先，我们需要安装 htpasswd，这个工具集成在 apache httpd 的 tools 里面
+
+apt-get install apache2-utils
+yum install httpd-tools
+1
+2
+apt-get install apache2-utils
+yum install httpd-tools
+安装完成之后执行 htpasswd，如果没有提示找不到命令，则说明安装成功。
+接下来创建保存用户名密码的文件：
+
+touch /etc/squid/squid_passwd
+chown squid /etc/squid/squid_passwd
+1
+2
+touch /etc/squid/squid_passwd
+chown squid /etc/squid/squid_passwd
+注意授权的时候要弄清楚 squid 运行时的用户名，一般是 squid 或者 proxy。
+然后执行：
+
+htpasswd /etc/squid/squid_passwd username
+New password:
+Re-type new password:
+Adding password for user username
+1
+2
+3
+4
+htpasswd /etc/squid/squid_passwd username
+New password:
+Re-type new password:
+Adding password for user username
+注意把 username 换成你想要的用户名。
+如果想要继续添加用户，请多次执行这条命令。
+
+接下来修改 /etc/squid/squid.conf 文件，在 http_access deny all 之前加上下面几句：
+
+auth_param basic program /usr/lib/squid/ncsa_auth /etc/squid/squid_passwd
+auth_param basic children 5
+auth_param basic realm Squid proxy-caching web server
+auth_param basic credentialsttl 2 hours
+auth_param basic casesensitive off
+1
+2
+3
+4
+5
+auth_param basic program /usr/lib/squid/ncsa_auth /etc/squid/squid_passwd
+auth_param basic children 5
+auth_param basic realm Squid proxy-caching web server
+auth_param basic credentialsttl 2 hours
+auth_param basic casesensitive off
+acl ncsa_users proxy_auth REQUIRED
+http_access allow ncsa_users
+这里要注意，如果你的系统是 64 位的，那么 /usr/lib/squid/ncsa_auth 这个模块的地址应该是 /usr/lib64/squid/ncsa_auth。设置之前建议用这个命令来检查一下：
+dpkg -L squid | grep ncsa_auth
+rpm -ql squid | grep ncsa_auth
+
+下面说说这几个选项的含义：
+auth_param basic program /usr/lib/squid/ncsa_auth /etc/squid/squid_passwd : 指定密码文件和用来验证密码的程序
+auth_param basic children 5 : 鉴权进程的数量
+auth_param basic realm Squid proxy-caching web server : 用户输入用户名密码时看到的提示信息
+auth_param basic credentialsttl 2 hours : 用户名和密码的缓存时间，也就是说同一个用户名多久会调用 ncsa_auth 一次。
+auth_param basic casesensitive off : 用户名是否需要匹配大小写
+acl ncsa_users proxy_auth REQUIRED : 所有成功鉴权的用户都归于 ncsa_users 组
+http_access allow ncsa_users : 允许 ncsa_users 组的用户使用 Proxy
+
+配置完成后重启 Squid 就可以啦！
+
+3. 匿名
+默认情况下，Squid 会添加很多和客户信息相关的 HTTP 头，如 X-Forwarded-For 这类。如果想要做到高度匿名，需要将这些头去掉。在 squid.conf 里面添加如下的配置：
+
+forwarded_for off
+request_header_access Allow allow all
+request_header_access Authorization allow all
+request_header_access WWW-Authenticate allow all
+request_header_access Proxy-Authorization allow all
+request_header_access Proxy-Authenticate allow all
+request_header_access Cache-Control allow all
+request_header_access Content-Encoding allow all
+request_header_access Content-Length allow all
+request_header_access Content-Type allow all
+request_header_access Date allow all
+request_header_access Expires allow all
+request_header_access Host allow all
+request_header_access If-Modified-Since allow all
+request_header_access Last-Modified allow all
+request_header_access Location allow all
+request_header_access Pragma allow all
+request_header_access Accept allow all
+request_header_access Accept-Charset allow all
+request_header_access Accept-Encoding allow all
+request_header_access Accept-Language allow all
+request_header_access Content-Language allow all
+request_header_access Mime-Version allow all
+request_header_access Retry-After allow all
+request_header_access Title allow all
+request_header_access Connection allow all
+request_header_access Proxy-Connection allow all
+request_header_access User-Agent allow all
+request_header_access Cookie allow all
+request_header_access All deny all
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+forwarded_for off
+request_header_access Allow allow all
+request_header_access Authorization allow all
+request_header_access WWW-Authenticate allow all
+request_header_access Proxy-Authorization allow all
+request_header_access Proxy-Authenticate allow all
+request_header_access Cache-Control allow all
+request_header_access Content-Encoding allow all
+request_header_access Content-Length allow all
+request_header_access Content-Type allow all
+request_header_access Date allow all
+request_header_access Expires allow all
+request_header_access Host allow all
+request_header_access If-Modified-Since allow all
+request_header_access Last-Modified allow all
+request_header_access Location allow all
+request_header_access Pragma allow all
+request_header_access Accept allow all
+request_header_access Accept-Charset allow all
+request_header_access Accept-Encoding allow all
+request_header_access Accept-Language allow all
+request_header_access Content-Language allow all
+request_header_access Mime-Version allow all
+request_header_access Retry-After allow all
+request_header_access Title allow all
+request_header_access Connection allow all
+request_header_access Proxy-Connection allow all
+request_header_access User-Agent allow all
+request_header_access Cookie allow all
+request_header_access All deny all
+然后重启就可以啦！
+
+默认情况下，Squid 会把主机相关的信息发送出去，并显示在错误页面。加上下面两句去掉这些信息：
+
+# add this to /etc/squid/squid.conf
+visible_hostname mybogusproxyhostname.local
+# and while we are at it stop squid blabbing about it's version aswell
+httpd_suppress_version_string on
+1
+2
+3
+4
+# add this to /etc/squid/squid.conf
+visible_hostname mybogusproxyhostname.local
+# and while we are at it stop squid blabbing about it's version aswell
+httpd_suppress_version_string on
+最后说一个小坑，apache httpd 2.2 版本和 2.4 版本的 htpasswd 生成的密码文件格式是不一样的。只有 2.2 版本的能用。
+如果按照教程设置成功以后发现用户名密码死活不对，文件权限也没有问题的话，那就要看一下是不是 htpasswd 的问题了。
+直接输入 /usr/lib/squid/ncsa_auth /etc/squid/squid_passwd 然后输入 username passwd 可以手动运行一下 ncsa_auth 程序，看看是否是密码文件的问题。
+如果提示 OK 那么说明没有问题，提示 ERR Wrong password 则说明要么是密码输错了，要么是密码文件的格式有问题。
+
+PS:放出一个最简单的 PAC 文件，用来做代理的按需访问：
+
+function FindProxyForURL(url, host) {
+   if(ProxyDomain(url, host)) {
+       return "PROXY 1.2.3.4:8080";
+   }
+   else {
+       return "DIRECT";
+   }
+}
+
+function ProxyDomain(url, host) {
+    if(
+        shExpMatch(host, "*.maoxian.de") ||
+        shExpMatch(host, "*.baidu.com")
+    ) {
+        return true
+    }
+    return false;
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+function FindProxyForURL(url, host) {
+   if(ProxyDomain(url, host)) {
+       return "PROXY 1.2.3.4:8080";
+   }
+   else {
+       return "DIRECT";
+   }
+}
+ 
+function ProxyDomain(url, host) {
+    if(
+        shExpMatch(host, "*.maoxian.de") ||
+        shExpMatch(host, "*.baidu.com")
+    ) {
+        return true
+    }
+    return false;
+}
+PS:
+
+编译安装的时候要注意一点，从 3.2 开始，编译使用的参数有了一点小变化，原先的：
+
+--enable-auth="basic" --enable-baisc-auth-#helpers="NCSA"
+1
+--enable-auth="basic" --enable-baisc-auth-#helpers="NCSA"
+变成了
+
+--enable-auth  \
+--enable-auth-basic=NCSA \
+1
+2
+--enable-auth  \
+--enable-auth-basic=NCSA \
+同时配置文件里的 /usr/lib/squid/ncsa_auth 模块可能会变成 /usr/bin/basic_ncsa_auth ，需要注意。
+
+https://www.linode.com/docs/networking/squid/squid-http-proxy-ubuntu-12-04
+
+CC BY-NC-SA 4.0搭建需要身份认证的 Squid 代理 by 桔子小窝 is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+POSTED IN: LINUX • 小技巧
+TAGGED: SQUID • 代理 • 服务器
+POST NAVIGATION
+ GITLAB EE (ENTERPRISE EDITION) 破解研究退出当前 BASH SHELL 并不保存历史的 5 种方法 
+发表评论
+姓名 *
+电子邮件 *
+站点
+此站点使用Akismet来减少垃圾评论。了解我们如何处理您的评论数据。
+
+Search for:
+Search …
+2016年六月
+日	一	二	三	四	五	六
+« 5月
+ 	
+7月 »
+ 	1	2	3	4
+5	6	7	8	9	10	11
+12	13	14	15	16	17	18
+19	20	21	22	23	24	25
+26	27	28	29	30	 
+谁在上线
+10个访客在线
+4 游客, 6 bots, 0 成员
+Map of Visitors
+VIEWS
+[Redis] redis-cli 命令总结 - 31,139 views
+Anyview A盘管理地址 - 30,790 views
+Git 统计代码量 - 10,987 views
+密码保护：GitLab EE (Enterprise Edition) 破解研究 - 10,470 views
+Setup IKEv2 On Demand VPN on iOS 8 and IKEv2, IKEv1 Cisco IPSec VPN with Strongswan - 8,905 views
+标签
+ApacheAWSBrainPassCCentOSChartChromeflashHTML5HTTPSIDEiptablesJavaJavaScriptLinuxLinux ServerLNMPMACmysqlNginxOpenSSLPHPproxyrewriteServerSSHSSLSublime TextsvnubuntuVIMWindowsWindows 8Winsows ServerWordWordPress免费入侵学习安全小技巧插件破解证书高效
+Proudly powered by WordPress | Theme: Story by WebTuts.
+

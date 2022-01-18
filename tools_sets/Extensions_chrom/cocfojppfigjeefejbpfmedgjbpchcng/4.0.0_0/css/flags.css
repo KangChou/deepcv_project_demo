@@ -1,0 +1,3146 @@
+.f24-shiny .flag, .f24-flat .flag {
+    line-height:24px;
+    display:inline-block;
+    width:24px;
+    height:24px;
+    vertical-align:middle;
+    background:url(../img/flags24.png) no-repeat;
+    background-position:0px -408px;
+}
+.f24-shiny ._abkhazia {
+    background-position:0px 0px;
+}
+.f24-shiny ._basque-country {
+    background-position:0px -24px;
+}
+.f24-shiny ._british-antarctic-territory {
+    background-position:0px -48px;
+}
+.f24-shiny ._commonwealth {
+    background-position:0px -72px;
+}
+.f24-shiny ._england {
+    background-position:0px -96px;
+}
+.f24-shiny ._gosquared {
+    background-position:0px -120px;
+}
+.f24-shiny ._kosovo {
+    background-position:0px -144px;
+}
+.f24-shiny ._mars {
+    background-position:0px -168px;
+}
+.f24-shiny ._nagorno-karabakh {
+    background-position:0px -192px;
+}
+.f24-shiny ._nato {
+    background-position:0px -216px;
+}
+.f24-shiny ._northern-cyprus {
+    background-position:0px -240px;
+}
+.f24-shiny ._olympics {
+    background-position:0px -264px;
+}
+.f24-shiny ._red-cross {
+    background-position:0px -288px;
+}
+.f24-shiny ._scotland {
+    background-position:0px -312px;
+}
+.f24-shiny ._somaliland {
+    background-position:0px -336px;
+}
+.f24-shiny ._south-ossetia {
+    background-position:0px -360px;
+}
+.f24-shiny ._united-nations {
+    background-position:0px -384px;
+}
+.f24-shiny ._unknown {
+    background-position:0px -408px;
+}
+.f24-shiny ._wales {
+    background-position:0px -432px;
+}
+.f24-shiny .ad {
+    background-position:0px -456px;
+}
+.f24-shiny .ae {
+    background-position:0px -480px;
+}
+.f24-shiny .af {
+    background-position:0px -504px;
+}
+.f24-shiny .ag {
+    background-position:0px -528px;
+}
+.f24-shiny .ai {
+    background-position:0px -552px;
+}
+.f24-shiny .al {
+    background-position:0px -576px;
+}
+.f24-shiny .am {
+    background-position:0px -600px;
+}
+.f24-shiny .an {
+    background-position:0px -624px;
+}
+.f24-shiny .ao {
+    background-position:0px -648px;
+}
+.f24-shiny .aq {
+    background-position:0px -672px;
+}
+.f24-shiny .ar {
+    background-position:0px -696px;
+}
+.f24-shiny .as {
+    background-position:0px -720px;
+}
+.f24-shiny .at {
+    background-position:0px -744px;
+}
+.f24-shiny .au {
+    background-position:0px -768px;
+}
+.f24-shiny .aw {
+    background-position:0px -792px;
+}
+.f24-shiny .ax {
+    background-position:0px -816px;
+}
+.f24-shiny .az {
+    background-position:0px -840px;
+}
+.f24-shiny .ba {
+    background-position:0px -864px;
+}
+.f24-shiny .bb {
+    background-position:0px -888px;
+}
+.f24-shiny .bd {
+    background-position:0px -912px;
+}
+.f24-shiny .be {
+    background-position:0px -936px;
+}
+.f24-shiny .bf {
+    background-position:0px -960px;
+}
+.f24-shiny .bg {
+    background-position:0px -984px;
+}
+.f24-shiny .bh {
+    background-position:0px -1008px;
+}
+.f24-shiny .bi {
+    background-position:0px -1032px;
+}
+.f24-shiny .bj {
+    background-position:0px -1056px;
+}
+.f24-shiny .bl {
+    background-position:0px -1080px;
+}
+.f24-shiny .bm {
+    background-position:0px -1104px;
+}
+.f24-shiny .bn {
+    background-position:0px -1128px;
+}
+.f24-shiny .bo {
+    background-position:0px -1152px;
+}
+.f24-shiny .br {
+    background-position:0px -1176px;
+}
+.f24-shiny .bs {
+    background-position:0px -1200px;
+}
+.f24-shiny .bt {
+    background-position:0px -1224px;
+}
+.f24-shiny .bw {
+    background-position:0px -1248px;
+}
+.f24-shiny .by {
+    background-position:0px -1272px;
+}
+.f24-shiny .bz {
+    background-position:0px -1296px;
+}
+.f24-shiny .ca {
+    background-position:0px -1320px;
+}
+.f24-shiny .cc {
+    background-position:0px -1344px;
+}
+.f24-shiny .cd {
+    background-position:0px -1368px;
+}
+.f24-shiny .cf {
+    background-position:0px -1392px;
+}
+.f24-shiny .cg {
+    background-position:0px -1416px;
+}
+.f24-shiny .ch {
+    background-position:0px -1440px;
+}
+.f24-shiny .ci {
+    background-position:0px -1464px;
+}
+.f24-shiny .ck {
+    background-position:0px -1488px;
+}
+.f24-shiny .cl {
+    background-position:0px -1512px;
+}
+.f24-shiny .cm {
+    background-position:0px -1536px;
+}
+.f24-shiny .cn {
+    background-position:0px -1560px;
+}
+.f24-shiny .co {
+    background-position:0px -1584px;
+}
+.f24-shiny .cr {
+    background-position:0px -1608px;
+}
+.f24-shiny .cu {
+    background-position:0px -1632px;
+}
+.f24-shiny .cv {
+    background-position:0px -1656px;
+}
+.f24-shiny .cw {
+    background-position:0px -1680px;
+}
+.f24-shiny .cx {
+    background-position:0px -1704px;
+}
+.f24-shiny .cy {
+    background-position:0px -1728px;
+}
+.f24-shiny .cz {
+    background-position:0px -1752px;
+}
+.f24-shiny .de {
+    background-position:0px -1776px;
+}
+.f24-shiny .dj {
+    background-position:0px -1800px;
+}
+.f24-shiny .dk {
+    background-position:0px -1824px;
+}
+.f24-shiny .dm {
+    background-position:0px -1848px;
+}
+.f24-shiny .do {
+    background-position:0px -1872px;
+}
+.f24-shiny .dz {
+    background-position:0px -1896px;
+}
+.f24-shiny .ec {
+    background-position:0px -1920px;
+}
+.f24-shiny .ee {
+    background-position:0px -1944px;
+}
+.f24-shiny .eg {
+    background-position:0px -1968px;
+}
+.f24-shiny .eh {
+    background-position:0px -1992px;
+}
+.f24-shiny .er {
+    background-position:0px -2016px;
+}
+.f24-shiny .es {
+    background-position:0px -2040px;
+}
+.f24-shiny .et {
+    background-position:0px -2064px;
+}
+.f24-shiny .eu {
+    background-position:0px -2088px;
+}
+.f24-shiny .fi {
+    background-position:0px -2112px;
+}
+.f24-shiny .fj {
+    background-position:0px -2136px;
+}
+.f24-shiny .fk {
+    background-position:0px -2160px;
+}
+.f24-shiny .fm {
+    background-position:0px -2184px;
+}
+.f24-shiny .fo {
+    background-position:0px -2208px;
+}
+.f24-shiny .fr {
+    background-position:0px -2232px;
+}
+.f24-shiny .ga {
+    background-position:0px -2256px;
+}
+.f24-shiny .gb {
+    background-position:0px -2280px;
+}
+.f24-shiny .gd {
+    background-position:0px -2304px;
+}
+.f24-shiny .ge {
+    background-position:0px -2328px;
+}
+.f24-shiny .gg {
+    background-position:0px -2352px;
+}
+.f24-shiny .gh {
+    background-position:0px -2376px;
+}
+.f24-shiny .gi {
+    background-position:0px -2400px;
+}
+.f24-shiny .gl {
+    background-position:0px -2424px;
+}
+.f24-shiny .gm {
+    background-position:0px -2448px;
+}
+.f24-shiny .gn {
+    background-position:0px -2472px;
+}
+.f24-shiny .gq {
+    background-position:0px -2496px;
+}
+.f24-shiny .gr {
+    background-position:0px -2520px;
+}
+.f24-shiny .gs {
+    background-position:0px -2544px;
+}
+.f24-shiny .gt {
+    background-position:0px -2568px;
+}
+.f24-shiny .gu {
+    background-position:0px -2592px;
+}
+.f24-shiny .gw {
+    background-position:0px -2616px;
+}
+.f24-shiny .gy {
+    background-position:0px -2640px;
+}
+.f24-shiny .hk {
+    background-position:0px -2664px;
+}
+.f24-shiny .hn {
+    background-position:0px -2688px;
+}
+.f24-shiny .hr {
+    background-position:0px -2712px;
+}
+.f24-shiny .ht {
+    background-position:0px -2736px;
+}
+.f24-shiny .hu {
+    background-position:0px -2760px;
+}
+.f24-shiny .ic {
+    background-position:0px -2784px;
+}
+.f24-shiny .id {
+    background-position:0px -2808px;
+}
+.f24-shiny .ie {
+    background-position:0px -2832px;
+}
+.f24-shiny .il {
+    background-position:0px -2856px;
+}
+.f24-shiny .im {
+    background-position:0px -2880px;
+}
+.f24-shiny .in {
+    background-position:0px -2904px;
+}
+.f24-shiny .iq {
+    background-position:0px -2928px;
+}
+.f24-shiny .ir {
+    background-position:0px -2952px;
+}
+.f24-shiny .is {
+    background-position:0px -2976px;
+}
+.f24-shiny .it {
+    background-position:0px -3000px;
+}
+.f24-shiny .je {
+    background-position:0px -3024px;
+}
+.f24-shiny .jm {
+    background-position:0px -3048px;
+}
+.f24-shiny .jo {
+    background-position:0px -3072px;
+}
+.f24-shiny .jp {
+    background-position:0px -3096px;
+}
+.f24-shiny .ke {
+    background-position:0px -3120px;
+}
+.f24-shiny .kg {
+    background-position:0px -3144px;
+}
+.f24-shiny .kh {
+    background-position:0px -3168px;
+}
+.f24-shiny .ki {
+    background-position:0px -3192px;
+}
+.f24-shiny .km {
+    background-position:0px -3216px;
+}
+.f24-shiny .kn {
+    background-position:0px -3240px;
+}
+.f24-shiny .kp {
+    background-position:0px -3264px;
+}
+.f24-shiny .kr {
+    background-position:0px -3288px;
+}
+.f24-shiny .kw {
+    background-position:0px -3312px;
+}
+.f24-shiny .ky {
+    background-position:0px -3336px;
+}
+.f24-shiny .kz {
+    background-position:0px -3360px;
+}
+.f24-shiny .la {
+    background-position:0px -3384px;
+}
+.f24-shiny .lb {
+    background-position:0px -3408px;
+}
+.f24-shiny .lc {
+    background-position:0px -3432px;
+}
+.f24-shiny .li {
+    background-position:0px -3456px;
+}
+.f24-shiny .lk {
+    background-position:0px -3480px;
+}
+.f24-shiny .lr {
+    background-position:0px -3504px;
+}
+.f24-shiny .ls {
+    background-position:0px -3528px;
+}
+.f24-shiny .lt {
+    background-position:0px -3552px;
+}
+.f24-shiny .lu {
+    background-position:0px -3576px;
+}
+.f24-shiny .lv {
+    background-position:0px -3600px;
+}
+.f24-shiny .ly {
+    background-position:0px -3624px;
+}
+.f24-shiny .ma {
+    background-position:0px -3648px;
+}
+.f24-shiny .mc {
+    background-position:0px -3672px;
+}
+.f24-shiny .md {
+    background-position:0px -3696px;
+}
+.f24-shiny .me {
+    background-position:0px -3720px;
+}
+.f24-shiny .mf {
+    background-position:0px -3744px;
+}
+.f24-shiny .mg {
+    background-position:0px -3768px;
+}
+.f24-shiny .mh {
+    background-position:0px -3792px;
+}
+.f24-shiny .mk {
+    background-position:0px -3816px;
+}
+.f24-shiny .ml {
+    background-position:0px -3840px;
+}
+.f24-shiny .mm {
+    background-position:0px -3864px;
+}
+.f24-shiny .mn {
+    background-position:0px -3888px;
+}
+.f24-shiny .mo {
+    background-position:0px -3912px;
+}
+.f24-shiny .mp {
+    background-position:0px -3936px;
+}
+.f24-shiny .mq {
+    background-position:0px -3960px;
+}
+.f24-shiny .mr {
+    background-position:0px -3984px;
+}
+.f24-shiny .ms {
+    background-position:0px -4008px;
+}
+.f24-shiny .mt {
+    background-position:0px -4032px;
+}
+.f24-shiny .mu {
+    background-position:0px -4056px;
+}
+.f24-shiny .mv {
+    background-position:0px -4080px;
+}
+.f24-shiny .mw {
+    background-position:0px -4104px;
+}
+.f24-shiny .mx {
+    background-position:0px -4128px;
+}
+.f24-shiny .my {
+    background-position:0px -4152px;
+}
+.f24-shiny .mz {
+    background-position:0px -4176px;
+}
+.f24-shiny .na {
+    background-position:0px -4200px;
+}
+.f24-shiny .nc {
+    background-position:0px -4224px;
+}
+.f24-shiny .ne {
+    background-position:0px -4248px;
+}
+.f24-shiny .nf {
+    background-position:0px -4272px;
+}
+.f24-shiny .ng {
+    background-position:0px -4296px;
+}
+.f24-shiny .ni {
+    background-position:0px -4320px;
+}
+.f24-shiny .nl {
+    background-position:0px -4344px;
+}
+.f24-shiny .no {
+    background-position:0px -4368px;
+}
+.f24-shiny .np {
+    background-position:0px -4392px;
+}
+.f24-shiny .nr {
+    background-position:0px -4416px;
+}
+.f24-shiny .nu {
+    background-position:0px -4440px;
+}
+.f24-shiny .nz {
+    background-position:0px -4464px;
+}
+.f24-shiny .om {
+    background-position:0px -4488px;
+}
+.f24-shiny .pa {
+    background-position:0px -4512px;
+}
+.f24-shiny .pe {
+    background-position:0px -4536px;
+}
+.f24-shiny .pf {
+    background-position:0px -4560px;
+}
+.f24-shiny .pg {
+    background-position:0px -4584px;
+}
+.f24-shiny .ph {
+    background-position:0px -4608px;
+}
+.f24-shiny .pk {
+    background-position:0px -4632px;
+}
+.f24-shiny .pl {
+    background-position:0px -4656px;
+}
+.f24-shiny .pn {
+    background-position:0px -4680px;
+}
+.f24-shiny .pr {
+    background-position:0px -4704px;
+}
+.f24-shiny .ps {
+    background-position:0px -4728px;
+}
+.f24-shiny .pt {
+    background-position:0px -4752px;
+}
+.f24-shiny .pw {
+    background-position:0px -4776px;
+}
+.f24-shiny .py {
+    background-position:0px -4800px;
+}
+.f24-shiny .qa {
+    background-position:0px -4824px;
+}
+.f24-shiny .ro {
+    background-position:0px -4848px;
+}
+.f24-shiny .rs {
+    background-position:0px -4872px;
+}
+.f24-shiny .ru {
+    background-position:0px -4896px;
+}
+.f24-shiny .rw {
+    background-position:0px -4920px;
+}
+.f24-shiny .sa {
+    background-position:0px -4944px;
+}
+.f24-shiny .sb {
+    background-position:0px -4968px;
+}
+.f24-shiny .sc {
+    background-position:0px -4992px;
+}
+.f24-shiny .sd {
+    background-position:0px -5016px;
+}
+.f24-shiny .se {
+    background-position:0px -5040px;
+}
+.f24-shiny .sg {
+    background-position:0px -5064px;
+}
+.f24-shiny .sh {
+    background-position:0px -5088px;
+}
+.f24-shiny .si {
+    background-position:0px -5112px;
+}
+.f24-shiny .sk {
+    background-position:0px -5136px;
+}
+.f24-shiny .sl {
+    background-position:0px -5160px;
+}
+.f24-shiny .sm {
+    background-position:0px -5184px;
+}
+.f24-shiny .sn {
+    background-position:0px -5208px;
+}
+.f24-shiny .so {
+    background-position:0px -5232px;
+}
+.f24-shiny .sr {
+    background-position:0px -5256px;
+}
+.f24-shiny .ss {
+    background-position:0px -5280px;
+}
+.f24-shiny .st {
+    background-position:0px -5304px;
+}
+.f24-shiny .sv {
+    background-position:0px -5328px;
+}
+.f24-shiny .sy {
+    background-position:0px -5352px;
+}
+.f24-shiny .sz {
+    background-position:0px -5376px;
+}
+.f24-shiny .tc {
+    background-position:0px -5400px;
+}
+.f24-shiny .td {
+    background-position:0px -5424px;
+}
+.f24-shiny .tf {
+    background-position:0px -5448px;
+}
+.f24-shiny .tg {
+    background-position:0px -5472px;
+}
+.f24-shiny .th {
+    background-position:0px -5496px;
+}
+.f24-shiny .tj {
+    background-position:0px -5520px;
+}
+.f24-shiny .tk {
+    background-position:0px -5544px;
+}
+.f24-shiny .tl {
+    background-position:0px -5568px;
+}
+.f24-shiny .tm {
+    background-position:0px -5592px;
+}
+.f24-shiny .tn {
+    background-position:0px -5616px;
+}
+.f24-shiny .to {
+    background-position:0px -5640px;
+}
+.f24-shiny .tr {
+    background-position:0px -5664px;
+}
+.f24-shiny .tt {
+    background-position:0px -5688px;
+}
+.f24-shiny .tv {
+    background-position:0px -5712px;
+}
+.f24-shiny .tw {
+    background-position:0px -5736px;
+}
+.f24-shiny .tz {
+    background-position:0px -5760px;
+}
+.f24-shiny .ua {
+    background-position:0px -5784px;
+}
+.f24-shiny .ug {
+    background-position:0px -5808px;
+}
+.f24-shiny .us {
+    background-position:0px -5832px;
+}
+.f24-shiny .uy {
+    background-position:0px -5856px;
+}
+.f24-shiny .uz {
+    background-position:0px -5880px;
+}
+.f24-shiny .va {
+    background-position:0px -5904px;
+}
+.f24-shiny .vc {
+    background-position:0px -5928px;
+}
+.f24-shiny .ve {
+    background-position:0px -5952px;
+}
+.f24-shiny .vg {
+    background-position:0px -5976px;
+}
+.f24-shiny .vi {
+    background-position:0px -6000px;
+}
+.f24-shiny .vn {
+    background-position:0px -6024px;
+}
+.f24-shiny .vu {
+    background-position:0px -6048px;
+}
+.f24-shiny .wf {
+    background-position:0px -6072px;
+}
+.f24-shiny .ws {
+    background-position:0px -6096px;
+}
+.f24-shiny .ye {
+    background-position:0px -6120px;
+}
+.f24-shiny .yt {
+    background-position:0px -6144px;
+}
+.f24-shiny .za {
+    background-position:0px -6168px;
+}
+.f24-shiny .zm {
+    background-position:0px -6192px;
+}
+.f24-shiny .zw {
+    background-position:0px -6216px;
+}
+.f24-flat .flag {
+    background-position:-24px -408px;
+}
+.f24-flat ._abkhazia {
+    background-position:-24px 0px;
+}
+.f24-flat ._basque-country {
+    background-position:-24px -24px;
+}
+.f24-flat ._british-antarctic-territory {
+    background-position:-24px -48px;
+}
+.f24-flat ._commonwealth {
+    background-position:-24px -72px;
+}
+.f24-flat ._england {
+    background-position:-24px -96px;
+}
+.f24-flat ._gosquared {
+    background-position:-24px -120px;
+}
+.f24-flat ._kosovo {
+    background-position:-24px -144px;
+}
+.f24-flat ._mars {
+    background-position:-24px -168px;
+}
+.f24-flat ._nagorno-karabakh {
+    background-position:-24px -192px;
+}
+.f24-flat ._nato {
+    background-position:-24px -216px;
+}
+.f24-flat ._northern-cyprus {
+    background-position:-24px -240px;
+}
+.f24-flat ._olympics {
+    background-position:-24px -264px;
+}
+.f24-flat ._red-cross {
+    background-position:-24px -288px;
+}
+.f24-flat ._scotland {
+    background-position:-24px -312px;
+}
+.f24-flat ._somaliland {
+    background-position:-24px -336px;
+}
+.f24-flat ._south-ossetia {
+    background-position:-24px -360px;
+}
+.f24-flat ._united-nations {
+    background-position:-24px -384px;
+}
+.f24-flat ._unknown {
+    background-position:-24px -408px;
+}
+.f24-flat ._wales {
+    background-position:-24px -432px;
+}
+.f24-flat .ad {
+    background-position:-24px -456px;
+}
+.f24-flat .ae {
+    background-position:-24px -480px;
+}
+.f24-flat .af {
+    background-position:-24px -504px;
+}
+.f24-flat .ag {
+    background-position:-24px -528px;
+}
+.f24-flat .ai {
+    background-position:-24px -552px;
+}
+.f24-flat .al {
+    background-position:-24px -576px;
+}
+.f24-flat .am {
+    background-position:-24px -600px;
+}
+.f24-flat .an {
+    background-position:-24px -624px;
+}
+.f24-flat .ao {
+    background-position:-24px -648px;
+}
+.f24-flat .aq {
+    background-position:-24px -672px;
+}
+.f24-flat .ar {
+    background-position:-24px -696px;
+}
+.f24-flat .as {
+    background-position:-24px -720px;
+}
+.f24-flat .at {
+    background-position:-24px -744px;
+}
+.f24-flat .au {
+    background-position:-24px -768px;
+}
+.f24-flat .aw {
+    background-position:-24px -792px;
+}
+.f24-flat .ax {
+    background-position:-24px -816px;
+}
+.f24-flat .az {
+    background-position:-24px -840px;
+}
+.f24-flat .ba {
+    background-position:-24px -864px;
+}
+.f24-flat .bb {
+    background-position:-24px -888px;
+}
+.f24-flat .bd {
+    background-position:-24px -912px;
+}
+.f24-flat .be {
+    background-position:-24px -936px;
+}
+.f24-flat .bf {
+    background-position:-24px -960px;
+}
+.f24-flat .bg {
+    background-position:-24px -984px;
+}
+.f24-flat .bh {
+    background-position:-24px -1008px;
+}
+.f24-flat .bi {
+    background-position:-24px -1032px;
+}
+.f24-flat .bj {
+    background-position:-24px -1056px;
+}
+.f24-flat .bl {
+    background-position:-24px -1080px;
+}
+.f24-flat .bm {
+    background-position:-24px -1104px;
+}
+.f24-flat .bn {
+    background-position:-24px -1128px;
+}
+.f24-flat .bo {
+    background-position:-24px -1152px;
+}
+.f24-flat .br {
+    background-position:-24px -1176px;
+}
+.f24-flat .bs {
+    background-position:-24px -1200px;
+}
+.f24-flat .bt {
+    background-position:-24px -1224px;
+}
+.f24-flat .bw {
+    background-position:-24px -1248px;
+}
+.f24-flat .by {
+    background-position:-24px -1272px;
+}
+.f24-flat .bz {
+    background-position:-24px -1296px;
+}
+.f24-flat .ca {
+    background-position:-24px -1320px;
+}
+.f24-flat .cc {
+    background-position:-24px -1344px;
+}
+.f24-flat .cd {
+    background-position:-24px -1368px;
+}
+.f24-flat .cf {
+    background-position:-24px -1392px;
+}
+.f24-flat .cg {
+    background-position:-24px -1416px;
+}
+.f24-flat .ch {
+    background-position:-24px -1440px;
+}
+.f24-flat .ci {
+    background-position:-24px -1464px;
+}
+.f24-flat .ck {
+    background-position:-24px -1488px;
+}
+.f24-flat .cl {
+    background-position:-24px -1512px;
+}
+.f24-flat .cm {
+    background-position:-24px -1536px;
+}
+.f24-flat .cn {
+    background-position:-24px -1560px;
+}
+.f24-flat .co {
+    background-position:-24px -1584px;
+}
+.f24-flat .cr {
+    background-position:-24px -1608px;
+}
+.f24-flat .cu {
+    background-position:-24px -1632px;
+}
+.f24-flat .cv {
+    background-position:-24px -1656px;
+}
+.f24-flat .cw {
+    background-position:-24px -1680px;
+}
+.f24-flat .cx {
+    background-position:-24px -1704px;
+}
+.f24-flat .cy {
+    background-position:-24px -1728px;
+}
+.f24-flat .cz {
+    background-position:-24px -1752px;
+}
+.f24-flat .de {
+    background-position:-24px -1776px;
+}
+.f24-flat .dj {
+    background-position:-24px -1800px;
+}
+.f24-flat .dk {
+    background-position:-24px -1824px;
+}
+.f24-flat .dm {
+    background-position:-24px -1848px;
+}
+.f24-flat .do {
+    background-position:-24px -1872px;
+}
+.f24-flat .dz {
+    background-position:-24px -1896px;
+}
+.f24-flat .ec {
+    background-position:-24px -1920px;
+}
+.f24-flat .ee {
+    background-position:-24px -1944px;
+}
+.f24-flat .eg {
+    background-position:-24px -1968px;
+}
+.f24-flat .eh {
+    background-position:-24px -1992px;
+}
+.f24-flat .er {
+    background-position:-24px -2016px;
+}
+.f24-flat .es {
+    background-position:-24px -2040px;
+}
+.f24-flat .et {
+    background-position:-24px -2064px;
+}
+.f24-flat .eu {
+    background-position:-24px -2088px;
+}
+.f24-flat .fi {
+    background-position:-24px -2112px;
+}
+.f24-flat .fj {
+    background-position:-24px -2136px;
+}
+.f24-flat .fk {
+    background-position:-24px -2160px;
+}
+.f24-flat .fm {
+    background-position:-24px -2184px;
+}
+.f24-flat .fo {
+    background-position:-24px -2208px;
+}
+.f24-flat .fr {
+    background-position:-24px -2232px;
+}
+.f24-flat .ga {
+    background-position:-24px -2256px;
+}
+.f24-flat .gb {
+    background-position:-24px -2280px;
+}
+.f24-flat .gd {
+    background-position:-24px -2304px;
+}
+.f24-flat .ge {
+    background-position:-24px -2328px;
+}
+.f24-flat .gg {
+    background-position:-24px -2352px;
+}
+.f24-flat .gh {
+    background-position:-24px -2376px;
+}
+.f24-flat .gi {
+    background-position:-24px -2400px;
+}
+.f24-flat .gl {
+    background-position:-24px -2424px;
+}
+.f24-flat .gm {
+    background-position:-24px -2448px;
+}
+.f24-flat .gn {
+    background-position:-24px -2472px;
+}
+.f24-flat .gq {
+    background-position:-24px -2496px;
+}
+.f24-flat .gr {
+    background-position:-24px -2520px;
+}
+.f24-flat .gs {
+    background-position:-24px -2544px;
+}
+.f24-flat .gt {
+    background-position:-24px -2568px;
+}
+.f24-flat .gu {
+    background-position:-24px -2592px;
+}
+.f24-flat .gw {
+    background-position:-24px -2616px;
+}
+.f24-flat .gy {
+    background-position:-24px -2640px;
+}
+.f24-flat .hk {
+    background-position:-24px -2664px;
+}
+.f24-flat .hn {
+    background-position:-24px -2688px;
+}
+.f24-flat .hr {
+    background-position:-24px -2712px;
+}
+.f24-flat .ht {
+    background-position:-24px -2736px;
+}
+.f24-flat .hu {
+    background-position:-24px -2760px;
+}
+.f24-flat .ic {
+    background-position:-24px -2784px;
+}
+.f24-flat .id {
+    background-position:-24px -2808px;
+}
+.f24-flat .ie {
+    background-position:-24px -2832px;
+}
+.f24-flat .il {
+    background-position:-24px -2856px;
+}
+.f24-flat .im {
+    background-position:-24px -2880px;
+}
+.f24-flat .in {
+    background-position:-24px -2904px;
+}
+.f24-flat .iq {
+    background-position:-24px -2928px;
+}
+.f24-flat .ir {
+    background-position:-24px -2952px;
+}
+.f24-flat .is {
+    background-position:-24px -2976px;
+}
+.f24-flat .it {
+    background-position:-24px -3000px;
+}
+.f24-flat .je {
+    background-position:-24px -3024px;
+}
+.f24-flat .jm {
+    background-position:-24px -3048px;
+}
+.f24-flat .jo {
+    background-position:-24px -3072px;
+}
+.f24-flat .jp {
+    background-position:-24px -3096px;
+}
+.f24-flat .ke {
+    background-position:-24px -3120px;
+}
+.f24-flat .kg {
+    background-position:-24px -3144px;
+}
+.f24-flat .kh {
+    background-position:-24px -3168px;
+}
+.f24-flat .ki {
+    background-position:-24px -3192px;
+}
+.f24-flat .km {
+    background-position:-24px -3216px;
+}
+.f24-flat .kn {
+    background-position:-24px -3240px;
+}
+.f24-flat .kp {
+    background-position:-24px -3264px;
+}
+.f24-flat .kr {
+    background-position:-24px -3288px;
+}
+.f24-flat .kw {
+    background-position:-24px -3312px;
+}
+.f24-flat .ky {
+    background-position:-24px -3336px;
+}
+.f24-flat .kz {
+    background-position:-24px -3360px;
+}
+.f24-flat .la {
+    background-position:-24px -3384px;
+}
+.f24-flat .lb {
+    background-position:-24px -3408px;
+}
+.f24-flat .lc {
+    background-position:-24px -3432px;
+}
+.f24-flat .li {
+    background-position:-24px -3456px;
+}
+.f24-flat .lk {
+    background-position:-24px -3480px;
+}
+.f24-flat .lr {
+    background-position:-24px -3504px;
+}
+.f24-flat .ls {
+    background-position:-24px -3528px;
+}
+.f24-flat .lt {
+    background-position:-24px -3552px;
+}
+.f24-flat .lu {
+    background-position:-24px -3576px;
+}
+.f24-flat .lv {
+    background-position:-24px -3600px;
+}
+.f24-flat .ly {
+    background-position:-24px -3624px;
+}
+.f24-flat .ma {
+    background-position:-24px -3648px;
+}
+.f24-flat .mc {
+    background-position:-24px -3672px;
+}
+.f24-flat .md {
+    background-position:-24px -3696px;
+}
+.f24-flat .me {
+    background-position:-24px -3720px;
+}
+.f24-flat .mf {
+    background-position:-24px -3744px;
+}
+.f24-flat .mg {
+    background-position:-24px -3768px;
+}
+.f24-flat .mh {
+    background-position:-24px -3792px;
+}
+.f24-flat .mk {
+    background-position:-24px -3816px;
+}
+.f24-flat .ml {
+    background-position:-24px -3840px;
+}
+.f24-flat .mm {
+    background-position:-24px -3864px;
+}
+.f24-flat .mn {
+    background-position:-24px -3888px;
+}
+.f24-flat .mo {
+    background-position:-24px -3912px;
+}
+.f24-flat .mp {
+    background-position:-24px -3936px;
+}
+.f24-flat .mq {
+    background-position:-24px -3960px;
+}
+.f24-flat .mr {
+    background-position:-24px -3984px;
+}
+.f24-flat .ms {
+    background-position:-24px -4008px;
+}
+.f24-flat .mt {
+    background-position:-24px -4032px;
+}
+.f24-flat .mu {
+    background-position:-24px -4056px;
+}
+.f24-flat .mv {
+    background-position:-24px -4080px;
+}
+.f24-flat .mw {
+    background-position:-24px -4104px;
+}
+.f24-flat .mx {
+    background-position:-24px -4128px;
+}
+.f24-flat .my {
+    background-position:-24px -4152px;
+}
+.f24-flat .mz {
+    background-position:-24px -4176px;
+}
+.f24-flat .na {
+    background-position:-24px -4200px;
+}
+.f24-flat .nc {
+    background-position:-24px -4224px;
+}
+.f24-flat .ne {
+    background-position:-24px -4248px;
+}
+.f24-flat .nf {
+    background-position:-24px -4272px;
+}
+.f24-flat .ng {
+    background-position:-24px -4296px;
+}
+.f24-flat .ni {
+    background-position:-24px -4320px;
+}
+.f24-flat .nl {
+    background-position:-24px -4344px;
+}
+.f24-flat .no {
+    background-position:-24px -4368px;
+}
+.f24-flat .np {
+    background-position:-24px -4392px;
+}
+.f24-flat .nr {
+    background-position:-24px -4416px;
+}
+.f24-flat .nu {
+    background-position:-24px -4440px;
+}
+.f24-flat .nz {
+    background-position:-24px -4464px;
+}
+.f24-flat .om {
+    background-position:-24px -4488px;
+}
+.f24-flat .pa {
+    background-position:-24px -4512px;
+}
+.f24-flat .pe {
+    background-position:-24px -4536px;
+}
+.f24-flat .pf {
+    background-position:-24px -4560px;
+}
+.f24-flat .pg {
+    background-position:-24px -4584px;
+}
+.f24-flat .ph {
+    background-position:-24px -4608px;
+}
+.f24-flat .pk {
+    background-position:-24px -4632px;
+}
+.f24-flat .pl {
+    background-position:-24px -4656px;
+}
+.f24-flat .pn {
+    background-position:-24px -4680px;
+}
+.f24-flat .pr {
+    background-position:-24px -4704px;
+}
+.f24-flat .ps {
+    background-position:-24px -4728px;
+}
+.f24-flat .pt {
+    background-position:-24px -4752px;
+}
+.f24-flat .pw {
+    background-position:-24px -4776px;
+}
+.f24-flat .py {
+    background-position:-24px -4800px;
+}
+.f24-flat .qa {
+    background-position:-24px -4824px;
+}
+.f24-flat .ro {
+    background-position:-24px -4848px;
+}
+.f24-flat .rs {
+    background-position:-24px -4872px;
+}
+.f24-flat .ru {
+    background-position:-24px -4896px;
+}
+.f24-flat .rw {
+    background-position:-24px -4920px;
+}
+.f24-flat .sa {
+    background-position:-24px -4944px;
+}
+.f24-flat .sb {
+    background-position:-24px -4968px;
+}
+.f24-flat .sc {
+    background-position:-24px -4992px;
+}
+.f24-flat .sd {
+    background-position:-24px -5016px;
+}
+.f24-flat .se {
+    background-position:-24px -5040px;
+}
+.f24-flat .sg {
+    background-position:-24px -5064px;
+}
+.f24-flat .sh {
+    background-position:-24px -5088px;
+}
+.f24-flat .si {
+    background-position:-24px -5112px;
+}
+.f24-flat .sk {
+    background-position:-24px -5136px;
+}
+.f24-flat .sl {
+    background-position:-24px -5160px;
+}
+.f24-flat .sm {
+    background-position:-24px -5184px;
+}
+.f24-flat .sn {
+    background-position:-24px -5208px;
+}
+.f24-flat .so {
+    background-position:-24px -5232px;
+}
+.f24-flat .sr {
+    background-position:-24px -5256px;
+}
+.f24-flat .ss {
+    background-position:-24px -5280px;
+}
+.f24-flat .st {
+    background-position:-24px -5304px;
+}
+.f24-flat .sv {
+    background-position:-24px -5328px;
+}
+.f24-flat .sy {
+    background-position:-24px -5352px;
+}
+.f24-flat .sz {
+    background-position:-24px -5376px;
+}
+.f24-flat .tc {
+    background-position:-24px -5400px;
+}
+.f24-flat .td {
+    background-position:-24px -5424px;
+}
+.f24-flat .tf {
+    background-position:-24px -5448px;
+}
+.f24-flat .tg {
+    background-position:-24px -5472px;
+}
+.f24-flat .th {
+    background-position:-24px -5496px;
+}
+.f24-flat .tj {
+    background-position:-24px -5520px;
+}
+.f24-flat .tk {
+    background-position:-24px -5544px;
+}
+.f24-flat .tl {
+    background-position:-24px -5568px;
+}
+.f24-flat .tm {
+    background-position:-24px -5592px;
+}
+.f24-flat .tn {
+    background-position:-24px -5616px;
+}
+.f24-flat .to {
+    background-position:-24px -5640px;
+}
+.f24-flat .tr {
+    background-position:-24px -5664px;
+}
+.f24-flat .tt {
+    background-position:-24px -5688px;
+}
+.f24-flat .tv {
+    background-position:-24px -5712px;
+}
+.f24-flat .tw {
+    background-position:-24px -5736px;
+}
+.f24-flat .tz {
+    background-position:-24px -5760px;
+}
+.f24-flat .ua {
+    background-position:-24px -5784px;
+}
+.f24-flat .ug {
+    background-position:-24px -5808px;
+}
+.f24-flat .us {
+    background-position:-24px -5832px;
+}
+.f24-flat .uy {
+    background-position:-24px -5856px;
+}
+.f24-flat .uz {
+    background-position:-24px -5880px;
+}
+.f24-flat .va {
+    background-position:-24px -5904px;
+}
+.f24-flat .vc {
+    background-position:-24px -5928px;
+}
+.f24-flat .ve {
+    background-position:-24px -5952px;
+}
+.f24-flat .vg {
+    background-position:-24px -5976px;
+}
+.f24-flat .vi {
+    background-position:-24px -6000px;
+}
+.f24-flat .vn {
+    background-position:-24px -6024px;
+}
+.f24-flat .vu {
+    background-position:-24px -6048px;
+}
+.f24-flat .wf {
+    background-position:-24px -6072px;
+}
+.f24-flat .ws {
+    background-position:-24px -6096px;
+}
+.f24-flat .ye {
+    background-position:-24px -6120px;
+}
+.f24-flat .yt {
+    background-position:-24px -6144px;
+}
+.f24-flat .za {
+    background-position:-24px -6168px;
+}
+.f24-flat .zm {
+    background-position:-24px -6192px;
+}
+.f24-flat .zw {
+    background-position:-24px -6216px;
+}
+
+.f48-shiny .flag, .f48-flat .flag {
+    line-height:48px;
+    display:inline-block;
+    width:48px;
+    height:48px;
+    
+    vertical-align:middle;
+    background:url(../img/flags48.png) no-repeat;
+    background-position:0px -816px;
+}
+.f48-shiny ._abkhazia {
+    background-position:0px 0px;
+}
+.f48-shiny ._basque-country {
+    background-position:0px -48px;
+}
+.f48-shiny ._british-antarctic-territory {
+    background-position:0px -96px;
+}
+.f48-shiny ._commonwealth {
+    background-position:0px -144px;
+}
+.f48-shiny ._england {
+    background-position:0px -192px;
+}
+.f48-shiny ._gosquared {
+    background-position:0px -240px;
+}
+.f48-shiny ._kosovo {
+    background-position:0px -288px;
+}
+.f48-shiny ._mars {
+    background-position:0px -336px;
+}
+.f48-shiny ._nagorno-karabakh {
+    background-position:0px -384px;
+}
+.f48-shiny ._nato {
+    background-position:0px -432px;
+}
+.f48-shiny ._northern-cyprus {
+    background-position:0px -480px;
+}
+.f48-shiny ._olympics {
+    background-position:0px -528px;
+}
+.f48-shiny ._red-cross {
+    background-position:0px -576px;
+}
+.f48-shiny ._scotland {
+    background-position:0px -624px;
+}
+.f48-shiny ._somaliland {
+    background-position:0px -672px;
+}
+.f48-shiny ._south-ossetia {
+    background-position:0px -720px;
+}
+.f48-shiny ._united-nations {
+    background-position:0px -768px;
+}
+.f48-shiny ._unknown {
+    background-position:0px -816px;
+}
+.f48-shiny ._wales {
+    background-position:0px -864px;
+}
+.f48-shiny .ad {
+    background-position:0px -912px;
+}
+.f48-shiny .ae {
+    background-position:0px -960px;
+}
+.f48-shiny .af {
+    background-position:0px -1008px;
+}
+.f48-shiny .ag {
+    background-position:0px -1056px;
+}
+.f48-shiny .ai {
+    background-position:0px -1104px;
+}
+.f48-shiny .al {
+    background-position:0px -1152px;
+}
+.f48-shiny .am {
+    background-position:0px -1200px;
+}
+.f48-shiny .an {
+    background-position:0px -1248px;
+}
+.f48-shiny .ao {
+    background-position:0px -1296px;
+}
+.f48-shiny .aq {
+    background-position:0px -1344px;
+}
+.f48-shiny .ar {
+    background-position:0px -1392px;
+}
+.f48-shiny .as {
+    background-position:0px -1440px;
+}
+.f48-shiny .at {
+    background-position:0px -1488px;
+}
+.f48-shiny .au {
+    background-position:0px -1536px;
+}
+.f48-shiny .aw {
+    background-position:0px -1584px;
+}
+.f48-shiny .ax {
+    background-position:0px -1632px;
+}
+.f48-shiny .az {
+    background-position:0px -1680px;
+}
+.f48-shiny .ba {
+    background-position:0px -1728px;
+}
+.f48-shiny .bb {
+    background-position:0px -1776px;
+}
+.f48-shiny .bd {
+    background-position:0px -1824px;
+}
+.f48-shiny .be {
+    background-position:0px -1872px;
+}
+.f48-shiny .bf {
+    background-position:0px -1920px;
+}
+.f48-shiny .bg {
+    background-position:0px -1968px;
+}
+.f48-shiny .bh {
+    background-position:0px -2016px;
+}
+.f48-shiny .bi {
+    background-position:0px -2064px;
+}
+.f48-shiny .bj {
+    background-position:0px -2112px;
+}
+.f48-shiny .bl {
+    background-position:0px -2160px;
+}
+.f48-shiny .bm {
+    background-position:0px -2208px;
+}
+.f48-shiny .bn {
+    background-position:0px -2256px;
+}
+.f48-shiny .bo {
+    background-position:0px -2304px;
+}
+.f48-shiny .br {
+    background-position:0px -2352px;
+}
+.f48-shiny .bs {
+    background-position:0px -2400px;
+}
+.f48-shiny .bt {
+    background-position:0px -2448px;
+}
+.f48-shiny .bw {
+    background-position:0px -2496px;
+}
+.f48-shiny .by {
+    background-position:0px -2544px;
+}
+.f48-shiny .bz {
+    background-position:0px -2592px;
+}
+.f48-shiny .ca {
+    background-position:0px -2640px;
+}
+.f48-shiny .cc {
+    background-position:0px -2688px;
+}
+.f48-shiny .cd {
+    background-position:0px -2736px;
+}
+.f48-shiny .cf {
+    background-position:0px -2784px;
+}
+.f48-shiny .cg {
+    background-position:0px -2832px;
+}
+.f48-shiny .ch {
+    background-position:0px -2880px;
+}
+.f48-shiny .ci {
+    background-position:0px -2928px;
+}
+.f48-shiny .ck {
+    background-position:0px -2976px;
+}
+.f48-shiny .cl {
+    background-position:0px -3024px;
+}
+.f48-shiny .cm {
+    background-position:0px -3072px;
+}
+.f48-shiny .cn {
+    background-position:0px -3120px;
+}
+.f48-shiny .co {
+    background-position:0px -3168px;
+}
+.f48-shiny .cr {
+    background-position:0px -3216px;
+}
+.f48-shiny .cu {
+    background-position:0px -3264px;
+}
+.f48-shiny .cv {
+    background-position:0px -3312px;
+}
+.f48-shiny .cw {
+    background-position:0px -3360px;
+}
+.f48-shiny .cx {
+    background-position:0px -3408px;
+}
+.f48-shiny .cy {
+    background-position:0px -3456px;
+}
+.f48-shiny .cz {
+    background-position:0px -3504px;
+}
+.f48-shiny .de {
+    background-position:0px -3552px;
+}
+.f48-shiny .dj {
+    background-position:0px -3600px;
+}
+.f48-shiny .dk {
+    background-position:0px -3648px;
+}
+.f48-shiny .dm {
+    background-position:0px -3696px;
+}
+.f48-shiny .do {
+    background-position:0px -3744px;
+}
+.f48-shiny .dz {
+    background-position:0px -3792px;
+}
+.f48-shiny .ec {
+    background-position:0px -3840px;
+}
+.f48-shiny .ee {
+    background-position:0px -3888px;
+}
+.f48-shiny .eg {
+    background-position:0px -3936px;
+}
+.f48-shiny .eh {
+    background-position:0px -3984px;
+}
+.f48-shiny .er {
+    background-position:0px -4032px;
+}
+.f48-shiny .es {
+    background-position:0px -4080px;
+}
+.f48-shiny .et {
+    background-position:0px -4128px;
+}
+.f48-shiny .eu {
+    background-position:0px -4176px;
+}
+.f48-shiny .fi {
+    background-position:0px -4224px;
+}
+.f48-shiny .fj {
+    background-position:0px -4272px;
+}
+.f48-shiny .fk {
+    background-position:0px -4320px;
+}
+.f48-shiny .fm {
+    background-position:0px -4368px;
+}
+.f48-shiny .fo {
+    background-position:0px -4416px;
+}
+.f48-shiny .fr {
+    background-position:0px -4464px;
+}
+.f48-shiny .ga {
+    background-position:0px -4512px;
+}
+.f48-shiny .gb {
+    background-position:0px -4560px;
+}
+.f48-shiny .gd {
+    background-position:0px -4608px;
+}
+.f48-shiny .ge {
+    background-position:0px -4656px;
+}
+.f48-shiny .gg {
+    background-position:0px -4704px;
+}
+.f48-shiny .gh {
+    background-position:0px -4752px;
+}
+.f48-shiny .gi {
+    background-position:0px -4800px;
+}
+.f48-shiny .gl {
+    background-position:0px -4848px;
+}
+.f48-shiny .gm {
+    background-position:0px -4896px;
+}
+.f48-shiny .gn {
+    background-position:0px -4944px;
+}
+.f48-shiny .gq {
+    background-position:0px -4992px;
+}
+.f48-shiny .gr {
+    background-position:0px -5040px;
+}
+.f48-shiny .gs {
+    background-position:0px -5088px;
+}
+.f48-shiny .gt {
+    background-position:0px -5136px;
+}
+.f48-shiny .gu {
+    background-position:0px -5184px;
+}
+.f48-shiny .gw {
+    background-position:0px -5232px;
+}
+.f48-shiny .gy {
+    background-position:0px -5280px;
+}
+.f48-shiny .hk {
+    background-position:0px -5328px;
+}
+.f48-shiny .hn {
+    background-position:0px -5376px;
+}
+.f48-shiny .hr {
+    background-position:0px -5424px;
+}
+.f48-shiny .ht {
+    background-position:0px -5472px;
+}
+.f48-shiny .hu {
+    background-position:0px -5520px;
+}
+.f48-shiny .ic {
+    background-position:0px -5568px;
+}
+.f48-shiny .id {
+    background-position:0px -5616px;
+}
+.f48-shiny .ie {
+    background-position:0px -5664px;
+}
+.f48-shiny .il {
+    background-position:0px -5712px;
+}
+.f48-shiny .im {
+    background-position:0px -5760px;
+}
+.f48-shiny .in {
+    background-position:0px -5808px;
+}
+.f48-shiny .iq {
+    background-position:0px -5856px;
+}
+.f48-shiny .ir {
+    background-position:0px -5904px;
+}
+.f48-shiny .is {
+    background-position:0px -5952px;
+}
+.f48-shiny .it {
+    background-position:0px -6000px;
+}
+.f48-shiny .je {
+    background-position:0px -6048px;
+}
+.f48-shiny .jm {
+    background-position:0px -6096px;
+}
+.f48-shiny .jo {
+    background-position:0px -6144px;
+}
+.f48-shiny .jp {
+    background-position:0px -6192px;
+}
+.f48-shiny .ke {
+    background-position:0px -6240px;
+}
+.f48-shiny .kg {
+    background-position:0px -6288px;
+}
+.f48-shiny .kh {
+    background-position:0px -6336px;
+}
+.f48-shiny .ki {
+    background-position:0px -6384px;
+}
+.f48-shiny .km {
+    background-position:0px -6432px;
+}
+.f48-shiny .kn {
+    background-position:0px -6480px;
+}
+.f48-shiny .kp {
+    background-position:0px -6528px;
+}
+.f48-shiny .kr {
+    background-position:0px -6576px;
+}
+.f48-shiny .kw {
+    background-position:0px -6624px;
+}
+.f48-shiny .ky {
+    background-position:0px -6672px;
+}
+.f48-shiny .kz {
+    background-position:0px -6720px;
+}
+.f48-shiny .la {
+    background-position:0px -6768px;
+}
+.f48-shiny .lb {
+    background-position:0px -6816px;
+}
+.f48-shiny .lc {
+    background-position:0px -6864px;
+}
+.f48-shiny .li {
+    background-position:0px -6912px;
+}
+.f48-shiny .lk {
+    background-position:0px -6960px;
+}
+.f48-shiny .lr {
+    background-position:0px -7008px;
+}
+.f48-shiny .ls {
+    background-position:0px -7056px;
+}
+.f48-shiny .lt {
+    background-position:0px -7104px;
+}
+.f48-shiny .lu {
+    background-position:0px -7152px;
+}
+.f48-shiny .lv {
+    background-position:0px -7200px;
+}
+.f48-shiny .ly {
+    background-position:0px -7248px;
+}
+.f48-shiny .ma {
+    background-position:0px -7296px;
+}
+.f48-shiny .mc {
+    background-position:0px -7344px;
+}
+.f48-shiny .md {
+    background-position:0px -7392px;
+}
+.f48-shiny .me {
+    background-position:0px -7440px;
+}
+.f48-shiny .mf {
+    background-position:0px -7488px;
+}
+.f48-shiny .mg {
+    background-position:0px -7536px;
+}
+.f48-shiny .mh {
+    background-position:0px -7584px;
+}
+.f48-shiny .mk {
+    background-position:0px -7632px;
+}
+.f48-shiny .ml {
+    background-position:0px -7680px;
+}
+.f48-shiny .mm {
+    background-position:0px -7728px;
+}
+.f48-shiny .mn {
+    background-position:0px -7776px;
+}
+.f48-shiny .mo {
+    background-position:0px -7824px;
+}
+.f48-shiny .mp {
+    background-position:0px -7872px;
+}
+.f48-shiny .mq {
+    background-position:0px -7920px;
+}
+.f48-shiny .mr {
+    background-position:0px -7968px;
+}
+.f48-shiny .ms {
+    background-position:0px -8016px;
+}
+.f48-shiny .mt {
+    background-position:0px -8064px;
+}
+.f48-shiny .mu {
+    background-position:0px -8112px;
+}
+.f48-shiny .mv {
+    background-position:0px -8160px;
+}
+.f48-shiny .mw {
+    background-position:0px -8208px;
+}
+.f48-shiny .mx {
+    background-position:0px -8256px;
+}
+.f48-shiny .my {
+    background-position:0px -8304px;
+}
+.f48-shiny .mz {
+    background-position:0px -8352px;
+}
+.f48-shiny .na {
+    background-position:0px -8400px;
+}
+.f48-shiny .nc {
+    background-position:0px -8448px;
+}
+.f48-shiny .ne {
+    background-position:0px -8496px;
+}
+.f48-shiny .nf {
+    background-position:0px -8544px;
+}
+.f48-shiny .ng {
+    background-position:0px -8592px;
+}
+.f48-shiny .ni {
+    background-position:0px -8640px;
+}
+.f48-shiny .nl {
+    background-position:0px -8688px;
+}
+.f48-shiny .no {
+    background-position:0px -8736px;
+}
+.f48-shiny .np {
+    background-position:0px -8784px;
+}
+.f48-shiny .nr {
+    background-position:0px -8832px;
+}
+.f48-shiny .nu {
+    background-position:0px -8880px;
+}
+.f48-shiny .nz {
+    background-position:0px -8928px;
+}
+.f48-shiny .om {
+    background-position:0px -8976px;
+}
+.f48-shiny .pa {
+    background-position:0px -9024px;
+}
+.f48-shiny .pe {
+    background-position:0px -9072px;
+}
+.f48-shiny .pf {
+    background-position:0px -9120px;
+}
+.f48-shiny .pg {
+    background-position:0px -9168px;
+}
+.f48-shiny .ph {
+    background-position:0px -9216px;
+}
+.f48-shiny .pk {
+    background-position:0px -9264px;
+}
+.f48-shiny .pl {
+    background-position:0px -9312px;
+}
+.f48-shiny .pn {
+    background-position:0px -9360px;
+}
+.f48-shiny .pr {
+    background-position:0px -9408px;
+}
+.f48-shiny .ps {
+    background-position:0px -9456px;
+}
+.f48-shiny .pt {
+    background-position:0px -9504px;
+}
+.f48-shiny .pw {
+    background-position:0px -9552px;
+}
+.f48-shiny .py {
+    background-position:0px -9600px;
+}
+.f48-shiny .qa {
+    background-position:0px -9648px;
+}
+.f48-shiny .ro {
+    background-position:0px -9696px;
+}
+.f48-shiny .rs {
+    background-position:0px -9744px;
+}
+.f48-shiny .ru {
+    background-position:0px -9792px;
+}
+.f48-shiny .rw {
+    background-position:0px -9840px;
+}
+.f48-shiny .sa {
+    background-position:0px -9888px;
+}
+.f48-shiny .sb {
+    background-position:0px -9936px;
+}
+.f48-shiny .sc {
+    background-position:0px -9984px;
+}
+.f48-shiny .sd {
+    background-position:0px -10032px;
+}
+.f48-shiny .se {
+    background-position:0px -10080px;
+}
+.f48-shiny .sg {
+    background-position:0px -10128px;
+}
+.f48-shiny .sh {
+    background-position:0px -10176px;
+}
+.f48-shiny .si {
+    background-position:0px -10224px;
+}
+.f48-shiny .sk {
+    background-position:0px -10272px;
+}
+.f48-shiny .sl {
+    background-position:0px -10320px;
+}
+.f48-shiny .sm {
+    background-position:0px -10368px;
+}
+.f48-shiny .sn {
+    background-position:0px -10416px;
+}
+.f48-shiny .so {
+    background-position:0px -10464px;
+}
+.f48-shiny .sr {
+    background-position:0px -10512px;
+}
+.f48-shiny .ss {
+    background-position:0px -10560px;
+}
+.f48-shiny .st {
+    background-position:0px -10608px;
+}
+.f48-shiny .sv {
+    background-position:0px -10656px;
+}
+.f48-shiny .sy {
+    background-position:0px -10704px;
+}
+.f48-shiny .sz {
+    background-position:0px -10752px;
+}
+.f48-shiny .tc {
+    background-position:0px -10800px;
+}
+.f48-shiny .td {
+    background-position:0px -10848px;
+}
+.f48-shiny .tf {
+    background-position:0px -10896px;
+}
+.f48-shiny .tg {
+    background-position:0px -10944px;
+}
+.f48-shiny .th {
+    background-position:0px -10992px;
+}
+.f48-shiny .tj {
+    background-position:0px -11040px;
+}
+.f48-shiny .tk {
+    background-position:0px -11088px;
+}
+.f48-shiny .tl {
+    background-position:0px -11136px;
+}
+.f48-shiny .tm {
+    background-position:0px -11184px;
+}
+.f48-shiny .tn {
+    background-position:0px -11232px;
+}
+.f48-shiny .to {
+    background-position:0px -11280px;
+}
+.f48-shiny .tr {
+    background-position:0px -11328px;
+}
+.f48-shiny .tt {
+    background-position:0px -11376px;
+}
+.f48-shiny .tv {
+    background-position:0px -11424px;
+}
+.f48-shiny .tw {
+    background-position:0px -11472px;
+}
+.f48-shiny .tz {
+    background-position:0px -11520px;
+}
+.f48-shiny .ua {
+    background-position:0px -11568px;
+}
+.f48-shiny .ug {
+    background-position:0px -11616px;
+}
+.f48-shiny .us {
+    background-position:0px -11664px;
+}
+.f48-shiny .uy {
+    background-position:0px -11712px;
+}
+.f48-shiny .uz {
+    background-position:0px -11760px;
+}
+.f48-shiny .va {
+    background-position:0px -11808px;
+}
+.f48-shiny .vc {
+    background-position:0px -11856px;
+}
+.f48-shiny .ve {
+    background-position:0px -11904px;
+}
+.f48-shiny .vg {
+    background-position:0px -11952px;
+}
+.f48-shiny .vi {
+    background-position:0px -12000px;
+}
+.f48-shiny .vn {
+    background-position:0px -12048px;
+}
+.f48-shiny .vu {
+    background-position:0px -12096px;
+}
+.f48-shiny .wf {
+    background-position:0px -12144px;
+}
+.f48-shiny .ws {
+    background-position:0px -12192px;
+}
+.f48-shiny .ye {
+    background-position:0px -12240px;
+}
+.f48-shiny .yt {
+    background-position:0px -12288px;
+}
+.f48-shiny .za {
+    background-position:0px -12336px;
+}
+.f48-shiny .zm {
+    background-position:0px -12384px;
+}
+.f48-shiny .zw {
+    background-position:0px -12432px;
+}
+.f48-flat .flag {
+    background-position:-48px -816px;
+}
+.f48-flat ._abkhazia {
+    background-position:-48px 0px;
+}
+.f48-flat ._basque-country {
+    background-position:-48px -48px;
+}
+.f48-flat ._british-antarctic-territory {
+    background-position:-48px -96px;
+}
+.f48-flat ._commonwealth {
+    background-position:-48px -144px;
+}
+.f48-flat ._england {
+    background-position:-48px -192px;
+}
+.f48-flat ._gosquared {
+    background-position:-48px -240px;
+}
+.f48-flat ._kosovo {
+    background-position:-48px -288px;
+}
+.f48-flat ._mars {
+    background-position:-48px -336px;
+}
+.f48-flat ._nagorno-karabakh {
+    background-position:-48px -384px;
+}
+.f48-flat ._nato {
+    background-position:-48px -432px;
+}
+.f48-flat ._northern-cyprus {
+    background-position:-48px -480px;
+}
+.f48-flat ._olympics {
+    background-position:-48px -528px;
+}
+.f48-flat ._red-cross {
+    background-position:-48px -576px;
+}
+.f48-flat ._scotland {
+    background-position:-48px -624px;
+}
+.f48-flat ._somaliland {
+    background-position:-48px -672px;
+}
+.f48-flat ._south-ossetia {
+    background-position:-48px -720px;
+}
+.f48-flat ._united-nations {
+    background-position:-48px -768px;
+}
+.f48-flat ._unknown {
+    background-position:-48px -816px;
+}
+.f48-flat ._wales {
+    background-position:-48px -864px;
+}
+.f48-flat .ad {
+    background-position:-48px -912px;
+}
+.f48-flat .ae {
+    background-position:-48px -960px;
+}
+.f48-flat .af {
+    background-position:-48px -1008px;
+}
+.f48-flat .ag {
+    background-position:-48px -1056px;
+}
+.f48-flat .ai {
+    background-position:-48px -1104px;
+}
+.f48-flat .al {
+    background-position:-48px -1152px;
+}
+.f48-flat .am {
+    background-position:-48px -1200px;
+}
+.f48-flat .an {
+    background-position:-48px -1248px;
+}
+.f48-flat .ao {
+    background-position:-48px -1296px;
+}
+.f48-flat .aq {
+    background-position:-48px -1344px;
+}
+.f48-flat .ar {
+    background-position:-48px -1392px;
+}
+.f48-flat .as {
+    background-position:-48px -1440px;
+}
+.f48-flat .at {
+    background-position:-48px -1488px;
+}
+.f48-flat .au {
+    background-position:-48px -1536px;
+}
+.f48-flat .aw {
+    background-position:-48px -1584px;
+}
+.f48-flat .ax {
+    background-position:-48px -1632px;
+}
+.f48-flat .az {
+    background-position:-48px -1680px;
+}
+.f48-flat .ba {
+    background-position:-48px -1728px;
+}
+.f48-flat .bb {
+    background-position:-48px -1776px;
+}
+.f48-flat .bd {
+    background-position:-48px -1824px;
+}
+.f48-flat .be {
+    background-position:-48px -1872px;
+}
+.f48-flat .bf {
+    background-position:-48px -1920px;
+}
+.f48-flat .bg {
+    background-position:-48px -1968px;
+}
+.f48-flat .bh {
+    background-position:-48px -2016px;
+}
+.f48-flat .bi {
+    background-position:-48px -2064px;
+}
+.f48-flat .bj {
+    background-position:-48px -2112px;
+}
+.f48-flat .bl {
+    background-position:-48px -2160px;
+}
+.f48-flat .bm {
+    background-position:-48px -2208px;
+}
+.f48-flat .bn {
+    background-position:-48px -2256px;
+}
+.f48-flat .bo {
+    background-position:-48px -2304px;
+}
+.f48-flat .br {
+    background-position:-48px -2352px;
+}
+.f48-flat .bs {
+    background-position:-48px -2400px;
+}
+.f48-flat .bt {
+    background-position:-48px -2448px;
+}
+.f48-flat .bw {
+    background-position:-48px -2496px;
+}
+.f48-flat .by {
+    background-position:-48px -2544px;
+}
+.f48-flat .bz {
+    background-position:-48px -2592px;
+}
+.f48-flat .ca {
+    background-position:-48px -2640px;
+}
+.f48-flat .cc {
+    background-position:-48px -2688px;
+}
+.f48-flat .cd {
+    background-position:-48px -2736px;
+}
+.f48-flat .cf {
+    background-position:-48px -2784px;
+}
+.f48-flat .cg {
+    background-position:-48px -2832px;
+}
+.f48-flat .ch {
+    background-position:-48px -2880px;
+}
+.f48-flat .ci {
+    background-position:-48px -2928px;
+}
+.f48-flat .ck {
+    background-position:-48px -2976px;
+}
+.f48-flat .cl {
+    background-position:-48px -3024px;
+}
+.f48-flat .cm {
+    background-position:-48px -3072px;
+}
+.f48-flat .cn {
+    background-position:-48px -3120px;
+}
+.f48-flat .co {
+    background-position:-48px -3168px;
+}
+.f48-flat .cr {
+    background-position:-48px -3216px;
+}
+.f48-flat .cu {
+    background-position:-48px -3264px;
+}
+.f48-flat .cv {
+    background-position:-48px -3312px;
+}
+.f48-flat .cw {
+    background-position:-48px -3360px;
+}
+.f48-flat .cx {
+    background-position:-48px -3408px;
+}
+.f48-flat .cy {
+    background-position:-48px -3456px;
+}
+.f48-flat .cz {
+    background-position:-48px -3504px;
+}
+.f48-flat .de {
+    background-position:-48px -3552px;
+}
+.f48-flat .dj {
+    background-position:-48px -3600px;
+}
+.f48-flat .dk {
+    background-position:-48px -3648px;
+}
+.f48-flat .dm {
+    background-position:-48px -3696px;
+}
+.f48-flat .do {
+    background-position:-48px -3744px;
+}
+.f48-flat .dz {
+    background-position:-48px -3792px;
+}
+.f48-flat .ec {
+    background-position:-48px -3840px;
+}
+.f48-flat .ee {
+    background-position:-48px -3888px;
+}
+.f48-flat .eg {
+    background-position:-48px -3936px;
+}
+.f48-flat .eh {
+    background-position:-48px -3984px;
+}
+.f48-flat .er {
+    background-position:-48px -4032px;
+}
+.f48-flat .es {
+    background-position:-48px -4080px;
+}
+.f48-flat .et {
+    background-position:-48px -4128px;
+}
+.f48-flat .eu {
+    background-position:-48px -4176px;
+}
+.f48-flat .fi {
+    background-position:-48px -4224px;
+}
+.f48-flat .fj {
+    background-position:-48px -4272px;
+}
+.f48-flat .fk {
+    background-position:-48px -4320px;
+}
+.f48-flat .fm {
+    background-position:-48px -4368px;
+}
+.f48-flat .fo {
+    background-position:-48px -4416px;
+}
+.f48-flat .fr {
+    background-position:-48px -4464px;
+}
+.f48-flat .ga {
+    background-position:-48px -4512px;
+}
+.f48-flat .gb {
+    background-position:-48px -4560px;
+}
+.f48-flat .gd {
+    background-position:-48px -4608px;
+}
+.f48-flat .ge {
+    background-position:-48px -4656px;
+}
+.f48-flat .gg {
+    background-position:-48px -4704px;
+}
+.f48-flat .gh {
+    background-position:-48px -4752px;
+}
+.f48-flat .gi {
+    background-position:-48px -4800px;
+}
+.f48-flat .gl {
+    background-position:-48px -4848px;
+}
+.f48-flat .gm {
+    background-position:-48px -4896px;
+}
+.f48-flat .gn {
+    background-position:-48px -4944px;
+}
+.f48-flat .gq {
+    background-position:-48px -4992px;
+}
+.f48-flat .gr {
+    background-position:-48px -5040px;
+}
+.f48-flat .gs {
+    background-position:-48px -5088px;
+}
+.f48-flat .gt {
+    background-position:-48px -5136px;
+}
+.f48-flat .gu {
+    background-position:-48px -5184px;
+}
+.f48-flat .gw {
+    background-position:-48px -5232px;
+}
+.f48-flat .gy {
+    background-position:-48px -5280px;
+}
+.f48-flat .hk {
+    background-position:-48px -5328px;
+}
+.f48-flat .hn {
+    background-position:-48px -5376px;
+}
+.f48-flat .hr {
+    background-position:-48px -5424px;
+}
+.f48-flat .ht {
+    background-position:-48px -5472px;
+}
+.f48-flat .hu {
+    background-position:-48px -5520px;
+}
+.f48-flat .ic {
+    background-position:-48px -5568px;
+}
+.f48-flat .id {
+    background-position:-48px -5616px;
+}
+.f48-flat .ie {
+    background-position:-48px -5664px;
+}
+.f48-flat .il {
+    background-position:-48px -5712px;
+}
+.f48-flat .im {
+    background-position:-48px -5760px;
+}
+.f48-flat .in {
+    background-position:-48px -5808px;
+}
+.f48-flat .iq {
+    background-position:-48px -5856px;
+}
+.f48-flat .ir {
+    background-position:-48px -5904px;
+}
+.f48-flat .is {
+    background-position:-48px -5952px;
+}
+.f48-flat .it {
+    background-position:-48px -6000px;
+}
+.f48-flat .je {
+    background-position:-48px -6048px;
+}
+.f48-flat .jm {
+    background-position:-48px -6096px;
+}
+.f48-flat .jo {
+    background-position:-48px -6144px;
+}
+.f48-flat .jp {
+    background-position:-48px -6192px;
+}
+.f48-flat .ke {
+    background-position:-48px -6240px;
+}
+.f48-flat .kg {
+    background-position:-48px -6288px;
+}
+.f48-flat .kh {
+    background-position:-48px -6336px;
+}
+.f48-flat .ki {
+    background-position:-48px -6384px;
+}
+.f48-flat .km {
+    background-position:-48px -6432px;
+}
+.f48-flat .kn {
+    background-position:-48px -6480px;
+}
+.f48-flat .kp {
+    background-position:-48px -6528px;
+}
+.f48-flat .kr {
+    background-position:-48px -6576px;
+}
+.f48-flat .kw {
+    background-position:-48px -6624px;
+}
+.f48-flat .ky {
+    background-position:-48px -6672px;
+}
+.f48-flat .kz {
+    background-position:-48px -6720px;
+}
+.f48-flat .la {
+    background-position:-48px -6768px;
+}
+.f48-flat .lb {
+    background-position:-48px -6816px;
+}
+.f48-flat .lc {
+    background-position:-48px -6864px;
+}
+.f48-flat .li {
+    background-position:-48px -6912px;
+}
+.f48-flat .lk {
+    background-position:-48px -6960px;
+}
+.f48-flat .lr {
+    background-position:-48px -7008px;
+}
+.f48-flat .ls {
+    background-position:-48px -7056px;
+}
+.f48-flat .lt {
+    background-position:-48px -7104px;
+}
+.f48-flat .lu {
+    background-position:-48px -7152px;
+}
+.f48-flat .lv {
+    background-position:-48px -7200px;
+}
+.f48-flat .ly {
+    background-position:-48px -7248px;
+}
+.f48-flat .ma {
+    background-position:-48px -7296px;
+}
+.f48-flat .mc {
+    background-position:-48px -7344px;
+}
+.f48-flat .md {
+    background-position:-48px -7392px;
+}
+.f48-flat .me {
+    background-position:-48px -7440px;
+}
+.f48-flat .mf {
+    background-position:-48px -7488px;
+}
+.f48-flat .mg {
+    background-position:-48px -7536px;
+}
+.f48-flat .mh {
+    background-position:-48px -7584px;
+}
+.f48-flat .mk {
+    background-position:-48px -7632px;
+}
+.f48-flat .ml {
+    background-position:-48px -7680px;
+}
+.f48-flat .mm {
+    background-position:-48px -7728px;
+}
+.f48-flat .mn {
+    background-position:-48px -7776px;
+}
+.f48-flat .mo {
+    background-position:-48px -7824px;
+}
+.f48-flat .mp {
+    background-position:-48px -7872px;
+}
+.f48-flat .mq {
+    background-position:-48px -7920px;
+}
+.f48-flat .mr {
+    background-position:-48px -7968px;
+}
+.f48-flat .ms {
+    background-position:-48px -8016px;
+}
+.f48-flat .mt {
+    background-position:-48px -8064px;
+}
+.f48-flat .mu {
+    background-position:-48px -8112px;
+}
+.f48-flat .mv {
+    background-position:-48px -8160px;
+}
+.f48-flat .mw {
+    background-position:-48px -8208px;
+}
+.f48-flat .mx {
+    background-position:-48px -8256px;
+}
+.f48-flat .my {
+    background-position:-48px -8304px;
+}
+.f48-flat .mz {
+    background-position:-48px -8352px;
+}
+.f48-flat .na {
+    background-position:-48px -8400px;
+}
+.f48-flat .nc {
+    background-position:-48px -8448px;
+}
+.f48-flat .ne {
+    background-position:-48px -8496px;
+}
+.f48-flat .nf {
+    background-position:-48px -8544px;
+}
+.f48-flat .ng {
+    background-position:-48px -8592px;
+}
+.f48-flat .ni {
+    background-position:-48px -8640px;
+}
+.f48-flat .nl {
+    background-position:-48px -8688px;
+}
+.f48-flat .no {
+    background-position:-48px -8736px;
+}
+.f48-flat .np {
+    background-position:-48px -8784px;
+}
+.f48-flat .nr {
+    background-position:-48px -8832px;
+}
+.f48-flat .nu {
+    background-position:-48px -8880px;
+}
+.f48-flat .nz {
+    background-position:-48px -8928px;
+}
+.f48-flat .om {
+    background-position:-48px -8976px;
+}
+.f48-flat .pa {
+    background-position:-48px -9024px;
+}
+.f48-flat .pe {
+    background-position:-48px -9072px;
+}
+.f48-flat .pf {
+    background-position:-48px -9120px;
+}
+.f48-flat .pg {
+    background-position:-48px -9168px;
+}
+.f48-flat .ph {
+    background-position:-48px -9216px;
+}
+.f48-flat .pk {
+    background-position:-48px -9264px;
+}
+.f48-flat .pl {
+    background-position:-48px -9312px;
+}
+.f48-flat .pn {
+    background-position:-48px -9360px;
+}
+.f48-flat .pr {
+    background-position:-48px -9408px;
+}
+.f48-flat .ps {
+    background-position:-48px -9456px;
+}
+.f48-flat .pt {
+    background-position:-48px -9504px;
+}
+.f48-flat .pw {
+    background-position:-48px -9552px;
+}
+.f48-flat .py {
+    background-position:-48px -9600px;
+}
+.f48-flat .qa {
+    background-position:-48px -9648px;
+}
+.f48-flat .ro {
+    background-position:-48px -9696px;
+}
+.f48-flat .rs {
+    background-position:-48px -9744px;
+}
+.f48-flat .ru {
+    background-position:-48px -9792px;
+}
+.f48-flat .rw {
+    background-position:-48px -9840px;
+}
+.f48-flat .sa {
+    background-position:-48px -9888px;
+}
+.f48-flat .sb {
+    background-position:-48px -9936px;
+}
+.f48-flat .sc {
+    background-position:-48px -9984px;
+}
+.f48-flat .sd {
+    background-position:-48px -10032px;
+}
+.f48-flat .se {
+    background-position:-48px -10080px;
+}
+.f48-flat .sg {
+    background-position:-48px -10128px;
+}
+.f48-flat .sh {
+    background-position:-48px -10176px;
+}
+.f48-flat .si {
+    background-position:-48px -10224px;
+}
+.f48-flat .sk {
+    background-position:-48px -10272px;
+}
+.f48-flat .sl {
+    background-position:-48px -10320px;
+}
+.f48-flat .sm {
+    background-position:-48px -10368px;
+}
+.f48-flat .sn {
+    background-position:-48px -10416px;
+}
+.f48-flat .so {
+    background-position:-48px -10464px;
+}
+.f48-flat .sr {
+    background-position:-48px -10512px;
+}
+.f48-flat .ss {
+    background-position:-48px -10560px;
+}
+.f48-flat .st {
+    background-position:-48px -10608px;
+}
+.f48-flat .sv {
+    background-position:-48px -10656px;
+}
+.f48-flat .sy {
+    background-position:-48px -10704px;
+}
+.f48-flat .sz {
+    background-position:-48px -10752px;
+}
+.f48-flat .tc {
+    background-position:-48px -10800px;
+}
+.f48-flat .td {
+    background-position:-48px -10848px;
+}
+.f48-flat .tf {
+    background-position:-48px -10896px;
+}
+.f48-flat .tg {
+    background-position:-48px -10944px;
+}
+.f48-flat .th {
+    background-position:-48px -10992px;
+}
+.f48-flat .tj {
+    background-position:-48px -11040px;
+}
+.f48-flat .tk {
+    background-position:-48px -11088px;
+}
+.f48-flat .tl {
+    background-position:-48px -11136px;
+}
+.f48-flat .tm {
+    background-position:-48px -11184px;
+}
+.f48-flat .tn {
+    background-position:-48px -11232px;
+}
+.f48-flat .to {
+    background-position:-48px -11280px;
+}
+.f48-flat .tr {
+    background-position:-48px -11328px;
+}
+.f48-flat .tt {
+    background-position:-48px -11376px;
+}
+.f48-flat .tv {
+    background-position:-48px -11424px;
+}
+.f48-flat .tw {
+    background-position:-48px -11472px;
+}
+.f48-flat .tz {
+    background-position:-48px -11520px;
+}
+.f48-flat .ua {
+    background-position:-48px -11568px;
+}
+.f48-flat .ug {
+    background-position:-48px -11616px;
+}
+.f48-flat .us {
+    background-position:-48px -11664px;
+}
+.f48-flat .uy {
+    background-position:-48px -11712px;
+}
+.f48-flat .uz {
+    background-position:-48px -11760px;
+}
+.f48-flat .va {
+    background-position:-48px -11808px;
+}
+.f48-flat .vc {
+    background-position:-48px -11856px;
+}
+.f48-flat .ve {
+    background-position:-48px -11904px;
+}
+.f48-flat .vg {
+    background-position:-48px -11952px;
+}
+.f48-flat .vi {
+    background-position:-48px -12000px;
+}
+.f48-flat .vn {
+    background-position:-48px -12048px;
+}
+.f48-flat .vu {
+    background-position:-48px -12096px;
+}
+.f48-flat .wf {
+    background-position:-48px -12144px;
+}
+.f48-flat .ws {
+    background-position:-48px -12192px;
+}
+.f48-flat .ye {
+    background-position:-48px -12240px;
+}
+.f48-flat .yt {
+    background-position:-48px -12288px;
+}
+.f48-flat .za {
+    background-position:-48px -12336px;
+}
+.f48-flat .zm {
+    background-position:-48px -12384px;
+}
+.f48-flat .zw {
+    background-position:-48px -12432px;
+}

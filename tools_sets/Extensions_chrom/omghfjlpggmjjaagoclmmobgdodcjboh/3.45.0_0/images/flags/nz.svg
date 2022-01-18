@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="900" height="600">
+<defs>
+<clipPath id="c">
+<path d="m0 0h600v300h-600z"/>
+</clipPath>
+<clipPath id="d">
+<path d="m0 0 300 150h-300zm300 0h300l-300 150zm0 150h300v150zv150h-300z"/>
+</clipPath>
+<g id="a">
+<g id="b" transform="translate(0 -.32492)">
+<path d="m0 0v.5l1-.5z"/>
+<path transform="rotate(-36,1,0)" d="m0 0v-.5l1 .5z"/>
+</g>
+<use transform="scale(-1,1)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="rotate(72)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="rotate(-72)" width="100%" height="100%" xlink:href="#b"/>
+<use transform="matrix(-.30902 .95106 .95106 .30902 0 0)" width="100%" height="100%" xlink:href="#b"/>
+</g>
+</defs>
+<rect width="900" height="600" fill="#00247d" stroke-width=".86603"/>
+<g transform="scale(.75 1)">
+<path d="m0 0 600 300m-600 0 600-300" clip-path="url(#c)" stroke="#fff" stroke-width="60"/>
+<path d="m0 0 600 300m-600 0 600-300" clip-path="url(#d)" stroke="#cc142b" stroke-width="40"/>
+<path d="m300 0v300m-300-150h600" clip-path="url(#c)" stroke="#fff" stroke-width="100"/>
+<path d="m300 0v300m-300-150h600" clip-path="url(#c)" stroke="#cc142b" stroke-width="60"/>
+</g>
+<g transform="translate(-225)">
+<use transform="matrix(45.4,0,0,45.4,900,120)" width="100%" height="100%" fill="#ffffff" xlink:href="#a"/>
+<use transform="matrix(30,0,0,30,900,120)" width="100%" height="100%" fill="#cc142b" xlink:href="#a"/>
+<g transform="rotate(82,900,240)">
+<use transform="matrix(5.6226 -40.007 40.007 5.6226 900 120)" width="100%" height="100%" fill="#ffffff" xlink:href="#a"/>
+<use transform="matrix(3.4793 -24.757 24.757 3.4793 900 120)" width="100%" height="100%" fill="#cc142b" xlink:href="#a"/>
+<use transform="matrix(6.3185 -44.958 44.958 6.3185 900 380)" width="100%" height="100%" fill="#ffffff" xlink:href="#a"/>
+<use transform="matrix(4.1752 -29.708 29.708 4.1752 900 380)" width="100%" height="100%" fill="#cc142b" xlink:href="#a"/>
+</g>
+<use transform="matrix(50.4,0,0,50.4,900,480)" width="100%" height="100%" fill="#ffffff" xlink:href="#a"/>
+<use transform="matrix(35,0,0,35,900,480)" width="100%" height="100%" fill="#cc142b" xlink:href="#a"/>
+</g>
+</svg>

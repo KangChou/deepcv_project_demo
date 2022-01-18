@@ -1,0 +1,46 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/standard-128.png",
+         "16": "icons/standard-16.png",
+         "48": "icons/standard-48.png",
+         "64": "icons/standard-64.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "ZenMate"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "assets/libs/crypto.js", "runtime.js", "page_api.js" ],
+      "matches": [ "*://*.zenmate.com/*", "*://*.zenmate.io/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' ; object-src 'self' ",
+      "sandbox": "sandbox allow-scripts; script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "icons/standard-128.png",
+      "16": "icons/standard-16.png",
+      "48": "icons/standard-48.png",
+      "64": "icons/standard-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/khyYd2AcPQqjMzW9xCWg5+TDmo9Ku9GHzqOp68/Cho9A/hVOBB7aNij4ugbRbt6uvMjxOXnd+tC2zckXiwLt6orR0RSGutTsFHK7EjObeQaY11NWVmh2V4mIAdibsn47RkNVBqqwjmUrc6qdga1aEAIoO3yXpJ2yCBFizJ/PVwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "permissions": [ "activeTab", "background", "tabs", "declarativeNetRequest", "declarativeNetRequestFeedback", "proxy", "unlimitedStorage", "storage", "notifications", "cookies", "alarms", "browsingData", "webNavigation", "privacy", "scripting" ],
+   "short_name": "ZenMate VPN",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "8.0.4.0",
+   "web_accessible_resources": [ {
+      "extension_ids": [  ],
+      "matches": [ "*://*.zenmate.com/*" ],
+      "resources": [ "assets/css/*", "assets/libs/crypto.js", "script.js" ],
+      "use_dynamic_url": true
+   } ]
+}

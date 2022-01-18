@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2100" height="1400">
+<path d="M0 0h2100v1400H0z" fill="#cc0001"/>
+<path id="a" d="M0 1300h2100v100H0z" fill="#fff"/>
+<use transform="translate(0 -200)" width="2800" height="1400" xlink:href="#a"/>
+<use transform="translate(0 -400)" width="2800" height="1400" xlink:href="#a"/>
+<use transform="translate(0 -600)" width="2800" height="1400" xlink:href="#a"/>
+<use transform="translate(0 -800)" width="2800" height="1400" xlink:href="#a"/>
+<use transform="translate(0 -1e3)" width="2800" height="1400" xlink:href="#a"/>
+<use transform="translate(0 -1200)" width="2800" height="1400" xlink:href="#a"/>
+<path d="M0 0h1050v800H0z" fill="#010066"/>
+<path d="M401 100c-166.15 0-301 134.4-301 300s134.85 300 301 300c60.03 0 115.95-17.56 162.93-47.78-27.36 9.44-56.7 14.6-87.27 14.6-147.33 0-266.9-119.17-266.9-266 0-146.85 119.57-266.02 266.9-266.02 32.55 0 63.74 5.8 92.6 16.47C521.22 118.9 463.3 100 401 100z" fill="#fc0"/>
+<path d="M900.17 556.17l-126.8-66.15 37.5 135.4-84.8-113.26L699.6 650l-26.02-137.92-85.16 113 37.92-135.28-127 65.77 94.34-105.83-143.68 5.5 132.08-55.42L450.18 344l143.66 5.94-94-106.1 126.78 66.14-37.5-135.4 84.82 113.26L700.4 150l26.02 137.92 85.16-113-37.92 135.28 127-65.77-94.34 105.83 143.68-5.5-132.08 55.42L949.82 456l-143.66-5.94z" fill="#fc0"/>
+</svg>

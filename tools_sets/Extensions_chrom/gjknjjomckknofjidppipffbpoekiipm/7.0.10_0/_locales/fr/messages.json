@@ -1,0 +1,166 @@
+{
+   "connect_button": {
+      "description": "",
+      "message": "Connecter"
+   },
+   "connect_fast_promo": {
+      "description": "",
+      "message": "Connectez-vous plus rapidement >"
+   },
+   "connecting_cancel": {
+      "description": "",
+      "message": "Connexion... Cliquez pour annuler"
+   },
+   "connecting_info": {
+      "description": "",
+      "message": "obtenir une connexion prioritaire"
+   },
+   "description": {
+      "description": "",
+      "message": "Obtenez le VPN le plus rapide pour débloquer n'importe quel site et restez en privé. Maintenez votre confidentialité sur Internet avec le meilleur VPN pour un accès illimité"
+   },
+   "disconnect_button": {
+      "description": "",
+      "message": "Déconnecter"
+   },
+   "generic_cancel": {
+      "description": "",
+      "message": "Annuler"
+   },
+   "generic_ok": {
+      "description": "",
+      "message": "OK"
+   },
+   "generic_please_wait": {
+      "description": "",
+      "message": "Veuillez attendre..."
+   },
+   "generic_thank_you": {
+      "description": "",
+      "message": "Merci !"
+   },
+   "go_premium": {
+      "description": "",
+      "message": "Devenez Premium"
+   },
+   "location_select_title": {
+      "description": "",
+      "message": "Sélectionnez un emplacement virtuel"
+   },
+   "login_check_email_verification": {
+      "description": "",
+      "message": "Consultez votre email pour vérification"
+   },
+   "menu_link_contact_us": {
+      "description": "",
+      "message": "Contactez-nous"
+   },
+   "menu_link_faq": {
+      "description": "",
+      "message": "FAQ"
+   },
+   "menu_link_privacy_policy": {
+      "description": "",
+      "message": "Politique de confidentialité"
+   },
+   "menu_link_why_is_free": {
+      "description": "",
+      "message": "Pourquoi Betternet est gratuit"
+   },
+   "name": {
+      "description": "",
+      "message": "VPN gratuit - Betternet Unlimited VPN Proxy"
+   },
+   "rate_us": {
+      "description": "",
+      "message": "Donnez-nous 5 étoiles sur la boutique en ligne du {browser}"
+   },
+   "reach_device_limit_description": {
+      "description": "",
+      "message": "Vous avez atteint votre limite en ajoutant un nouvel appareil à votre compte"
+   },
+   "shortName": {
+      "description": "",
+      "message": "Betternet"
+   },
+   "sign_in_as_premium": {
+      "description": "",
+      "message": "Je suis déjà premium"
+   },
+   "sign_in_button": {
+      "description": "",
+      "message": "Connectez-vous"
+   },
+   "sign_in_description": {
+      "description": "",
+      "message": "Pour vous connecter à votre compte, veuillez saisir votre e-mail et votre mot de passe."
+   },
+   "sign_in_email_check_inbox_for_verification": {
+      "description": "",
+      "message": "Vérifiez votre dossier Boîte de réception ou Courrier en grande quantité / Courrier indésirable et cliquez sur « Confirmer » pour vérifier votre adresse e-mail."
+   },
+   "sign_in_email_not_verified_yet_title": {
+      "description": "",
+      "message": "L'email n'est pas encore vérifié"
+   },
+   "sign_in_email_verification_resend": {
+      "description": "",
+      "message": "Ré-envoyez"
+   },
+   "sign_in_form_email_is_not_valid": {
+      "description": "",
+      "message": "Entrez une adresse mail valide."
+   },
+   "sign_in_form_fields_not_filled": {
+      "description": "",
+      "message": "Remplissez les champs en surbrillance."
+   },
+   "sign_in_title": {
+      "description": "",
+      "message": "Conectez-vous à votre compte Premium"
+   },
+   "sign_out_button": {
+      "description": "",
+      "message": "Déconnexion"
+   },
+   "sign_out_title": {
+      "description": "",
+      "message": "Déconnexion ?"
+   },
+   "sign_out_with_username": {
+      "description": "",
+      "message": "Déconnexion {username}"
+   },
+   "socio_facebook_visit": {
+      "description": "",
+      "message": "Abonnez-vous à notre page Facebook"
+   },
+   "socio_visit": {
+      "description": "",
+      "message": "S'abonner"
+   },
+   "term_agree": {
+      "description": "",
+      "message": "En utilisant cette extension, vous agréez à notre \u003C0>Conditions d'utilisation\u003C/0> et \u003C1>Politique de confidentialité\u003C/1>"
+   },
+   "this_will_disconnect_device": {
+      "description": "",
+      "message": "Cela déconnectera cet appareil de votre compte"
+   },
+   "unavailable_button": {
+      "description": "",
+      "message": "Cliquez ici pour désactiver les autres extensions."
+   },
+   "unavailable_description": {
+      "description": "",
+      "message": "Betternet est interrompu par une autre extension de {browser} qui contrôle vos paramètres de proxy."
+   },
+   "unavailable_title": {
+      "description": "",
+      "message": "Interruption du service"
+   },
+   "user_is_premium": {
+      "description": "",
+      "message": "Vous êtes Premium !"
+   }
+}

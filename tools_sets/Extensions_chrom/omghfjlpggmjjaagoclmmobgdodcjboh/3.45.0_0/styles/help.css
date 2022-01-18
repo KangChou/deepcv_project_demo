@@ -1,0 +1,62 @@
+@import '/styles/global.css';
+
+
+body,
+input,
+select,
+select option,
+textarea{
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 14px;
+}
+
+html{
+  height: 100%;
+  background: #fff;
+}
+
+body{
+  min-height: 100%;
+  height: 100%;
+  line-height: 1.4;
+  color: #000
+}
+
+
+button::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner{
+  border:none;
+}
+
+select:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus{
+  outline:none
+}
+select option{
+  padding-left:3px;
+}
+
+table{border-collapse:collapse}
+
+a:link,
+a:visited{
+  color:#00f;
+  text-decoration:underline
+}
+a:hover{
+  color:#c00;
+  text-decoration:none
+}
+
+
+.cfx:after{
+  content:' ';clear:both;display:block;width:0;height:0;overflow:hidden;font-size:0
+}
+
+
+.manual p{
+  padding-bottom:1em;
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/hello/hello.cc.o CMakeFiles/main.dir/src/world/world.cc.o  -o main 

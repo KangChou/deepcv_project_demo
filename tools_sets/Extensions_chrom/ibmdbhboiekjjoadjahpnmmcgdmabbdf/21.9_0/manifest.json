@@ -1,0 +1,26 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "images/shieldx32.png",
+         "24": "images/shieldx32.png",
+         "32": "images/shieldx32.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "VPN Plus"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "VPN Plus - the best free Chrome VPN extension to hide IP and unblock websites.",
+   "icons": {
+      "128": "shield_128.png",
+      "16": "shield_16.png",
+      "48": "shield_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3zEMatsLPO88eksUymikX6iRafmf2PLlZcrSqSyZjd1IzGt6I5XKoPCWjjLd1SF/mpJ5Joy5qZEk2pH5cOHZXvJHRs+ty61bOsw5PbLowZ91R3BLf4N1kWpDgKEmWY5E2FO/Wv2mGYkJsGj9r9Vlm6oeFspYxVTDzG9cms7TFDqYmVWmR+U0FUkX2+49yLads+VXUa6BcIWeND9iufvXfEzJ4BpRKQFMlMh1IOfvAXlXiIGSb0vgl3dSMbovb6JaQavWyWfdUIkgftcSS407vM5VkY0/zY/IJXXThCXRy0knL3CIQzOeArodJy+btkOhEAQm15BYaL8P97mb6yi30wIDAQAB",
+   "manifest_version": 3,
+   "name": "VPN Plus - Best VPN for Chrome",
+   "permissions": [ "storage", "proxy" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "21.9"
+}

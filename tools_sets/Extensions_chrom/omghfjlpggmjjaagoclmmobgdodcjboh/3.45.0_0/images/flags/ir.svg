@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="360" width="540" version="1.1">
+<rect style="fill:#da0000" y="0" x="0" height="360" width="540"/>
+<rect style="fill:#fff" y="0" x="0" height="240" width="540"/>
+<rect style="fill:#239f40" y="0" x="0" height="120" width="540"/>
+<g transform="matrix(0.85391594,0,0,1.0013245,8.189125,100.29458)">
+<g id="e">
+<g style="fill:none;stroke:#fff;stroke-width:2" id="c">
+<path id="b" transform="scale(1.4,1.4)" d="M 0,1 H 26 M 1,10 V 5 h 8 v 4 h 8 V 5 H 12 M 4,9 H 6 M 26,9 H 21 V 5 h 8 m 0,-5 v 9 h 8 V 0 m -4,0 v 9"/>
+<path id="a" transform="scale(2.8,2.8)" d="m 0,7 h 9 m 1,0 h 9"/>
+<use xlink:href="#a" height="360" width="540" y="120" x="0"/>
+<use xlink:href="#b" height="360" width="540" y="145.2" x="0"/>
+</g>
+<g id="d">
+<use xlink:href="#c" height="360" width="540" y="0" x="56"/>
+<use xlink:href="#c" height="360" width="540" y="0" x="112"/>
+<use xlink:href="#c" height="360" width="540" y="0" x="168"/>
+</g>
+</g>
+<use xlink:href="#d" height="360" width="540" y="0" x="168"/>
+<use xlink:href="#e" height="360" width="540" y="0" x="392"/>
+</g>
+<g style="fill:#da0000" transform="matrix(45,0,0,45,270,180)">
+<g id="f">
+<path d="M -0.54815,0.83638 A 0.912046,0.912046 0 0 0 0.328544,-0.722384 1,1 0 0 1 -0.54815,0.83638"/>
+<path d="M.618339.661409A.763932.763932 0 0 0 .421644-.741049 1 1 0 0 1 .618339.661409M0 1L-.05 0 0-.787278a.309995.309995 0 0 0 .118034.099087v.587785L.077809.892905zM-.02-.85L0-.831217A.14431.14431 0 0 0 .252075-.967708.136408.136408 0 0 1 0-.924634"/>
+</g>
+<use xlink:href="#f" height="360" width="540" y="0" x="0" transform="scale(-1,1)"/>
+</g>
+</svg>

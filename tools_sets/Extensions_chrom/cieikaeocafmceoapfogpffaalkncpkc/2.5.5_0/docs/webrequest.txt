@@ -1,0 +1,256 @@
+前端解决方案
+博客园
+首页
+联系
+管理
+随笔 - 23  文章 - 0  评论 - 29
+Chrome Extension 的 webRequest模块的解读
+文档在此：http://developer.chrome.com/trunk/extensions/webRequest.html
+
+1，为了使用webRequest，首先需要在配置文件manifest.json中加入类似的内容：
+
+复制代码
+{
+    “name": "My extension",
+    ...
+    "permissions": {
+        "webRequest", "*://*.google.com"
+    },
+    ....
+}
+复制代码
+这里的意思是说，只允许这个extension对*.google.com的域名使用webRequest，如果这个字符串替换为其它格式的，比如*://*，就可以支持所有的网站访问了。
+
+ 
+
+2，webRequest的核心意思就是要伪造各种request，那么就不单单是写某个对象的数据这么简单，还需要选择合适的时机，在发送某种request之前伪造好它，或者在真实的request到来之后半路截获它，替换成假的然后再发出去。Life cycle of request就是描述这个事情的。
+
+其中，onBeforeSendHeaders这个回调比较有用，文档中如此描述“这个事件将允许extensions添加、修改或删除request headers。简单的用法如下：
+
+chrome.webRequest.onBeforeRequest.addListener(
+    callback, filter, opt_extraInfoSpec);
+a，callback被调用时将被赋予包含request信息的一个参数。
+
+b，filter参数是一个object，有这些key可用：
+
+    URLs：类似这种格式的字符串：*://www.google.co/foo*bar
+
+    Types：像main_frame或sub_frame，image这样的类型
+
+    TabID：tab的标识符
+
+    WindowID：window的标识符
+
+ 
+
+3，因为可能多个extension都要玩webRequest，所以需要一套冲突处理机制。如果设置了新的request，刷新页面后是否设置继续有效，设置了之后什么时候有效，这些都是关于cache的问题。另外就是使用timestamp属性的问题，凡从timestamp取得的属性值，相互之间可以比较，但是如果和new Date().getTime()这种方式取得的值比较就不一定对了，需要加以注意。
+
+ 
+
+4，例子
+
+a，阻止所有发往www.evile.com的request
+
+复制代码
+chrome.webRequest.onBeforeRequest.addListener(
+  function(details) {
+    return {cancel: details.url.indexOf("://www.evil.com/") != -1};
+  },
+  {urls: ["<all_urls>"]},
+  ["blocking"]);
+复制代码
+另一种方法，使用filter：
+
+复制代码
+chrome.webRequest.onBeforeRequest.addListener(
+  function(details) { return {cancel: true}; },
+  {urls: ["*://www.evil.com/*"]},
+  ["blocking"])
+复制代码
+符合filter的都被cancel掉了。
+
+b，从所有的request中删除User-Agent的header
+
+复制代码
+chrome.webRequest.onBeforeSendHeaders.addListener(
+  function(details) {
+    for (var i = 0; i < details.requestHeaders.length; ++i) {
+      if (details.requestHeaders[i].name === 'User-Agent') {
+        details.requestHeaders.splice(i, 1);
+        break;
+      }
+    }
+    return {requestHeaders: details.requestHeaders};
+  },
+  {urls: ["<all_urls>"]},
+  ["blocking", "requestHeaders"]);
+复制代码
+ 
+
+5，各种API文档
+
+a，RequestFilter:
+
+复制代码
+RequestFilter = {
+    tabId: interger, //optional
+    //URL的数组，或者是匹配URL的pattern
+    urls: array_of_string,
+    //可选的值有:"main_frame", "sub_frame", "stylesheet", "script", "image", "object", "xmlhttprequest", "other"
+    types: array_of_enumerated_string, //optional
+    windowId: integer //optional
+};
+
+// 设置了blocking关键字的就用这个object来作为block的规则了
+BolockingResponse = {
+    //为true的话request被cancel，在onBeforeRequest里面用哦
+    cancel: boolean, //optional
+    //只在onBeforeRequest事件中使用，用来掉包的关键属性！！！
+    redirectUrl: string, //option
+    //只用在onHeadersReceived事件里，在浏览器返给server时把header给掉包
+    responseHeaders: HttpHeaders //optional
+    //只在onBeforeSendHeaders事件中使用。是另一个用来掉包的关键属性！！！
+    requestHeaders: HttpHeaders //optional
+    //只在onAuthRequred事件中使用，当然也是用来掉包的
+    authCredentials: object //optional
+};
+
+HttpHeaders：HTTP headers组成的数组，数组每个元素都有自己的键值对，就是object了。这个得实际打印出来才知道。
+复制代码
+b，onBeforeSendHeaders，在TCP连接建立之后和HTTP数据发送之前被调用的事件。调用方法：
+
+chrome.webRequest.onBeforeSendHeaders.addListener(function(object details) {...});
+其中，传给callback的参数details结构如下：
+
+复制代码
+details = {
+    tabId: integer, //如果没有和tab关联则返回-1
+    parentFrameId: integer,
+    url: string,
+    timeStamp: double,
+    //0表示request是在main frame里发生的
+    frameId: integer,
+    requestId: string,
+    requestHeaders: HttpHeaders， // optional
+    type: enumerated_string, //value in:  ["main_frame", "sub_frame", "stylesheet", "script", "image", "object", "xmlhttprequest", "other"]
+    method: string //标准HTTP方法
+};
+复制代码
+其它事件大同小异，调用callback时传入的参数也都是details这个结构，只是某些字段会有不同的值。
+
+ 
+
+6，总结：webRequest的API非常容易使用，基本上就是第四部分里三个例子的样式。当然， 要想更好地使用，还需要Http Request的一些基础知识，想伪造的话起码要知道应该伪造成什么样子才合适。
+
+好文要顶 关注我 收藏该文  
+yunfan85
+关注 - 4
+粉丝 - 21
++加关注
+00
+« 上一篇： Google Chrome Extensions 官方教程 中文版
+» 下一篇： 自己写个JavaScript parser （分析器）系列 （1）
+posted @ 2012-09-10 17:39  yunfan85  阅读(3983)  评论(0)  编辑 收藏
+刷新评论刷新页面返回顶部
+注册用户登录后才能发表评论，请 登录 或 注册， 访问 网站首页。
+【推荐】超50万行VC++源码: 大型组态工控、电力仿真CAD与GIS源码库
+【推荐】腾讯云海外1核2G云服务器低至2折，半价续费券限量免费领取！
+【推荐】阿里云双11返场来袭，热门产品低至一折等你来抢！
+【推荐】天翼云双十一翼降到底，云主机11.11元起，抽奖送大礼
+【推荐】流程自动化专家UiBot，体系化教程成就高薪RPA工程师
+【活动】京东云服务器_云主机低于1折，低价高性能产品备战双11
+【优惠】七牛云采购嘉年华，云存储、CDN等云产品低至1折
+公告
+昵称： yunfan85
+园龄： 8年3个月
+粉丝： 21
+关注： 4
++加关注
+<	2012年9月	>
+日	一	二	三	四	五	六
+26	27	28	29	30	31	1
+2	3	4	5	6	7	8
+9	10	11	12	13	14	15
+16	17	18	19	20	21	22
+23	24	25	26	27	28	29
+30	1	2	3	4	5	6
+搜索
+ 
+ 
+常用链接
+我的随笔
+我的评论
+我的参与
+最新评论
+我的标签
+我的标签
+3d(5)
+three.js(4)
+blender(4)
+webgl(4)
+web应用(1)
+大前端(1)
+单页app(1)
+简易(1)
+浏览器3D(1)
+正则表达式(1)
+更多
+随笔分类
+JavaScript(1)
+一周总结
+随笔档案
+2013年4月(1)
+2013年2月(1)
+2012年10月(7)
+2012年9月(11)
+2012年8月(2)
+2012年5月(1)
+最新评论
+1. Re:使用Three.js + Blender构建在浏览器端显示的3D模型（5）
+是不是缺少obj文件，我这边只有一个黑背景，谢谢
+--tudou棒棒糖
+2. Re:使用Three.js + Blender构建在浏览器端显示的3D模型（3）
+为何你导出是.js，我导出是.json呢？
+--vajoy
+3. Re:使用Three.js + Blender构建在浏览器端显示的3D模型（2）
+补充个：
+I  添加关键帧
+--vajoy
+4. Re:使用Three.js + Blender构建在浏览器端显示的3D模型（2）
+觉得讲好的地方在于,从一般的方式教程,比如先教 非快捷键,然后再教快捷键,有些教程一大堆上来,大量的快捷键和大量的列表,头都大了,理论的东西太多,这个真的很适合如何,少走一些弯路.
+--listened
+5. Re:使用Three.js + Blender构建在浏览器端显示的3D模型（2）
+我的可以打开,确实是讲的蛮好的.
+--listened
+阅读排行榜
+1. 使用Three.js + Blender构建在浏览器端显示的3D模型（5）(9174)
+2. 使用Three.js + Blender构建在浏览器端显示的3D模型（1）(7134)
+3. 使用Three.js + Blender构建在浏览器端显示的3D模型（3）(6136)
+4. 使用Three.js + Blender构建在浏览器端显示的3D模型（4）(4342)
+5. Chrome Extension 的 webRequest模块的解读(3983)
+评论排行榜
+1. 使用Three.js + Blender构建在浏览器端显示的3D模型（1）(7)
+2. 使用Three.js + Blender构建在浏览器端显示的3D模型（2）(6)
+3. 使用Three.js + Blender构建在浏览器端显示的3D模型（5）(5)
+4. 使用Three.js + Blender构建在浏览器端显示的3D模型（3）(4)
+5. 自己写个JavaScript parser （分析器）系列 （1）(4)
+推荐排行榜
+1. 自己写个JavaScript parser （分析器）系列 （1）(2)
+2. 使用Three.js + Blender构建在浏览器端显示的3D模型（3）(2)
+3. 使用Three.js + Blender构建在浏览器端显示的3D模型（4）(1)
+4. 使用Three.js + Blender构建在浏览器端显示的3D模型（5）(1)
+5. 使用Three.js + Blender构建在浏览器端显示的3D模型（1）(1)
+
+
+
+
+
+chrome.webRequest.onBeforeSendHeaders.addListener(
+  function(details) {
+    if(indist === 1){
+        details.requestHeaders.push({name:"X-YouTube-Edu-Filter",value:"xxxxxxxxxxxxx"});
+    return { requestHeaders: details.requestHeaders };
+  },
+  {urls: ['<all_urls>']},
+  [ 'blocking', 'requestHeaders']
+);

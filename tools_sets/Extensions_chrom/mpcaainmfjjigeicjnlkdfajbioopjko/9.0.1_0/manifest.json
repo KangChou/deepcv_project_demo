@@ -1,0 +1,38 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icons/app_icon_error_128.png",
+         "16": "icons/app_icon_error_16.png",
+         "48": "icons/app_icon_error_48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_title__"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "homepage_url": "https://www.vpnunlimited.com",
+   "icons": {
+      "128": "icons/app_icon_connected_128.png",
+      "16": "icons/app_icon_connected_16.png",
+      "48": "icons/app_icon_connected_48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnfRpEQwvFZJIwrD/P1FEFSblINnLMglllNFVmSeQLjX+u6p9wpV2UwOhXqXFr/5UEuwIqQ7jhFFNtE8fd190GodR/eex7f3cTF9yZvc5Jece3LzAAGtG5+8/FqbZZLvbCbSUkh0MhXnHFOyAncw34Jnl5RiYY7tg8qA6TEBf5vIMAIkEsUKJl++eG+eapbQj99T0of3RWbVkJIyIuNJNwP96RP3iK15BR23Azh3o6IW5R8vFBQucEMlVmE2MoOS3k50Lxo0S/EVtnskUS+6bFQOPUo9csPt0Q2Ux7r5puVypkVVj8dpGDA6gMlFOT7FqKyk8pdKBzBxHiHK5kb4VKQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "54.0.0",
+   "name": "__MSG_appName__",
+   "options_page": "options.html",
+   "options_ui": {
+      "chrome_style": true,
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "proxy", "tabs", "storage", "\u003Call_urls>", "webRequest", "privacy", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "9.0.1",
+   "web_accessible_resources": [ "icons/*", "images/*" ]
+}
