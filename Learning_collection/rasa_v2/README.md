@@ -1,5 +1,5 @@
 
-rasa安装学习参考：
+rasa部署学习参考：
 [https://blog.csdn.net/AndrExpert/article/details/104328946](https://blog.csdn.net/AndrExpert/article/details/104328946) \
 [https://github.com/jiangdongguo/ChitChatAssistant](https://github.com/jiangdongguo/ChitChatAssistant)\
 docker pull meadml/cuda10.1-cudnn7-devel-ubuntu18.04-python3.6\
@@ -7,6 +7,8 @@ docker pull meadml/cuda10.1-cudnn7-devel-ubuntu18.04-python3.6\
 pip install tensorflow-gpu==2.3.0 -i  https://pypi.doubanio.com/simple/  --trusted-host pypi.doubanio.com
 
 ```shell
+
+安装：
 pip --default-timeout=500 install -U rasa -i  https://pypi.doubanio.com/simple/ --trusted-host pypi.doubanio.com
 conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.1 -c pytorch
 生成文件
