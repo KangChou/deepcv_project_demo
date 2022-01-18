@@ -133,16 +133,37 @@ If you want to speak to the assistant, run 'rasa shell' at any time inside the p
 pip install git+https://github.com/mit-nlp/MITIE.git
 pip install rasa[mitie]  # 注：由于第一步始终没成功过，没尝试过这个命令的意义
 
-从Pycharm的命令终端进行Mitie源码根目录，执行下面的命令：
+或者，从Pycharm的命令终端进行Mitie源码根目录，执行下面的命令：
 python setup.py build
 python setup.py install
 
 # 安装Jieba中文分词
-pip install jieba
+pip install jieba -i https://pypi.doubanio.com/simple/ --trusted-host pypi.doubanio.com 
 
-
+ 
 
 ```
+# 训练模型
+打开命令终端执行下面的命令，该命令会同时训练NLU和Core模型。
+
+使用MITIE
+```bash
+python -m rasa train --config configs/config.yml --domain configs/domain.yml --data data/
+```
+使用Supervised_Embedding
+```bash
+python -m rasa train --config configs/zh_jieba_supervised_embeddings_config.yml --domain configs/domain.yml --data data/
+
+```
+使用MITIE+Supervised_Embedding
+```bash
+python -m rasa train --config configs/zh_jieba_mitie_embeddings_config.yml --domain configs/domain.yml --data data/
+```
+
+
+
+
+
 
 # 附件
 
