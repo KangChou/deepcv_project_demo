@@ -99,7 +99,7 @@ sudo apt-get install language-pack-zh-hans
 export PYTHONIOENCODING=utf-8;rasa init --no-prompt
 
 
-```
+``` 
 ## 测试rasa助手
 
 ```shell
