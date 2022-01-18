@@ -108,7 +108,7 @@ export PYTHONIOENCODING=utf-8;rasa init --no-prompt
 ```
 ![./images/rasa.png](./images/rasa.png)
 
-最后在指定路径下生成相应demo模型：
+最后在指定路径下生成相应demo模型： 
 ```
 Epochs:   0%|                                                                                                                                           | 0/100 [00:00<?, ?it/s]/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/indexed_slices.py:449: UserWarning: Converting sparse IndexedSlices(IndexedSlices(indices=Tensor("gradients/cond_grad/Identity_1:0", shape=(None,), dtype=int64), values=Tensor("gradients/cond_grad/Identity:0", shape=(None,), dtype=float32), dense_shape=Tensor("gradients/cond_grad/Identity_2:0", shape=(1,), dtype=int32))) to a dense Tensor of unknown shape. This may consume a large amount of memory.
   "shape. This may consume a large amount of memory." % value)
@@ -123,7 +123,7 @@ If you want to speak to the assistant, run 'rasa shell' at any time inside the p
 
 ```
 测试上述模型：sudo rasa shell
-![./images/shell.png](./images/rasa.png)
+![./images/shell.png](./images/shell.png) 
 
 
 ## 安装其他依赖
