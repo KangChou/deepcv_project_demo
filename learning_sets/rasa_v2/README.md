@@ -52,7 +52,7 @@ export PYTHONIOENCODING=utf-8;make install
 
 ## 使用虚拟环境安装与配置
 ```
-
+如果自带python3.6就无需安装直接安装rasa相关模块即可 。
 sudo apt-get install openssl libssl-dev
 sudo wget https://www.python.org/ftp/python/3.6.8/Python-3.6.8.tgz
 sudo tar xzf Python-3.6.8.tgz
@@ -84,7 +84,7 @@ sudo vim ~/.pip/pip.conf
 
 创建新的项目，运行在python虚拟环境
 sudo mkdir chitchat_assistant
-sudo cd chitchat_assistant
+cd chitchat_assistant
 sudo virtualenv env
 sudo source env/bin/activate
 如果不适用则：sudo deactivate
