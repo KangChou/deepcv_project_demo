@@ -1,5 +1,5 @@
 
-rasa部署学习参考：\
+# rasa部署学习参考
 [https://blog.csdn.net/AndrExpert/article/details/104328946](https://blog.csdn.net/AndrExpert/article/details/104328946) \
 [https://github.com/jiangdongguo/ChitChatAssistant](https://github.com/jiangdongguo/ChitChatAssistant)\
 docker pull meadml/cuda10.1-cudnn7-devel-ubuntu18.04-python3.6\
@@ -7,6 +7,7 @@ docker pull meadml/cuda10.1-cudnn7-devel-ubuntu18.04-python3.6\
 如果考虑GPU则安装：pip install tensorflow-gpu==2.3.0 -i  https://pypi.doubanio.com/simple/  --trusted-host pypi.doubanio.com \
 conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.1 -c pytorch \
 
+## anaconda3环境配置安装rasa
 ```shell
 anaconda3镜像源：终端输入
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/c
@@ -48,7 +49,7 @@ export PYTHONIOENCODING=utf-8;make install
 ```
 
 
-使用虚拟环境安装与配置
+## 使用虚拟环境安装与配置
 ```
 
 sudo apt-get install openssl libssl-dev
