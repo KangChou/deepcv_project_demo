@@ -1,5 +1,6 @@
 
 # rasa部署学习参考
+参考资料：\
 [https://blog.csdn.net/AndrExpert/article/details/104328946](https://blog.csdn.net/AndrExpert/article/details/104328946) \
 [https://github.com/jiangdongguo/ChitChatAssistant](https://github.com/jiangdongguo/ChitChatAssistant)\
 docker pull meadml/cuda10.1-cudnn7-devel-ubuntu18.04-python3.6\
