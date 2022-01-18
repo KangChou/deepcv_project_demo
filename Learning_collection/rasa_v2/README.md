@@ -70,6 +70,58 @@ sudo apt-get update
 sudo sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
 sudo apt update --fix-missing
 
+安装pipEnv，即创建虚拟环境
+# 安装virtualenv
+sudo pip install virtualenv
+# 创建virtualenv快捷方式
+# 如果不清楚virtualenv路径，可使用"find / -name virtualenv"命令查询
+sudo ln -s /usr/local/python3/bin/virtualenv /usr/bin/virtualenv
+# 查看是否安装成功
+sudo virtualenv --version
+# 如果已经存在pip.conf文件，只需要执行第二步即可
+sudo mkdir ~/.pip
+sudo vim ~/.pip/pip.conf
+
+创建新的项目，运行在python虚拟环境
+sudo mkdir chitchat_assistant
+sudo cd chitchat_assistant
+sudo virtualenv env
+sudo source env/bin/activate
+如果不适用则：sudo deactivate
+
+安装rasa，自动生成rasa项目所需文件
+# 安装rasa, 由于网络问题，延长超时时间
+# 如果仍然超时异常，多执行几次
+sudo pip --default-timeout=500 install -U rasa
+# 生成文件
+$ sudo rasa init --no-prompt
+
+
+```
+## 测试rasa助手
+
+```shell
+sudo rasa shell
+```
+
+
+
+## 安装其他依赖
+安装Mitie和Jieba
+```shell
+# 在线安装Mitie
+pip install git+https://github.com/mit-nlp/MITIE.git
+pip install rasa[mitie]  # 注：由于第一步始终没成功过，没尝试过这个命令的意义
+
+从Pycharm的命令终端进行Mitie源码根目录，执行下面的命令：
+python setup.py build
+python setup.py install
+
+# 安装Jieba中文分词
+pip install jieba
+
+
+
 ```
 
 # 附件
