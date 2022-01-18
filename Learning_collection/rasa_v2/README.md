@@ -7,8 +7,14 @@ docker pull meadml/cuda10.1-cudnn7-devel-ubuntu18.04-python3.6\
 pip install tensorflow-gpu==2.3.0 -i  https://pypi.doubanio.com/simple/  --trusted-host pypi.doubanio.com
 
 ```shell
+anaconda3镜像源：终端输入
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/c
+conda config --set show_channel_urls yes
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
 
-安装：
+
+开始安装：
 pip --default-timeout=500 install -U rasa -i  https://pypi.doubanio.com/simple/ --trusted-host pypi.doubanio.com
 conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.1 -c pytorch
 生成文件
