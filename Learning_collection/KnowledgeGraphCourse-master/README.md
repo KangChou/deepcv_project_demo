@@ -1,5 +1,5 @@
 # A systematic course about knowledge graph for graduate students, interested researchers and engineers. 
-东南大学《知识图谱》研究生课程  
+资料来源：东南大学《知识图谱》研究生课程  
 时间：春季学期（2月下旬\~5月中旬）  
 地点：东南大学九龙湖校区  
 授课人：汪鹏   
