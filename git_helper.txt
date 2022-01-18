@@ -1,3 +1,4 @@
+gits使用push到github
 Quick setup — if you’ve done this kind of thing before
 
 or	
@@ -10,7 +11,7 @@ Get started by creating a new file or uploading an existing file. We recommend e
 echo "# deepcv_project_demo" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
+git commit -m "update"
 git branch -M main
 git remote add origin https://github.com/KangChou/deepcv_project_demo.git
 git push -u origin main
