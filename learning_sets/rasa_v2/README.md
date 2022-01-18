@@ -144,7 +144,8 @@ pip install jieba -i https://pypi.doubanio.com/simple/ --trusted-host pypi.douba
 
 ```
 # 训练模型
-打开命令终端执行下面的命令，该命令会同时训练NLU和Core模型。
+参考来源：https://github.com/jiangdongguo/ChitChatAssistant \
+打开命令终端执行下面的命令，该命令会同时训练NLU和Core模型。\
 
 使用MITIE
 ```bash
