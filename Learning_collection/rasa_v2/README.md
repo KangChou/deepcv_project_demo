@@ -70,7 +70,7 @@ sudo apt update --fix-missing
 
 ```
 
-#附件
+# 附件
 
 ## 安装poetry
 查看poetry是否安装成功：export PYTHONIOENCODING=utf-8;poetry
