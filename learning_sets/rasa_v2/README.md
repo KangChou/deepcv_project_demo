@@ -93,18 +93,35 @@ sudo source env/bin/activate
 # 安装rasa, 由于网络问题，延长超时时间
 # 如果仍然超时异常，多执行几次
 sudo pip --default-timeout=500 install -U rasa
+pip install colorama
 # 生成文件
-$ sudo rasa init --no-prompt
+sudo apt-get install language-pack-zh-hans
+export PYTHONIOENCODING=utf-8;rasa init --no-prompt
 
 
 ```
 ## 测试rasa助手
 
 ```shell
-sudo rasa shell
+sudo rasa shell 或者使用下面是utf-8编码：
+export PYTHONIOENCODING=utf-8;rasa init --no-prompt
 ```
+![./images/rasa.png](./images/rasa.png)
+
+最后在指定路径下生成相应demo模型：
+```
+Epochs:   0%|                                                                                                                                           | 0/100 [00:00<?, ?it/s]/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/indexed_slices.py:449: UserWarning: Converting sparse IndexedSlices(IndexedSlices(indices=Tensor("gradients/cond_grad/Identity_1:0", shape=(None,), dtype=int64), values=Tensor("gradients/cond_grad/Identity:0", shape=(None,), dtype=float32), dense_shape=Tensor("gradients/cond_grad/Identity_2:0", shape=(1,), dtype=int32))) to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "shape. This may consume a large amount of memory." % value)
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/indexed_slices.py:449: UserWarning: Converting sparse IndexedSlices(IndexedSlices(indices=Tensor("gradients/cond_1_grad/Identity_1:0", shape=(None,), dtype=int64), values=Tensor("gradients/cond_1_grad/Identity:0", shape=(None,), dtype=float32), dense_shape=Tensor("gradients/cond_1_grad/Identity_2:0", shape=(1,), dtype=int32))) to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "shape. This may consume a large amount of memory." % value)
+Epochs: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:13<00:00,  7.45it/s, t_loss=1.94, loss=1.77, acc=1]
+2022-01-18 10:15:52 INFO     rasa.core.agent  - Persisted model to '/tmp/tmpz1aw5sb3/core'
+Core model training completed.
+Your Rasa model is trained and saved at '/Python-3.6.8/models/20220118-101454.tar.gz'.
+If you want to speak to the assistant, run 'rasa shell' at any time inside the project directory.
 
 
+```
 
 ## 安装其他依赖
 安装Mitie和Jieba
