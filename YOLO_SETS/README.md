@@ -9,10 +9,11 @@
 
 
 # YOLOX
-论文：[https://arxiv.org/abs/2107.08430](https://arxiv.org/abs/2107.08430)
+YOLOX 是 YOLO 的无锚版本，设计更简单但性能更好！它旨在弥合研究和工业界之间的差距。
+论文：[https://arxiv.org/abs/2107.08430](https://arxiv.org/abs/2107.08430)\
 [https://github.com/Megvii-BaseDetection/YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) \
 ![./images/logo.png](./images/logo.png)
-
+![./images/logo.png](./images/demo.png)
 
 
 # YOLOv4
