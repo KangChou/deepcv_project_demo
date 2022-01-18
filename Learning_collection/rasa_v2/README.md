@@ -42,9 +42,37 @@ git clone https://github.com/RasaHQ/rasa.git
 cd rasa
 poetry install
 
+make编译安装：cd rasa
+export PYTHONIOENCODING=utf-8;make install
+
+```
+
+
+使用虚拟环境安装与配置
+```
+
+sudo apt-get install openssl libssl-dev
+sudo wget https://www.python.org/ftp/python/3.6.8/Python-3.6.8.tgz
+sudo tar xzf Python-3.6.8.tgz
+cd Python-3.6.8
+sudo ./configure --with-ssl --enable-optimizations
+sudo make
+sudo make install
+如果需要使用其他版本，也是通过以下两个命令实现，只是python3.6改成其他版本
+sudo rm /usr/bin/python
+sudo ln -s /usr/local/bin/python3.6 /usr/bin/python
+生成pip快捷方式，以支持pip命令
+rm /usr/bin/pip
+sudo ln -s /usr/local/bin/pip3 /usr/bin/pip
+sudo apt-get update
+sudo sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+sudo apt update --fix-missing
+
 ```
 
 #附件
+
+## 安装poetry
 查看poetry是否安装成功：export PYTHONIOENCODING=utf-8;poetry
 ```
 export PYTHONIOENCODING=utf-8;poetry 
