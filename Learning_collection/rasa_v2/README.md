@@ -30,10 +30,13 @@ pip install -r requirements.txt -i https://pypi.doubanio.com/simple/ --trusted-h
 pip install -e .
 
 新版：如果要使用 Rasa Open Source 的开发版，可以从 GitHub 获取：
-apt install curl 
+apt install curl git
 pip install httpx  && pip install --upgrade httpx
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
+或
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python -
 如果提示安装成功了却无法使用，则使用命令升级：pip install --upgrade poetry 
+pip install poetry pytest-sanic==1.1.0
 git clone https://github.com/RasaHQ/rasa.git
 cd rasa
 poetry install
@@ -44,6 +47,7 @@ poetry install
 查看poetry是否安装成功：export PYTHONIOENCODING=utf-8;poetry
 ```
 export PYTHONIOENCODING=utf-8;poetry 
+
 Poetry version 1.1.12
 
 USAGE
@@ -88,5 +92,11 @@ AVAILABLE COMMANDS
   update                 Update the dependencies as according to the pyproject.toml file.
   version                Shows the version of the project or bumps it when a valid bump rule is provided.
 
+poetry --version
+Poetry version 1.1.12
 
+如果不使用则卸载：
+pip uninstall poetry
+curl -sSL https://install.python-poetry.org | python3 - --uninstall
+curl -sSL https://install.python-poetry.org | POETRY_UNINSTALL=1 python3 -
 ```
