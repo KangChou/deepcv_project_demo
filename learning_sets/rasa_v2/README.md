@@ -6,7 +6,7 @@
 docker pull meadml/cuda10.1-cudnn7-devel-ubuntu18.04-python3.6\
 安装cuda10.1+cudnn7+anaconda3+conda create -n py36 python=3.6\
 如果考虑GPU则安装：pip install tensorflow-gpu==2.3.0 -i  https://pypi.doubanio.com/simple/  --trusted-host pypi.doubanio.com \
-conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.1 -c pytorch \
+conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.1 -c pytorch 
 
 ## anaconda3环境配置安装rasa
 ```shell
@@ -179,7 +179,32 @@ python -m rasa train --config configs/zh_jieba_supervised_embeddings_config.yml 
 python -m rasa train --config configs/zh_jieba_mitie_embeddings_config.yml --domain configs/domain.yml --data data/
 ```
 
+# 运行服务测试rasa
+## 1）启动Rasa服务
 
+ 在命令终端，输入下面命令：
+```shell
+# 启动rasa服务
+# 该服务实现自然语言理解(NLU)和对话管理(Core)功能
+# 注：该服务的--port默认为5005，如果使用默认则可以省略
+python -m rasa run --port 5005 --endpoints configs/endpoints.yml --credentials configs/credentials.yml --debug
+```
+##（2）启动Action服务
+
+在命令终端，输入下面命令：
+```shell
+# 启动action服务
+# 注：该服务的--port默认为5055，如果使用默认则可以省略
+Python -m rasa run actions --port 5055 --actions actions --debug 
+```
+##（3）启动server.py服务
+```shell
+python server.py
+当Rasa Server、Action Server和Server.py运行后，在浏览器输入测试：
+
+http://127.0.0.1:8088/ai?content=查询广州明天的天气
+```
+终端调用效果为：
 
 
 
