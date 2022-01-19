@@ -8,6 +8,8 @@ docker pull meadml/cuda10.1-cudnn7-devel-ubuntu18.04-python3.6\
 如果考虑GPU则安装：pip install tensorflow-gpu==2.3.0 -i  https://pypi.doubanio.com/simple/  --trusted-host pypi.doubanio.com \
 conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.1 -c pytorch 
 
+关于构建docker容器的方法与教程直接参考我的博客文章即可：[https://blog.csdn.net/weixin_41194129/category_11178137.html](https://blog.csdn.net/weixin_41194129/category_11178137.html)
+
 ## anaconda3环境配置安装rasa
 ```shell
 anaconda3镜像源：终端输入
