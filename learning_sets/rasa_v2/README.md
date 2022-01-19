@@ -169,6 +169,8 @@ pip install jieba -i https://pypi.doubanio.com/simple/ --trusted-host pypi.douba
 ```bash
 python -m rasa train --config configs/config.yml --domain configs/domain.yml --data data/
 ```
+![./images/loss.png](./images/loss.png) 
+
 使用Supervised_Embedding
 ```bash
 python -m rasa train --config configs/zh_jieba_supervised_embeddings_config.yml --domain configs/domain.yml --data data/
