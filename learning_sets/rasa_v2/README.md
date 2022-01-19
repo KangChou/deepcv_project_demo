@@ -165,7 +165,7 @@ pip install jieba -i https://pypi.doubanio.com/simple/ --trusted-host pypi.douba
 
 使用MITIE\
 
-数据集下载地址：[https://download.csdn.net/download/weixin_41194129/76638094](https://download.csdn.net/download/weixin_41194129/76638094)\
+数据集下载地址：[https://download.csdn.net/download/weixin_41194129/76638094](https://download.csdn.net/download/weixin_41194129/76638094)
 ```bash
 python -m rasa train --config configs/config.yml --domain configs/domain.yml --data data/
 ```
