@@ -247,7 +247,7 @@ pip install jieba -i https://pypi.doubanio.com/simple/ --trusted-host pypi.douba
 
 添加YAMLFile数据:你还可以直接将数据添加到YAML文件中，或者更改任何你不喜欢的信息。你可以按照上面的格式添加新的故事、意图和响应。完成之后使用命令rasa data validate来验证添加的数据是否都一致。
 
-添加更多训练数据后，你可以通过运行以下命令开始训练数据：rasa train
+添加更多训练数据后，你可以通过运行以下命令开始训练数据：rasa train，也可以同时可视化观看：rasa visualize。
 
 ## 测试数据集来源：
 [https://github.com/crownpku/Rasa_NLU_Chi.git](https://github.com/crownpku/Rasa_NLU_Chi.git) \
