@@ -475,7 +475,7 @@ python -m rasa train --config configs/config.yml --domain configs/domain.yml --d
 ```
 
 ![./images/er.png](./images/er.png)  \
-解决方法：修改config/domail.yml文件. 添加配置参数即可：utter_ask_email_send \
+解决方法：修改config/domail.yml文件. 添加配置参数即可：utter_ask_email_send和utter_greet\
 参考来源：[https://stackoverflow.com/questions/55766215/rasa-core](https://stackoverflow.com/questions/55766215/rasa-core-can-not-access-action-templatename-as-that-name-is-not-a-registered)
 
 
