@@ -133,7 +133,7 @@ export PYTHONIOENCODING=utf-8;rasa init --no-prompt
 ``` 
 
 ## 测试rasa助手
-你可以训练一个初始模型，并在下面的命令行上与你训练好的助手聊天
+
 
 ```shell
 使用下面是utf-8编码：
@@ -155,9 +155,10 @@ If you want to speak to the assistant, run 'rasa shell' at any time inside the p
 
 
 ```
+你也可以训练一个初始模型，并在下面的命令行上与你训练好的助手聊天.\
 测试上述模型：sudo rasa shell
 ![./images/shell.png](./images/shell.png) 
-
+ 
 
 ## 安装其他依赖
 安装Mitie和Jieba
