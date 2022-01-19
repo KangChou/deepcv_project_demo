@@ -196,6 +196,58 @@ python -m rasa train --config configs/config.yml --domain configs/domain.yml --d
 ```
 ![./images/loss.png](./images/loss.png) 
 
+以上训练可能会出现如下问题：
+```shell
+Training Core model...
+InvalidPolicyConfig: Module for policy 'KerasPolicy' could not be loaded. Please make sure the name is a valid policy.
+
+```
+这是因为Keras 策略在 Rasa 2.0 中已被弃用，而是使用 TED 策略。您需要在config.yml文件中修改它。\
+您可以在此处找到支持的策略的完整列表：[https ://rasa.com/docs/rasa/policies](https ://rasa.com/docs/rasa/policies) \
+解决方法来源：\
+[https://stackoverflow.com/questions/64763339/](https://stackoverflow.com/questions/64763339/invalidpolicyconfig-module-for-policy-keraspolicy-could-not-be-loaded-please) 
+
+```shell
+config.yml
+recipe: default.v1
+language:  # your language
+pipeline:
+  # - <pipeline components>
+
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 200
+  - name: RulePolicy
+```
+
+因此config.yml修改内容如下：
+```
+language: "zh"
+
+pipeline:
+- name: "MitieNLP"
+  model: "data/total_word_feature_extractor_zh.dat"
+- name: "JiebaTokenizer"
+  dictionary_path: "data/dict"
+- name: "MitieEntityExtractor"
+- name: "EntitySynonymMapper"
+- name: "RegexFeaturizer"
+- name: "MitieFeaturizer"
+- name: "SklearnIntentClassifier"
+
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    epochs: 500
+    max_history: 5
+  - name: FallbackPolicy
+    fallback_action_name: 'action_default_fallback'
+  - name: MemoizationPolicy
+    max_history: 5
+  - name: FormPolicy
+```
 
 训练完成后会得到models文件，然后开启服务测试即可：python3 -m rasa_nlu.server --path models1 \
 详细参考这里:[https://zhuanlan.zhihu.com/p/61059086](https://zhuanlan.zhihu.com/p/61059086)
