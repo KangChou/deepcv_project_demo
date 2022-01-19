@@ -236,6 +236,16 @@ pip install jieba -i https://pypi.doubanio.com/simple/ --trusted-host pypi.douba
 
 ```
 # 训练与测试模型
+创建训练数据:使用Rasa创建训练数据有多种方法。你可以使用交互模式、YAML文件或rasax进行训练。通过和你的助手聊天来创建新的训练数据,要启动交互式会话，请键入：rasa interactive(只需属于文本，输入意图标签即可进行标注)。\
+这里有demo展示[https://zhuanlan.zhihu.com/p/386741364](https://zhuanlan.zhihu.com/p/386741364)，本文就不再介绍。文章中，你可以在和你的助手谈话的时候标注你的问题的意图，并根据你的意图选择正确的回答！请注意，每个响应都应该以单词utter_开头。
+
+你还可以指定位置可视化进行交互式对话：http://localhost:5006/visualization.html，并同时运行rasa interactive。
+
+以上标注之后，你应该可以在nlu.yml文件中看到新的意图，在thestories.yml中看到新的文本story故事，在domain.yml文件中看到新的响应.
+
+添加YAMLFile数据:你还可以直接将数据添加到YAML文件中，或者更改任何你不喜欢的信息。你可以按照上面的格式添加新的故事、意图和响应。完成之后使用命令rasa data validate来验证添加的数据是否都一致。
+
+添加更多训练数据后，你可以通过运行以下命令开始训练数据：rasa train
 
 ## 测试数据集来源：
 [https://github.com/crownpku/Rasa_NLU_Chi.git](https://github.com/crownpku/Rasa_NLU_Chi.git) \
