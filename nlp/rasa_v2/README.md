@@ -253,7 +253,7 @@ policies:
 
 测试上述训练好的模型：
 ```
-export PYTHONIOENCODING=utf-8;rasa shell
+CUDA_VISIBLE_DEVICES='-1';export PYTHONIOENCODING=utf-8;rasa shell
 
 ```
 ![./images/test.png](./images/test.png)  
