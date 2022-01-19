@@ -15,6 +15,7 @@
    * [1）启动Rasa服务](#1启动rasa服务)
    * [2）启动Action服务](#2启动action服务)
    * [3）启动server.py服务](#3启动serverpy服务)
+* [rasa微调模型](#rasa微调模型)
 * [附件](#附件)
    * [安装poetry](#安装poetry)
  
