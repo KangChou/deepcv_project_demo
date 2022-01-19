@@ -92,6 +92,27 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ```
 
+使用功能命令说明：
+```shell
+rasa init	使用示例训练数据、操作和配置文件创建一个新项目。
+rasa train	使用您的 NLU 数据和故事训练模型，将训练后的模型保存在./models.
+rasa interactive	通过与您的助手聊天来启动交互式学习会话以创建新的训练数据。
+rasa shell	加载您训练的模型并让您在命令行上与您的助手交谈。
+rasa run	使用经过训练的模型启动服务器。
+rasa run actions	使用 Rasa SDK 启动操作服务器。
+rasa visualize	生成故事的可视化表示。
+rasa test	在任何以test_.
+rasa data split nlu	对 NLU 训练数据执行 80/20 拆分。
+rasa data convert	在不同格式之间转换训练数据。
+rasa data migrate	将 2.0 域迁移到 3.0 格式。
+rasa data validate	检查域、NLU 和对话数据是否存在不一致。
+rasa export	将对话从跟踪器存储导出到事件代理。
+rasa evaluate markers	从现有跟踪器存储中提取标记。
+rasa x	以本地模式启动 Rasa X。
+rasa -h	显示所有可用的命令
+
+```
+
 
 ## 使用虚拟环境安装与配置
 
