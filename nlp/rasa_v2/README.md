@@ -29,6 +29,9 @@ Rasa工作原理
 
 
 ```
+
+rasa官方文档使用说明：[https://rasa.com/docs/rasa/command-line-interface](https://rasa.com/docs/rasa/command-line-interface) 
+
 # rasa部署
 参考资料：\
 [https://blog.csdn.net/AndrExpert/article/details/104328946](https://blog.csdn.net/AndrExpert/article/details/104328946) \
@@ -190,6 +193,25 @@ If you want to speak to the assistant, run 'rasa shell' at any time inside the p
 你也可以训练一个初始模型，并在下面的命令行上与你训练好的助手聊天.\
 测试上述模型：sudo rasa shell
 ![./images/shell.png](./images/shell.png) 
+
+一般情况下如果不指明路径基本上是在root目录下：
+```
+.
+├── actions
+│   ├── __init__.py
+│   └── actions.py
+├── config.yml
+├── credentials.yml
+├── data
+│   ├── nlu.yml
+│   └── stories.yml
+├── domain.yml
+├── endpoints.yml
+├── models
+│   └── <timestamp>.tar.gz   
+└── tests
+   └── test_stories.yml
+```
  
 
 ## 安装其他依赖
