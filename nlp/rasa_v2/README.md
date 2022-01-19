@@ -20,7 +20,15 @@
  
 Rasa工作原理
 ![./images/rs.png](./images/rs.png)
-  
+```shell
+首先，将用户输入的Message传递到Interpreter(Rasa NLU模块)，该模块负责识别Message中的"意图(intent)“和提取所有"实体”(entity)数据；
+其次，Rasa Core会将Interpreter提取到的意图和识别传给Tracker对象，该对象的主要作用是跟踪会话状态(conversation state)；
+第三，利用policy记录Tracker对象的当前状态，并选择执行相应的action，其中，这个action是被记录在Track对象中的；
+最后，将执行action返回的结果输出即完成一次人机交互。
+参考：https://blog.csdn.net/AndrExpert/article/details/104328946
+
+
+```
 # rasa部署
 参考资料：\
 [https://blog.csdn.net/AndrExpert/article/details/104328946](https://blog.csdn.net/AndrExpert/article/details/104328946) \
