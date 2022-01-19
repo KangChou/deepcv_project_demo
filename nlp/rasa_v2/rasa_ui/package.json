@@ -1,0 +1,60 @@
+{
+  "name": "RasaUI",
+  "version": "3.0.1",
+  "description": "Rasa UI is a web application built on top of, and for, Rasa.",
+  "dependencies": {
+    "angular": "^1.8.2",
+    "angular-chart.js": "^1.1.1",
+    "angular-cookies": "1.7.2",
+    "angular-modal-service": "^0.15.1",
+    "angular-resource": "1.7.2",
+    "angular-route": "1.7.2",
+    "angular-sanitize": "1.7.2",
+    "angular-utils-pagination": "^0.11.1",
+    "body-parser": "^1.18.3",
+    "bootstrap": "latest",
+    "chart.js": "^2.9.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1",
+    "jquery": "^3.6.0",
+    "jsonformatter": "^0.6.0",
+    "jsonwebtoken": "^8.4.0",
+    "ng-file-upload": "^12.2.13",
+    "ng-tags-input": "^3.2.0",
+    "ngstorage": "^0.3.11",
+    "phantomjs-prebuilt": "^2.1.16",
+    "popper.js": "^1.15.0",
+    "request": "^2.88.0",
+    "simple-line-icons": "^2.4.1",
+    "sqlite3": "^4.1.0",
+    "winston": "^3.2.1"
+  },
+  "config": {
+    "rasa_endpoint": "http://localhost:5005",
+    "loglevel": "info",
+    "jwtsecret": "mysecret",
+    "admin_username": "admin",
+    "admin_password": "admin",
+    "db_schema": "3.0.1",
+    "db_autoupdate": "true"
+  },
+  "scripts": {
+    "test:server": "mocha server/test/test.js --delay true --exit",
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js --ignore 'server/data/'"
+  },
+  "author": "Paul Aschmann",
+  "url": "https://github.com/paschmann/rasa-ui",
+  "copyright": "Copyright 2017",
+  "license": "SEE LICENSE IN https://github.com/paschmann/rasa-ui/blob/master/license",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paschmann/rasa-ui.git"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.1.4"
+  }
+}

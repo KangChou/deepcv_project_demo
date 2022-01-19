@@ -1,0 +1,42 @@
+<ol class="breadcrumb" breadcrumb="">
+  <li class="breadcrumb-item ng-scope active"><span>Rasa Configuration</span></li>
+</ol>
+<div class="container-fluid">
+  <div class="animated fadeIn">
+    <div class="row">
+      <div class="col-sm-12 col-lg-12">
+        <form>
+          <div class="card">
+            <div class="card-header">
+              <strong>Version Information</strong>
+            </div>
+            <div class="card-block">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th class="col-md-2">Component</th>
+                    <th>Version</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Rasa</td>
+                    <td>{{ config.version_data.version }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </form>
+        <div class="card">
+          <div class="card-header">
+            <strong>Raw Config</strong>
+          </div>
+          <div class="card-block">
+            <json-formatter json="config" open="3"></json-formatter>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

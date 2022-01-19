@@ -1,0 +1,257 @@
+.list-group-item.active {
+  background-color: #EEE;
+  border-color: #20a8d8;
+  color: #151b1e
+}
+
+.app-header.navbar .navbar-brand {
+  background-image: url("../img/logo.png");
+}
+
+canvas.chart {
+    display: inline-block!important;
+}
+
+.callout {
+    border-left-width: 0;
+}
+
+.header-buttons {
+    color: #999;
+}
+
+.sidebar-toggler {
+  left: inherit !important;
+  right: 0px;
+}
+
+.aside-menu {
+    width: 350px;
+}
+
+.datainput {
+    width: 100%;
+    height: 250px;
+    color: #3e515b;
+}
+
+textarea {
+    border: 1px solid #c2cfd6;
+}
+
+.dimmed {
+    position: relative;
+  }
+  
+  .dimmed:after {
+    content: " ";
+    z-index: 10;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+@media (max-width: 991px) {
+    .aside-menu {
+        margin-right: 0px;
+        width: 250px;
+    }
+    .aside-menu-fixed .main, .aside-menu-fixed .app-footer {
+        margin-right: 250px !important;
+    }
+}
+
+.aside-menu-hidden .aside-menu {
+    margin-right: -350px;
+}
+
+.aside-menu-fixed .main, .aside-menu-fixed .app-footer {
+    margin-right: 350px;
+}
+
+.app-header.navbar .nav-item .nav-link, .app-header.navbar .nav-item .dropdown-toggle {
+    cursor: pointer;
+}
+
+.p-a-1 {
+    padding: 1rem!important;
+}
+
+.m-b-0, .m-y-0 {
+    margin-bottom: 0!important;
+}
+
+.m-t-h, .m-y-h {
+    margin-top: .5rem!important;
+}
+
+.td-middle {
+  vertical-align: middle !important;
+}
+
+.tag-success {
+    background-color: #4dbd74;
+}
+
+.tag {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+tags-input .tags .tag-item .remove-button {
+    color: #fff;
+}
+.filtertext {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+  }
+.list-group-item:hover, a.list-group-item:focus {text-decoration: none;background-color: rgb(245, 245, 245);}
+.list-group { margin-bottom:0px; }
+
+.alert-div{
+  position: fixed;
+  z-index: 9999;
+  right: 10px;
+  top: 5px;
+}
+.alert-text{
+    @media (max-width: 991px) {
+    .sidebar-hidden .sidebar {
+        margin-left: -200px;
+    }
+  }
+}
+
+
+.incoming_msg {
+  overflow:hidden; 
+  margin:26px 0 26px;
+  width: 100%
+}
+
+.received_msg {
+  padding: 0 0 0 10px;
+  float: left;
+  max-width: 50%;
+ }
+
+ .received_withd_msg p {
+  background: #ebebeb none repeat scroll 0 0;
+  border-radius: 10px;
+  color: #646464;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+.time_date {
+  text-align: left;
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.sent {
+  text-align: right;
+}
+
+.sent_msg {
+  float: right;
+  max-width: 50%;
+}
+
+ .sent_msg p {
+  background: #20a8d8 none repeat scroll 0 0;
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 0; color:#fff;
+  padding: 5px 10px 5px 12px;
+  width:100%;
+  text-align: right;
+}
+
+.outgoing_msg {
+  overflow:hidden; 
+  margin:26px 0 26px;
+  width: 100%
+}
+
+
+.input_msg_write input {
+  border: medium;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.type_msg {
+  border: 1px solid #c4c4c4;
+  position: relative;
+}
+
+.msg_btn {
+  background: #20a8d8 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  position: absolute;
+  right: 5px;
+  top: 8px;
+  width: 33px;
+  padding-top:5px;
+}
+
+.send {
+  padding-right:8px;
+}
+
+.reset {
+  bottom: 0px;
+}
+
+.msg_history {
+  height: 800px;
+  display: table-cell;
+  vertical-align: bottom;
+  width: 100%;
+  overflow: auto;
+  table-layout: fixed;
+}
+
+#chat {
+  display: table;
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  max-height: 800px;
+  overflow-y: scroll;
+}
+
+.action_msg {
+  text-align: center;
+  color: lightgray;
+}
