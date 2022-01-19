@@ -83,7 +83,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 
 ## 使用虚拟环境安装与配置
-```
+
+```shell
 如果自带python3.6就无需安装直接安装rasa相关模块即可 。
 sudo apt-get install openssl libssl-dev
 sudo wget https://www.python.org/ftp/python/3.6.8/Python-3.6.8.tgz
@@ -129,10 +130,10 @@ pip install colorama
 # 生成文件
 sudo apt-get install language-pack-zh-hans
 export PYTHONIOENCODING=utf-8;rasa init --no-prompt
-
-
 ``` 
+
 ## 测试rasa助手
+你可以训练一个初始模型，并在下面的命令行上与你训练好的助手聊天
 
 ```shell
 使用下面是utf-8编码：
@@ -141,7 +142,7 @@ export PYTHONIOENCODING=utf-8;rasa init --no-prompt
 ![./images/rasa.png](./images/rasa.png)
 
 最后在指定路径下生成相应demo模型： 
-```
+```shell
 Epochs:   0%|                                                                                                                                           | 0/100 [00:00<?, ?it/s]/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/indexed_slices.py:449: UserWarning: Converting sparse IndexedSlices(IndexedSlices(indices=Tensor("gradients/cond_grad/Identity_1:0", shape=(None,), dtype=int64), values=Tensor("gradients/cond_grad/Identity:0", shape=(None,), dtype=float32), dense_shape=Tensor("gradients/cond_grad/Identity_2:0", shape=(1,), dtype=int32))) to a dense Tensor of unknown shape. This may consume a large amount of memory.
   "shape. This may consume a large amount of memory." % value)
 /usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/indexed_slices.py:449: UserWarning: Converting sparse IndexedSlices(IndexedSlices(indices=Tensor("gradients/cond_1_grad/Identity_1:0", shape=(None,), dtype=int64), values=Tensor("gradients/cond_1_grad/Identity:0", shape=(None,), dtype=float32), dense_shape=Tensor("gradients/cond_1_grad/Identity_2:0", shape=(1,), dtype=int32))) to a dense Tensor of unknown shape. This may consume a large amount of memory.
