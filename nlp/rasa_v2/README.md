@@ -236,7 +236,9 @@ pip install jieba -i https://pypi.doubanio.com/simple/ --trusted-host pypi.douba
 
 ```
 # 训练与测试模型
-创建训练数据:使用Rasa创建训练数据有多种方法。你可以使用交互模式、YAML文件或rasax进行训练。通过和你的助手聊天来创建新的训练数据,要启动交互式会话，请键入：rasa interactive(只需属于文本，输入意图标签即可进行标注)。\
+
+## 创建与训练数据的标注
+使用Rasa创建训练数据有多种方法。你可以使用交互模式、YAML文件或rasax进行训练。通过和你的助手聊天来创建新的训练数据,要启动交互式会话，请键入：rasa interactive(只需属于文本，输入意图标签即可进行标注)。\
 这里有demo展示[https://zhuanlan.zhihu.com/p/386741364](https://zhuanlan.zhihu.com/p/386741364)，本文就不再介绍。文章中，你可以在和你的助手谈话的时候标注你的问题的意图，并根据你的意图选择正确的回答！请注意，每个响应都应该以单词utter_开头。
 
 你还可以指定位置可视化进行交互式对话：http://localhost:5006/visualization.html，并同时运行rasa interactive。
