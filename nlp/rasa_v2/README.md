@@ -360,6 +360,13 @@ http://127.0.0.1:8088/ai?content=查询广州明天的天气
 
 
 
+# rasa可视化
+
+```shell
+rasa visualize -s data/core/common.story.yml 
+```
+
+
 # rasa微调模型
 使用rasa train --finetune 已训练的模型初始化管道，并在包含其他训练示例的新训练数据集上进一步对其进行微调。这将有助于减少新模型的训练时间。
 
