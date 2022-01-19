@@ -361,6 +361,17 @@ http://127.0.0.1:8088/ai?content=查询广州明天的天气
 
 
 # rasa微调模型
+使用rasa train --finetune 已训练的模型初始化管道，并在包含其他训练示例的新训练数据集上进一步对其进行微调。这将有助于减少新模型的训练时间。
+
+默认情况下，该命令会选择models/目录中的最新模型。如果您有想要改进的特定模型，您可以通过运行来指定路径rasa train --finetune <path to model to finetune>。
+
+与从头开始训练相比，微调模型通常需要更少的 epoch 来训练机器学习组件，例如DIETClassifier 。要么使用模型配置进行微调，它定义了比以前更少的时期，要么使用标志 。
+
+将使用模型配置文件中为每个机器学习组件指定的一小部分时期。例如，如果配置为使用 100 个 epoch，则指定将仅使用 50 个 epoch 进行微调。ResponseSelectorTEDPolicy--epoch-fraction--epoch-fractionDIETClassifier--epoch-fraction 0.5
+
+rasa train nlu --finetune您还可以分别使用和微调仅 NLU 或仅对话管理模型 rasa train core --finetune。
+
+
 微调模型，必须满足以下条件：
 ```shell
 
