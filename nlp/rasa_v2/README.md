@@ -1,7 +1,7 @@
 目录
 =================
 
-* [rasa部署学习参考](#rasa部署学习参考)
+* [rasa部署](#rasa部署)
    * [anaconda3环境配置安装rasa](#anaconda3环境配置安装rasa)
    * [使用虚拟环境安装与配置](#使用虚拟环境安装与配置)
    * [测试rasa助手](#测试rasa助手)
@@ -13,9 +13,11 @@
    * [使用MITIE+Supervised_Embedding](#使用mitiesupervised_embedding)
 * [运行服务测试rasa](#运行服务测试rasa)
    * [1）启动Rasa服务](#1启动rasa服务)
+   * [2）启动Action服务](#2启动action服务)
+   * [3）启动server.py服务](#3启动serverpy服务)
 * [附件](#附件)
    * [安装poetry](#安装poetry)
-
+ 
 
 
 # rasa部署
@@ -218,7 +220,7 @@ python -m rasa train --config configs/zh_jieba_mitie_embeddings_config.yml --dom
 # 注：该服务的--port默认为5005，如果使用默认则可以省略
 python -m rasa run --port 5005 --endpoints configs/endpoints.yml --credentials configs/credentials.yml --debug
 ```
-##（2）启动Action服务
+## 2）启动Action服务
 
 在命令终端，输入下面命令：
 ```shell
@@ -226,7 +228,7 @@ python -m rasa run --port 5005 --endpoints configs/endpoints.yml --credentials c
 # 注：该服务的--port默认为5055，如果使用默认则可以省略
 Python -m rasa run actions --port 5055 --actions actions --debug 
 ```
-##（3）启动server.py服务
+## 3）启动server.py服务
 ```shell
 python server.py
 当Rasa Server、Action Server和Server.py运行后，在浏览器输入测试：
