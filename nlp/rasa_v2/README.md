@@ -203,7 +203,7 @@ InvalidPolicyConfig: Module for policy 'KerasPolicy' could not be loaded. Please
 
 ```
 这是因为Keras 策略在 Rasa 2.0 中已被弃用，而是使用 TED 策略。您需要在config.yml文件中修改它。\
-您可以在此处找到支持的策略的完整列表:[https ://rasa.com/docs/rasa/policies/](https ://rasa.com/docs/rasa/policies/) \
+您可以在此处找到支持的策略的完整列表:[https://rasa.com/docs/rasa/policies/](https://rasa.com/docs/rasa/policies/) \
 解决方法来源：\
 [https://stackoverflow.com/questions/64763339/](https://stackoverflow.com/questions/64763339/invalidpolicyconfig-module-for-policy-keraspolicy-could-not-be-loaded-please) 
 
