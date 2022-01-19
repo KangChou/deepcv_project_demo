@@ -1,6 +1,6 @@
 [![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/paschmann/rasa-ui/)
 
-参考来源：[https://github.com/paschmann/rasa-ui](https://github.com/paschmann/rasa-ui)
+参考github来源：[https://github.com/paschmann/rasa-ui](https://github.com/paschmann/rasa-ui) 
 
 # Rasa UI 
 
