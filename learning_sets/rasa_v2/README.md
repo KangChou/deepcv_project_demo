@@ -49,6 +49,17 @@ export PYTHONIOENCODING=utf-8;make install
 
 ```
 
+验证是否安装成功：
+```shell
+Python 3.6.8 (default, Dec  8 2021, 21:08:43) 
+[GCC 8.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import rasa
+>>> rasa.__version__
+'2.8.21'
+
+```
+
 
 ## 使用虚拟环境安装与配置
 ```
