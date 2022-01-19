@@ -315,6 +315,8 @@ CUDA_VISIBLE_DEVICES='-1';export PYTHONIOENCODING=utf-8;rasa shell
 ![./images/test.png](./images/test.png)  
 
 
+
+
 训练完成后会得到models文件，然后开启服务测试即可：python3 -m rasa_nlu.server --path models1 \
 详细参考这里:[https://zhuanlan.zhihu.com/p/61059086](https://zhuanlan.zhihu.com/p/61059086)
 
@@ -359,12 +361,14 @@ http://127.0.0.1:8088/ai?content=查询广州明天的天气
 
 
 # rasa微调模型
-```shell
 微调模型，必须满足以下条件：
+```shell
 
 1、提供的配置应该与用于训练正在微调的模型的配置完全相同。您可以更改的唯一参数是epochs单个机器学习组件和策略。
 
-2、训练基本模型的标签集（意图、动作、实体和槽）应该与用于微调的训练数据中的标签集完全相同。这意味着您无法在增量训练期间向训练数据添加新的意图、操作、实体或槽标签。您仍然可以为每个现有标签添加新的训练示例。如果您在训练数据中添加/删除了标签，则需要从头开始训练管道。
+2、训练基本模型的标签集（意图、动作、实体和槽）应该与用于微调的训练数据中的标签集完全相同。
+这意味着您无法在增量训练期间向训练数据添加新的意图、操作、实体或槽标签。
+您仍然可以为每个现有标签添加新的训练示例。如果您在训练数据中添加/删除了标签，则需要从头开始训练管道。
 
 3、MINIMUM_COMPATIBLE_VERSION要微调的模型使用当前安装的 rasa 版本进行训练。
 
@@ -431,3 +435,13 @@ pip uninstall poetry
 curl -sSL https://install.python-poetry.org | python3 - --uninstall
 curl -sSL https://install.python-poetry.org | POETRY_UNINSTALL=1 python3 -
 ```
+
+## 训练时可能存在的问题
+
+![./images/er.png](./images/er.png)  \
+解决方法：修改config/domail.yml文件. 添加配置参数即可：utter_ask_email_send \
+参考来源：[https://stackoverflow.com/questions/55766215/rasa-core](https://stackoverflow.com/questions/55766215/rasa-core-can-not-access-action-templatename-as-that-name-is-not-a-registered)
+
+
+
+
