@@ -179,6 +179,7 @@ pip install git+https://github.com/mit-nlp/MITIE.git
 pip install rasa[mitie]  # 注：由于第一步始终没成功过，没尝试过这个命令的意义
 pip install slack
 pip install slackclient
+pip install pipenv
 
 或者，从Pycharm的命令终端进行Mitie源码根目录，执行下面的命令：
 python setup.py build
