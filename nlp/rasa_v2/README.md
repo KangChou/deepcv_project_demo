@@ -438,6 +438,12 @@ curl -sSL https://install.python-poetry.org | POETRY_UNINSTALL=1 python3 -
 
 ## 训练时可能存在的问题
 
+```
+/data/ChitChatAssistant# 
+
+python -m rasa train --config configs/config.yml --domain configs/domain.yml --data data/
+```
+
 ![./images/er.png](./images/er.png)  \
 解决方法：修改config/domail.yml文件. 添加配置参数即可：utter_ask_email_send \
 参考来源：[https://stackoverflow.com/questions/55766215/rasa-core](https://stackoverflow.com/questions/55766215/rasa-core-can-not-access-action-templatename-as-that-name-is-not-a-registered)
