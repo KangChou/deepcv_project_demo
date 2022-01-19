@@ -173,6 +173,10 @@ python -m rasa train --config configs/config.yml --domain configs/domain.yml --d
 ```
 ![./images/loss.png](./images/loss.png) 
 
+
+训练完成后会得到models文件，然后开启服务测试即可：python3 -m rasa_nlu.server --path models1 \
+详细参考这里:[https://zhuanlan.zhihu.com/p/61059086](https://zhuanlan.zhihu.com/p/61059086)
+
 使用Supervised_Embedding
 ```bash
 python -m rasa train --config configs/zh_jieba_supervised_embeddings_config.yml --domain configs/domain.yml --data data/
