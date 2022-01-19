@@ -157,8 +157,8 @@ pip install jieba -i https://pypi.doubanio.com/simple/ --trusted-host pypi.douba
 # 训练模型
 
 测试数据集来源：\
-[https://github.com/crownpku/Rasa_NLU_Chi.git](https://github.com/crownpku/Rasa_NLU_Chi.git)\
-[https://github.com/FengXMGeek/rasa_nlu_chinese_example](https://github.com/FengXMGeek/rasa_nlu_chinese_example)\
+[https://github.com/crownpku/Rasa_NLU_Chi.git](https://github.com/crownpku/Rasa_NLU_Chi.git) \
+[https://github.com/FengXMGeek/rasa_nlu_chinese_example](https://github.com/FengXMGeek/rasa_nlu_chinese_example) \
 
 参考来源：https://github.com/jiangdongguo/ChitChatAssistant \
 打开命令终端执行下面的命令，该命令会同时训练NLU和Core模型。
