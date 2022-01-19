@@ -248,6 +248,9 @@ policies:
     max_history: 5
   - name: FormPolicy
 ```
+再次执行训练，结果如下：
+![./images/train.png](./images/train.png)  
+
 
 训练完成后会得到models文件，然后开启服务测试即可：python3 -m rasa_nlu.server --path models1 \
 详细参考这里:[https://zhuanlan.zhihu.com/p/61059086](https://zhuanlan.zhihu.com/p/61059086)
