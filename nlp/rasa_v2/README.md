@@ -18,8 +18,9 @@
 * [附件](#附件)
    * [安装poetry](#安装poetry)
  
-
-
+Rasa工作原理
+![./images/rs.png](./images/rs.png)
+  
 # rasa部署
 参考资料：\
 [https://blog.csdn.net/AndrExpert/article/details/104328946](https://blog.csdn.net/AndrExpert/article/details/104328946) \
@@ -168,6 +169,8 @@ If you want to speak to the assistant, run 'rasa shell' at any time inside the p
 # 在线安装Mitie
 pip install git+https://github.com/mit-nlp/MITIE.git
 pip install rasa[mitie]  # 注：由于第一步始终没成功过，没尝试过这个命令的意义
+pip install slack
+pip install slackclient
 
 或者，从Pycharm的命令终端进行Mitie源码根目录，执行下面的命令：
 python setup.py build
@@ -273,6 +276,7 @@ python -m rasa train --config configs/zh_jieba_mitie_embeddings_config.yml --dom
 ```
 
 # 运行服务测试rasa
+记得安装：pip install flask
 ## 1）启动Rasa服务
 
  在命令终端，输入下面命令：
