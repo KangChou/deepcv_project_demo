@@ -1,4 +1,4 @@
-Table of Contents
+目录
 =================
 
 * [rasa部署学习参考](#rasa部署学习参考)
@@ -16,9 +16,9 @@ Table of Contents
 * [附件](#附件)
    * [安装poetry](#安装poetry)
 
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
-# rasa部署学习参考
+
+# rasa部署
 参考资料：\
 [https://blog.csdn.net/AndrExpert/article/details/104328946](https://blog.csdn.net/AndrExpert/article/details/104328946) \
 [https://github.com/jiangdongguo/ChitChatAssistant](https://github.com/jiangdongguo/ChitChatAssistant)\
