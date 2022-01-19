@@ -179,7 +179,7 @@ pip install jieba -i https://pypi.doubanio.com/simple/ --trusted-host pypi.douba
  
 
 ```
-# 训练模型
+# 训练与测试模型
 
 ## 测试数据集来源：
 [https://github.com/crownpku/Rasa_NLU_Chi.git](https://github.com/crownpku/Rasa_NLU_Chi.git) \
@@ -250,6 +250,13 @@ policies:
 ```
 再次执行训练，结果如下：
 ![./images/train.png](./images/train.png)  
+
+测试上述训练好的模型：
+```
+export PYTHONIOENCODING=utf-8;rasa shell
+
+```
+![./images/test.png](./images/test.png)  
 
 
 训练完成后会得到models文件，然后开启服务测试即可：python3 -m rasa_nlu.server --path models1 \
