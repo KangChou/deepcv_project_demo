@@ -163,7 +163,7 @@ pip install jieba -i https://pypi.doubanio.com/simple/ --trusted-host pypi.douba
 参考来源：https://github.com/jiangdongguo/ChitChatAssistant \
 打开命令终端执行下面的命令，该命令会同时训练NLU和Core模型。
 
-使用MITIE \
+使用MITIE 
 
 数据集下载地址：[https://download.csdn.net/download/weixin_41194129/76638094](https://download.csdn.net/download/weixin_41194129/76638094)
 ```bash
