@@ -1,0 +1,3 @@
+/home/zhoukang/CM2022/build/CMakeFiles/rebuild_cache.dir
+/home/zhoukang/CM2022/build/CMakeFiles/edit_cache.dir
+/home/zhoukang/CM2022/build/CMakeFiles/C_Lib.dir

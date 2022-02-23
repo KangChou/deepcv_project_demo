@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhoukang/CM2022/library.c
+library.h
+/home/zhoukang/CM2022/library.h
+stdio.h
+-
+
+/home/zhoukang/CM2022/library.h
+

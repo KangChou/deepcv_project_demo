@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libC_Lib.so -o libC_Lib.so CMakeFiles/C_Lib.dir/library.c.o 
