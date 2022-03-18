@@ -1,0 +1,4 @@
+/data/spleeter_cmake/Gtest2022/gtest-demo/build/CMakeFiles/main.dir
+/data/spleeter_cmake/Gtest2022/gtest-demo/build/CMakeFiles/test.dir
+/data/spleeter_cmake/Gtest2022/gtest-demo/build/CMakeFiles/edit_cache.dir
+/data/spleeter_cmake/Gtest2022/gtest-demo/build/CMakeFiles/rebuild_cache.dir
