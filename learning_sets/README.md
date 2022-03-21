@@ -17,3 +17,5 @@ PCL点云：https://github.com/LiveStockShapeAnalysis/Point-Cloud-Processing-exa
 3D - Point Cloud深度学习：https://github.com/zhulf0804/3D-PointCloud
 
 激光雷达定位slam（深蓝）：https://github.com/sunmiaozju/shenlan-laser-slam-2d
+
+激光雷达：https://github.com/lybhit/lidar_undistortion/tree/main/lidar_undistortion_3d
