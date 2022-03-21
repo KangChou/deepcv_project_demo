@@ -15,3 +15,5 @@ PCL点云：https://github.com/LiveStockShapeAnalysis/Point-Cloud-Processing-exa
 云点格式转换：https://github.com/qinghuizhao/CloudPointFormat/tree/master/CloudPointFormatShow
 
 3D - Point Cloud深度学习：https://github.com/zhulf0804/3D-PointCloud
+
+激光雷达定位slam（深蓝）：https://github.com/sunmiaozju/shenlan-laser-slam-2d
