@@ -25,3 +25,5 @@ yolov5、激光雷达融合感知：https://github.com/qianmin/yolo5_and_distanc
 其他CSDN教程：https://blog.csdn.net/qq_36686437/category_9913573.html
 
 PCL笔记：https://github.com/MNewBie/PCL-Notes
+
+深蓝学院 多传感器定位融合第四期 学习笔记:https://github.com/kahowang/sensor-fusion-for-localization-and-mapping
