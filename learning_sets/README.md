@@ -1,5 +1,7 @@
 C++学习地址：https://github.com/Blitzer207/C-Resource
 
+python3可视化合集：https://zhuanlan.zhihu.com/p/313462427
+
 PCL点云：https://github.com/LiveStockShapeAnalysis/Point-Cloud-Processing-example
 
 知乎PCL点云:https://github.com/HuangCongQing/pcl-learning   https://zhuanlan.zhihu.com/p/268524083
