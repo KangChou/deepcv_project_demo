@@ -9,7 +9,6 @@ windows环境docker pull continuumio/anaconda3
 
 记得安装vs code 和wsl进行穿透
 
-docker  Windows 数据  python可视化  https://blog.csdn.net/qq_42693848/article/details/108780048
 
 其他：
 docker run -it python:3.9-slim bash -c "pip -q install opencv-python; python -c 'import cv2'"
@@ -71,3 +70,4 @@ sudo apt-get install libxcb-keysyms1-dev libxcb-image0-dev libxcb-shm0-dev libxc
 
 
 
+参考：docker  Windows 数据  python可视化  https://blog.csdn.net/qq_42693848/article/details/108780048
