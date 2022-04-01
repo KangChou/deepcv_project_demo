@@ -71,3 +71,28 @@ sudo apt-get install libxcb-keysyms1-dev libxcb-image0-dev libxcb-shm0-dev libxc
 
 
 参考：docker  Windows 数据  python可视化  https://blog.csdn.net/qq_42693848/article/details/108780048
+
+类似的可以看看其他可视化： python plotpy.py 
+
+``` python
+import matplotlib
+# matplotlib.use('agg')
+import matplotlib.pyplot as plt
+
+import numpy as np
+ 
+x = np.linspace(-2,2,100)
+y1 = 3*x + 4
+y2 = x**2
+ 
+plt.plot(x,y1)
+plt.plot(x,y2)
+ 
+plt.show()
+```
+
+vscode 终端执行结果： python plotpy.py 
+
+![image](https://user-images.githubusercontent.com/36963108/161200339-9be5d6f7-72ad-4add-a529-93826b384cd1.png)
+
+
