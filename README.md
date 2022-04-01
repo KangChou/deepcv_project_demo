@@ -91,6 +91,15 @@ plt.plot(x,y2)
 plt.show()
 ```
 
+实现步骤：
+1、打开vscode 启动连接docker容器环境
+
+2、打开vcX
+
+3、输入export DISPLAY=host.docker.internal:0
+
+4、执行上述代码所在位置 python plotpy.py 
+
 vscode 终端执行结果： python plotpy.py 
 
 ![image](https://user-images.githubusercontent.com/36963108/161200339-9be5d6f7-72ad-4add-a529-93826b384cd1.png)
