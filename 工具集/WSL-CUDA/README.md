@@ -2,7 +2,8 @@
 安装 Hyper-V、WSL与虚拟机调用NVIDIA-GPU进行深度学习计算
 
 
-安装 Hyper-V
+安装 Hyper-V \
+
 1、目的是出于在window上安装虚拟机穿透nvidia-gpu进行gpu调用加速。
 
 2、英伟达正式启用GPU虚拟机显卡直通功能: 英伟达宣布，完全支持GeForce GPU直通技术，该技术允许虚拟机从主机上访问GPU
