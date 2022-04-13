@@ -15,3 +15,4 @@ sudo ln -s libswresample.so.3.5.100 libswresample.so.2
 ```
 类似的使用上述搜索之后，软连接后导入到/usr/lib目录下即可调用。
 
+解决办法参考：[https://stackoverflow.com/questions/libavcodec-so-57-cannot-open-shared-object-file](https://stackoverflow.com/questions/57860201/importerror-libavcodec-so-57-cannot-open-shared-object-file-no-such-file-or-d)
