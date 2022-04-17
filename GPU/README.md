@@ -1,7 +1,8 @@
 Docker opencvino+ 教程GPU：https: //hub.docker.com/r/openvino/ubuntu20_runtime  
 
-可以在windows11系统下使用GPU推断：中文参考：https://www.ai2news.com/blog/411071/
+可以在windows11系统下使用GPU推理：中文参考：https://www.ai2news.com/blog/411071/
 
+开发环境官网:https://hub.docker.com/r/openvino/ubuntu20_runtime
 
 
 此 docker 映像验证了以下配置：
