@@ -33,3 +33,5 @@ PCL笔记：https://github.com/MNewBie/PCL-Notes
 深蓝学院《视觉SLAM进阶：从零开始手写VIO》第一期:https://github.com/cggos/shenlan_vio_course
 
 深蓝学院 三维点云课程学习记录:https://github.com/ZC413074/course_of_3d_points
+
+机器学习教程：https://github.com/lawlite19/MachineLearning_Python
