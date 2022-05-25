@@ -1,6 +1,9 @@
 # 3D 对象检测
 ![](https://miro.medium.com/max/1400/0*JDqH7_kKaGpkoUmv.png)
 
+
+参考来自： https://github.com/Tom-Hardy-3D-Vision-Workshop/awesome-3D-object-detection
+
 https://github.com/TianhaoFu/Awesome-3D-Object-Detection
 
 
