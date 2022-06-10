@@ -35,3 +35,5 @@ PCL笔记：https://github.com/MNewBie/PCL-Notes
 深蓝学院 三维点云课程学习记录:https://github.com/ZC413074/course_of_3d_points
 
 机器学习教程：https://github.com/lawlite19/MachineLearning_Python
+
+论文主题包括但不限于检测、分类、分割、Backbone、多模态等等，论文来源包括但不限于最新的arXiv论文、ICCV2021、CVPR2021、MM2021。https://github.com/xmu-xiaoma666/FightingCV-Paper-Reading
