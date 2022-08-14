@@ -1,4 +1,6 @@
 
+- https://opencv-python-tutorials.readthedocs.io/zh/latest/
+- https://github.com/oreillymedia/Learning-OpenCV-3_examples
 
 - 使用 Python 3 学习 OpenCV 5 计算机视觉 - 第四版  https://github.com/PacktPublishing/Learning-OpenCV-5-Computer-Vision-with-Python-Fourth-Edition
 - https://github.com/spmallick/learnopencv
