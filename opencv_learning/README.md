@@ -20,3 +20,4 @@
 - https://github.com/ifding/deep-learning-python
 - https://github.com/jagracar/OpenCV-python-tests
 - BOOK CODE  https://github.com/PacktPublishing
+- C++ OPENCV  OpenCV 3 计算机视觉应用程序编程食谱，第三版:https://github.com/PacktPublishing/OpenCV3-Computer-Vision-Application-Programming-Cookbook-Third-Edition
