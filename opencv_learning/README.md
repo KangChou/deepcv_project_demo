@@ -19,3 +19,4 @@
 - https://github.com/PacktPublishing/Machine-Learning-for-OpenCV-Advanced-Methods-and-Deep-Learning
 - https://github.com/ifding/deep-learning-python
 - https://github.com/jagracar/OpenCV-python-tests
+- BOOK CODE  https://github.com/PacktPublishing
