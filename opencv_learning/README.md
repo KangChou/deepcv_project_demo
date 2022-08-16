@@ -56,3 +56,113 @@ https://wizardforcel.gitbooks.io/py-ds-intro-tut/content/opencv.html
 https://opencv-python-tutorials.readthedocs.io/zh/latest/3.%20%E6%A0%B8%E5%BF%83%E6%93%8D%E4%BD%9C/3.1.%20%E5%9B%BE%E5%83%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/#_2
 
 
+深度学习框架：https://www.51cto.com/article/702638.html
+
+https://www.cvmart.net/community/detail/134
+ 
+ 
+ https://github.com/TingsongYu/PyTorch_Tutorial
+
+https://pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html
+
+https://blog.51cto.com/u_11299290/3184997
+
+https://pytorch.org/tutorials/beginner/nlp/pytorch_tutorial.html
+
+https://pytorch123.com/
+
+https://zhuanlan.zhihu.com/p/25572330
+
+https://pytorch.zhangxiann.com/
+
+```
+https://www.51cto.com/article/652293.html
+　　一、深度学习基础
+
+　　1. 深度学习基本概念
+
+　　2. Logistic回归
+
+　　3. 浅层网络的特点
+
+　　4. 深度神经网络的特点
+
+　　5. 偏差与方差
+
+　　6. 正则化
+
+　　7. 最优化
+
+　　8. 超参数
+
+　　9. 结构化机器学习过程
+
+　　10. 误差分析
+
+　　11. 训练集、开发集与测试集
+
+　　12. 其它学习方法
+
+　　二、卷积网络
+
+　　13. 卷积神经网络基础
+
+　　14. 经典卷积神经网络
+
+　　15. 特殊卷积神经网络
+
+　　16. 实践建议
+
+　　17. 目标检测算法
+
+　　18. 人脸识别
+
+　　19. 风格迁移
+
+　　三、循环网络
+
+　　20. 循环神经网络基础
+
+　　21. NLP 中的词表征
+
+　　22. 序列到序列
+
+```
+
+
+
+AI模型部署与加速
+
+https://blog.csdn.net/JianguoChow/article/details/122684310
+
+https://www.zhoujianguo.ltd/#/fore/category?categoryId=19
+
+https://blog.csdn.net/wq_0708/article/details/121472274
+
+https://blog.csdn.net/weixin_45626901/article/details/107722637
+
+https://blog.csdn.net/weixin_42483745/article/details/124890882
+
+https://github.com/wang-xinyu/tensorrtx
+
+https://github.com/NVIDIA-AI-IOT/deepstream_python_apps
+
+https://developer.nvidia.com/deepstream-getting-started
+
+https://blog.csdn.net/weixin_49196365/article/details/121459174
+
+https://blog.csdn.net/weixin_41562691/article/details/116793532
+
+https://blog.csdn.net/weixin_41562691/article/details/116793532
+
+https://string.quest/read/14869396
+
+https://github.com/marcoslucianops/DeepStream-Yolo
+
+https://developer.nvidia.com/zh-cn/deepstream-getting-started
+
+https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_Overview.html
+
+
+
+
