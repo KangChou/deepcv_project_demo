@@ -3,7 +3,7 @@ https://github.com/PacktPublishing/Learning-OpenCV-5-Computer-Vision-with-Python
 
 https://github.com/PacktPublishing/Learning-OpenCV-4-Computer-Vision-with-Python-Third-Edition
 
-
+http://www.cs.columbia.edu/~vondrick/ihog/
 
 
 1.第1章：设置OpenCV
