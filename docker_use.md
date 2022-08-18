@@ -101,6 +101,3 @@ vscode 终端执行结果： python plotpy.py
 
 ubuntu+linux+nvidia-docker-gpu使用方法：[https://javamana.com/2022/01/202201171902593016.html](https://javamana.com/2022/01/202201171902593016.html)
 
-
-![lADPD4d8xv0loGTNAszNAsw_716_716](https://user-images.githubusercontent.com/36963108/185294857-e1c69216-85ca-4248-ad51-d1bda4154901.jpg)
-
