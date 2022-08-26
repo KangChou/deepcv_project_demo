@@ -3,6 +3,8 @@
 - 深度学习示例教程
 https://developer.nvidia.com/deep-learning-examples
 
+https://github.com/NVIDIA/DeepLearningExamples
+
 - PyTorch的 NVIDIA 容器映像22.07 版可在 NGC上获得。-
 https://docs.nvidia.com/deeplearning/frameworks/tensorflow-release-notes/rel_22-08.html#rel_22-08
 
@@ -19,3 +21,6 @@ https://catalog.ngc.nvidia.com/resources
 
 - TensorRT 汇总笔记
 http://yeahflash.com/programming/tensorrt/#_2-1-tensorrt-%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E5%AD%A6%E4%B9%A0
+
+- opencv-cuda
+https://developer.nvidia.com/blog/opencv-optical-flow-algorithms-with-nvidia-turing-gpus/
