@@ -1,5 +1,10 @@
 
 
+
+https://linuxhint.com/install-docker-ubuntu-22-04/
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
+
 https://www.codegrepper.com/code-examples/shell/docker+gui+ubuntu+20.04
 
 https://askubuntu.com/questions/1161646/is-it-possible-to-run-docker-container-and-show-its-graphical-application-window
