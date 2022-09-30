@@ -1,3 +1,10 @@
+# 计算机视觉实时动态
+https://openaccess.thecvf.com/menu
+
+![image](https://user-images.githubusercontent.com/36963108/193174986-63d2ae54-ee0f-4507-8f32-b75d325d78a9.png)
+
+
+
 # 3D 对象检测
 ![](https://miro.medium.com/max/1400/0*JDqH7_kKaGpkoUmv.png)
 
