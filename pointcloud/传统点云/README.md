@@ -12,3 +12,5 @@ pcl代码教程：https://github.com/HuangCongQing/pcl-learning
 【激光雷达】3D激光雷达传感器建图：速腾聚创、velodyne建图过程总结  https://www.twblogs.net/a/5c1f4d99bd9eee16b3da8b8a?lang=zh-cn
 
 用于自动驾驶的激光雷达 https://github.com/beedotkiran/Lidar_For_AD_references
+
+高清地图：为自动驾驶汽车提供动力的新时代地图 https://www.geospatialworld.net/article/hd-maps-autonomous-vehicles/
