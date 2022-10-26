@@ -9,6 +9,10 @@ pcl代码教程：https://github.com/HuangCongQing/pcl-learning
 
 点云库PCL从入门到精通 书中配套案例 https://github.com/LiveStockShapeAnalysis/Point-Cloud-Processing-example
 
+《三维点云分析》的课后习题代码： https://github.com/QinZiwen/analyze_pointcloud
+
+3D-MOT(点云多目标检测和追踪C++) ：https://github.com/HuangCongQing/3D-LIDAR-Multi-Object-Tracking
+
 激光点云：https://learngeodata.eu/2020/12/09/lidar-point-cloud-for-self-driving-cars/
 
 【激光雷达】3D激光雷达传感器建图：速腾聚创、velodyne建图过程总结  https://www.twblogs.net/a/5c1f4d99bd9eee16b3da8b8a?lang=zh-cn
