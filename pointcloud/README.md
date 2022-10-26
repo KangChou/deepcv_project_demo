@@ -1,3 +1,9 @@
+3D点云目标检测&语义分割(深度学习)-SOTA方法,代码,论文,数据集等：https://github.com/HuangCongQing/3D-Point-Clouds
+
+Practices for 3D point cloud processing. 3D点云数据处理： https://github.com/gjgjh/PointCloudPractice
+
+点云处理算法：https://github.com/XungangYin/PointCloud/blob/master/viewPCD/view.cpp
+https://github.com/xiaoxiangyuTF/tf_pcl_algorithm
 
 - https://github.com/zhulf0804/3D-PointCloud
 - https://github.com/open-mmlab/OpenPCDet
