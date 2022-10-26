@@ -130,9 +130,7 @@
 
 [图像处理基本算法代码](http://www.cnblogs.com/Imageshop/p/3430742.html)
 
-# 感谢支持
 
-![](https://github.com/Ewenwan/EwenWan/blob/master/zf.jpg)
 
 # 无人驾驶的各个方面知识
 [参考](https://blog.csdn.net/qq_40027052/article/details/78485120)
