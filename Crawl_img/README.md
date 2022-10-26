@@ -46,3 +46,45 @@ for img_list in img_lists:
 
 
 ```
+
+
+爬取图片网站风景与人文图：
+```python
+import requests
+from lxml import etree
+if __name__ == "__main__":
+    url='https://pic.netbian.com/4kfengjing/index_%d.html'
+    headers={
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+    }
+    a=eval(input('请输入起始页'))
+    b=eval(input('请输入终止页'))
+    for num in range(a,b):
+        newurl=format(url%num)
+        response=requests.get(url=newurl,headers=headers)
+        response.encoding='gbk'
+        text=response.text
+        tree=etree.HTML(text)
+        list=tree.xpath('//div[@class="slist"]/ul/li')
+        for li in list:
+            c_url='https://pic.netbian.com'+li.xpath('./a//@href')[0]
+            c_response=requests.get(url=c_url,headers=headers)
+            c_text=c_response.text
+            c_tree=etree.HTML(c_text)
+            c_list=c_tree.xpath('//div[@class="photo-pic"]/a/img/@src')[0]
+            lasturl='https://pic.netbian.com'+c_list
+            l_response=requests.get(url=lasturl,headers=headers)
+            l_response.encoding='gbk'
+            name = c_tree.xpath('//div[@class="photo-pic"]/a/img/@alt')[0]
+            name=name.encode('iso-8859-1').decode('gbk')
+            date=l_response.content
+            path = 'D:\\docker2022\\demo20221021\\风景图片\\' + name +'.jpg'# 根据自己需要改这里（name之前）
+            with open(path, 'wb') as p:
+                p.write(date)
+            print(name, '爬取成功')
+print('爬取完成')
+
+
+```
+![image](https://user-images.githubusercontent.com/36963108/197927722-8f96a027-9f90-42b0-ac23-f8378c1bb052.png)
+
