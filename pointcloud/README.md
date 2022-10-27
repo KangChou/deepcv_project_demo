@@ -7,6 +7,8 @@ https://github.com/xiaoxiangyuTF/tf_pcl_algorithm
 
 pclpy教程：https://github.com/maguangyan/pclpy_tutorial
 
+论文： https://github.com/Yochengliu/awesome-point-cloud-analysis
+
 - https://github.com/zhulf0804/3D-PointCloud
 - https://github.com/open-mmlab/OpenPCDet
 - https://github.com/strawlab/python-pcl
