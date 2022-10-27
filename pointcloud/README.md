@@ -5,6 +5,8 @@ Practices for 3D point cloud processing. 3D点云数据处理： https://github.
 点云处理算法：https://github.com/XungangYin/PointCloud/blob/master/viewPCD/view.cpp
 https://github.com/xiaoxiangyuTF/tf_pcl_algorithm
 
+pclpy教程：https://github.com/maguangyan/pclpy_tutorial
+
 - https://github.com/zhulf0804/3D-PointCloud
 - https://github.com/open-mmlab/OpenPCDet
 - https://github.com/strawlab/python-pcl
