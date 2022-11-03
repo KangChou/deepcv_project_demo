@@ -8,6 +8,8 @@ Practices for 3D point cloud processing. 3D点云数据处理： https://github.
 - https://github.com/XungangYin/PointCloud/blob/master/viewPCD/view.cpp
 - https://github.com/xiaoxiangyuTF/tf_pcl_algorithm
 - https://github.com/jeffdelmerico/pointcloud_tutorial
+- https://github.com/mmolero/awesome-point-cloud-processing
+
 
 三维点云处理课程作业代码：
 - https://github.com/suyunzzz/aiimooc_lesson
@@ -40,3 +42,4 @@ pclpy教程：https://github.com/maguangyan/pclpy_tutorial
 - https://github.com/HuangCongQing/pcl-learning
 - https://github.com/LiveStockShapeAnalysis/Point-Cloud-Processing-example
 - https://github.com/QinZiwen/analyze_pointcloud
+- https://slam6d.sourceforge.io/
