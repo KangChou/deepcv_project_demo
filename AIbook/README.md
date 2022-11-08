@@ -1,5 +1,5 @@
 
-https://github.com/YeonwooSung/ai_book
+
 
 http://lnbook.wenqujingdian.com/Public/editor/attached/file/3/018/017/18581.pdf
 
@@ -11,3 +11,6 @@ http://home.ustc.edu.cn/~yang96/Elements_of_Information_Theory-second_edition.pd
 《Sudharsan Ravichandiran - Getting Started with Google BERT_ Build and train state-of-the-art natural language processing models using BERT-Packt Publishing Ltd (2021)》
 
 神经网络与深度学习:https://nndl.github.io/
+
+
+- https://github.com/YeonwooSung/ai_book
