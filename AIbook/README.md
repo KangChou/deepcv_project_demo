@@ -1,7 +1,11 @@
 
 神经网络与深度学习:https://nndl.github.io/
 
+https://github.com/fengdu78/lihang-code
 
+https://github.com/Dod-o/Statistical-Learning-Method_Code
+
+https://github.com/WenDesi/lihang_book_algorithm
 
 https://github.com/zslucky/awesome-AI-books
 
@@ -61,3 +65,6 @@ http://home.ustc.edu.cn/~yang96/Elements_of_Information_Theory-second_edition.pd
 - https://github.com/koryako/FundamentalsOfAI_book_code
 - https://github.com/zhangbincheng1997/chatbot-aiml-webqa
 - https://github.com/qqqil/books
+- https://github.com/KeKe-Li/books
+- https://github.com/KeKe-Li/tutorial
+- https://github.com/search?q=%E7%BB%9F%E8%AE%A1%E5%AD%A6%E6%96%B9%E6%B3%95
