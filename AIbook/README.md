@@ -1,7 +1,15 @@
 
 神经网络与深度学习:https://nndl.github.io/
 
-统计学方法:https://datawhalechina.github.io/statistical-learning-method-solutions-manual/#/
+统计学方法：https://github.com/SmirkCao/Lihang
+
+统计学方法习题答案:https://datawhalechina.github.io/statistical-learning-method-solutions-manual/#/
+
+机器学习：
+- https://github.com/MorvanZhou/tutorials
+- https://github.com/lawlite19/MachineLearning_Python
+- 西瓜书 https://github.com/datawhalechina/pumpkin-book
+- 机器视觉:https://github.com/Ewenwan/MVision
 
 https://github.com/fengdu78/lihang-code
 
