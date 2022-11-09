@@ -1,6 +1,8 @@
 
 神经网络与深度学习:https://nndl.github.io/
 
+统计学方法:https://datawhalechina.github.io/statistical-learning-method-solutions-manual/#/
+
 https://github.com/fengdu78/lihang-code
 
 https://github.com/Dod-o/Statistical-Learning-Method_Code
