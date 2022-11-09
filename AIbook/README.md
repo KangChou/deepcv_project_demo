@@ -10,6 +10,9 @@
 - https://github.com/lawlite19/MachineLearning_Python
 - 西瓜书 https://github.com/datawhalechina/pumpkin-book
 - 机器视觉:https://github.com/Ewenwan/MVision
+- 视觉算法排名:https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark
+- 机器学习资源大全中文版:https://github.com/jobbole/awesome-machine-learning-cn
+- 机器数学与代码实现:https://ailearning.apachecn.org/#/
 
 https://github.com/fengdu78/lihang-code
 
