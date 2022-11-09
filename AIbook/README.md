@@ -53,7 +53,7 @@ http://home.ustc.edu.cn/~yang96/Elements_of_Information_Theory-second_edition.pd
 《Sudharsan Ravichandiran - Getting Started with Google BERT_ Build and train state-of-the-art natural language processing models using BERT-Packt Publishing Ltd (2021)》
 
 
-
+- https://github.com/datawhalechina/statistical-learning-method-solutions-manual
 - https://github.com/fengdu78/deeplearning_ai_books
 - https://github.com/Microstrong0305/Python2AI
 - https://github.com/chatopera/Synonyms
