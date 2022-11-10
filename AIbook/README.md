@@ -5,6 +5,8 @@
 
 统计学方法习题答案:https://datawhalechina.github.io/statistical-learning-method-solutions-manual/#/
 
+https://github.com/SuperCV/Book
+
 机器学习：
 - https://github.com/MorvanZhou/tutorials
 - https://github.com/lawlite19/MachineLearning_Python
