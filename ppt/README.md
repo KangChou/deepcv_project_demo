@@ -67,4 +67,4 @@ https://gitee.com/ForthEspada/CS-Books
 
 https://awesome-programming-books.github.io/algorithms/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89.pdf
 
-
+http://staff.ustc.edu.cn/~zlwang/algorithm/ppt/ch0.Introduction.pdf
