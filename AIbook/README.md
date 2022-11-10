@@ -81,3 +81,4 @@ http://home.ustc.edu.cn/~yang96/Elements_of_Information_Theory-second_edition.pd
 - https://github.com/KeKe-Li/books
 - https://github.com/KeKe-Li/tutorial
 - https://github.com/search?q=%E7%BB%9F%E8%AE%A1%E5%AD%A6%E6%96%B9%E6%B3%95
+- https://github.com/Dujltqzv/Some-Many-Books
