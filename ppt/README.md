@@ -72,3 +72,5 @@ http://staff.ustc.edu.cn/~zlwang/algorithm/ppt/ch0.Introduction.pdf
 https://awesome-programming-books.github.io/
 
 https://github.com/JackeyLea/NJUCS/tree/master/2.%E5%88%9D%E8%AF%95/2.%E4%B8%93%E4%B8%9A%E8%AF%BE/1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/1.PPT/%E4%B9%A6%E6%9C%AC%E9%85%8D%E5%A5%97PPT
+
+http://www.chinaznyj.com/ZiLiaoXiaZai/5027.html
