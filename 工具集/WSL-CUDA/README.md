@@ -1,6 +1,9 @@
+![image](https://user-images.githubusercontent.com/36963108/201884172-10e4b4f2-95cb-45f6-8338-5be3c00f7ec0.png)
+
 
 安装 Hyper-V、WSL与虚拟机调用NVIDIA-GPU进行深度学习计算
 
+汇总连接：https://blog.csdn.net/weixin_41194129/article/details/120492244
 
 安装 Hyper-V 
 
