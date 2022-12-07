@@ -15,6 +15,9 @@ https://github.com/SuperCV/Book
 - 视觉算法排名:https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark
 - 机器学习资源大全中文版:https://github.com/jobbole/awesome-machine-learning-cn
 - 机器数学与代码实现:https://ailearning.apachecn.org/#/
+- 天大教材:https://github.com/SuperPung/TJU-CourseSharing/tree/c6f35cab0d8ce0c42f051bc23fab03b70739a08c
+
+
 
 https://github.com/fengdu78/lihang-code
 
