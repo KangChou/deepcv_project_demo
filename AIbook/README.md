@@ -87,3 +87,12 @@ http://home.ustc.edu.cn/~yang96/Elements_of_Information_Theory-second_edition.pd
 - https://github.com/KeKe-Li/tutorial
 - https://github.com/search?q=%E7%BB%9F%E8%AE%A1%E5%AD%A6%E6%96%B9%E6%B3%95
 - https://github.com/Dujltqzv/Some-Many-Books
+
+- 计算机组成原理课  https://max.book118.com/html/2021/1211/8051075030004055.shtm https://www.taodocs.com/p-442417886.html
+- https://github.com/zhangzhizheng/com-ppt
+- https://github.com/RichardoML/Principles-of-Computer-Organization_PPT
+- https://www.doc88.com/p-67039778724693.html
+- https://max.book118.com/html/2022/0726/6125124242004214.shtm
+- https://github.com/StudyPavilion/Principles-of-computer-composition
+- https://github.com/billgoo/Learning-About-Data-Structure
+- 计算机组成原理课PPT https://max.book118.com/html/2021/1115/7130004014004043.shtm
