@@ -96,3 +96,11 @@ http://home.ustc.edu.cn/~yang96/Elements_of_Information_Theory-second_edition.pd
 - https://github.com/StudyPavilion/Principles-of-computer-composition
 - https://github.com/billgoo/Learning-About-Data-Structure
 - 计算机组成原理课PPT https://max.book118.com/html/2021/1115/7130004014004043.shtm
+- 算法设计与分析 https://github.com/Algorithm-learning-community-for-python/tup-design-and-analysis-of-algorithm/tree/master/PPT
+- https://github.com/TioaChan/the_design_and_analysis_of_algorithms/tree/master/ppt
+
+- https://github.com/jinhualee/datashine
+- https://github.com/WadeStack/Design-and-Analysis-of-Algorithms
+- https://github.com/edu2act/course-algorithm
+- 算法设计与分析 C代码 https://github.com/Indomite/ClassicalAlgorithm
+- https://github.com/yunshouhu/AlgorithmAnalysisAndDesign
