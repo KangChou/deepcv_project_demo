@@ -1,4 +1,4 @@
-# 数学定理和公式证明 
+# 数学定理和公式证明、数学与机器学习、深度学习应用 
 
 
 - https://www.birmingham.ac.uk/Documents/college-eps/college/stem/Student-Summer-Education-Internships/Proof-and-Reasoning.pdf
