@@ -27,11 +27,20 @@ thematician%27s%20Toolbox.p
 - POINCARE和几何化猜想——RICCI流的哈密顿-帕尔曼理论  http://www.ims.cuhk.edu.hk/~ajm/vol10/10_2.pdf
 - https://joshua.smcvt.edu/numbertheory/book.pdf
 - 机器学习数学:https://mml-book.github.io/book/mml-book.pdf
+- http://homepages.warwick.ac.uk/staff/Martin.Lotz/files/learning/lectnotes-all.pdf
+- 代码：https://mml-book.github.io/
 - 数学与机器学习算法：https://www.doc.ic.ac.uk/~dfg/ProbabilisticInference/Mathematics%20for%20machine%20learning.pdf
 - 高级高中数学:https://www.math.ksu.edu/~dbski/writings/further.pdf
+- 机器学习（含代码）：https://skim.math.msstate.edu/LectureNotes/Machine_Learning_Lecture.pdf
+- 代数、拓扑学、微分学和最优化理论 计算机科学和机器学习：https://www.cis.upenn.edu/~jean/math-deep.pdf
+- 数学与深度学习：https://d2l.ai/d2l-en.pdf
+- http://pc-petersen.eu/ML_Lecture.pdf
+- https://people.math.ethz.ch/~abandeira/Math_of_ML_Lecture_Notes2021.pdf
+- 数学与艺术：https://matthbeck.github.io/papers/aop.noprint.pdf
+- 机器学习与算法理论：https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf
 
 
-来源：
+# 参考：
 - https://www.academia.edu/
 - https://www.pdfdrive.com/prelude-to-mathematics-e196418888.html
 - https://www.freecodecamp.org/news/free-textbooks-math-science-and-more-online-pdf-for-college-and-high-school/
