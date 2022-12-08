@@ -1,6 +1,7 @@
 # 数学定理和公式证明、数学与机器学习、深度学习应用 
 
 
+- 数学公式：https://homepage.ntu.edu.tw/~wttsai/MathModel/Mathematical%20Formula%20Handbook.pdf
 - https://www.birmingham.ac.uk/Documents/college-eps/college/stem/Student-Summer-Education-Internships/Proof-and-Reasoning.pdf
 - https://proofsfromthebook.github.io/Proofs%20from%20THE%20BOOK.pdf
 - https://www.people.vcu.edu/~rhammack/BookOfProof/BookOfProof.pdf
@@ -38,6 +39,9 @@ thematician%27s%20Toolbox.p
 - https://people.math.ethz.ch/~abandeira/Math_of_ML_Lecture_Notes2021.pdf
 - 数学与艺术：https://matthbeck.github.io/papers/aop.noprint.pdf
 - 机器学习与算法理论：https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf
+- 校对与数学白话文导论：https://personal.math.vt.edu/day/ProofsBook/IPaMV.pdf
+- 数学证明方法：https://www.researchgate.net/publication/225189861_Mathematical_Method_and_Proof
+- 费马最后定理的证明：https://people.math.wisc.edu/~boston/869.pdf
 
 
 # 参考：
