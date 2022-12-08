@@ -27,8 +27,12 @@ thematician%27s%20Toolbox.p
 - POINCARE和几何化猜想——RICCI流的哈密顿-帕尔曼理论  http://www.ims.cuhk.edu.hk/~ajm/vol10/10_2.pdf
 - https://joshua.smcvt.edu/numbertheory/book.pdf
 - 机器学习数学:https://mml-book.github.io/book/mml-book.pdf
+- 数学与机器学习算法：https://www.doc.ic.ac.uk/~dfg/ProbabilisticInference/Mathematics%20for%20machine%20learning.pdf
+- 高级高中数学:https://www.math.ksu.edu/~dbski/writings/further.pdf
 
 
 来源：
 - https://www.academia.edu/
 - https://www.pdfdrive.com/prelude-to-mathematics-e196418888.html
+- https://www.freecodecamp.org/news/free-textbooks-math-science-and-more-online-pdf-for-college-and-high-school/
+- 
