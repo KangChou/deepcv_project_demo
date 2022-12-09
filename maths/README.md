@@ -7,6 +7,7 @@
 - https://www.people.vcu.edu/~rhammack/BookOfProof/BookOfProof.pdf
 - https://nessie.ilab.sztaki.hu/~kornai/2021/MatematikaAlapjai/ChartrandPolimeniZhang.pdf
 - https://people.uleth.ca/~dave.morris/books/proofs+concepts.pdf
+- 数学之美：https://github.com/exponential-growth/BookList/blob/master/%E6%95%B0%E5%AD%A6%E4%B9%8B%E7%BE%8E.pdf
 - https://people.math.sc.edu/girardi/m300/book/Sundstrom2-1.pdf
 - https://faculty.ksu.edu.sa/sites/default/files/proofs_in_the_book.pdf
 - https://www.calstatela.edu/sites/default/files/users/u2536/MATH-3450/main.pdf
@@ -42,6 +43,7 @@ thematician%27s%20Toolbox.p
 - 校对与数学白话文导论：https://personal.math.vt.edu/day/ProofsBook/IPaMV.pdf
 - 数学证明方法：https://www.researchgate.net/publication/225189861_Mathematical_Method_and_Proof
 - 费马最后定理的证明：https://people.math.wisc.edu/~boston/869.pdf
+- 《数据结构与算法之美》 https://github.com/xiao-xiaoming/DataStructure-BeautyOfAlgorithm
 
 
 # 参考：
