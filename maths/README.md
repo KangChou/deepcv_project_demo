@@ -44,10 +44,14 @@ thematician%27s%20Toolbox.p
 - 数学证明方法：https://www.researchgate.net/publication/225189861_Mathematical_Method_and_Proof
 - 费马最后定理的证明：https://people.math.wisc.edu/~boston/869.pdf
 - 《数据结构与算法之美》 https://github.com/xiao-xiaoming/DataStructure-BeautyOfAlgorithm
+- 国外高数：https://www.math.uh.edu/~jiwenhe/Math1432/lectures.htm
+- https://www.math.uh.edu/~jiwenhe/math2331/index.htm
 
 
 # 参考：
 - https://www.academia.edu/
+- https://online.math.uh.edu/
+- https://www.math.uh.edu/~jiwenhe/
 - https://www.pdfdrive.com/prelude-to-mathematics-e196418888.html
 - https://www.freecodecamp.org/news/free-textbooks-math-science-and-more-online-pdf-for-college-and-high-school/
-- 
+- 休斯顿大学数学系 https://uh.edu/nsm/math/
