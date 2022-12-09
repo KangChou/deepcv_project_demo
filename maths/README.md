@@ -46,6 +46,9 @@ thematician%27s%20Toolbox.p
 - 《数据结构与算法之美》 https://github.com/xiao-xiaoming/DataStructure-BeautyOfAlgorithm
 - 国外高数：https://www.math.uh.edu/~jiwenhe/Math1432/lectures.htm
 - https://www.math.uh.edu/~jiwenhe/math2331/index.htm
+- 圆周率：https://hal.archives-ouvertes.fr/hal-03207418/document
+- https://dergipark.org.tr/en/download/article-file/1292965
+- https://www.math.tamu.edu/~dallen/masters/alg_numtheory/pi.pdf
 
 
 # 参考：
