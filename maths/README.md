@@ -49,6 +49,7 @@ thematician%27s%20Toolbox.p
 - 圆周率：https://hal.archives-ouvertes.fr/hal-03207418/document
 - https://dergipark.org.tr/en/download/article-file/1292965
 - https://www.math.tamu.edu/~dallen/masters/alg_numtheory/pi.pdf
+- 证明圆周率和e是无理数：https://kconrad.math.uconn.edu/blurbs/analysis/irrational.pdf
 
 
 # 参考：
