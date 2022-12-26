@@ -1,5 +1,4 @@
-# deepcv_project_demo
-海量学习资料收藏
+# deepcv_project_demo 海量学习资料收藏
 
 我的博客学习技术共享网站：https://blog.csdn.net/weixin_41194129?type=blog
 
