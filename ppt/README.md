@@ -1,3 +1,4 @@
+# 计算机科学、人工智能算法与机器学习PPT
 
 https://github.com/fycm123/postgraduate-curriculum-uestc
 
