@@ -38,6 +38,18 @@ https://github.com/oohx/bert_sequence_label
 
 # 实体识别
 
+https://github.com/luopeixiang/named_entity_recognition
+
+https://github.com/buppt/ChineseNER
+
+https://github.com/Determined22/zh-NER-TF
+
+https://github.com/xuanzebi/BERT-CH-NER
+
+https://github.com/CLUEbenchmark/CLUENER2020
+
+https://github.com/z814081807/DeepNER
+
 https://github.com/baidu/lac
 
 https://github.com/hankcs/HanLP
