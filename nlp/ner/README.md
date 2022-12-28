@@ -2,7 +2,7 @@
 
 # 实体标注
 
-实体识别三种常见的序列标注方法如下：
+## 实体识别三种常见的序列标注方法
 ```
 BIO：标识实体的开始，中间部分和非实体部分
 BMES：增加S单个实体情况的标注
@@ -29,12 +29,18 @@ O表示非实体
 E表示实体尾部
 S表示改词本身就是一个实体
 ```
-
+## 开源标注工具
 https://juejin.cn/post/7011722717242064932
 
 https://github.com/broccolik/BIO-sequence-label
 
 https://github.com/oohx/bert_sequence_label
+
+
+
+https://github.com/dengxc1220/NER_Label_tool/security
+
+https://www.iotword.com/4069.html
 
 # 实体识别
 
