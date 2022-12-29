@@ -6,4 +6,4 @@ docker Windows数据可视化使用方法：[docker_use.md](https://github.com/K
 
 带注意力的图像分类:https://blog.paperspace.com/image-classification-with-attention/
 
-深度学习数据集:[https://tianchi.aliyun.com/](https://tianchi.aliyun.com/forum/postDetail?spm=5176.21852664.0.0.89cb379cP7W9V1&postId=134179)
+
