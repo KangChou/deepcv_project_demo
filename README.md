@@ -27,14 +27,28 @@ docker Windows数据可视化使用方法：[docker_use.md](https://github.com/K
 
 进一步介绍：
 将模型打包成 RESTful API 接口，可以使用 Flask、Django 等 web 框架来实现。
-
 将模型打包成命令行工具或者本地库，可以使用 Python 的 setuptools 库来实现。
-
 将模型打包成 Docker 镜像，可以使用 Docker 来实现。
-
 将模型部署在云平台上，可以使用 Google Cloud Platform、Amazon Web Services 等云平台来实现。
-
 将模型部署在移动设备上，可以使用 TensorFlow Lite、Core ML 等工具来实现。
+使用 TensorFlow Serving 进行模型部署
+使用 Flask 框架将模型打包成 API
+使用 GPU 服务器，如 AWS p3/p2、GCP n1-highmem-8 等，进行模型部署
+在云平台上使用容器化解决方案，如 Docker、Kubernetes 进行模型部署
+使用 Google Cloud ML Engine 进行模型部署
+将模型部署到微服务架构中
+使用 TensorFlow Lite 将模型部署到移动端
+使用 ONNX 将模型转化为可以在多种平台上运行的格式，然后进行模型部署
+使用 Amazon SageMaker 进行模型部署
+使用 Microsoft Azure 机器学习服务进行模型部署
+使用常见的 Web 框架，如 Django、Flask、Ruby on Rails 等，进行模型部署
+使用 TensorFlow.js 将模型部署到网页上
+将模型部署到小型边缘设备上，如 Raspberry Pi
+使用 Streamlit 快速构建可视化界面，方便模型部署
+使用 FastAPI 快速构建 API，方便模型部署
+使用 Alibi 包进行模型解释和可视化，方便模型部署
+使用 TensorFlow Extended (TFX) 进行端到端的机器学习流程管理和模型部署
+使用 Google Cloud Functions 进行模型部署
 
 
 ```
