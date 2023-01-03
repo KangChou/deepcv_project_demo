@@ -1,6 +1,6 @@
 # 比较流行的 Open3D 源码实现案例
 
-点云可视化与处理：https://github.com/open3d-org/open3d/tree/master/examples/Python/Basic/point_cloud
+点云可视化与处理：https://github.com/open3d-org/open3d/
 
 彩色点云处理：https://github.com/open3d-org/open3d/tree/master/examples/Python/Basic/color_point_cloud
 
