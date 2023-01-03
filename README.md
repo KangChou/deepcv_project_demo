@@ -81,4 +81,28 @@ ML Kit
 TensorFlow Serving with Docker
 TensorFlow Serving with Kubernetes
 TensorRT
+
+常见部署工具地址：
+TensorFlow Serving：https://github.com/tensorflow/serving
+NVIDIA TensorRT：https://github.com/NVIDIA/TensorRT
+ONNX Runtime：https://github.com/microsoft/ONNXRuntime
+MLFlow：https://github.com/mlflow/mlflow
+Seldon Core：https://github.com/SeldonIO/seldon-core
+Clipper：https://github.com/ucbrise/clipper
+MLModelScope：https://github.com/mlmodelscope/mlmodelscope
+Kubeflow：https://github.com/kubeflow/kubeflow
+Neural Network Intelligence（NNI）：https://github.com/Microsoft/nni
+TensorFlow Model Garden：https://github.com/tensorflow/models
+MLKit：https://github.com/mlkit/mlkit
+TensorFlow Lite：https://github.com/tensorflow/tensorflow
+NVIDIA DALI：https://github.com/NVIDIA/DALI
+Hugging Face Transformers：https://github.com/huggingface/transformers
+TensorFlow Datasets：https://github.com/tensorflow/datasets
+TensorFlow Probability：https://github.com/tensorflow/probability
+Tensor2Tensor：https://github.com/tensorflow/tensor2tensor
+TensorFlow Hub：https://github.com/tensorflow/hub
+TensorFlow Addons：https://github.com/tensorflow/addons
+TensorFlow Model Analysis：https://github.com/tensorflow/model-analysis
+
 ```
+
