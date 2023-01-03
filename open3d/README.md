@@ -1,5 +1,6 @@
 # 比较流行的 Open3D 实现案例
 
+地址如果失效就往前找，比如https://github.com/intel-isl/Open3D
 
 基本几何对象：https://github.com/intel-isl/Open3D/tree/master/examples/Python/Basic
 
