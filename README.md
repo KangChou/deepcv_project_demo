@@ -7,3 +7,64 @@ docker Windows数据可视化使用方法：[docker_use.md](https://github.com/K
 带注意力的图像分类:https://blog.paperspace.com/image-classification-with-attention/
 
 
+# 比较流行的部署深度学习模型的方法（比较宽泛的说法）
+```
+
+通过网络 API 或者预测服务的形式将模型部署在云上，可以使用 Google Cloud、Amazon Web Services、Microsoft Azure 等云服务。
+使用 TensorFlow Serving 框架进行部署。
+部署在 Docker 容器中。
+使用 Flask 框架搭建 web 服务器，并通过 HTTP 请求来调用模型。
+将模型部署在边缘设备上，如手机、摄像头等。
+使用桌面应用程序的形式部署模型，如使用 Tkinter 或 PyQt 等 GUI 库开发桌面应用。
+部署在移动应用程序中，如使用 Android 或 iOS 开发移动应用。
+使用 Google Colab、Kaggle 等云端 Jupyter Notebook 环境来调用模型。
+通过 REST API 的形式将模型部署在网络上。
+使用 Serverless 架构，如 AWS Lambda、Google Cloud Functions 等。
+将模型部署在智能音箱或智能手表等可穿戴设备上。
+通过命令行工具的形式调用模型。
+使用桌面小部件的形式部署模型，如使用 Electron 框架开发桌面小部件。
+将模型部署在游戏中。
+
+进一步介绍：
+将模型打包成 RESTful API 接口，可以使用 Flask、Django 等 web 框架来实现。
+
+将模型打包成命令行工具或者本地库，可以使用 Python 的 setuptools 库来实现。
+
+将模型打包成 Docker 镜像，可以使用 Docker 来实现。
+
+将模型部署在云平台上，可以使用 Google Cloud Platform、Amazon Web Services 等云平台来实现。
+
+将模型部署在移动设备上，可以使用 TensorFlow Lite、Core ML 等工具来实现。
+
+
+```
+
+
+
+
+
+# 常见模型部署工具
+
+
+```
+TensorFlow Serving
+Flask
+Django
+PyTorch Serving
+ONNX Runtime
+Seldon Core
+Kubeflow
+Clipper
+Ray Serve
+Neural Net Playground
+TensorFlow Hub
+TensorFlow.js
+TensorFlow Lite
+OpenCV
+Keras.js
+CoreML
+ML Kit
+TensorFlow Serving with Docker
+TensorFlow Serving with Kubernetes
+TensorRT
+```
