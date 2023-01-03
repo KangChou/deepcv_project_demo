@@ -106,3 +106,35 @@ TensorFlow Model Analysis：https://github.com/tensorflow/model-analysis
 
 ```
 
+
+# 激光雷达融合感知模型
+
+Google Cartographer：https://github.com/googlecartographer/cartographer
+
+LOAM (Lidar Odometry and Mapping)：https://github.com/HKUST-Aerial-Robotics/LOAM
+
+LIO-SAM (Lidar Inertial Odometry for Fast Autonomous Flight)：https://github.com/HKUST-Aerial-Robotics/LIO-SAM
+
+LeGO-LOAM (Lightweight and Ground-Optimized Lidar Odometry and Mapping)：https://github.com/RobustFieldAutonomyLab/LeGO-LOAM
+
+VINS-Fusion (A Robust and Versatile Monocular Visual-Inertial State Estimator)：https://github.com/HKUST-Aerial-Robotics/VINS-Fusion
+
+RPLIDAR-Fusion (Real-Time Lidar and Inertial Odometry Fusion for Autonomous Driving)：https://github.com/HKUST-Aerial-Robotics/RPLIDAR-Fusion
+
+LidarSLAM (Real-Time Lidar and Visual Odometry for Autonomous Driving)：https://github.com/HKUST-Aerial-Robotics/LidarSLAM
+
+Lidar-Inertial Navigation System (Real-Time Lidar and Inertial Odometry for Mobile Robots)：https://github.com/HKUST-Aerial-Robotics/Lidar-Inertial-Navigation-System
+
+Fusion++ (Real-Time Lidar and Visual Odometry for Autonomous Driving)：https://github.com/HKUST-Aerial-Robotics/Fusion++
+
+ScanMatch-LOAM (Real-Time Lidar Odometry and Mapping with Loop Closure Detection)：https://github.com/HKUST-Aerial-Robotics/ScanMatch-LOAM
+
+IMU-Fusion (Real-Time Lidar and Inertial Odometry for Autonomous Driving)：https://github.com/HKUST-Aerial-Robotics/IMU-Fusion
+
+Lidar-Visual Odometry (Real-Time Lidar and Visual Odometry for Mobile Robots)：https://github.com/HKUST-Aerial-Robotics/Lidar-Visual-Odometry
+
+Lidar-IMU Odometry (Real-Time Lidar and Inertial Odometry for Mobile Robots)：https://github.com/HKUST-Aerial-Robotics/Lidar-IMU-Odometry
+
+Lidar-Camera Calibration (Real-Time Lidar and Camera Calibration for Autonomous Driving)：https://github.com/HKUST-Aerial-Robotics/Lidar-Camera-Calibration
+
+Lidar-Camera Visual Odometry (Real-Time Lidar and Camera Visual Odometry for Autonomous Driving)：https://github.com/HK
