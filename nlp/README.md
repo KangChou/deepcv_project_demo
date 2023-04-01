@@ -1,5 +1,3 @@
+更多参考NLP:https://github.com/hankcs/HanLP
 
 
-如何设置BatchSize：
-
-https://zhuanlan.zhihu.com/p/148267858
