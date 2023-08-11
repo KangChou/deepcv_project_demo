@@ -51,7 +51,7 @@ sudo apt-get install libxcb-keysyms1-dev libxcb-image0-dev libxcb-shm0-dev libxc
 ```
 实现步骤：
 
-1、先打开vcX
+1、先打开vcX（https://sourceforge.net/projects/vcxsrv/）
 
 2、整体在window进入docker容器环境之后
 
