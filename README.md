@@ -6,6 +6,20 @@ docker Windows数据可视化使用方法：[docker_use.md](https://github.com/K
 
 带注意力的图像分类:https://blog.paperspace.com/image-classification-with-attention/
 
+机器学习研究论文集：https://proceedings.mlr.press/
+
+计算语言学协会年会：https://aclanthology.org/events/acl-2023/
+
+计算机视觉：
+- https://cvpr2021.thecvf.com/
+- https://cvpr2022.thecvf.com/
+
+- 论文与code查询网站：https://paperswithcode.com/
+- AI论文查询地址：https://arxiv.org/list/cs.AI/recent
+
+- 论文：https://github.com/extreme-assistant/CVPR2021-Paper-Code-Interpretation
+- 综述：https://github.com/extreme-assistant/survey-computer-vision-2020\
+
 
 # 比较流行的部署深度学习模型的方法（比较宽泛的说法）
 ```
